@@ -51,6 +51,14 @@
     <joyKind>Social</joyKind>
   </JobDef>
 
+  <JobDef>
+    <defName>DateWorkwatch</defName>
+    <driverClass>Psychology.JobDriver_DateWorkwatch</driverClass>
+    <reportString>watching TargetA work.</reportString>
+    <joyKind>Social</joyKind>
+    <joyGainRate>0.4</joyGainRate>
+  </JobDef>
+
   <!-- Hugs -->
   <JobDef>
     <defName>Hug</defName>

@@ -15,6 +15,7 @@ namespace Psychology;
 /// recipe's permanent "treated" hediff (RecoveringPyromaniac, DrugFree, Antidepressants, SleepingPills), which the
 /// relevant code checks to suppress the trait's effects; the trait itself stays.
 /// Success = 1 - e^-(min(2 x surgery success, 1) x doctor's Social Impact x patient's comfort x easeOfTreatment).
+/// Patients without a comfort need (guests, the Ideology "comfort ignored" precept) count the comfort of their bed.
 /// A failed attempt gives a Thought_TreatmentFailed that blocks retrying that recipe while it lasts.
 /// </summary>
 public class Recipe_Treatment : Recipe_Surgery
@@ -33,13 +34,24 @@ public class Recipe_Treatment : Recipe_Surgery
         float num = 1f;
         float num2 = surgeon.GetStatValue(StatDefOf.MedicalSurgerySuccessChance, true);
         float num3 = surgeon.GetStatValue(StatDefOf.SocialImpact, true);
-        float num4 = patient.needs.comfort.CurLevel;
+        float num4 = Comfort(patient);
         num *= Mathf.Min(2f * num2, 1f);
         num *= num3;
         num *= num4;
         num *= treatment.easeOfTreatment;
         num = 1f - Mathf.Exp(-num);
         return num < Rand.Value;
+    }
+
+    // The patient's comfort, or for one without the need, the comfort of the bed they lie in (0.5 if none).
+    private static float Comfort(Pawn patient)
+    {
+        if (patient.needs?.comfort != null)
+        {
+            return patient.needs.comfort.CurLevel;
+        }
+        Building_Bed bed = patient.CurrentBed();
+        return bed != null ? Mathf.Clamp01(bed.GetStatValue(StatDefOf.Comfort)) : 0.5f;
     }
 
     public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
@@ -70,7 +82,7 @@ public class Recipe_Treatment : Recipe_Surgery
             return;
         }
         // TreatmentFailed's thoughtClass is Thought_TreatmentFailed; the recipe it stores blocks retrying while it lasts.
-        if (ThoughtMaker.MakeThought(ThoughtDefOfPsychology.TreatmentFailed, null) is Thought_TreatmentFailed mem)
+        if (pawn.needs?.mood != null && ThoughtMaker.MakeThought(ThoughtDefOfPsychology.TreatmentFailed, null) is Thought_TreatmentFailed mem)
         {
             mem.treatmentRecipe = TreatmentRecipe;
             pawn.needs.mood.thoughts.memories.TryGainMemory(mem);
@@ -97,7 +109,7 @@ public class Recipe_Treatment : Recipe_Surgery
             return brain;
         }
 
-        foreach (Thought_Memory m in pawn.needs.mood.thoughts.memories.Memories)
+        foreach (Thought_Memory m in pawn.needs?.mood?.thoughts.memories.Memories ?? Enumerable.Empty<Thought_Memory>())
         {
             if (m.def != ThoughtDefOfPsychology.TreatmentFailed)
             {

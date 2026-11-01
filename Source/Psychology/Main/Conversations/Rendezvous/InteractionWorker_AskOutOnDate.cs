@@ -82,13 +82,19 @@ namespace Psychology
         // The answer. The recipient must have a psyche, be old enough to date and find the asker attractive (MinAttraction).
         // Chance = (0.3 + 0.7 x attraction) x (0.4 + 0.6 x opinion from -20 to 80) x (1 + 0.5 x compatibility)
         // x (1 + 0.25 per good date with them) x the cheat chance if the recipient has a partner. Easier than a romance
-        // attempt: it's only a date.
+        // attempt: it's only a date. A pawn always says yes to the pawn they're psychically bonded with (the bond outlasts
+        // a breakup).
         public static float AcceptChance(Pawn recipient, Pawn initiator, out string details)
         {
             if (!PsycheHelper.PsychologyEnabled(recipient) || !SpeciesHelper.RomanceEnabled(recipient, true))
             {
                 details = "no psyche, or too young to date";
                 return 0f;
+            }
+            if (recipient.health.hediffSet.GetFirstHediffOfDef(HediffDefOf.PsychicBond) is Hediff_PsychicBond bond && bond.target == initiator)
+            {
+                details = "psychically bonded";
+                return 1f;
             }
             float romanceFactor = recipient.relations.SecondaryRomanceChanceFactor(initiator);
             string rawAttraction = RomanceUtility.AttractionBreakdown(recipient, initiator);

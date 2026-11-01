@@ -579,4 +579,171 @@ namespace Psychology
             return pawn.needs?.food != null && pawn.needs.food.CurLevelPercentage <= FullLevel;
         }
     }
+
+    // Sharing a passion: one pawn with a burning passion in a skill does real work that uses it, while the other watches
+    // from close by (JobDriver_DateWorkwatch), picking up a little of the skill if they can learn it. Only work whose
+    // target is in the home area, of work types the worker is assigned in the Work tab (the watcher's don't matter);
+    // never Doctor, Warden, Hunting, Firefighter, Hauling or Cleaning work. If both could, the more skilled one works.
+    // Jobs of that skill follow one another for an hour or two; the one under way when time is up is finished first.
+    public class DateActivityWorker_ShareWork : DateActivityWorker
+    {
+        private static readonly IntRange DurationTicks = new IntRange(GenDate.TicksPerHour, GenDate.TicksPerHour * 2);
+        // A job that fails as soon as it starts would otherwise be handed out again and again.
+        private const int MaxWorkJobs = 15;
+        // The watch job is renewed this often, so the watcher notices when the work is over.
+        private const int WatchJobTicks = 600;
+        private const float SharedPassionFactor = 1.5f;
+
+        public override bool CanDo(Pawn leader, Pawn partner)
+        {
+            return PassionSkills(leader).Any() || PassionSkills(partner).Any();
+        }
+
+        // Social recreation, as for dancing; likelier if the one watching has a passion of their own for the skill.
+        public override float Weight(Pawn leader, Pawn partner)
+        {
+            bool shared = PassionSkills(leader).Any(s => HasPassion(partner, s)) || PassionSkills(partner).Any(s => HasPassion(leader, s));
+            return this.def.commonality * (shared ? SharedPassionFactor : 1f) * (ToleranceFactor(leader, JoyKindDefOf.Social) + ToleranceFactor(partner, JoyKindDefOf.Social)) / 2f;
+        }
+
+        public override bool TryStart(DateActivity activity)
+        {
+            Pawn leader = activity.leader;
+            Pawn partner = activity.partner;
+            var options = new[] { leader, partner }.SelectMany(p => PassionSkills(p).Select(s => (worker: p, skill: s)))
+                .OrderByDescending(o => o.worker.skills.GetSkill(o.skill).Level).ThenBy(_ => Rand.Value).ToList();
+            foreach ((Pawn worker, SkillDef skill) in options)
+            {
+                Pawn watcher = worker == leader ? partner : leader;
+                // Only a check: the job is made when the worker starts (JobFor), as one made now could be stale by then.
+                if (!watcher.CanReach(worker, PathEndMode.Touch, Danger.None) || WorkJob(worker, skill) == null)
+                {
+                    continue;
+                }
+                // The worker leads.
+                activity.leader = worker;
+                activity.partner = watcher;
+                activity.skill = skill;
+                activity.endTick = Find.TickManager.TicksGame + DurationTicks.RandomInRange;
+                PsychologyDebug.Log($"Date activity: {worker} shows {watcher} their passion for {skill.label}");
+                return true;
+            }
+            return false;
+        }
+
+        public override Job JobFor(DateActivity activity, Pawn pawn)
+        {
+            Pawn worker = activity.leader;
+            bool timeUp = Find.TickManager.TicksGame >= activity.endTick;
+            if (pawn == worker)
+            {
+                return timeUp || activity.Given(pawn) >= MaxWorkJobs ? null : WorkJob(pawn, activity.skill);
+            }
+            if (!activity.IsDoing(worker))
+            {
+                // Between two jobs, or the worker hasn't started yet.
+                return timeUp ? null : WaitFor(worker, 60);
+            }
+            Job watch = JobMaker.MakeJob(JobDefOfPsychology.DateWorkwatch, worker);
+            watch.expiryInterval = WatchJobTicks;
+            activity.count++;
+            return watch;
+        }
+
+        // A watcher who got to see the work comes away with an opinion of how good the worker is at it
+        // (Thought_SawSkillOnDate).
+        public override void End(DateActivity activity)
+        {
+            Pawn worker = activity.leader;
+            Pawn watcher = activity.partner;
+            if (activity.count > 0 && activity.skill != null && !worker.Dead && !watcher.Dead && watcher.needs?.mood?.thoughts?.memories != null)
+            {
+                Thought_SawSkillOnDate.Gain(watcher, worker, activity.skill);
+            }
+        }
+
+        // The pawn's burning passions they can show: skills they can do, with a work type that uses it, allowed here and
+        // assigned to them.
+        private static IEnumerable<SkillDef> PassionSkills(Pawn pawn)
+        {
+            if (pawn.skills == null || pawn.workSettings == null || !pawn.workSettings.EverWork)
+            {
+                return Enumerable.Empty<SkillDef>();
+            }
+            return pawn.skills.skills.Where(r => r.passion == Passion.Major && !r.TotallyDisabled
+                && DefDatabase<WorkTypeDef>.AllDefsListForReading.Any(w => Shows(w, r.def) && !pawn.WorkTypeIsDisabled(w) && pawn.workSettings.WorkIsActive(w)))
+                .Select(r => r.def);
+        }
+
+        private static bool HasPassion(Pawn pawn, SkillDef skill)
+        {
+            SkillRecord record = pawn.skills?.GetSkill(skill);
+            return record != null && !record.TotallyDisabled && record.passion != Passion.None;
+        }
+
+        private static bool Shows(WorkTypeDef workType, SkillDef skill)
+        {
+            return workType != null && workType.relevantSkills != null && workType.relevantSkills.Contains(skill) && workType != WorkTypeDefOf.Doctor && workType != WorkTypeDefOf.Warden
+                && workType != WorkTypeDefOf.Hunting && workType != WorkTypeDefOf.Firefighter && workType != WorkTypeDefOf.Hauling && workType != WorkTypeDefOf.Cleaning;
+        }
+
+        // The nearest job of the skill the worker would take, as vanilla looks for work (JobGiver_Work: their work givers in
+        // priority order, the closest target each can use), but only targets in the home area and safe to reach. A bill
+        // must be one whose recipe uses the skill.
+        private static Job WorkJob(Pawn worker, SkillDef skill)
+        {
+            Map map = worker.Map;
+            Area home = map?.areaManager.Home;
+            if (home == null)
+            {
+                return null;
+            }
+            foreach (WorkGiver giver in worker.workSettings.WorkGiversInOrderNormal)
+            {
+                if (!(giver is WorkGiver_Scanner scanner) || !Shows(giver.def.workType, skill) || !CanUse(worker, giver))
+                {
+                    continue;
+                }
+                try
+                {
+                    Job job = null;
+                    if (scanner.def.scanThings)
+                    {
+                        IEnumerable<Thing> things = scanner.PotentialWorkThingsGlobal(worker) ?? (scanner.PotentialWorkThingRequest.IsUndefined ? null : map.listerThings.ThingsMatching(scanner.PotentialWorkThingRequest));
+                        Thing thing = things == null ? null : GenClosest.ClosestThing_Global_Reachable(worker.Position, map, things, scanner.PathEndMode, TraverseParms.For(worker, Danger.None), 9999f,
+                            t => t.Spawned && home[t.Position] && !t.IsForbidden(worker) && scanner.HasJobOnThing(worker, t));
+                        job = thing != null ? scanner.JobOnThing(worker, thing) : null;
+                    }
+                    if (job == null && scanner.def.scanCells)
+                    {
+                        foreach (IntVec3 cell in scanner.PotentialWorkCellsGlobal(worker).Where(c => home[c] && !c.IsForbidden(worker)).OrderBy(c => c.DistanceToSquared(worker.Position)))
+                        {
+                            if (scanner.HasJobOnCell(worker, cell) && worker.CanReach(cell, scanner.PathEndMode, Danger.None))
+                            {
+                                job = scanner.JobOnCell(worker, cell);
+                                break;
+                            }
+                        }
+                    }
+                    if (job != null && (job.RecipeDef?.workSkill == null || job.RecipeDef.workSkill == skill))
+                    {
+                        job.workGiverDef = scanner.def;
+                        return job;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.ErrorOnce($"[Psychology] Date activity ShareWork: {worker} threw in work giver {giver.def.defName}: {e}", Gen.HashCombineInt(giver.def.shortHash, 0x5A1E));
+                }
+            }
+            return null;
+        }
+
+        // As vanilla checks it (JobGiver_Work.PawnCanUseWorkGiver).
+        private static bool CanUse(Pawn pawn, WorkGiver giver)
+        {
+            return !pawn.WorkTagIsDisabled(giver.def.workTags) && (giver.def.workType == null || !pawn.WorkTypeIsDisabled(giver.def.workType))
+                && !giver.ShouldSkip(pawn) && giver.MissingRequiredCapacity(pawn) == null;
+        }
+    }
 }

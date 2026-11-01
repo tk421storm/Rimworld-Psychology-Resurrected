@@ -54,6 +54,15 @@
     <commonality>0.5</commonality>
   </Psychology.DateActivityDef>
 
+  <!-- One with a burning passion does work that uses it (in the home area, of a work type they're assigned) while the
+       other watches, picking up a little of the skill. Likelier if the watcher has a passion for it too. -->
+  <Psychology.DateActivityDef>
+    <defName>DateShareWork</defName>
+    <label>share a passion</label>
+    <workerClass>Psychology.DateActivityWorker_ShareWork</workerClass>
+    <commonality>0.6</commonality>
+  </Psychology.DateActivityDef>
+
   <!-- Not picked by commonality: it comes first whenever either pawn is hungry. Both eat (unless nearly full), seated
        within talking range; one who finds no food keeps the other company. -->
   <Psychology.DateActivityDef>

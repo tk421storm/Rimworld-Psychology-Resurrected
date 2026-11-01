@@ -358,6 +358,30 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	<!-- SawSkillOnDate: watched the other at work on a date (DateActivityWorker_ShareWork). The stage goes by their level in
+	     the skill and the opinion slides with it, 0 to 10 (Thought_SawSkillOnDate); the stage values here are only
+	     placeholders. The newest replaces any older one about the same pawn. -->
+	<ThoughtDef>
+		<defName>SawSkillOnDate</defName>
+		<thoughtClass>Psychology.Thought_SawSkillOnDate</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stages>
+			<li>
+				<label>{OTHERPAWN_nameDef} is good at {SKILL}</label>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+			<li>
+				<label>{OTHERPAWN_nameDef} is really good at {SKILL}</label>
+				<baseOpinionOffset>6</baseOpinionOffset>
+			</li>
+			<li>
+				<label>{OTHERPAWN_nameDef} is great at {SKILL}</label>
+				<baseOpinionOffset>9</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 	<!-- RebuffedMyDateRequest: also stops them asking that pawn out again while it lasts -->
 	<ThoughtDef>
 		<defName>RebuffedMyDateRequest</defName>

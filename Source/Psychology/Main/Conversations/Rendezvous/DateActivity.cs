@@ -157,6 +157,10 @@ namespace Psychology
         public Job leaderJob;
         // For workers that choose among several joy givers (e.g. which game).
         public JoyGiverDef joyGiver;
+        // For workers built around a skill (e.g. the passion one pawn shows the other).
+        public SkillDef skill;
+        // For workers that keep a tally (e.g. how many watch jobs the watcher was given).
+        public int count;
         public int startTick;
         // For workers that run a set time rather than until a job ends (-1: none).
         public int endTick = -1;
