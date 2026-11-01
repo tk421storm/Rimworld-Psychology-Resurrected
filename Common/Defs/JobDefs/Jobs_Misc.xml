@@ -50,5 +50,14 @@
     <reportString>dancing with TargetA.</reportString>
     <joyKind>Social</joyKind>
   </JobDef>
+
+  <!-- Hugs -->
+  <JobDef>
+    <defName>Hug</defName>
+    <driverClass>Psychology.JobDriver_Hug</driverClass>
+    <reportString>hugging TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <suspendable>false</suspendable>
+  </JobDef>
   
 </Defs>

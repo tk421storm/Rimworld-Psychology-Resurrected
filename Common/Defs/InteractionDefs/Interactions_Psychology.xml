@@ -222,4 +222,43 @@
   </InteractionDef>
 
 
+  <!-- Hugs (Psychology.InteractionWorker_Hug) -->
+  <InteractionDef>
+    <defName>Hug</defName>
+    <label>hug</label>
+    <workerClass>Psychology.InteractionWorker_Hug</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/KindWords</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] went to give [RECIPIENT_nameDef] a [hug].</li>
+        <li>r_logentry->[INITIATOR_nameDef] opened [INITIATOR_possessive] arms to [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] reached out to [RECIPIENT_nameDef] for a [hug].</li>
+
+        <li>hug(p=3)->hug</li>
+        <li>hug->warm hug</li>
+        <li>hug->big hug</li>
+        <li>hug->quick hug</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <RulePackDef>
+    <defName>HugAccepted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-> [RECIPIENT_nameDef] hugged [INITIATOR_objective] back.</li>
+        <li>sent-> They held each other for a moment.</li>
+        <li>sent-> [RECIPIENT_nameDef] leaned in gladly.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>HugDeclined</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-> [RECIPIENT_nameDef] wasn't in the mood.</li>
+        <li>sent-> [RECIPIENT_nameDef] stepped back with an awkward smile.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
 </Defs>

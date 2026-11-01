@@ -308,6 +308,7 @@ public static class SettingsWindowUtility{
       FloatSliderEntry(nameof(PsychologySettings.courtshipChance), 0f, PsychologySettings.courtshipChanceMax, 2);
       FloatSliderEntry(nameof(PsychologySettings.secondDateChance), 0f, 100f, 0);
       FloatSliderEntry(nameof(PsychologySettings.socialRomanceChance), 0f, 100f, 0);
+      FloatSliderEntry(nameof(PsychologySettings.hugChance), 0f, PsychologySettings.hugChanceMax, 2);
       FloatSliderEntry(nameof(PsychologySettings.dateOpinionGood), 0f, PsychologySettings.dateOpinionMax, 0);
       FloatSliderEntry(nameof(PsychologySettings.dateOpinionBad), -PsychologySettings.dateOpinionMax, 0f, 0);
       FloatSliderEntry(nameof(PsychologySettings.dateRomanceChance), 0f, 100f, 0);

@@ -17,4 +17,7 @@ public static class InteractionDefOfPsychology
 
     // Hookups
     public static InteractionDef TriedHookupWith;
+
+    // Hugs
+    public static InteractionDef Hug;
 }

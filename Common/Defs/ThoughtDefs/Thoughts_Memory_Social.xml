@@ -400,4 +400,47 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+
+	<!-- Hugs (Psychology.InteractionWorker_Hug). While either memory lasts, that pair won't try again. -->
+	<ThoughtDef>
+		<defName>Hug</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>2</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>hug with {0}</label>
+				<description>A good hug from someone who matters to me.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+				<baseOpinionOffset>3</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>HugDeclined</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>1</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>turned down my hug</label>
+				<description>I just wanted a hug.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+				<baseOpinionOffset>-2</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

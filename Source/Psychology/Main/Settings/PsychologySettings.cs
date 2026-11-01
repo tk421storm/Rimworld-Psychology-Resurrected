@@ -142,6 +142,11 @@ public class PsychologySettings : ModSettings
   public const float socialRomanceChanceDefault = 10f;
   public static float socialRomanceChance = 10f;
 
+  // Multiplies how often pawns with a strong bond hug (InteractionWorker_Hug); 0 turns hugs off.
+  public const float hugChanceDefault = 1f;
+  public static float hugChance = 1f;
+  public const float hugChanceMax = 5f;
+
   // Opinion of a courtship date at its best (quality 1) and worst (quality -1); see RomanceUtility.GainDateMemory.
   public const float dateOpinionGoodDefault = 15f;
   public static float dateOpinionGood = 15f;
@@ -221,6 +226,7 @@ public class PsychologySettings : ModSettings
     ScribeValueAndAddToNameList(nameof(courtshipChance));
     ScribeValueAndAddToNameList(nameof(secondDateChance));
     ScribeValueAndAddToNameList(nameof(socialRomanceChance));
+    ScribeValueAndAddToNameList(nameof(hugChance));
     ScribeValueAndAddToNameList(nameof(dateOpinionGood));
     ScribeValueAndAddToNameList(nameof(dateOpinionBad));
     ScribeValueAndAddToNameList(nameof(dateRomanceChance));
@@ -253,6 +259,7 @@ public class PsychologySettings : ModSettings
     courtshipChance = Mathf.Clamp(courtshipChance, 0f, courtshipChanceMax);
     secondDateChance = Mathf.Clamp(secondDateChance, 0f, 100f);
     socialRomanceChance = Mathf.Clamp(socialRomanceChance, 0f, 100f);
+    hugChance = Mathf.Clamp(hugChance, 0f, hugChanceMax);
     dateOpinionGood = Mathf.Clamp(dateOpinionGood, 0f, dateOpinionMax);
     dateOpinionBad = Mathf.Clamp(dateOpinionBad, -dateOpinionMax, 0f);
     dateRomanceChance = Mathf.Clamp(dateRomanceChance, 0f, 100f);

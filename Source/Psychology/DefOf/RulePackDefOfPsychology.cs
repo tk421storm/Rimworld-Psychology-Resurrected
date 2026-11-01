@@ -25,5 +25,8 @@ namespace Psychology
         // Courtship
         public static RulePackDef DateAccepted;
         public static RulePackDef DateDeclined;
+        // Hugs
+        public static RulePackDef HugAccepted;
+        public static RulePackDef HugDeclined;
     }
 }
