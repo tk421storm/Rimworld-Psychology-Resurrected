@@ -68,6 +68,7 @@ Commit links point to this repository ([tk421storm/Rimworld-Psychology-unofficia
 - Starting a date threw a NullReferenceException when a partner had no job, and sleeping partners were woken instead of missing the date. [6169a7a](https://github.com/tk421storm/Rimworld-Psychology-unofficial/commit/6169a7a)
 - Panic attacks from tended anxiety ended about 4 seconds after starting, and the anxiety's sleep (nightmare) attack roll never ran. Both read a break chance that anxiety never sets, which vanilla treats as "always". (built, in testing)
 - An election could crash if a candidate died mid-campaign. This was fixed, then elections were removed. [f195ceb](https://github.com/tk421storm/Rimworld-Psychology-unofficial/commit/f195ceb)
+- Psychiatric treatment threw an error for patients with no comfort need, such as guests or pawns whose ideoligion ignores comfort, and the operation never finished. [79cbdd7](https://github.com/tk421storm/Rimworld-Psychology-unofficial/commit/79cbdd7)
 
 **Log spam and performance**
 - Debug logging ran in code that runs constantly. [4ce58a8](https://github.com/tk421storm/Rimworld-Psychology-unofficial/commit/4ce58a8)
