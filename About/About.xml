@@ -1,13 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Psychology Resurrected</name>
-	<author>Linq</author>
-	<url>https://ludeon.com/forums/index.php?topic=34112.0</url>
-	<packageId>Community.Psychology.UnofficialUpdate</packageId>
+	<author>tk421storm</author>
+	<authors>
+		<li>tk421storm</li>
+		<li>The Word-Mule</li>
+		<li>eebasso</li>
+		<li>WILDCARD</li>
+		<li>KEMPER</li>
+		<li>che_lovek</li>
+	</authors>
+	<url>https://github.com/tk421storm/Rimworld-Psychology-unofficial</url>
+	<packageId>tk421storm.PsychologyResurrected</packageId>
 	<supportedVersions>
 		<li>1.6</li>
-		<!-- TODO: enable once 1.7/Assemblies has been built (needs the .NET 10 SDK, see Source/build.ps1). -->
-		<!--<li>1.7</li>-->
+		<li>1.7</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -23,36 +30,43 @@
 		<li>void.charactereditor</li>
 		<li>tachyonite.pawnmorpherpublic</li>
 	</loadAfter>
-	<description>&lt;b&gt;Major update for 1.3 and 1.4!&lt;/b&gt;
+	<incompatibleWith>
+		<li>Community.Psychology.UnofficialUpdate</li>
+		<li>divineDerivative.Romance</li>
+		<li>Mlie.RationalRomance</li>
+		<li>Mlie.RationalRomance2</li>
+		<li>hahkethomemah.simplepersonalities</li>
+		<li>Maux36.Rimpsyche</li>
+	</incompatibleWith>
+	<description>&lt;b&gt;Psychology Resurrected&lt;/b&gt; continues The Word-Mule's Psychology for RimWorld 1.6 and 1.7. Every pawn gets a persistent personality, opinions form through real conversations, and romance, mental breaks and mental illness all follow from who a pawn is.
 
-&lt;b&gt;GUI updates&lt;/b&gt;
-The Psyche tab has been reworked for a better display of a pawn's personality. Antonyms and colors have been introduced for all personality nodes, a.k.a. personality traits. The new word cloud allows one to understand the relative strength of every trait at a glance. A concise summary of a pawn's personality in terms of the Big Five (or Five Factor Model) is also displayed by a radar graph. Sex and romance drives are now described for all pawns, not just asexual/aromantic ones.
+&lt;b&gt;This update requires a new save.&lt;/b&gt; Mayors and elections, and Psychology's own funerals, have been removed. Replace "Psychology (unofficial)" with this mod; don't run both.
 
-&lt;b&gt;Ideology features&lt;/b&gt;
-Personality will now interact with ideology. For example, a highly compassionate pawn will find the slavery precepts less appealing and a highly drug-friendly pawn will find the High Life meme more appealling. This compatibility affects the difficulty of converting pawns, and the daily certainty gain for established followers. Highly incompatible pawns can actually lose certainty over time. The player can remedy this with a new ability for the Moral Guide role called Indoctrinate. When used on other believers, it creates a shift in their personality that better favors their ideoligion. For example, indoctrination in a High Life ideoligion would make a pawn more drug-friendly, more experimental, and less pure. Several rounds of indoctrination will be needed for highly incompatible pawns, with gains diminishing as the pawn becomes more aligned with their ideoligion.
+&lt;b&gt;Psyche&lt;/b&gt;
+Every pawn has a personality, separate from traits, shown in the Psyche tab with a word cloud and a Big Five summary. It shapes their conversations, friendships, romance, mental breaks and how they take to their ideoligion.
 
-&lt;b&gt;Updated mod settings&lt;/b&gt;
-Mod settings have been reworked and expanded. Several on/off settings have been converted into continuum values for more customized play. Dependency on HugsLib has been eliminated in favor of a more expansive settings window. The psychology and romance behavior now differs by individual species/race. For example, simple minded Tier-1 androids from the Android Tiers mod by default have psychology behaviors disabled, including dating. Elf-like/immortal species by default no longer have a romantic age gap factor applied to them once they reach adulthood. Sentient androids can now date at any age. All of this and more can be customized in the settings window.
+&lt;b&gt;Social&lt;/b&gt;
+Pawns hold conversations on many topics and form opinions from them, drifting toward like-minded people and away from those they disagree with. Friends hang out in their free time, and pawns with a strong bond sometimes hug.
 
-&lt;b&gt;Compatibility with other mods in 1.3&lt;/b&gt;
-Psychology is now compatible with Character Editor and Prepare Carefully in 1.3, but the player is &lt;b&gt;highly&lt;/b&gt; encouraged to choose Character Editor to avoid the various bugs and glitches of the latter. Former humans from Pawnmorpher will now keep their personalities has along as they remain sapient. Word of Love has been fixed for Vanilla Psycasters Expanded. Unfortunately, Character Editor and Prepare Carefully are likely to be broken indefinitely until a new modder steps up to update for 1.4.
+&lt;b&gt;Romance and dating&lt;/b&gt;
+Sexuality is graded on the Kinsey scale, with separate sex and romantic drives. Couples plan date nights, and compatible singles ask each other out on courtship dates. On a date, pawns do things together: games, walks, skygazing, reading, music and dancing, sharing a meal, or showing off a passion while the other watches and learns. Both rate the date afterwards, and a date that went well can lead to romance. Vanilla romance attempts go through Psychology, and pawns at parties or relaxing socially may try their luck. Pawns have a family drive, and couples choose their approach to pregnancy.
 
-Optimizations have been made to reduce computational waste and (hopefully) improve performance. Various fixes and tweaks have been made to improve romance and conversation mechanics.
+&lt;b&gt;Mental illness and treatment&lt;/b&gt;
+Pawns can develop anxiety, or acquire it as PTSD after a stressful break, and need treatment to keep it in check. Problem traits like chemical interest and pyromania can be treated, and methadone helps manage addiction.
 
-&lt;b&gt;The updates to 1.3 and 1.4 are a work in progress and maybe be unstable.&lt;/b&gt;
-Please bare with us while we fix things. We encourage and appreciate all constructive comments on Steam Workshop to report bugs and suggestions for additional features.
+&lt;b&gt;Growing up&lt;/b&gt;
+A child's personality shapes which traits and passions their growth moments offer.
 
-&lt;b&gt;Support&lt;/b&gt;
-There is no form of financial support for this mod, but please subscribe, rate, and tell everyone about it. If you absolutely must spend money on something, then gift Rimworld to someone who hasn't yet experienced it to support Tynan and the incredible work that he does. This mod would not be possible without the great game he created, and the strenuous effort he has put into supporting mod creators.
+&lt;b&gt;Compatibility&lt;/b&gt;
+Works with Character Editor, Prepare Carefully, Vanilla Psycasts Expanded, Vanilla Traits Expanded, Intimacy, Romance on the Rim, No Hopeless Romance, Less Stupid Romance Attempt, Romance Tweaks, Humanoid Alien Races and Pawnmorpher.
+Not compatible with Way Better Romance or Rational Romance (1 and 2), which overhaul the same romance systems, or with 1-2-3 Personalities and Rimpsyche, which add a second personality system.
+
+This release also fixes a long list of bugs the mod carried. The full changelog is on GitHub.
 
 &lt;b&gt;Credits&lt;/b&gt;
-Original mod by TheWordMule.
-Idea for passionate work mood bonus by ({x}) Disarray.
-Ideas for many of the new mental breaks by twoski.
-Name of the Socialite trait by Wellech.
-Initial patching for Rimworld 1.1 by Nationality.
-Translators: Russian by Паулк, German by Chaos, Chinese by Mr.Gha, French by Éloïse Rodrake
-Further fixes for Rimworld 1.1-1.3 by KEMPER.
-Update for Rimworld 1.3 and 1.4 by WILDCARD and KEMPER.
+Original mod by The Word-Mule. Kept alive as Psychology (unofficial) by che_lovek and WILDCARD; 1.1 patching by Nationality; fixes for 1.1-1.3 by KEMPER; the 1.3/1.4 rework by eebasso with WILDCARD and KEMPER. Hug idea from Personality Plus.
+Idea for passionate work mood bonus by ({x}) Disarray. Ideas for many of the mental breaks by twoski. Name of the Socialite trait by Wellech.
+Translators: Russian by Паулк, German by Chaos, Chinese by Mr.Gha, French by Éloïse Rodrake.
+Psychology Resurrected by tk421storm.
 	</description>
 </ModMetaData>

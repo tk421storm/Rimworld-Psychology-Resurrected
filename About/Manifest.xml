@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-	<identifier>Psychology (unofficial)</identifier>
+	<identifier>PsychologyResurrected</identifier>
 	<version>1.0.7</version>
 	<dependencies>
 		<li>Harmony</li>
