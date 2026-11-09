@@ -9,7 +9,9 @@
 	<DateKindCourtship>courtship date</DateKindCourtship>
 	<DateKindDateNight>date night</DateKindDateNight>
 	<DateStarted>{0_labelShort} and {1_labelShort}'s {2} has started!</DateStarted>
-	<DateNightFinished>{0_labelShort} and {1_labelShort} enjoyed their date night.</DateNightFinished>
+	<DateNightWentWell>{0_labelShort} and {1_labelShort} enjoyed their date night.</DateNightWentWell>
+	<DateNightWentWellForOne>{0_labelShort} enjoyed the date night with {1_labelShort}, but {1_labelShort} didn't.</DateNightWentWellForOne>
+	<DateNightWentBadly>{0_labelShort} and {1_labelShort}'s date night went badly.</DateNightWentBadly>
 	<DateWentWell>{0_labelShort} and {1_labelShort}'s courtship date went well for both of them.</DateWentWell>
 	<DateWentWellForOne>{0_labelShort} enjoyed the courtship date with {1_labelShort}, but {1_labelShort} didn't.</DateWentWellForOne>
 	<DateWentBadly>{0_labelShort} and {1_labelShort}'s courtship date went badly.</DateWentBadly>

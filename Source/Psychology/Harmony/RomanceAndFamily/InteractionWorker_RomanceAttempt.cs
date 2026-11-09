@@ -27,6 +27,10 @@ namespace Psychology.Harmony;
 //     traits don't line up (Bisexual isn't considered here)
 //   - "straight woman" factor (women initiate less in vanilla; 1.5/1.6 made it 1.15-2x with Kinsey)
 //   - confidence: 2 x Confident + Aggressive (1.5/1.6 change)
+// Then the router (RomanceAttemptRouter) decides what the attempt becomes; it gets no weight if that can't happen now.
+// Routed to courtship, it also gets the courtship weight (InteractionWorker_AskOutOnDate.AskWeight), as the romance
+// attempt is the one random way to ask someone out. Partners only get a weight on a date together, where the attempt
+// is an invitation to lovin' (RomanceAttemptRouter.DateLovinWeight).
 [HarmonyPatch(typeof(InteractionWorker_RomanceAttempt), nameof(InteractionWorker_RomanceAttempt.RandomSelectionWeight))]
 public static class InteractionWorker_RomanceAttempt_SelectionWeightPatch
 {
@@ -40,11 +44,12 @@ public static class InteractionWorker_RomanceAttempt_SelectionWeightPatch
     }
 
     // From vanilla, no romance in these cases
-    if (TutorSystem.TutorialMode || LovePartnerRelationUtility.LovePartnerRelationExists(initiator, recipient))
+    if (TutorSystem.TutorialMode)
     {
       __result = 0f;
       return false;
     }
+    // Partners (an invitation to lovin' on a date together) are handled by PartnerWeightPrefix, which runs first.
 
     // Codependents won't romance anyone if they are in a relationship
     if (LovePartnerRelationUtility.HasAnyLovePartner(initiator) && initiator.story.traits.HasTrait(TraitDefOfPsychology.Codependent))
@@ -163,11 +168,32 @@ public static class InteractionWorker_RomanceAttempt_SelectionWeightPatch
     __result = 1.15f * PsychologySettings.romanceChanceMultiplier * romChanceMult * initiatorOpinMult * existingPartnerMult * knownSexFactor * straightWomanFactor * confidenceFactor;
 
     // The attempt is routed to a date night, courtship or hookup (RomanceAttemptRouter); none if that can't happen now.
-    if (__result > 0f && !RomanceAttemptRouter.CanRoute(initiator, recipient))
+    RomanceAttemptType type = RomanceAttemptRouter.GetAttemptType(initiator, recipient, out _, out _);
+    if (type == RomanceAttemptType.Direct || RomanceAttemptRouter.BlockReason(type, initiator, recipient) != null)
     {
       __result = 0f;
+      return false;
     }
+    if (type == RomanceAttemptType.Courtship)
+    {
+      __result += InteractionWorker_AskOutOnDate.AskWeight(initiator, recipient, false, out _);
+    }
+    return false;
+  }
 
+  // Partners: the romance attempt is only an invitation to lovin' on a date together (RomanceAttemptRouter.DateLovinWeight).
+  // Runs before other mods' prefixes, so mods that gate new romances (e.g. No Hopeless Romance, which blocks anyone who
+  // has a lover or spouse) don't also block couples' date-night invitations; returning false skips the later prefixes.
+  [HarmonyPrefix]
+  [HarmonyPriority(Priority.First)]
+  public static bool PartnerWeightPrefix(ref float __result, Pawn initiator, Pawn recipient)
+  {
+    if (TutorSystem.TutorialMode || !PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient)
+        || !LovePartnerRelationUtility.LovePartnerRelationExists(initiator, recipient))
+    {
+      return true;
+    }
+    __result = RomanceAttemptRouter.DateLovinWeight(initiator, recipient);
     return false;
   }
 

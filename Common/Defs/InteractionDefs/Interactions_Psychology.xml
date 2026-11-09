@@ -63,6 +63,30 @@
     </rulePack>
   </RulePackDef>
   <RulePackDef>
+    <defName>RomanceAttemptDateLovin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] suggested they head to bed together.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>DateLovinAccepted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] happily agreed.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>DateLovinDeclined</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] wasn't in the mood.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
     <defName>RomanceAttemptCourtship</defName>
     <rulePack>
       <rulesStrings>

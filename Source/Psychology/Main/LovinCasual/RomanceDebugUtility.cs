@@ -231,7 +231,7 @@ public static class RomanceDebugUtility
           }
           float weight = InteractionWorker_AskOutOnDate.AskWeight(pawn, target, true, out string weightDetails);
           float accept = InteractionWorker_AskOutOnDate.AcceptChance(target, pawn);
-          label += $" (ask weight {weight:0.00}, accept {accept:P0}{(blocked != null ? ", normally blocked: " + blocked : "")})";
+          label += $" (romance attempt weight {InteractionDefOf.RomanceAttempt.Worker.RandomSelectionWeight(pawn, target):0.00} incl. courtship {weight:0.00}, accept {accept:P0}{(blocked != null ? ", normally blocked: " + blocked : "")})";
           return new FloatMenuOption(label, () =>
           {
             PsychologyDebug.Log($"DEV: {pawn} asks {target} out ({reason}); ask weight {weight:0.00} = {weightDetails}");

@@ -9,9 +9,9 @@ using System.Reflection;
 
 namespace Psychology
 {
-    // Job giver for the HangOut duty (dates and hang-outs). Lovers may go lie down together (leading to lovin); otherwise
-    // the pair does activities together one after another (DateActivityDef: a game, a walk, reading side by side...).
+    // Job giver for the HangOut duty (dates and hang-outs). The pair does activities together one after another (DateActivityDef: a game, a walk, reading side by side...).
     // When there's nothing they can do together, they stay within talking distance and wander or idle near each other.
+    // Partners on a date may go to bed together when one invites the other (RomanceAttemptRouter, DateLovin).
     public class JobGiver_SpendTimeTogether : ThinkNode_JobGiver
     {
 
@@ -27,11 +27,6 @@ namespace Psychology
                current job tells it to carry on, so an activity in progress isn't cut short. */
             if (toil.activity != null && !toil.activity.Ended && toil.activity.IsDoing(pawn))
                 return pawn.CurJob;
-            /* If they are partners, possibly send them to lay down together so they'll do lovin'. */
-            if (LovePartnerRelationUtility.LovePartnerRelationExists(pawn, friend) && pawn.ownership.OwnedBed != null && !pawn.GetPosture().Laying() && (pawn.IsHashIntervalTick(GenDate.TicksPerHour) || friend.IsHashIntervalTick(GenDate.TicksPerHour)))
-            {
-                return new Job(JobDefOf.LayDown, pawn.ownership.OwnedBed, GenDate.TicksPerHour);
-            }
             /* Their activity together: the next step of the current one, or (if it's over) start a new one; a meal first
                if either is hungry (DateActivityWorker_ShareMeal). */
             DateActivity activity = toil.CurrentActivity(pawn);

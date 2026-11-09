@@ -6,30 +6,28 @@ using UnityEngine;
 
 namespace Psychology
 {
-    // Courtship: asking out someone who isn't a partner (RomanceUtility.GetRomanticIntent == Courtship). Weight: the base
-    // courtship setting x attraction x opinion (a mild factor: pawns may barely know each other) x romantic drive x confidence x (1 + 0.5 per good date with them) x the
-    // cheat chance if the asker has a partner. They don't ask again while "turned down my date" lasts. A yes plans a date
-    // through the same scheduling as date night (RendezvousUtility.PlanDate); how the date went is decided in LordJob_Date.
+    // Courtship: asking out someone who isn't a partner (RomanceUtility.GetRomanticIntent == Courtship). Not picked by the
+    // random social roll itself: vanilla's romance attempt is the one random way to ask someone out, and when it's routed
+    // to courtship its weight gets AskWeight added (InteractionWorker_RomanceAttempt_SelectionWeightPatch), so the pair
+    // has one chance, as large as the two separate ones were, behind one set of checks (RomanceAttemptRouter.BlockReason).
+    // AskWeight: the base courtship setting x attraction x opinion (a mild factor: pawns may barely know each other) x
+    // romantic drive x confidence x (1 + 0.5 per good date with them) x the cheat chance if the asker has a partner x
+    // colony size. The interaction itself is still used for the daily second-date asks and the dev romance menu. A yes
+    // plans a date through the same scheduling as date night (RendezvousUtility.PlanDate); how the date went is decided
+    // in LordJob_Date.
     public class InteractionWorker_AskOutOnDate : InteractionWorker_DateBase
     {
         protected override RomanticIntent Intent => RomanticIntent.Courtship;
 
         protected override float CooldownDays => 3f;
 
+        // Always 0: courtship comes from the romance attempt (see above).
         public override float RandomSelectionWeight(Pawn initiator, Pawn recipient)
         {
-            if (PsychologySettings.courtshipChance <= 0f || !CanPlanDate(initiator, recipient))
-            {
-                return 0f;
-            }
-            if (RomanceUtility.CountMemoriesOf(initiator, recipient, ThoughtDefOfPsychology.RebuffedMyDateRequest) > 0)
-            {
-                return 0f;
-            }
-            return AskWeight(initiator, recipient, false, out _);
+            return 0f;
         }
 
-        // The weight before the gates above. With explain, details lists each factor (for the dev romance menu); it's
+        // The courtship share of a romance attempt's weight, before the router's gates (RomanceAttemptRouter.BlockReason). With explain, details lists each factor (for the dev romance menu); it's
         // skipped otherwise, as this runs for every pair whenever a pawn picks an interaction.
         public static float AskWeight(Pawn initiator, Pawn recipient, bool explain, out string details)
         {

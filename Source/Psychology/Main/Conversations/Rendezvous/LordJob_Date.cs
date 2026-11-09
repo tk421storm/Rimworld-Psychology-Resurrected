@@ -13,10 +13,10 @@ using UnityEngine;
 namespace Psychology
 {
     // A 4-6 hour date. Ends early on danger, a new injury, a mental break (which ruins it for the other: a bad date memory),
-    // drafting, work time or exhaustion. Finishing a date night gives
-    // both a "went on a date" memory; finishing a courtship date gives each a good or bad date memory scaled by how it went
-    // for them (RomanceUtility.DateQuality), and if it went well for both it may end in a romance attempt. The outcome (or
-    // why it was cut short) is shown as a top-left message.
+    // drafting, work time or exhaustion. Finishing any date, date night or courtship, gives each a good or bad date memory
+    // scaled by how it went for them (RomanceUtility.DateQuality). A courtship date is also put on record, and if it went
+    // well for both it may end in a romance attempt. The outcome (or why it was cut short) is shown as a top-left message.
+    // Partners may be invited to bed once per date (lovinAsked; RomanceAttemptRouter, DateLovin).
     class LordJob_Date : LordJob
     {
         public LordJob_Date()
@@ -66,9 +66,22 @@ namespace Psychology
                 FinishedCourtship();
                 return;
             }
-            this.initiator.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOfPsychology.WentOnDate, this.recipient);
-            this.recipient.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOfPsychology.WentOnDate, this.initiator);
-            RendezvousUtility.DateMessage("DateNightFinished", this.initiator, this.recipient, false, MessageTypeDefOf.PositiveEvent);
+            // Rated like a courtship date. (WentOnDate, the old flat memory, is kept only so old saves load.)
+            float initiatorQuality = RomanceUtility.DateQuality(this.initiator, this.recipient);
+            float recipientQuality = RomanceUtility.DateQuality(this.recipient, this.initiator);
+            RomanceUtility.GainDateMemory(this.initiator, this.recipient, initiatorQuality);
+            RomanceUtility.GainDateMemory(this.recipient, this.initiator, recipientQuality);
+            OutcomeMessage(initiatorQuality, recipientQuality);
+            PsychologyDebug.Log($"Date night of {this.initiator} and {this.recipient} finished: quality {initiatorQuality:0.00} / {recipientQuality:0.00} (compatibility {RomanceUtility.Compatibility(this.initiator, this.recipient):0.00})");
+        }
+
+        // How it went: well for both, well for one (named first), or badly. Courtship dates and date nights have their own
+        // keys (DateWentWell / DateNightWentWell...).
+        private void OutcomeMessage(float initiatorQuality, float recipientQuality)
+        {
+            string outcome = initiatorQuality > 0f && recipientQuality > 0f ? "WentWell" : initiatorQuality > 0f || recipientQuality > 0f ? "WentWellForOne" : "WentBadly";
+            bool initiatorFirst = initiatorQuality > 0f || recipientQuality <= 0f;
+            RendezvousUtility.DateMessage((this.courtship ? "Date" : "DateNight") + outcome, initiatorFirst ? this.initiator : this.recipient, initiatorFirst ? this.recipient : this.initiator, this.courtship, outcome == "WentBadly" ? MessageTypeDefOf.NegativeEvent : MessageTypeDefOf.PositiveEvent);
         }
 
         // Message for a date that ended before its time, with the first reason that applies. One pawn's mental break
@@ -128,10 +141,7 @@ namespace Psychology
             PsycheHelper.GameComp.RecordDate(this.recipient, this.initiator, recipientQuality);
             RomanceUtility.GainDateMemory(this.initiator, this.recipient, initiatorQuality);
             RomanceUtility.GainDateMemory(this.recipient, this.initiator, recipientQuality);
-            string outcomeKey = initiatorQuality > 0f && recipientQuality > 0f ? "DateWentWell" : initiatorQuality > 0f || recipientQuality > 0f ? "DateWentWellForOne" : "DateWentBadly";
-            // DateWentWellForOne names the pawn who enjoyed it first.
-            bool initiatorFirst = initiatorQuality > 0f || recipientQuality <= 0f;
-            RendezvousUtility.DateMessage(outcomeKey, initiatorFirst ? this.initiator : this.recipient, initiatorFirst ? this.recipient : this.initiator, true, outcomeKey == "DateWentBadly" ? MessageTypeDefOf.NegativeEvent : MessageTypeDefOf.PositiveEvent);
+            OutcomeMessage(initiatorQuality, recipientQuality);
             PsychologyDebug.Log($"Date of {this.initiator} and {this.recipient} finished: quality {initiatorQuality:0.00} / {recipientQuality:0.00} (compatibility {RomanceUtility.Compatibility(this.initiator, this.recipient):0.00}), earlier good dates {previousGoodDates:0.#}");
             if (initiatorQuality <= 0f || recipientQuality <= 0f || LovePartnerRelationUtility.LovePartnerRelationExists(this.initiator, this.recipient))
             {
@@ -154,6 +164,7 @@ namespace Psychology
             Scribe_Values.Look(ref this.courtship, "courtship", false);
             Scribe_Values.Look(ref this.initiatorHealth, "initiatorHealth", 1f);
             Scribe_Values.Look(ref this.recipientHealth, "recipientHealth", 1f);
+            Scribe_Values.Look(ref this.lovinAsked, "lovinAsked", false);
         }
         
         public override string GetReport(Pawn pawn)
@@ -184,5 +195,6 @@ namespace Psychology
         public bool courtship;
         public float initiatorHealth = 1f;
         public float recipientHealth = 1f;
+        public bool lovinAsked;
     }
 }

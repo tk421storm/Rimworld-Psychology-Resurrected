@@ -19,6 +19,9 @@ namespace Psychology
         // Romance attempt types (RomanceAttemptRouter)
         public static RulePackDef RomanceAttemptDirect;
         public static RulePackDef RomanceAttemptDateNight;
+        public static RulePackDef RomanceAttemptDateLovin;
+        public static RulePackDef DateLovinAccepted;
+        public static RulePackDef DateLovinDeclined;
         public static RulePackDef RomanceAttemptCourtship;
         public static RulePackDef RomanceAttemptHookup;
         public static RulePackDef RomanceAttemptCheating;

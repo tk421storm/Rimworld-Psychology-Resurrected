@@ -18,7 +18,8 @@ namespace Psychology
     DateNight,  // they're already partners: plan a date night
     Courtship,  // ask them out on a date
     Hookup,     // proposition them for a casual hookup
-    Cheating    // an affair: a hookup behind a partner's back (one who would mind)
+    Cheating,   // an affair: a hookup behind a partner's back (one who would mind)
+    DateLovin   // partners on a date together: an invitation to bed
   }
 
   /// <summary>
@@ -50,6 +51,11 @@ namespace Psychology
       switch (intent)
       {
         case RomanticIntent.DateNight:
+          if (DateTogether(initiator, recipient) != null)
+          {
+            reason = "partners on a date together";
+            return RomanceAttemptType.DateLovin;
+          }
           return RomanceAttemptType.DateNight;
         case RomanticIntent.None:
           return RomanceAttemptType.Direct;
@@ -72,6 +78,8 @@ namespace Psychology
       {
         case RomanceAttemptType.DateNight:
           return ((InteractionWorker_DateBase)InteractionDefOfPsychology.PlanDate.Worker).BlockReason(initiator, recipient);
+        case RomanceAttemptType.DateLovin:
+          return DateLovinBlockReason(initiator, recipient);
         case RomanceAttemptType.Courtship:
           if (PsychologySettings.courtshipChance <= 0f)
           {
@@ -114,11 +122,114 @@ namespace Psychology
       return !pawn.IsColonist && pawn.GetLord()?.LordJob?.GetType().Assembly == typeof(LordJob).Assembly;
     }
 
-    // Selection-weight gate: false if a randomly picked attempt would be routed to something that can't happen now.
-    public static bool CanRoute(Pawn initiator, Pawn recipient)
+    // The date the two are on together, or null.
+    internal static LordJob_Date DateTogether(Pawn a, Pawn b)
     {
-      RomanceAttemptType type = GetAttemptType(initiator, recipient, out _, out _);
-      return type != RomanceAttemptType.Direct && BlockReason(type, initiator, recipient) == null;
+      Lord lord = a.GetLord();
+      return lord != null && lord.LordJob is LordJob_Date date && lord == b.GetLord() ? date : null;
+    }
+
+    // Selection weight of a lovin' invitation between partners on a date together: DateLovinBaseWeight x the
+    // initiator's sex drive x the lovin' frequency setting. Against chitchat's 1 and the party pace of talk on a date,
+    // the base gives an invitation on roughly half to three quarters of date nights for typical drives; one per date.
+    public const float DateLovinBaseWeight = 0.04f;
+
+    public static float DateLovinWeight(Pawn initiator, Pawn recipient)
+    {
+      if (DateLovinBlockReason(initiator, recipient) != null)
+      {
+        return 0f;
+      }
+      return DateLovinBaseWeight * PsycheHelper.Comp(initiator).Sexuality.AdjustedSexDrive * PsychologySettings.lovinFrequency;
+    }
+
+    private static string DateLovinBlockReason(Pawn initiator, Pawn recipient)
+    {
+      LordJob_Date date = DateTogether(initiator, recipient);
+      if (date == null)
+      {
+        return "not on a date together";
+      }
+      if (date.lovinAsked)
+      {
+        return "already asked on this date";
+      }
+      if (LovePartnerRelationUtility.GetLovinMtbHours(initiator, recipient) < 0f)
+      {
+        return "lovin' not possible (age, health or drive)";
+      }
+      int now = Find.TickManager.TicksGame;
+      if (now < initiator.mindState.canLovinTick || now < recipient.mindState.canLovinTick)
+      {
+        return "too soon after their last lovin'";
+      }
+      if (!initiator.relations.DirectRelationExists(PawnRelationDefOf.Spouse, recipient)
+          && !new HistoryEvent(HistoryEventDefOf.GotLovin_NonSpouse, initiator.Named(HistoryEventArgsNames.Doer)).DoerWillingToDo())
+      {
+        return "ideoligion forbids lovin outside marriage";
+      }
+      if (SharedBed(initiator, recipient) == null)
+      {
+        return "no bed they share";
+      }
+      return null;
+    }
+
+    // A non-medical bed for two that both own and both can reach, with no one else in it.
+    private static Building_Bed SharedBed(Pawn a, Pawn b)
+    {
+      Building_Bed bed = a.ownership?.OwnedBed;
+      if (bed == null || bed.Medical || bed.SleepingSlotsCount < 2 || !bed.OwnersForReading.Contains(b))
+      {
+        return null;
+      }
+      foreach (Pawn occupant in bed.CurOccupants)
+      {
+        if (occupant != a && occupant != b)
+        {
+          return null;
+        }
+      }
+      return a.CanReserveAndReach(bed, PathEndMode.OnCell, Danger.Some, bed.SleepingSlotsCount, 0) && b.CanReach(bed, PathEndMode.OnCell, Danger.Some) ? bed : null;
+    }
+
+    // The partner's answer: their sex drive (asexual pawns rarely say yes), mood (x0.5 at 20% or less, x1.2 at 80% or
+    // more) and opinion of the asker (x0.3 at -20, x1 at +40). Their ideoligion must allow lovin' outside marriage
+    // unless they're married.
+    public static float DateLovinAcceptChance(Pawn recipient, Pawn initiator, out string details)
+    {
+      if (!recipient.relations.DirectRelationExists(PawnRelationDefOf.Spouse, initiator)
+          && !new HistoryEvent(HistoryEventDefOf.GotLovin_NonSpouse, recipient.Named(HistoryEventArgsNames.Doer)).DoerWillingToDo())
+      {
+        details = "recipient's ideoligion forbids lovin outside marriage";
+        return 0f;
+      }
+      float sexDrive = PsycheHelper.Comp(recipient).Sexuality.AdjustedSexDrive;
+      float drive = Mathf.Clamp01(0.1f + 0.9f * sexDrive);
+      float mood = Mathf.Lerp(0.5f, 1.2f, Mathf.InverseLerp(0.2f, 0.8f, recipient.needs?.mood?.CurLevel ?? 0.5f));
+      float opinion = Mathf.Lerp(0.3f, 1f, Mathf.InverseLerp(-20f, 40f, recipient.relations.OpinionOf(initiator)));
+      details = $"drive {drive:0.00} (sex drive {sexDrive:0.00}) x mood {mood:0.00} x opinion {opinion:0.00}";
+      return Mathf.Clamp01(drive * mood * opinion);
+    }
+
+    // One invitation per date. A yes sends the asker to bed with vanilla's lovin' job (thoughts, pregnancy and the
+    // lovin' cooldown as usual), which calls the partner in once there; the partner walks over at the same time, so
+    // neither waits long. The date carries on afterwards.
+    private static string InviteToBed(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks)
+    {
+      DateTogether(initiator, recipient).lovinAsked = true;
+      float chance = DateLovinAcceptChance(recipient, initiator, out string details);
+      string calc = $"accept chance {chance:P0} = {details}";
+      if (!Rand.Chance(chance))
+      {
+        extraSentencePacks.Add(RulePackDefOfPsychology.DateLovinDeclined);
+        return "not tonight; " + calc;
+      }
+      Building_Bed bed = SharedBed(initiator, recipient);
+      extraSentencePacks.Add(RulePackDefOfPsychology.DateLovinAccepted);
+      initiator.jobs.StartJob(JobMaker.MakeJob(JobDefOf.Lovin, recipient, bed), JobCondition.InterruptForced);
+      recipient.jobs.StartJob(JobMaker.MakeJob(JobDefOf.Goto, RestUtility.GetBedSleepingSlotPosFor(recipient, bed)), JobCondition.InterruptForced);
+      return $"yes, going to {bed.LabelShort}; " + calc;
     }
 
     public static RulePackDef TypeSentence(RomanceAttemptType type)
@@ -127,6 +238,8 @@ namespace Psychology
       {
         case RomanceAttemptType.DateNight:
           return RulePackDefOfPsychology.RomanceAttemptDateNight;
+        case RomanceAttemptType.DateLovin:
+          return RulePackDefOfPsychology.RomanceAttemptDateLovin;
         case RomanceAttemptType.Courtship:
           return RulePackDefOfPsychology.RomanceAttemptCourtship;
         case RomanceAttemptType.Hookup:
@@ -149,6 +262,8 @@ namespace Psychology
         case RomanceAttemptType.DateNight:
           RendezvousUtility.PlanDate(initiator, recipient, false);
           return "date night planned";
+        case RomanceAttemptType.DateLovin:
+          return InviteToBed(initiator, recipient, extraSentencePacks);
         case RomanceAttemptType.Courtship:
           {
             bool accepted = InteractionWorker_AskOutOnDate.Ask(initiator, recipient, extraSentencePacks, out float chance, out string details);
