@@ -197,12 +197,19 @@ public static class InteractionWorker_RomanceAttempt_SelectionWeightPatch
     return false;
   }
 
-  // Safety net after other mods' postfixes: the age/species gate always wins. It also zeroes the flat weight of 1 that
-  // the prefix gives psyche-less pawns whenever their species can't date.
+  // Runs after other mods' postfixes.
+  //   - Couples' date-night invitations to lovin' keep Psychology's weight: mods that scale romance attempts (e.g. Romance
+  //     Tweaks' chance sliders, which also count a polyamorous pawn's second partner as cheating) are about new romances.
+  //   - The age/species gate always wins, also for pawns without a psyche (who otherwise get vanilla's weight).
   [HarmonyPostfix]
   [HarmonyPriority(Priority.Last)]
   public static void RandomSelectionWeightPostfix(ref float __result, Pawn initiator, Pawn recipient)
   {
+    if (!TutorSystem.TutorialMode && PsycheHelper.PsychologyEnabled(initiator) && PsycheHelper.PsychologyEnabled(recipient)
+        && LovePartnerRelationUtility.LovePartnerRelationExists(initiator, recipient))
+    {
+      __result = RomanceAttemptRouter.DateLovinWeight(initiator, recipient);
+    }
     // Just to be extra sure, add a postfix lifestage check
     if (!SpeciesHelper.RomanceEnabled(initiator, true) || !SpeciesHelper.RomanceEnabled(recipient, true))
     {
