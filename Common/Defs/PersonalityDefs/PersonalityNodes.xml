@@ -316,6 +316,11 @@
 				<weight>0.6</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Cooking</skill><affinity>0.3</affinity></li>
+			<li><skill>Crafting</skill><affinity>0.3</affinity></li>
+			<li><skill>Artistic</skill><affinity>0.7</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Pure</defName>
@@ -470,6 +475,9 @@
 				<modifier>-2</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Plants</skill><affinity>0.2</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<!-- Big Five: Openness to experience / 10 Aspects: Intellect -->
 	<Psychology.PersonalityNodeDef>
@@ -511,6 +519,9 @@
 				<modifier>1</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Intellectual</skill><affinity>0.6</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Rational</defName>
@@ -720,6 +731,10 @@
 				<modifier>1</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Artistic</skill><affinity>-0.2</affinity></li>
+			<li><skill>Intellectual</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Cultured</defName>
@@ -772,6 +787,9 @@
 				<weight>0.5</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Artistic</skill><affinity>0.3</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Geeky</defName>
@@ -861,6 +879,10 @@
 				<weight>-0.6</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Crafting</skill><affinity>0.3</affinity></li>
+			<li><skill>Intellectual</skill><affinity>0.3</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Naive</defName>
@@ -1258,6 +1280,10 @@
 				<modifier>-0.5</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Construction</skill><affinity>0.3</affinity></li>
+			<li><skill>Mining</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<!-- Big Five: Conscientiousness /  10 Aspects: Orderliness -->
 	<Psychology.PersonalityNodeDef>
@@ -1370,6 +1396,10 @@
 				<weight>1</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Construction</skill><affinity>0.5</affinity></li>
+			<li><skill>Crafting</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Spontaneous</defName>
@@ -1543,6 +1573,9 @@
 				<weight>0.5</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Medicine</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<!-- Big Five: Extroversion / 10 Aspects: Enthusiasm -->
 	<Psychology.PersonalityNodeDef>
@@ -1592,6 +1625,10 @@
 				<weight>1</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Mining</skill><affinity>-0.2</affinity></li>
+			<li><skill>Social</skill><affinity>0.6</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Passionate</defName>
@@ -1914,6 +1951,10 @@
 				<weight>-0.6</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Shooting</skill><affinity>0.2</affinity></li>
+			<li><skill>Melee</skill><affinity>0.2</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Outspoken</defName>
@@ -2040,6 +2081,9 @@
 				<modifier>2.00</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Social</skill><affinity>0.3</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Cool</defName>
@@ -2295,6 +2339,12 @@
 				<modifier>-1.5</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Shooting</skill><affinity>-0.2</affinity></li>
+			<li><skill>Melee</skill><affinity>-0.2</affinity></li>
+			<li><skill>Animals</skill><affinity>0.6</affinity></li>
+			<li><skill>Medicine</skill><affinity>0.5</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Empathetic</defName>
@@ -2379,6 +2429,9 @@
 				<modifier>-2</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Animals</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Trusting</defName>
@@ -2547,6 +2600,9 @@
 				<weight>0.8</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Social</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Moralistic</defName>
@@ -2925,6 +2981,9 @@
 				<modifier>1</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Cooking</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<!-- Big Five: Agreeableness / 10 Aspects: Politeness -->
 	<Psychology.PersonalityNodeDef>
@@ -3059,6 +3118,9 @@
 				<weight>1</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Social</skill><affinity>0.2</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Aggressive</defName>
@@ -3176,6 +3238,13 @@
 				<modifier>1.5</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Shooting</skill><affinity>0.3</affinity></li>
+			<li><skill>Melee</skill><affinity>0.6</affinity></li>
+			<li><skill>Animals</skill><affinity>-0.2</affinity></li>
+			<li><skill>Medicine</skill><affinity>-0.2</affinity></li>
+			<li><skill>Social</skill><affinity>-0.2</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Competitive</defName>
@@ -3294,6 +3363,10 @@
 				<modifier>1.5</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Shooting</skill><affinity>0.3</affinity></li>
+			<li><skill>Melee</skill><affinity>0.3</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<!-- Big Five: Neuroticism / 10 Aspects: Volatility -->
 	<Psychology.PersonalityNodeDef>
@@ -3377,6 +3450,9 @@
 				<modifier>-0.33</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Artistic</skill><affinity>0.3</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>LaidBack</defName>
@@ -3514,6 +3590,10 @@
 				<weight>-0.5</weight>
 			</li>
 		</tenAspects>
+		<passionAffinities>
+			<li><skill>Mining</skill><affinity>0.3</affinity></li>
+			<li><skill>Plants</skill><affinity>0.4</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 	<Psychology.PersonalityNodeDef>
 		<defName>Judgmental</defName>
@@ -3905,5 +3985,8 @@
 				<modifier>1</modifier>
 			</li>
 		</preceptCertaintyModifiers>
+		<passionAffinities>
+			<li><skill>Plants</skill><affinity>0.3</affinity></li>
+		</passionAffinities>
 	</Psychology.PersonalityNodeDef>
 </Defs>

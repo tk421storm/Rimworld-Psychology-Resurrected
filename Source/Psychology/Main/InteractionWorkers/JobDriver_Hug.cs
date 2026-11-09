@@ -21,19 +21,31 @@ public class JobDriver_Hug : JobDriver
   private const float MeetingRadius = 2.9f;
 
   private bool hugging;
+  private int startedTick = -1;
 
   private Pawn Partner => (Pawn)TargetThingA;
 
   // Starts the hug if both can drop what they're doing and there's somewhere to stand. Otherwise the hug stays a bubble
-  // and a log line.
-  public static bool TryStart(Pawn initiator, Pawn recipient)
+  // and a log line, and whyNot says what stopped it.
+  public static bool TryStart(Pawn initiator, Pawn recipient, out string whyNot)
   {
-    if (!CanInterrupt(initiator) || !CanInterrupt(recipient) || !TryFindCells(initiator, recipient, out IntVec3 initiatorCell, out IntVec3 recipientCell))
+    whyNot = BusyReason(initiator) ?? BusyReason(recipient);
+    if (whyNot != null)
     {
+      return false;
+    }
+    if (!TryFindCells(initiator, recipient, out IntVec3 initiatorCell, out IntVec3 recipientCell))
+    {
+      whyNot = "nowhere to stand";
       return false;
     }
     Start(initiator, recipient, initiatorCell);
     Start(recipient, initiator, recipientCell);
+    if (initiator.CurJobDef != JobDefOfPsychology.Hug || recipient.CurJobDef != JobDefOfPsychology.Hug)
+    {
+      whyNot = "the job didn't start";
+      return false;
+    }
     return true;
   }
 
@@ -46,14 +58,35 @@ public class JobDriver_Hug : JobDriver
 
   // Not while the player has ordered the job, nor during anything urgent, a lord's duty (rituals, caravans, dates) or
   // while carrying something (the carried thing would be dropped).
-  private static bool CanInterrupt(Pawn pawn)
+  private static string BusyReason(Pawn pawn)
   {
     Job job = pawn.CurJob;
-    return pawn.Spawned && !pawn.Downed && !pawn.Drafted && !pawn.InMentalState && pawn.Awake()
-      && pawn.GetLord() == null
-      && pawn.carryTracker?.CarriedThing == null
-      && pawn.Map.dangerWatcher.DangerRating != StoryDanger.High
-      && (job == null || (job.def.casualInterruptible && !job.playerForced));
+    string reason = null;
+    if (!pawn.Spawned || pawn.Downed || pawn.Drafted || pawn.InMentalState || !pawn.Awake())
+    {
+      reason = "unavailable";
+    }
+    else if (pawn.GetLord() != null)
+    {
+      reason = "in a lord duty";
+    }
+    else if (pawn.carryTracker?.CarriedThing != null)
+    {
+      reason = "carrying something";
+    }
+    else if (pawn.Map.dangerWatcher.DangerRating == StoryDanger.High)
+    {
+      reason = "danger";
+    }
+    else if (job != null && job.playerForced)
+    {
+      reason = $"on a player order ({job.def.defName})";
+    }
+    else if (job != null && !job.def.casualInterruptible)
+    {
+      reason = $"job can't be interrupted ({job.def.defName})";
+    }
+    return reason == null ? null : $"{pawn.LabelShort} {reason}";
   }
 
   private static bool TryFindCells(Pawn a, Pawn b, out IntVec3 cellA, out IntVec3 cellB)
@@ -118,16 +151,25 @@ public class JobDriver_Hug : JobDriver
     return true;
   }
 
+  public override void Notify_Starting()
+  {
+    base.Notify_Starting();
+    startedTick = Find.TickManager.TicksGame;
+  }
+
   public override void ExposeData()
   {
     base.ExposeData();
     Scribe_Values.Look(ref hugging, "hugging");
+    Scribe_Values.Look(ref startedTick, "startedTick", -1);
   }
 
   protected override IEnumerable<Toil> MakeNewToils()
   {
     this.FailOnDespawnedOrNull(TargetIndex.A);
-    AddFailCondition(() => !hugging && !PartnerStillComing());
+    // Not on the tick the job starts: fail conditions run as the first toil begins, and the second pawn's job only starts
+    // just after the first's.
+    AddFailCondition(() => !hugging && Find.TickManager.TicksGame != startedTick && !PartnerStillComing());
 
     yield return Toils_Goto.GotoCell(TargetIndex.B, PathEndMode.OnCell);
 

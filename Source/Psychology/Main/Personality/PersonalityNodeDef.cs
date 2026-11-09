@@ -32,6 +32,8 @@ public class PersonalityNodeDef : Def
     public List<PersonalityNodeSkillModifier> skillModifiers;
     //A list of the traits that modify this node.
     public List<PersonalityNodeTraitModifier> traitModifiers;
+    // Growth moments only: leans the passions offered to a child. See GrowthMomentWeights.PassionWeight.
+    public List<PersonalityNodePassionAffinity> passionAffinities;
     //A list of the work types that being incapable of modify this node.
     public List<PersonalityNodeIncapableModifier> incapableModifiers;
     //How much a difference (or similarity) in this node affects what pawns think of each other after a conversation.

@@ -12,6 +12,10 @@ namespace Psychology;
 // stop what they're doing they walk together and embrace (JobDriver_Hug).
 public class InteractionWorker_Hug : InteractionWorker
 {
+  // Paused for the release candidate: hugs didn't trigger reliably in game. True turns the interaction off (weight 0)
+  // and hides the Hug chance setting; the rest of the feature is kept for later.
+  public static readonly bool Paused = true;
+
   private const float BaseWeight = 0.1f;
   private const float PartnerWeightFactor = 2f;
 
@@ -26,7 +30,7 @@ public class InteractionWorker_Hug : InteractionWorker
   // average raise it, below average lower it (about x4 to /4 at the extremes).
   public override float RandomSelectionWeight(Pawn initiator, Pawn recipient)
   {
-    if (PsychologySettings.hugChance <= 0f || !CanHug(initiator, recipient) || !HasStrongBond(initiator, recipient) || HugMemoryExists(initiator, recipient))
+    if (Paused || PsychologySettings.hugChance <= 0f || !CanHug(initiator, recipient) || !HasStrongBond(initiator, recipient) || HugMemoryExists(initiator, recipient))
     {
       return 0f;
     }
@@ -44,20 +48,20 @@ public class InteractionWorker_Hug : InteractionWorker
     base.Interacted(initiator, recipient, extraSentencePacks, out letterText, out letterLabel, out letterDef, out lookTargets);
     float chance = AcceptChance(recipient, initiator);
     bool accepted = Rand.Chance(chance);
-    bool embraced = false;
+    string outcome = "turned down";
     if (accepted)
     {
       extraSentencePacks.Add(RulePackDefOfPsychology.HugAccepted);
       initiator.needs?.mood?.thoughts.memories.TryGainMemory(ThoughtDefOfPsychology.Hug, recipient);
       recipient.needs?.mood?.thoughts.memories.TryGainMemory(ThoughtDefOfPsychology.Hug, initiator);
-      embraced = JobDriver_Hug.TryStart(initiator, recipient);
+      outcome = JobDriver_Hug.TryStart(initiator, recipient, out string whyNot) ? "accepted, walking over" : $"accepted, no embrace: {whyNot}";
     }
     else
     {
       extraSentencePacks.Add(RulePackDefOfPsychology.HugDeclined);
       initiator.needs?.mood?.thoughts.memories.TryGainMemory(ThoughtDefOfPsychology.HugDeclined, recipient);
     }
-    PsychologyDebug.Log($"Hug: {initiator} and {recipient}: {(accepted ? embraced ? "accepted, walking over" : "accepted, too busy to stop" : "turned down")} (chance {chance:P0})");
+    PsychologyDebug.Log($"Hug: {initiator} and {recipient}: {outcome} (chance {chance:P0})");
   }
 
   // 60%, moved by the recipient's Friendly and Empathetic and by their opinion of the initiator; 40% to 97%.
