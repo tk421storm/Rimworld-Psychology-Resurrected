@@ -37,8 +37,8 @@ public static class Pawn_RelationsTracker_PregnancyApproachPatch
     }
 }
 
-// Replaces vanilla's attraction (SecondaryLovinChanceFactor) entirely; HarmonyInitialize also strips other mods' patches
-// from it. 0 if either pawn has no psyche. Otherwise the product of:
+// Replaces vanilla's attraction (SecondaryLovinChanceFactor) entirely (other mods' postfixes on it still run).
+// Vanilla's own formula if either pawn has no psyche. Otherwise the product of:
 //   - orientation: Kinsey/3 toward the same gender, 2 - Kinsey/3 toward the other (clamped to 0..1), or the vanilla
 //     Gay/Bisexual/Asexual rules without Kinsey
 //   - age (CalculateAgeFactor below)
@@ -52,6 +52,11 @@ public static class Pawn_RelationsTracker_LovinChancePatch
     [HarmonyPrefix]
     public static bool SecondaryLovinChanceFactor(Pawn otherPawn, Pawn ___pawn, ref float __result)
     {
+        // #30: pawns without a psyche (either side) use vanilla's attraction, so their romance works as in vanilla.
+        if (___pawn != otherPawn && (!PsycheHelper.PsychologyEnabled(___pawn) || !PsycheHelper.PsychologyEnabled(otherPawn)))
+        {
+            return true;
+        }
         __result = Attraction(___pawn, otherPawn, false, out _);
         return false;
     }

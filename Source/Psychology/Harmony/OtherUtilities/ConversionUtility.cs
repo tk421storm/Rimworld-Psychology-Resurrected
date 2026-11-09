@@ -17,6 +17,12 @@ public static class ConversionUtility_ConversionPowerFactor_MemesVsTraits_Patch
     [HarmonyPostfix]
     public static void ConversionPowerFactor_MemesVsTraits(ref float __result, Pawn initiator, Pawn recipient, StringBuilder sb)
     {
+        // Both pawns need a psyche (non-sapient or psyche-disabled species would otherwise throw here); leave vanilla's
+        // factor and breakdown untouched when either lacks one.
+        if (!PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient))
+        {
+            return;
+        }
         float initWithInitIdeo = 0.5f * PsychologySettings.ideoPsycheMultiplier * PsycheHelper.Comp(initiator).Psyche.CompatibilityWithIdeo(initiator.Ideo);
         float initWithReciIdeo = 0.5f * PsychologySettings.ideoPsycheMultiplier * PsycheHelper.Comp(initiator).Psyche.CompatibilityWithIdeo(recipient.Ideo);
         float reciWithInitIdeo = 1.0f * PsychologySettings.ideoPsycheMultiplier * PsycheHelper.Comp(recipient).Psyche.CompatibilityWithIdeo(initiator.Ideo);
@@ -43,6 +49,8 @@ public static class ConversionUtility_ConversionPowerFactor_MemesVsTraits_Patch
         text += PawnCompatWithIdeoText(initName, initIdeo, initWithInitIdeo, true);
         text += PawnCompatWithIdeoText(initName, reciIdeo, initWithReciIdeo, false);
         sb.AppendInNewLine(" -  " + "AbilityIdeoConvertBreakdownPsychologyEffects".Translate() + ": " + multiplicativeFactor.ToStringPercent() + text);
+        // #15: the personality factor on certainty loss (InteractionWorker_ConvertIdeoAttempt_CertaintyReduction_Patch).
+        sb.AppendInNewLine(ConversionPersonality.BreakdownLine(initiator, recipient));
         needToAddToSB = false;
     }
     public static string PawnCompatWithIdeoText(NamedArgument pawnName, NamedArgument ideoName, float compat, bool isInitIdeo)

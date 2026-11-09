@@ -4,7 +4,10 @@
 	<!--<CertaintyChangePerDay>Daily change due to mood + personality</CertaintyChangePerDay>-->
 
 	<CertaintyChangePerDay>Change per day</CertaintyChangePerDay>
-	<AbilityIdeoConvertBreakdownPsychologyEffects>Personality</AbilityIdeoConvertBreakdownPsychologyEffects>
+	<AbilityIdeoConvertBreakdownPsychologyEffects>Personality vs ideoligions</AbilityIdeoConvertBreakdownPsychologyEffects>
+	<AbilityIdeoConvertBreakdownPersonalityTraits>Persuasion and openness</AbilityIdeoConvertBreakdownPersonalityTraits>
+	<AbilityIdeoConvertBreakdownPersuasion>{PAWN_labelShort}'s coolness</AbilityIdeoConvertBreakdownPersuasion>
+	<AbilityIdeoConvertBreakdownOpenness>{PAWN_labelShort}'s openness (naive, experimental, not nostalgic)</AbilityIdeoConvertBreakdownOpenness>
 	<AbilityIdeoConvertBreakdownPawnCompatWithIdeo>{PAWN_labelShort}'s compatiblity with {IDEO}</AbilityIdeoConvertBreakdownPawnCompatWithIdeo>
 	<AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>{PAWN_labelShort}'s incompatiblity with {IDEO}</AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>
 	<PsycheCurrentlyDisabled>Psyche currenlty disabled</PsycheCurrentlyDisabled>

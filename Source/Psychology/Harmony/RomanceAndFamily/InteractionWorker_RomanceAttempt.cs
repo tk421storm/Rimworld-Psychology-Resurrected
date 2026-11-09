@@ -35,9 +35,8 @@ public static class InteractionWorker_RomanceAttempt_SelectionWeightPatch
   {
     if (!PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient))
     {
-      // 1.5/1.6 builds: pawns without a psyche get a flat weight of 1 (was 0). See the SuccessChance note below.
-      __result = 1f;
-      return false;
+      // Pawns without a psyche (either side) romance as in vanilla.
+      return true;
     }
 
     // From vanilla, no romance in these cases
@@ -188,12 +187,11 @@ public static class InteractionWorker_RomanceAttempt_SelectionWeightPatch
 
 }
 
-// Chance the recipient says yes. Prefix: no psyche on either side or age/species gate -> 0 (see note below);
+// Chance the recipient says yes. Prefix: no psyche on either side -> vanilla's chance, untouched; age/species gate -> 0;
 // Codependent recipients refuse while they have a partner and always accept an ex back. Otherwise vanilla computes
 // the chance (using our patched OpinionFactor/PartnerFactor), and the postfix scales it by the romance setting and maps
 // it through 1 - e^-x so it saturates below 1.
-// NOTE: since the 1.5/1.6 builds, pawns WITHOUT a psyche get a flat romance selection weight of 1 (above), but this
-// prefix still makes their success chance 0, so they keep trying and always get rejected. Shipped this way in 1.6.
+// (Before #30, pawns without a psyche got a flat weight of 1 but a success chance of 0, so they always got rejected.)
 [HarmonyPatch(typeof(InteractionWorker_RomanceAttempt), nameof(InteractionWorker_RomanceAttempt.SuccessChance))]
 public static class InteractionWorker_RomanceAttempt_SuccessChancePatch
 {
@@ -201,11 +199,10 @@ public static class InteractionWorker_RomanceAttempt_SuccessChancePatch
   public static bool SuccessChancePrefix(Pawn initiator, Pawn recipient, float baseChance, ref float __result)
   {
 
-    /* Throw out the result and replace it with our own formula. */
     if (!PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient))
     {
-      __result = 0f;
-      return false;
+      // No psyche on either side: vanilla's chance (the postfix only applies the age/species gate).
+      return true;
     }
     if (!SpeciesHelper.RomanceEnabled(initiator, true) || !SpeciesHelper.RomanceEnabled(recipient, true))
     {
@@ -238,6 +235,10 @@ public static class InteractionWorker_RomanceAttempt_SuccessChancePatch
     {
       // No underage dating
       __result = 0f;
+    }
+    if (!PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient))
+    {
+      return;
     }
     if (recipient.story.traits.HasTrait(TraitDefOfPsychology.Codependent))
     {
@@ -301,6 +302,10 @@ public static class InteractionWorker_RomanceAttempt_OpinionFactor_Patches
   [HarmonyPostfix]
   public static void OpinionFactorPostfix(Pawn initiator, Pawn recipient, ref float __result)
   {
+    if (!PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient))
+    {
+      return;
+    }
     if (recipient.story.traits.HasTrait(TraitDefOfPsychology.Lecher))
     {
       // Lechers will romance someone that they have a low opinion of
@@ -328,8 +333,8 @@ public static class InteractionWorker_RomanceAttempt_PartnerFactor_Patches
   {
     if (!PsycheHelper.PsychologyEnabled(initiator) || !PsycheHelper.PsychologyEnabled(recipient))
     {
-      __result = 0f;
-      return false;
+      // No psyche on either side: vanilla's partner factor.
+      return true;
     }
 
     if (recipient.story.traits.HasTrait(TraitDefOfPsychology.Polygamous))

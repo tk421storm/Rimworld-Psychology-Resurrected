@@ -84,13 +84,9 @@ public static class ChildRelationUtility_ManualPatches
             }
             return flag;
         }
-        if (PsycheHelper.PsychologyEnabled(parent) != true)
+        if (PsycheHelper.PsychologyEnabled(parent) != true) // no psyche: vanilla, no error (expected for psyche-disabled species)
         {
             flag = PsycheHelper.HasTraitDef(parent, TraitDefOf.Gay);
-            if (flag)
-            {
-                Log.Error("ChanceOfBecomingChildOf.HasTraitGayKinseyEnabled, PsychologyEnabled(parent) != true but pawn has TraitDefOf.Gay");
-            }
             return flag;
         }
         // Move on to the KinseyEnabledMultiplier
@@ -106,7 +102,6 @@ public static class ChildRelationUtility_ManualPatches
         }
         if (PsycheHelper.PsychologyEnabled(parent) != true)
         {
-            Log.Error("ChanceOfBecomingChildOf.KinseyEnabledMultiplier, using old multiplier because PsychologyEnabled(parent) != true");
             return oldMultiplier;
         }
         return Mathf.InverseLerp(6f, 0f, PsycheHelper.Comp(parent).Sexuality.kinseyRating);
