@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Verse;
 using Verse.AI;
 using RimWorld;
+using RimWorld.Planet;
 using UnityEngine;
 
 namespace Psychology;
@@ -46,6 +47,10 @@ public class Hediff_Anxiety : HediffWithComps
     public override void Tick()
     {
         base.Tick();
+        if (!pawn.Spawned && !pawn.IsCaravanMember())
+        {
+            return;
+        }
         if (ticksPerIntervalTracker > 0)
         {
             ticksPerIntervalTracker--;

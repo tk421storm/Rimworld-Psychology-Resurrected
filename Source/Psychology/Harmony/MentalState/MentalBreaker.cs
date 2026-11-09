@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using RimWorld;
+using RimWorld.Planet;
 using Verse;
 using Verse.AI;
 using HarmonyLib;
@@ -34,6 +35,12 @@ public static class MentalBreaker_AnxietyPatch
     [HarmonyPostfix]
     public static void AddAnxiety(MentalBreaker __instance, ref bool __result, Pawn ___pawn)
     {
+        // World pawns (off every map, not in a caravan) still tick and can have mood breaks in vanilla; they don't
+        // get anxiety from them.
+        if (!___pawn.Spawned && !___pawn.IsCaravanMember())
+        {
+            return;
+        }
         if (__result != true || PsychologySettings.mentalBreakAnxietyChance == 0f)
         {
             return;
@@ -68,7 +75,10 @@ public static class MentalBreaker_AnxietyPatch
             Hediff newHediff = HediffMaker.MakeHediff(HediffDefOfPsychology.Anxiety, ___pawn, ___pawn.health.hediffSet.GetBrain());
             newHediff.Severity = severity;
             Letter newAnxiety = LetterMaker.MakeLetter("LetterLabelPTSD".Translate(), "LetterPTSD".Translate(___pawn), LetterDefOf.NegativeEvent, ___pawn);
-            Find.LetterStack.ReceiveLetter(newAnxiety);
+            if (PawnUtility.ShouldSendNotificationAbout(___pawn))
+            {
+                Find.LetterStack.ReceiveLetter(newAnxiety);
+            }
             ___pawn.health.AddHediff(newHediff, null, null);
         }
     }

@@ -3,17 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using RimWorld;
+using RimWorld.Planet;
 using Verse;
 using Verse.AI;
 using UnityEngine;
 
 namespace Psychology;
 
-// Requires Anxiety; tended anxiety blocks the attack with probability 1 - e^-tendQuality.
+// Requires Anxiety and a pawn on a map or in a caravan; tended anxiety blocks the attack with probability 1 - e^-tendQuality.
 public class MentalStateWorker_PanicAttack : MentalStateWorker
 {
     public override bool StateCanOccur(Pawn pawn)
     {
+        // Not for world pawns (off every map and not in a caravan).
+        if (!pawn.Spawned && !pawn.IsCaravanMember())
+        {
+            return false;
+        }
         Hediff_Anxiety hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDefOfPsychology.Anxiety) as Hediff_Anxiety;
         if (hediff == null)
         {
