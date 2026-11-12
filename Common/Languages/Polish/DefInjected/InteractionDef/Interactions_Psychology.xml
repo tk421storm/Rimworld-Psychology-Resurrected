@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PrudeSeen.label>widok nagości</PrudeSeen.label>
+  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zobaczył : zobaczyła} [RECIPIENT_nameDef] nago.</PrudeSeen.logRulesInitiator.rulesStrings.0>
+  <Conversation.label>rozmowa</Conversation.label>
+  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)-&gt;[INITIATOR_nameDef] [conversed] z [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.0>
+  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zagadnął : zagadnęła} [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.1>
+  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? poruszył : poruszyła} temat z [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.2>
+  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)-&gt;{INITIATOR_gender ? zaczął : zaczęła} rozmowę</Conversation.logRulesInitiator.rulesStrings.3>
+  <Conversation.logRulesInitiator.rulesStrings.4>conversed-&gt;{INITIATOR_gender ? zaczął : zaczęła} mówić</Conversation.logRulesInitiator.rulesStrings.4>
+  <Conversation.logRulesInitiator.rulesStrings.5>conversed-&gt;{INITIATOR_gender ? zaczął : zaczęła} pogawędkę</Conversation.logRulesInitiator.rulesStrings.5>
+  <Conversation.logRulesInitiator.rulesStrings.6>conversed-&gt;{INITIATOR_gender ? poruszył : poruszyła} temat</Conversation.logRulesInitiator.rulesStrings.6>
+  <Conversation.logRulesInitiator.rulesStrings.7>conversed-&gt;{INITIATOR_gender ? zaczął : zaczęła} o czymś dyskutować</Conversation.logRulesInitiator.rulesStrings.7>
+  <EndConversation.label>zakończona rozmowa</EndConversation.label>
+  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zakończył : zakończyła} rozmowę z [RECIPIENT_nameDef].</EndConversation.logRulesInitiator.rulesStrings.0>
+  <HangOut.label>wspólne spędzanie czasu</HangOut.label>
+  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zaprosił : zaprosiła} [RECIPIENT_nameDef] do wspólnego spędzenia czasu.</HangOut.logRulesInitiator.rulesStrings.0>
+  <PlanDate.label>planowanie romantycznej randki</PlanDate.label>
+  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zaplanował : zaplanowała} romantyczną randkę z [RECIPIENT_nameDef].</PlanDate.logRulesInitiator.rulesStrings.0>
+  <AskOutOnDate.label>zaproszenie na randkę</AskOutOnDate.label>
+  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zaprosił : zaprosiła} [RECIPIENT_nameDef] na randkę.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
+  <Indoctrinate.label>indoktrynacja</Indoctrinate.label>
+  <Indoctrinate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? indoktrynował : indoktrynowała} [RECIPIENT_nameDef].</Indoctrinate.logRulesInitiator.rulesStrings.0>
+  <Hug.label>przytulenie</Hug.label>
+  <Hug.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? podszedł : podeszła} do [RECIPIENT_nameDef] po [hug].</Hug.logRulesInitiator.rulesStrings.0>
+  <Hug.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? otworzył : otworzyła} ramiona do [RECIPIENT_nameDef].</Hug.logRulesInitiator.rulesStrings.1>
+  <Hug.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? zbliżył : zbliżyła} się do [RECIPIENT_nameDef] po [hug].</Hug.logRulesInitiator.rulesStrings.2>
+  <Hug.logRulesInitiator.rulesStrings.3>hug(p=3)-&gt;uścisk</Hug.logRulesInitiator.rulesStrings.3>
+  <Hug.logRulesInitiator.rulesStrings.4>hug-&gt;ciepły uścisk</Hug.logRulesInitiator.rulesStrings.4>
+  <Hug.logRulesInitiator.rulesStrings.5>hug-&gt;mocny uścisk</Hug.logRulesInitiator.rulesStrings.5>
+  <Hug.logRulesInitiator.rulesStrings.6>hug-&gt;szybki uścisk</Hug.logRulesInitiator.rulesStrings.6>
+</LanguageData>

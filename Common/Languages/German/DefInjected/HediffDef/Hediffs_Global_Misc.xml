@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+  <HoldingConversation.description>Gespräch</HoldingConversation.description>
   <HoldingConversation.label>Gespräch</HoldingConversation.label>
-  <HoldingConversation.stages.hidden.label>versteckt</HoldingConversation.stages.hidden.label>
-
-
+  <HoldingConversation.stages.0.label>versteckt</HoldingConversation.stages.0.label>
+  <PlannedDate.description>Date geplant</PlannedDate.description>
   <PlannedDate.label>Verabredung</PlannedDate.label>
-  <PlannedDate.stages.hidden.label>versteckt</PlannedDate.stages.hidden.label>
-
-
+  <PlannedDate.stages.0.label>versteckt</PlannedDate.stages.0.label>
 </LanguageData>

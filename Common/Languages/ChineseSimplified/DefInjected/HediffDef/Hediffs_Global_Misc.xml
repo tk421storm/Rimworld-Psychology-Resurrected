@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HoldingConversation.description>对话</HoldingConversation.description>
+  <HoldingConversation.label>对话</HoldingConversation.label>
+  <HoldingConversation.stages.0.label>隐藏</HoldingConversation.stages.0.label>
+  <PlannedDate.description>已计划约会</PlannedDate.description>
+  <PlannedDate.label>约会</PlannedDate.label>
+  <PlannedDate.stages.0.label>隐藏</PlannedDate.stages.0.label>
+</LanguageData>

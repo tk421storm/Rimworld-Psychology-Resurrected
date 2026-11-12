@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LordReportHangingOut>Spędza czas z kimś</LordReportHangingOut>
+  <LordReportDate>Na randce</LordReportDate>
+  <DateKindCourtship>randka zapoznawcza</DateKindCourtship>
+  <DateKindDateNight>romantyczna randka</DateKindDateNight>
+  <DateStarted>Rozpoczęła się {2}: {0_labelShort} i {1_labelShort}!</DateStarted>
+  <DateNightWentWell>{0_labelShort} i {1_labelShort} cieszyli się romantyczną randką.</DateNightWentWell>
+  <DateNightWentWellForOne>{0_labelShort} {0_gender ? był zadowolony : była zadowolona} z romantycznej randki z {1_labelShort}, ale {1_labelShort} nie.</DateNightWentWellForOne>
+  <DateNightWentBadly>Romantyczna randka {0_labelShort} i {1_labelShort} nie wyszła.</DateNightWentBadly>
+  <DateWentWell>Randka zapoznawcza {0_labelShort} i {1_labelShort} udała się obojgu.</DateWentWell>
+  <DateWentWellForOne>{0_labelShort} {0_gender ? był zadowolony : była zadowolona} z randki zapoznawczej z {1_labelShort}, ale {1_labelShort} nie.</DateWentWellForOne>
+  <DateWentBadly>Randka zapoznawcza {0_labelShort} i {1_labelShort} nie wyszła.</DateWentBadly>
+  <DateCutShort>Przerwano {2} ({0_labelShort} i {1_labelShort}): {3}.</DateCutShort>
+  <DateRuined>Załamanie psychiczne {0_labelShort} zepsuło {1_labelShort} randkę ({2}).</DateRuined>
+  <DateCancelled>Odwołano {2} ({0_labelShort} i {1_labelShort}): {3}.</DateCancelled>
+  <DateMissed>{0_labelShort} {0_gender ? czekał : czekała}, ale {1_labelShort} {1_gender ? przespał : przespała} randkę ({2}).</DateMissed>
+  <DateBothSlept>{0_labelShort} i {1_labelShort} przespali randkę ({2}).</DateBothSlept>
+  <DateCalledOff>Zaplanowana {2} ({0_labelShort} z {1_labelShort}) została odwołana.</DateCalledOff>
+  <DateReasonDanger>teraz nie jest bezpiecznie</DateReasonDanger>
+  <DateReasonDowned>{0_labelShort} jest {0_gender ? unieruchomiony : unieruchomiona}</DateReasonDowned>
+  <DateReasonStarving>{0_labelShort} głoduje</DateReasonStarving>
+  <DateReasonBleeding>{0_labelShort} krwawi</DateReasonBleeding>
+  <DateReasonHurt>{0_labelShort} {0_gender ? został ranny : została ranna}</DateReasonHurt>
+  <DateReasonTired>{0_labelShort} jest zbyt {0_gender ? zmęczony : zmęczona}</DateReasonTired>
+  <DateReasonMentalState>{0_labelShort} przechodzi załamanie psychiczne</DateReasonMentalState>
+  <DateReasonPrisoner>{0_labelShort} jest {0_gender ? więźniem : więźniarką}</DateReasonPrisoner>
+  <DateReasonWork>{0_labelShort} ma zaplanowaną pracę</DateReasonWork>
+  <DateReasonDrafted>{0_labelShort} {0_gender ? został powołany : została powołana}</DateReasonDrafted>
+  <DateReasonAway>{0_labelShort} jest {0_gender ? nieobecny : nieobecna}</DateReasonAway>
+  <DateReasonLeft>{0_labelShort} {0_gender ? musiał : musiała} odejść</DateReasonLeft>
+  <DateReasonBusy>{0_labelShort} jest {0_gender ? zajęty : zajęta}</DateReasonBusy>
+  <RitualDateWillClash>{PAWN_labelShort} ma randkę ({KIND}) z {PARTNER_labelShort} o {HOUR}:00 (za {IN}), w trakcie tego rytuału. Zostanie przesunięta lub odwołana, jeśli rytuał się przeciągnie.</RitualDateWillClash>
+  <RitualDateMightClash>Randka ({KIND}) {PAWN_labelShort} z {PARTNER_labelShort} o {HOUR}:00 (za {IN}) może kolidować z tym rytuałem. Zostałaby przesunięta lub odwołana, jeśli rytuał się przeciągnie.</RitualDateMightClash>
+  <ConversationStage>rozmowa na temat</ConversationStage>
+  <ConversationEnd>[INITIATOR_nameDef] {INITIATOR_gender ? zakończył : zakończyła} rozmowę z [RECIPIENT_nameDef].</ConversationEnd>
+  <ConversationEnded>zakończona rozmowa</ConversationEnded>
+  <DrugFreeDescription>Cecha {TRAIT} u {PAWN_labelShort} złagodniała dzięki życiu bez narkotyków.</DrugFreeDescription>
+  <DrugFreeDescriptionNoTrait>{PAWN_labelShort} żyje bez narkotyków.</DrugFreeDescriptionNoTrait>
+  <EdBPrepareCarefullyPsycheTooltip>Wyświetl i edytuj psychikę tej postaci. Presety i zapisani koloniści z Prepare Carefully nie przechowują psychiki; po wczytaniu postać otrzymuje nową, losową psychikę.</EdBPrepareCarefullyPsycheTooltip>
+  <ChildFreePregnancyApproach>{PAWN_labelShort} jest childfree i nie chce dzieci.</ChildFreePregnancyApproach>
+</LanguageData>

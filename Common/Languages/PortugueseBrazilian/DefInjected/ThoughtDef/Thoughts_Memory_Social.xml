@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RebuffedMyHookupAttempt.stages.0.label>me rejeitou</RebuffedMyHookupAttempt.stages.0.label>
+  <RebuffedMyHookupAttemptMood.stages.0.label>rejeitado por {0}</RebuffedMyHookupAttemptMood.stages.0.label>
+  <RebuffedMyHookupAttemptMood.stages.0.description>O quê, não sou atraente o bastante para uma transa??</RebuffedMyHookupAttemptMood.stages.0.description>
+  <FailedHookupAttemptOnMe.stages.0.label>teve que recusar</FailedHookupAttemptOnMe.stages.0.label>
+  <PrudeSeen.stages.0.label>viu a forma humana</PrudeSeen.stages.0.label>
+  <PrudeSeen.stages.0.description>Aquela pessoa estava nua? Aqui deixam as pessoas andarem por aí sem roupa? Que nojo.</PrudeSeen.stages.0.description>
+  <DynamicSocial.stages.0.label>conversa</DynamicSocial.stages.0.label>
+  <IBrokeUpWithThemMood.stages.0.label>terminou com {0}</IBrokeUpWithThemMood.stages.0.label>
+  <IBrokeUpWithThemMood.stages.0.description>Estou passando por um término difícil.</IBrokeUpWithThemMood.stages.0.description>
+  <IBrokeUpWithThemMood.stages.1.label>terminou com {0}</IBrokeUpWithThemMood.stages.1.label>
+  <IBrokeUpWithThemMood.stages.1.description>Não estava dando certo, mas ainda estou um pouco triste.</IBrokeUpWithThemMood.stages.1.description>
+  <IBrokeUpWithThemMood.stages.2.label>terminou com {0}</IBrokeUpWithThemMood.stages.2.label>
+  <IBrokeUpWithThemMood.stages.2.description>É bom estar livre de um relacionamento ruim.</IBrokeUpWithThemMood.stages.2.description>
+  <IRejectedTheirProposalMood.stages.0.label>recusou o pedido de {0}</IRejectedTheirProposalMood.stages.0.label>
+  <IRejectedTheirProposalMood.stages.0.description>Foi difícil recusar o pedido de casamento do meu amor.</IRejectedTheirProposalMood.stages.0.description>
+  <IDivorcedThemMood.stages.0.label>se divorciou de {0}</IDivorcedThemMood.stages.0.label>
+  <IDivorcedThemMood.stages.0.description>Este divórcio está acabando comigo.</IDivorcedThemMood.stages.0.description>
+  <IDivorcedThemMood.stages.1.label>se divorciou de {0}</IDivorcedThemMood.stages.1.label>
+  <IDivorcedThemMood.stages.1.description>Fico triste que o casamento não tenha dado certo.</IDivorcedThemMood.stages.1.description>
+  <IDivorcedThemMood.stages.2.label>se divorciou de {0}</IDivorcedThemMood.stages.2.label>
+  <IDivorcedThemMood.stages.2.description>Finalmente livre!</IDivorcedThemMood.stages.2.description>
+  <BrokeUpWithMeCodependent.stages.0.label>terminou comigo</BrokeUpWithMeCodependent.stages.0.label>
+  <BrokeUpWithMeCodependentMood.stages.0.label>codependente de {0}</BrokeUpWithMeCodependentMood.stages.0.label>
+  <BrokeUpWithMeCodependentMood.stages.0.description>Sinto sua falta... por favor, volte.</BrokeUpWithMeCodependentMood.stages.0.description>
+  <CheatedOnMeCodependent.stages.0.label>me traiu</CheatedOnMeCodependent.stages.0.label>
+  <CheatedOnMeCodependentMood.stages.0.label>traído por {0}</CheatedOnMeCodependentMood.stages.0.label>
+  <CheatedOnMeCodependentMood.stages.0.description>Não entendo... Devo ter feito algo errado.</CheatedOnMeCodependentMood.stages.0.description>
+  <DivorcedMeCodependent.stages.0.label>se divorciou de mim</DivorcedMeCodependent.stages.0.label>
+  <DivorcedMeCodependentMood.stages.0.label>divorciado por {0}</DivorcedMeCodependentMood.stages.0.label>
+  <DivorcedMeCodependentMood.stages.0.description>Sinto sua falta... por favor, volte.</DivorcedMeCodependentMood.stages.0.description>
+  <RejectedMyProposalCodependent.stages.0.label>recusou meu pedido</RejectedMyProposalCodependent.stages.0.label>
+  <RejectedMyProposalCodependentMood.stages.0.label>pedido recusado por {0}</RejectedMyProposalCodependentMood.stages.0.label>
+  <RejectedMyProposalCodependentMood.stages.0.description>Achei que estávamos destinados a nos casar. Mas fui simplesmente rejeitado.</RejectedMyProposalCodependentMood.stages.0.description>
+  <RebuffedMyRomanceAttemptLecher.stages.0.label>me rejeitou</RebuffedMyRomanceAttemptLecher.stages.0.label>
+  <CapturedMe.stages.0.label>a facção dele me prendeu</CapturedMe.stages.0.label>
+  <WentOnDate.stages.0.label>teve um encontro</WentOnDate.stages.0.label>
+  <DateWentWell.stages.0.label>bom encontro</DateWentWell.stages.0.label>
+  <DateWentBadly.stages.0.label>encontro ruim</DateWentBadly.stages.0.label>
+  <HookupWentWell.stages.0.label>caso divertido</HookupWentWell.stages.0.label>
+  <HookupWentBadly.stages.0.label>caso horrível</HookupWentBadly.stages.0.label>
+  <SawSkillOnDate.stages.0.label>{OTHERPAWN_nameDef} é bom em {SKILL}</SawSkillOnDate.stages.0.label>
+  <SawSkillOnDate.stages.1.label>{OTHERPAWN_nameDef} é muito bom em {SKILL}</SawSkillOnDate.stages.1.label>
+  <SawSkillOnDate.stages.2.label>{OTHERPAWN_nameDef} é excelente em {SKILL}</SawSkillOnDate.stages.2.label>
+  <RebuffedMyDateRequest.stages.0.label>recusou meu encontro</RebuffedMyDateRequest.stages.0.label>
+  <HungOut.stages.0.label>passamos tempo juntos</HungOut.stages.0.label>
+  <MissedDate.stages.0.label>faltou ao nosso encontro</MissedDate.stages.0.label>
+  <Hug.stages.0.label>abraço com {0}</Hug.stages.0.label>
+  <Hug.stages.0.description>Um bom abraço de alguém de quem gosto.</Hug.stages.0.description>
+  <HugDeclined.stages.0.label>recusou meu abraço</HugDeclined.stages.0.label>
+  <HugDeclined.stages.0.description>Eu só queria um abraço.</HugDeclined.stages.0.description>
+</LanguageData>

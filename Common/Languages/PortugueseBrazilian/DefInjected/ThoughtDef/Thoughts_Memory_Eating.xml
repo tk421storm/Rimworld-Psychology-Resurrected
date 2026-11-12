@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>comeu uma refeição luxuosa</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>Aquela refeição luxuosa estava incrível. É exatamente o que quero comer todos os dias!</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>comeu uma refeição fina</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>Comi uma refeição fina deliciosa. Do jeito que eu gosto!</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>comeu uma refeição horrível</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>Tive que comer uma refeição nojenta e sem sabor. Inaceitável. Espero ser mais bem alimentado que isso.</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>comeu comida crua</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>Tive que comer comida crua. Não quero morar aqui se nem um cozinheiro podemos ter.</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>comeu uma refeição simples</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>Aquela refeição não estava à minha altura. Só comi porque não havia nada melhor.</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>comeu carne de inseto cozida</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>Comi uma refeição feita com carne de inseto cinzenta e gosmenta. Foi uma surpresa bem desagradável na mordida.</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>comeu carne de inseto</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>Comi carne de inseto cinzenta e gosmenta. Me mata logo, por favor.</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>comeu comida estragada</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>Comi comida nojenta e podre. Prefiro morrer a ser reduzido a isso.</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatPyromania.label>lecz piromanię</TreatPyromania.label>
+  <TreatPyromania.description>Pomaga piromanowi wyzdrowieć.</TreatPyromania.description>
+  <TreatPyromania.jobString>Leczy piromana.</TreatPyromania.jobString>
+  <TreatChemicalInterest.label>lecz zainteresowanie chemią</TreatChemicalInterest.label>
+  <TreatChemicalInterest.description>Pomaga osobie zainteresowanej chemią pozostać wolną od narkotyków.</TreatChemicalInterest.description>
+  <TreatChemicalInterest.jobString>Leczy zainteresowanie chemią.</TreatChemicalInterest.jobString>
+  <TreatChemicalFascination.label>lecz fascynację chemią</TreatChemicalFascination.label>
+  <TreatChemicalFascination.description>Pomaga osobie zafascynowanej chemią pozostać wolną od narkotyków.</TreatChemicalFascination.description>
+  <TreatChemicalFascination.jobString>Leczy fascynację chemią.</TreatChemicalFascination.jobString>
+  <TreatDepression.label>lecz depresję</TreatDepression.label>
+  <TreatDepression.description>Pomaga osobie z depresją panować nad nastrojem.</TreatDepression.description>
+  <TreatDepression.jobString>Leczy depresję.</TreatDepression.jobString>
+  <TreatInsomnia.label>lecz bezsenność</TreatInsomnia.label>
+  <TreatInsomnia.description>Pomaga osobie z bezsennością lepiej spać.</TreatInsomnia.description>
+  <TreatInsomnia.jobString>Leczy bezsenność.</TreatInsomnia.jobString>
+  <CureAnxiety.label>wylecz lęk</CureAnxiety.label>
+  <CureAnxiety.description>Trwale usuwa lęk dzięki terapii z błyszczących światów.</CureAnxiety.description>
+  <CureAnxiety.jobString>Leczy lęk.</CureAnxiety.jobString>
+</LanguageData>

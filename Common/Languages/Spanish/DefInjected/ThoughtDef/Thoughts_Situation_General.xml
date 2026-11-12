@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ApparelDamagedPrude.stages.0.label>lleva ropa desgastada</ApparelDamagedPrude.stages.0.label>
+  <ApparelDamagedPrude.stages.0.description>Mi ropa tiene bastante mal aspecto. Empieza a enseñar demasiado...</ApparelDamagedPrude.stages.0.description>
+  <ApparelDamagedPrude.stages.1.label>lleva ropa hecha jirones</ApparelDamagedPrude.stages.1.label>
+  <ApparelDamagedPrude.stages.1.description>Llevo un trapo hecho jirones. ¡Se ve todo a través!</ApparelDamagedPrude.stages.1.description>
+  <Individuality.stages.0.label>ropa idéntica</Individuality.stages.0.label>
+  <Individuality.stages.0.description>Alguien más en la colonia viste exactamente igual que yo, de pies a cabeza. Resulta un poco inquietante.</Individuality.stages.0.description>
+  <Individuality.stages.1.label>ropa idéntica</Individuality.stages.1.label>
+  <Individuality.stages.1.description>Otras personas de la colonia visten exactamente igual que yo, de pies a cabeza. Resulta desagradable.</Individuality.stages.1.description>
+  <Individuality.stages.2.label>individualidad reprimida</Individuality.stages.2.label>
+  <Individuality.stages.2.description>Casi toda la colonia viste exactamente igual, de pies a cabeza. Da grima, y quiero expresar mi individualidad.</Individuality.stages.2.description>
+  <Individuality.stages.3.label>individualidad reprimida</Individuality.stages.3.label>
+  <Individuality.stages.3.description>¡Aquí todos visten exactamente igual, de pies a cabeza! Es muy inquietante, y quiero expresar mi individualidad.</Individuality.stages.3.description>
+  <SurvivedTogether.stages.0.label>sobrevivimos juntos un año</SurvivedTogether.stages.0.label>
+  <SurvivedTogether.stages.1.label>sobrevivimos juntos dos años</SurvivedTogether.stages.1.label>
+  <SurvivedTogether.stages.2.label>sobrevivimos juntos tres años</SurvivedTogether.stages.2.label>
+  <SurvivedTogether.stages.3.label>sobrevivimos juntos cuatro años</SurvivedTogether.stages.3.label>
+  <SurvivedTogether.stages.4.label>sobrevivimos juntos cinco años</SurvivedTogether.stages.4.label>
+  <SurvivedTogether.stages.5.label>sobrevivimos juntos más de cinco años</SurvivedTogether.stages.5.label>
+  <LongDistance.stages.0.label>relación a distancia</LongDistance.stages.0.label>
+  <LongDistance.stages.1.label>relación a distancia</LongDistance.stages.1.label>
+  <LongDistance.stages.2.label>relación a distancia</LongDistance.stages.2.label>
+  <LongDistance.stages.3.label>relación a distancia</LongDistance.stages.3.label>
+  <LongDistance.stages.4.label>relación a distancia</LongDistance.stages.4.label>
+  <LongDistance.stages.5.label>relación a distancia</LongDistance.stages.5.label>
+  <LongDistance.stages.6.label>relación a distancia</LongDistance.stages.6.label>
+  <PrudeVsNudist.stages.0.label>mojigato contra nudista</PrudeVsNudist.stages.0.label>
+  <NudistVsPrude.stages.0.label>nudista contra mojigato</NudistVsPrude.stages.0.label>
+</LanguageData>

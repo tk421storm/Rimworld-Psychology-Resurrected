@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Random social interactions -->
-
   <PrudeSeen.label>nackt gesehen</PrudeSeen.label>
-  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] hat [RECIPIENT_nameDef] nackt gesehen.</PrudeSeen.logRulesInitiator.rulesStrings.0>
-
+  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] hat [RECIPIENT_nameDef] nackt gesehen.</PrudeSeen.logRulesInitiator.rulesStrings.0>
   <Conversation.label>Konversation</Conversation.label>
-  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)->[INITIATOR_nameDef] [conversed] mit [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.0>
-  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef] hat [RECIPIENT_nameDef] für ein Gespräch gerufen.</Conversation.logRulesInitiator.rulesStrings.1>
-  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef] hat ein Thema mit [RECIPIENT_nameDef] besprochen.</Conversation.logRulesInitiator.rulesStrings.2>
-  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)->Gespräch aufgenommen</Conversation.logRulesInitiator.rulesStrings.3>
-  <Conversation.logRulesInitiator.rulesStrings.4>conversed->fing an zu reden</Conversation.logRulesInitiator.rulesStrings.4>
-  <Conversation.logRulesInitiator.rulesStrings.5>conversed->kam in ein Gespräch</Conversation.logRulesInitiator.rulesStrings.5>
-  <Conversation.logRulesInitiator.rulesStrings.6>conversed->ein Thema angesprochen</Conversation.logRulesInitiator.rulesStrings.6>
-  <Conversation.logRulesInitiator.rulesStrings.7>conversed->fing an, etwas zu bereden</Conversation.logRulesInitiator.rulesStrings.7>
-
+  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)-&gt;[INITIATOR_nameDef] [conversed] mit [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.0>
+  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] hat [RECIPIENT_nameDef] für ein Gespräch gerufen.</Conversation.logRulesInitiator.rulesStrings.1>
+  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] hat ein Thema mit [RECIPIENT_nameDef] besprochen.</Conversation.logRulesInitiator.rulesStrings.2>
+  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)-&gt;Gespräch aufgenommen</Conversation.logRulesInitiator.rulesStrings.3>
+  <Conversation.logRulesInitiator.rulesStrings.4>conversed-&gt;fing an zu reden</Conversation.logRulesInitiator.rulesStrings.4>
+  <Conversation.logRulesInitiator.rulesStrings.5>conversed-&gt;kam in ein Gespräch</Conversation.logRulesInitiator.rulesStrings.5>
+  <Conversation.logRulesInitiator.rulesStrings.6>conversed-&gt;ein Thema angesprochen</Conversation.logRulesInitiator.rulesStrings.6>
+  <Conversation.logRulesInitiator.rulesStrings.7>conversed-&gt;fing an, etwas zu bereden</Conversation.logRulesInitiator.rulesStrings.7>
   <EndConversation.label>beendete Konversation</EndConversation.label>
-  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] beendete eine Konversation mit [RECIPIENT_nameDef].</EndConversation.logRulesInitiator.rulesStrings.0>
-
+  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] beendete eine Konversation mit [RECIPIENT_nameDef].</EndConversation.logRulesInitiator.rulesStrings.0>
   <HangOut.label>rumhängen</HangOut.label>
-  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] hat [RECIPIENT_nameDef] gefragt, mit [INITIATOR_objective] rumzuhängen.</HangOut.logRulesInitiator.rulesStrings.0>
-
-  <PlanDate.label>einen Pärchenabend planen</PlanDate.label>
-  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] plante einen Pärchenabend mit [RECIPIENT_nameDef].</PlanDate.logRulesInitiator.rulesStrings.0>
-
-  <AskOutOnDate.label>um ein Date bitten</AskOutOnDate.label>
-  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] bat [RECIPIENT_nameDef] um ein Date.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
-
+  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] hat [RECIPIENT_nameDef] gefragt, mit [INITIATOR_objective] rumzuhängen.</HangOut.logRulesInitiator.rulesStrings.0>
+  <PlanDate.label>plant einen Date-Abend</PlanDate.label>
+  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] plante einen Date-Abend mit [RECIPIENT_nameDef].</PlanDate.logRulesInitiator.rulesStrings.0>
+  <AskOutOnDate.label>bittet um ein Date</AskOutOnDate.label>
+  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] bat [RECIPIENT_nameDef] um ein Date.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
+  <Indoctrinate.label>Indoktrination</Indoctrinate.label>
+  <Indoctrinate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] indoktrinierte [RECIPIENT_nameDef].</Indoctrinate.logRulesInitiator.rulesStrings.0>
+  <Hug.label>Umarmung</Hug.label>
+  <Hug.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] ging zu [RECIPIENT_nameDef] für eine [hug].</Hug.logRulesInitiator.rulesStrings.0>
+  <Hug.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] öffnete [INITIATOR_possessive] Arme für [RECIPIENT_nameDef].</Hug.logRulesInitiator.rulesStrings.1>
+  <Hug.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] streckte die Arme nach [RECIPIENT_nameDef] aus für eine [hug].</Hug.logRulesInitiator.rulesStrings.2>
+  <Hug.logRulesInitiator.rulesStrings.3>hug(p=3)-&gt;Umarmung</Hug.logRulesInitiator.rulesStrings.3>
+  <Hug.logRulesInitiator.rulesStrings.4>hug-&gt;herzliche Umarmung</Hug.logRulesInitiator.rulesStrings.4>
+  <Hug.logRulesInitiator.rulesStrings.5>hug-&gt;große Umarmung</Hug.logRulesInitiator.rulesStrings.5>
+  <Hug.logRulesInitiator.rulesStrings.6>hug-&gt;kurze Umarmung</Hug.logRulesInitiator.rulesStrings.6>
 </LanguageData>

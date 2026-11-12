@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>Hat eine üppige Mahlzeit gegessen</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>Diese Mahlzeit war sehr üppig und so lecker. Sie nährt meinen Körper und meine Seele.</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>Hat eine leckere Mahlzeit gegessen</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>Ich habe eine leckere Mahlzeit gegessen. Mmm, Yummy!</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>Hat eklige Nahrung gegessen</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>Ich musste eine eklige, geschmacklose Mahlzeit essen. Ich weiß es hält mich am Leben, aber niemand will diese Pampe wirklich essen.</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>Hat rohe Nahrung gegessen</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>Ich musste rohe Nahrung essen. Wir sollten so etwas erst einmal kochen bevor wir es essen. Wir sind doch keine Tiere.</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>Hat eine Mahlzeit gegessen</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>Diese Mahlzeit entsprach nicht meinen Standards. Ich habe es nur gegessen, weil es nichts Besseres gab.</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>Insektenfleisch gegessen (gekocht)</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>Ich habe ein Gericht aus Insektenfleisch gegessen. Die Soße hat teilweise den Geschmack überdeckt, aber da waren Drüsen und Bläschen voller Flüssigkeiten, die ich nicht identifizieren konnte.</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>Insektenfleisch gegessen (roh)</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>Ich habe Insektenfleisch gegessen. Es war mit Abstand das Ekligste, das ich je gegessen habe.</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>Schimmliges Essen gegessen</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>Ich habe ekliges, schimmliges Essen gegessen. Es zerlief richtig in meinem Mund. Aber nicht auf einer angenehmen Art und Weise!</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

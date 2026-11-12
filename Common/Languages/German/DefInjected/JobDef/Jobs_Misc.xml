@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Abuse.reportString>beschimpft verbal TargetA.</Abuse.reportString>
   <MakeAdvance.reportString>flirtet mit TargetA.</MakeAdvance.reportString>
-
-
+  <BreakHunt.reportString>jagt TargetA.</BreakHunt.reportString>
+  <DoLovinCasual.reportString>Liebe.</DoLovinCasual.reportString>
+  <DateDance.reportString>tanzt mit TargetA.</DateDance.reportString>
+  <DateWorkwatch.reportString>schaut TargetA bei der Arbeit zu.</DateWorkwatch.reportString>
+  <Hug.reportString>umarmt TargetA.</Hug.reportString>
 </LanguageData>

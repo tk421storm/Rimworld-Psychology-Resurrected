@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterLabelPTSD>压力创伤</LetterLabelPTSD>
+  <LetterPTSD>{0_labelShort}因精神崩溃而患上了创伤后焦虑。焦虑是一种永久性疾病，但可以通过治疗逐渐将其严重程度降低到可控水平，使其能够正常生活。任何新的精神崩溃都会加重焦虑。\n\n据说闪耀世界的医生曾治愈过患者的焦虑等精神疾病。如果你能获得超凡科技药物，一位技艺极其高超的医生或许能用它治愈{0_labelShort}的焦虑。</LetterPTSD>
+  <LetterLabelDatePlanned>浪漫约会</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort}和{1_labelShort}约好在{2}{3}点约会。\n\n约会可能因多种原因被取消，尤其是其中一位殖民者有工作安排、被征召，或因受伤或殖民地紧急事务而无法行动。\n\n如果约会被取消，两位殖民者都会不开心。殖民者也可能因睡过头而错过约会。这会让对方恼火，但不会产生负面想法。</LetterDatePlanned>
+  <LetterRejectedProposalPsychology>根据他们的性格，他们的心情和关系会受到影响。</LetterRejectedProposalPsychology>
+  <LetterLabelCourtshipDatePlanned>约会</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort}邀请{1_labelShort}在{2}{3}点约会。\n\n如果顺利，他们会更喜欢对方，甚至可能决定成为恋人。糟糕的约会可能让他们不那么喜欢对方。如果其中一人有工作安排、被征召或因其他原因无法行动，约会可能会被取消。</LetterCourtshipDatePlanned>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KinseyDisable>Wyłączam skalę Kinseya, ponieważ wykryto mod romansu/seksualności.</KinseyDisable>
+  <KinseyDetourDisable>Wyłączono przekierowanie kluczowych metod dla niektórych cech, by chronić kompatybilność. Częstotliwość tych cech ustawiono na zero.</KinseyDetourDisable>
+  <MedicalDetourDisable>Wyłączam przekierowanie metod medycznych, ponieważ wykryto mod medyczny/chirurgiczny. Usunie to część funkcji postaci o miękkim sercu, chyba że chodzi o mod Less Arbitrary Surgery.</MedicalDetourDisable>
+  <DuplicateDefLabel>Zduplikowana etykieta PersonalityNodeDef w {0}. Zgłoś to, aby można było poprawić tłumaczenie.</DuplicateDefLabel>
+</LanguageData>

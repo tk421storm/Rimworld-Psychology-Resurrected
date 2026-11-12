@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FellPlotting.label>tramando loucamente</FellPlotting.label>
+  <FellPlotting.beginLetterLabel>trama sinistra</FellPlotting.beginLetterLabel>
+  <FellPlotting.beginLetter>{0} se recolheu ao quarto para tramar!</FellPlotting.beginLetter>
+  <FellPlotting.recoveryMessage>A trama sinistra de {0} terminou.</FellPlotting.recoveryMessage>
+  <FellPlotting.baseInspectLine>Estado mental: trama sinistra</FellPlotting.baseInspectLine>
+  <SelfHarm.label>se automutilando</SelfHarm.label>
+  <SelfHarm.beginLetterLabel>automutilação</SelfHarm.beginLetterLabel>
+  <SelfHarm.beginLetter>{0} cortou os pulsos e está se escondendo no quarto.</SelfHarm.beginLetter>
+  <SelfHarm.recoveryMessage>{0} parou de se automutilar.</SelfHarm.recoveryMessage>
+  <SelfHarm.baseInspectLine>Estado mental: automutilação</SelfHarm.baseInspectLine>
+  <Paranoia.label>balbuciando</Paranoia.label>
+  <Paranoia.beginLetterLabel>paranoia</Paranoia.beginLetterLabel>
+  <Paranoia.beginLetter>{0} está absorto em balbucios paranoicos.</Paranoia.beginLetter>
+  <Paranoia.recoveryMessage>{0} superou a paranoia.</Paranoia.recoveryMessage>
+  <Paranoia.baseInspectLine>Estado mental: paranoia</Paranoia.baseInspectLine>
+  <Abuse.label>gritando</Abuse.label>
+  <Abuse.beginLetterLabel>abuso verbal</Abuse.beginLetterLabel>
+  <Abuse.beginLetter>{0} ficou furioso e está insultando todo mundo que vê.</Abuse.beginLetter>
+  <Abuse.recoveryMessage>{0} parou de insultar as pessoas.</Abuse.recoveryMessage>
+  <Abuse.baseInspectLine>Estado mental: abusivo</Abuse.baseInspectLine>
+  <Compulsion.label>limpando compulsivamente</Compulsion.label>
+  <Compulsion.beginLetterLabel>compulsão</Compulsion.beginLetterLabel>
+  <Compulsion.beginLetter>{0} está limpando obsessivamente os arredores sem se preocupar com o próprio bem-estar.</Compulsion.beginLetter>
+  <Compulsion.recoveryMessage>{0} parou de arrumar compulsivamente os arredores.</Compulsion.recoveryMessage>
+  <Compulsion.baseInspectLine>Estado mental: limpeza compulsiva</Compulsion.baseInspectLine>
+  <Antisocial.label>evitando as pessoas</Antisocial.label>
+  <Antisocial.beginLetterLabel>antissocial</Antisocial.beginLetterLabel>
+  <Antisocial.beginLetter>{0} está evitando os outros colonos.</Antisocial.beginLetter>
+  <Antisocial.recoveryMessage>{0} deixou de ser antissocial.</Antisocial.recoveryMessage>
+  <Antisocial.baseInspectLine>Estado mental: antissocial</Antisocial.baseInspectLine>
+  <Apathy.label>enrolando</Apathy.label>
+  <Apathy.beginLetterLabel>apatia</Apathy.beginLetterLabel>
+  <Apathy.beginLetter>{0} ficou apático e tem menos chance de fazer o trabalho designado.</Apathy.beginLetter>
+  <Apathy.recoveryMessage>{0} deixou de estar apático.</Apathy.recoveryMessage>
+  <Apathy.baseInspectLine>Estado mental: apatia</Apathy.baseInspectLine>
+  <Histrionic.label>agindo de forma histriônica</Histrionic.label>
+  <Histrionic.beginLetterLabel>histrionismo</Histrionic.beginLetterLabel>
+  <Histrionic.beginLetter>{0} ficou histriônico e busca atenção desesperadamente.</Histrionic.beginLetter>
+  <Histrionic.recoveryMessage>{0} deixou de ser histriônico.</Histrionic.recoveryMessage>
+  <Histrionic.baseInspectLine>Estado mental: histrionismo</Histrionic.baseInspectLine>
+  <HuntingTrip.label>retiro na natureza</HuntingTrip.label>
+  <HuntingTrip.beginLetterLabel>retiro na natureza</HuntingTrip.beginLetterLabel>
+  <HuntingTrip.beginLetter>{0} fugiu para a natureza e encontra alívio caçando.</HuntingTrip.beginLetter>
+  <HuntingTrip.recoveryMessage>{0} decidiu voltar da viagem de caça.</HuntingTrip.recoveryMessage>
+  <HuntingTrip.baseInspectLine>Estado mental: retiro na natureza</HuntingTrip.baseInspectLine>
+  <PanicAttack.label>em pânico</PanicAttack.label>
+  <PanicAttack.beginLetterLabel>ataque de pânico</PanicAttack.beginLetterLabel>
+  <PanicAttack.beginLetter>{0} está tendo um ataque de pânico.</PanicAttack.beginLetter>
+  <PanicAttack.recoveryMessage>O ataque de pânico de {0} terminou.</PanicAttack.recoveryMessage>
+  <PanicAttack.baseInspectLine>Estado mental: ataque de pânico</PanicAttack.baseInspectLine>
+</LanguageData>

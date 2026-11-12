@@ -1,89 +1,88 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<EnableEmpathyTitle>Включить изменения эмпатии</EnableEmpathyTitle>
-	<EnableEmpathyTooltip>Отключите это, чтобы установить по-умолчанию реакцию поселенцев на плохие вещи, происходящие с другими. Это увеличит сложность игры, но на персонажей с чертой «чуткое сердце» не повлияет. Перезапустите игру после изменений параметра.</EnableEmpathyTooltip>
-	
-	<EnableKinseyTitle>Включить изменения сексуальных предпочтений</EnableKinseyTitle>
-	<EnableKinseyTooltip>Отключите это, чтобы убрать шкалу Кинси, влияющую на сексуальные предпочтения ваших поселенцев и вернуть механику через черту «гомосексуальность». НЕ ИЗМЕНЯЙТЕ параметр во время игры, перезапустите игру после изменений параметра.</EnableKinseyTooltip>
-	
-	<KinseyFormulaTitle>Формула шкалы Кинси</KinseyFormulaTitle>
-	<KinseyFormulaTooltip>Этот параметр влияет на то, какая формула используется при создании персонажей, и какое будет их распределение по шкале Кинси.</KinseyFormulaTooltip>
-	<KinseyMode_Realistic>По-умолчанию</KinseyMode_Realistic>
-	<KinseyMode_Invisible>Центрирование</KinseyMode_Invisible>
-	<KinseyMode_Gaypocalypse>Инверсия</KinseyMode_Gaypocalypse>
-	<KinseyMode_Uniform>Равное распределение</KinseyMode_Uniform>
-	<KinseyMode_Custom>Custom</KinseyMode_Custom>
-
-	<KWTitle>Kinsey {0}</KWTitle>
-	<KWTooltip>When custom mode is enabled, this sets the relative weight for {0} on the Kinsey scale for generated pawns.</KWTooltip>
-
-	<EnableIndividualityTitle>Включить индивидуальность в одежде</EnableIndividualityTitle>
-	<EnableIndividualityTooltip>Отключите это, чтобы ваши поселенцы не получали негативных мыслей от полностью совпадающей одежды. Этот параметр добавляет дополнительную сложность, поэтому необязателен, хоть и рекомендован.</EnableIndividualityTooltip>
-	
-	
-	<ConversationDurationTitle>Память о разговорах</ConversationDurationTitle>
-	<ConversationDurationTooltip>Устанавливает период, в течение которого поселенцы будут помнить о разговорах с другими поселенцами. По-умолчанию период равняется 60 дням или одному году. Минимум — 15 дней или сезон, максимум — 180 дней или 3 года. Более низкие параметры делают память о разговорах короче, более высокие — длиннее.</ConversationDurationTooltip>
-	
-	<EnableDateLettersTitle>Отправлять сообщения о свиданиях</EnableDateLettersTitle>
-	<EnableDateLettersTooltip>Отключите это, чтобы не получать уведомления о том, что кто-то из ваших поселенцев планирует свидание.</EnableDateLettersTooltip>
-	
-	<BenchmarkingTitle>Включить тест производительности</BenchmarkingTitle>
-	<BenchmarkingTooltip>Включите это, чтобы получать периодические отчёты о производительности мода в консоли. Вы можете копировать эти отчёты и отправлять их разработчикам для улучшения оптимизации мода. ВНИМАНИЕ: тест производительности сам по себе может негативно повлиять на производительность.\n\nИзменение данного параметра перезапустит игру.</BenchmarkingTooltip>
-
-	<ImprisonedDebuffTitle>Штраф за вербовку пленников</ImprisonedDebuffTitle>
-	<ImprisonedDebuffTooltip>Штраф к мнению, который завербованный пленник получает о каждом колонисте («фракция взяла меня в плен», 45 дней). Установите 0, чтобы отключить. Требуется перезапуск.</ImprisonedDebuffTooltip>
-
-	<RomanceChanceMultiplierTitle>Romance chance multiplier</RomanceChanceMultiplierTitle>
-	<RomanceChanceMultiplierTooltip>Romance chance will be multiplied by this value. Setting to 0 should eliminate romance entirely.</RomanceChanceMultiplierTooltip>
-
-	<RomanceOpinionThresholdTitle>Minimum romance opinion</RomanceOpinionThresholdTitle>
-	<RomanceOpinionThresholdTooltip>Minimum opinion one colonist must have of another in order to be romanced.</RomanceOpinionThresholdTooltip>
-
-
-	<AllowAnxietyTitle>Allow post mental break anxiety</AllowAnxietyTitle>
-	<AllowAnxietyTooltip>Allow colonists to get anxiety after mental breaks (chance depends on colonist's psyche and mental breaks severity). Note that you might still see it as random disease.</AllowAnxietyTooltip>
-
-	<BeatyOverrideEnabledTitle>Disable opinion changes from beauty traits</BeatyOverrideEnabledTitle>
-	<BeatyOverrideEnabledToolip>Disables opinion changes from traits such as: Pretty, Beautiful, Ugly, etc. Note that Psychology's changes to those traits would still work even if you disable this option. Its recommended to keep this option enabled.</BeatyOverrideEnabledToolip>
-	<LovinFrequencyTitle>Частота близости</LovinFrequencyTitle>
-	<LovinFrequencyTooltip>Как часто пары занимаются любовью: 2 — вдвое чаще, 0,5 — вдвое реже.</LovinFrequencyTooltip>
-
-	<MentalBreakAnxietyChanceTitle>Шанс тревожности после срыва</MentalBreakAnxietyChanceTitle>
-	<MentalBreakAnxietyChanceTooltip>Задаёт средний шанс того, что после серьёзного нервного срыва у поселенца разовьётся тревожность. При лёгких срывах шанс уменьшается вдвое, при экстремальных — удваивается. Шанс также зависит от психики поселенца. Тревожность может появиться и как случайная возрастная болезнь. Для полного эффекта требуется перезапуск.</MentalBreakAnxietyChanceTooltip>
-	<ConvoMaxOpinionChangeTitle>Макс. изменение мнения от бесед</ConvoMaxOpinionChangeTitle>
-	<ConvoMaxOpinionChangeTooltip>Наибольшее изменение мнения, которое может вызвать одна беседа (по умолчанию 40). Чем выше значение, тем важнее беседы.</ConvoMaxOpinionChangeTooltip>
-	<ConvoMeanHoursTitle>Ожидаемая длительность беседы</ConvoMeanHoursTitle>
-	<ConvoMeanHoursTooltip>Средняя длительность беседы в часах (по умолчанию 1,3).</ConvoMeanHoursTooltip>
-	<ConvoTimeScaleHoursTitle>Временной масштаб бесед</ConvoTimeScaleHoursTitle>
-	<ConvoTimeScaleHoursTooltip>Задаёт временной масштаб в часах, по которому мнения от бесед меняются в зависимости от их длительности.</ConvoTimeScaleHoursTooltip>
-	<ConvoPersonalityEffectMultiplierTitle>Влияние личности на беседы</ConvoPersonalityEffectMultiplierTitle>
-	<ConvoPersonalityEffectMultiplierTooltip>Этот множитель определяет, насколько черты личности, например дружелюбие, вежливость или невозмутимость, влияют на изменение мнения.</ConvoPersonalityEffectMultiplierTooltip>
-	<TraitOpinionMultiplierTitle>Множитель мнения от черт</TraitOpinionMultiplierTitle>
-	<TraitOpinionMultiplierTooltip>Масштабирует изменения мнения от следующих черт: красивый, уродливый, обезображенный, раздражающий голос, жуткое дыхание, одобрение модификаций тела и отвращение пуриста тела. Установите 0, чтобы полностью отключить. Требуется перезапуск.</TraitOpinionMultiplierTooltip>
-	<PersonalityExtremenessTitle>Выраженность личности</PersonalityExtremenessTitle>
-	<PersonalityExtremenessTooltip>Задаёт, насколько сильно личности усиливаются, чтобы соответствовать архетипам «Большой пятёрки».</PersonalityExtremenessTooltip>
-	<IdeoPsycheMultiplierTitle>Множитель взаимодействия с идеологией</IdeoPsycheMultiplierTitle>
-	<IdeoPsycheMultiplierTooltip>Определяет, насколько сильно личность и идеология влияют друг на друга. Установите 0, чтобы полностью отключить.</IdeoPsycheMultiplierTooltip>
-	<AdjustRapportByCompatibilityTitle>Расположение зависит от совместимости</AdjustRapportByCompatibilityTitle>
-	<AdjustRapportByCompatibilityTooltip>В базовой игре каждая беседа надзирателя даёт пленнику +2 к мнению об этом надзирателе (до +100), что также снижает сопротивление до 1,5 раза быстрее. Если включено, эти +2 зависят от совместимости их личностей: около +2 для обычной пары, до примерно +6 при отличной совместимости и отрицательное значение («натянутые отношения»), когда личности конфликтуют. Это относится и к беседам перед попыткой обращения в веру, которые в базовой игре — просто болтовня. Если выключено: каждый раз +2, как в базовой игре.</AdjustRapportByCompatibilityTooltip>
-	<ArrestBaseChanceTitle>Базовый шанс мирного ареста (%)</ArrestBaseChanceTitle>
-	<ArrestBaseChanceTooltip>Psychology заменяет шанс ареста из базовой игры. Персонаж сдаётся без сопротивления с шансом: шанс мирного ареста арестующего (эта база плюс 5% за уровень общения, меньше, если он плохо говорит) x мнение арестуемого об арестующем (0 при -100, 0,5 при 0, 1 при +100) x 1,5, если они из одной фракции x 0,2, если арестуемый в особом состоянии психики. Лежащие, неспособные к насилию и виновные персонажи по-прежнему всегда сдаются. По умолчанию 2%: при нейтральном мнении арестующий с общением 10 добивается успеха примерно в 26% случаев, с общением 20 — примерно в 51%.</ArrestBaseChanceTooltip>
-	<CheatChanceTitle>Шанс измены (%)</CheatChanceTitle>
-	<CheatChanceTooltip>Насколько вероятно, что персонаж изменит партнёру — ухаживая за кем-то другим (при успехе оба бросают своих партнёров) или во время случайной связи. Шанс персонажа равен этому значению x его недовольство партнёром x его личность. Те, кому нравится партнёр, не изменяют; романтичные дольше хранят верность, но быстрее охладевают к неприятному партнёру; развратники изменяют гораздо легче, особенно когда партнёр далеко. Нравственные и целомудренные изменяют реже, любители экспериментов — чаще. Созависимые никогда не изменяют, а для полигамных это вовсе не измена. Пример при значении по умолчанию 50%: обычный персонаж изменяет с шансом 0% при мнении о партнёре +50, 25% при 0 и 50% при -50. Установите 0, чтобы отключить измены.</CheatChanceTooltip>
-
-	<CourtshipChanceTitle>Шанс ухаживания (x)</CourtshipChanceTitle>
-	<CourtshipChanceTooltip>Как часто одинокие персонажи (и те, кто готов изменить) приглашают на свидание тех, кто им нравится. Шанс также растёт с привлекательностью, мнением, романтическим влечением, уверенностью и прошлыми удачными свиданиями. Каждое свидание оставляет воспоминание об удачном или неудачном свидании; удачные повышают вероятность романтической попытки. Установите 0, чтобы отключить ухаживания. Романтические вечера пар не затрагиваются.</CourtshipChanceTooltip>
-	<DateOpinionGoodTitle>Мнение после удачного свидания</DateOpinionGoodTitle>
-	<DateOpinionGoodTooltip>Бонус к мнению от идеального свидания. Итог каждого свидания находится между этим значением и мнением после неудачного свидания и зависит от совместимости характеров, настроения, мнения друг о друге и удачи. До 5 воспоминаний об удачных свиданиях складываются (после первого — по 75%) и длятся 20 дней.</DateOpinionGoodTooltip>
-	<DateOpinionBadTitle>Мнение после неудачного свидания</DateOpinionBadTitle>
-	<DateOpinionBadTooltip>Штраф к мнению от самого неудачного свидания. См. «Мнение после удачного свидания».</DateOpinionBadTooltip>
-	<DateRomanceChanceTitle>Шанс романа после свидания (%)</DateRomanceChanceTitle>
-	<DateRomanceChanceTooltip>Шанс, что удачное для обоих свидание закончится тем, что один предложит другому стать парой (обычная романтическая попытка, которая может провалиться). Он умножается на 0,5–1,5 в зависимости от настроения и на 0,5–2 в зависимости от мнения друг о друге и равен нулю, если чьё-то мнение ниже минимального для романа.</DateRomanceChanceTooltip>
-	<DateRomanceBonusTitle>Бонус к роману за удачное свидание (%)</DateRomanceBonusTitle>
-	<DateRomanceBonusTooltip>Сколько каждое прошлое удачное свидание пары добавляет к шансу романа после свидания, в процентах от него. Пример при значениях по умолчанию: после 2 удачных свиданий, при хорошем настроении и мнении, шанс около 15% x 2 = 30%.</DateRomanceBonusTooltip>
-
-	<PrintDebugInfoTitle>Выводить отладочную информацию</PrintDebugInfoTitle>
-	<PrintDebugInfoTooltip>Записывает в журнал решения и шансы Psychology (свидания, ухаживания, роман после свидания, измены при случайных связях) с префиксом [Psychology]. Полезно для тестирования и отчётов об ошибках; в обычной игре лучше выключить. В режиме разработчика у колонистов также появляется кнопка «DEV: Romance» для принудительных свиданий и связей.</PrintDebugInfoTooltip>
-
+  <EnableKinseyTitle>Включить изменения сексуальных предпочтений</EnableKinseyTitle>
+  <EnableKinseyTooltip>Отключите это, чтобы убрать шкалу Кинси, влияющую на сексуальные предпочтения ваших поселенцев и вернуть механику через черту «гомосексуальность». НЕ ИЗМЕНЯЙТЕ параметр во время игры, перезапустите игру после изменений параметра.</EnableKinseyTooltip>
+  <EnableEmpathyTitle>Включить изменения эмпатии</EnableEmpathyTitle>
+  <EnableEmpathyTooltip>Отключите это, чтобы установить по-умолчанию реакцию поселенцев на плохие вещи, происходящие с другими. Это увеличит сложность игры, но на персонажей с чертой «чуткое сердце» не повлияет. Перезапустите игру после изменений параметра.</EnableEmpathyTooltip>
+  <KinseyFormulaTitle>Формула шкалы Кинси</KinseyFormulaTitle>
+  <KinseyFormulaTooltip>Этот параметр влияет на то, какая формула используется при создании персонажей, и какое будет их распределение по шкале Кинси.</KinseyFormulaTooltip>
+  <KinseyMode_Realistic>По-умолчанию</KinseyMode_Realistic>
+  <KinseyMode_Invisible>Центрирование</KinseyMode_Invisible>
+  <KinseyMode_Gaypocalypse>Инверсия</KinseyMode_Gaypocalypse>
+  <KinseyMode_Uniform>Равное распределение</KinseyMode_Uniform>
+  <KinseyMode_Custom>Custom</KinseyMode_Custom>
+  <KWTitle>Kinsey {0}</KWTitle>
+  <KWTooltip>When custom mode is enabled, this sets the relative weight for {0} on the Kinsey scale for generated pawns.</KWTooltip>
+  <EnableIndividualityTitle>Включить индивидуальность в одежде</EnableIndividualityTitle>
+  <EnableIndividualityTooltip>Отключите это, чтобы ваши поселенцы не получали негативных мыслей от полностью совпадающей одежды. Этот параметр добавляет дополнительную сложность, поэтому необязателен, хоть и рекомендован.</EnableIndividualityTooltip>
+  <ConversationDurationTitle>Память о разговорах</ConversationDurationTitle>
+  <ConversationDurationTooltip>Устанавливает период, в течение которого поселенцы будут помнить о разговорах с другими поселенцами. По-умолчанию период равняется 60 дням или одному году. Минимум — 15 дней или сезон, максимум — 180 дней или 3 года. Более низкие параметры делают память о разговорах короче, более высокие — длиннее.</ConversationDurationTooltip>
+  <ConvoMaxOpinionChangeTitle>Макс. изменение мнения от бесед</ConvoMaxOpinionChangeTitle>
+  <ConvoMaxOpinionChangeTooltip>Наибольшее изменение мнения, которое может вызвать одна беседа (по умолчанию 40). Чем выше значение, тем важнее беседы.</ConvoMaxOpinionChangeTooltip>
+  <ConvoMeanHoursTitle>Ожидаемая длительность беседы</ConvoMeanHoursTitle>
+  <ConvoMeanHoursTooltip>Средняя длительность беседы в часах (по умолчанию 1,3).</ConvoMeanHoursTooltip>
+  <ConvoTimeScaleHoursTitle>Временной масштаб бесед</ConvoTimeScaleHoursTitle>
+  <ConvoTimeScaleHoursTooltip>Задаёт временной масштаб в часах, по которому мнения от бесед меняются в зависимости от их длительности.</ConvoTimeScaleHoursTooltip>
+  <ConvoPersonalityEffectMultiplierTitle>Влияние личности на беседы</ConvoPersonalityEffectMultiplierTitle>
+  <ConvoPersonalityEffectMultiplierTooltip>Этот множитель определяет, насколько черты личности, например дружелюбие, вежливость или невозмутимость, влияют на изменение мнения.</ConvoPersonalityEffectMultiplierTooltip>
+  <EnableDateLettersTitle>Отправлять сообщения о свиданиях</EnableDateLettersTitle>
+  <EnableDateLettersTooltip>Отключите это, чтобы не получать уведомления о том, что кто-то из ваших поселенцев планирует свидание.</EnableDateLettersTooltip>
+  <PawnsChoosePregnancyApproachTitle>Пешки сами выбирают подход к беременности</PawnsChoosePregnancyApproachTitle>
+  <PawnsChoosePregnancyApproachTooltip>С Biotech у каждой пешки свой подход к беременности, одинаковый с любым партнёром, в зависимости от того, насколько она хочет детей (её семейное стремление, снижается за каждого ребёнка, которого она ещё растит, вдвое меньше для матриарха или патриарха): избегать беременности, положиться на случай или стараться завести ребёнка. Пара берёт более осторожный из двух подходов, так что пешка, избегающая беременности, избегает её с любым партнёром, а пара старается завести ребёнка, только если оба этого хотят. Это касается возлюбленных, интрижек и пар из других модов. Если вы измените подход пары во вкладке «Отношения», она сохранит ваш выбор. Чайлдфри-пешки всегда избегают беременности, даже если эта опция выключена.</PawnsChoosePregnancyApproachTooltip>
+  <ImprisonedDebuffTitle>Штраф за вербовку пленников</ImprisonedDebuffTitle>
+  <ImprisonedDebuffTooltip>Штраф к мнению, который завербованный пленник получает ко всем колонистам («фракция взяла меня в плен», длится 45 дней). 0 — отключить. Требуется перезапуск.</ImprisonedDebuffTooltip>
+  <RomanceChanceMultiplierTitle>Romance chance multiplier</RomanceChanceMultiplierTitle>
+  <RomanceChanceMultiplierTooltip>Romance chance will be multiplied by this value. Setting to 0 should eliminate romance entirely.</RomanceChanceMultiplierTooltip>
+  <RomanceOpinionThresholdTitle>Minimum romance opinion</RomanceOpinionThresholdTitle>
+  <RomanceOpinionThresholdTooltip>Минимальное мнение, которое колонист должен иметь о том, кто его привлекает, прежде чем пригласить на свидание или попытаться завести роман. По умолчанию низкое, чтобы даже малознакомые пешки могли пригласить; влечение значит гораздо больше, чем мнение.</RomanceOpinionThresholdTooltip>
+  <MentalBreakAnxietyChanceTitle>Шанс тревожности после срыва</MentalBreakAnxietyChanceTitle>
+  <MentalBreakAnxietyChanceTooltip>Задаёт средний шанс того, что после серьёзного нервного срыва у поселенца разовьётся тревожность. При лёгких срывах шанс уменьшается вдвое, при экстремальных — удваивается. Шанс также зависит от психики поселенца. Тревожность может появиться и как случайная возрастная болезнь. Для полного эффекта требуется перезапуск.</MentalBreakAnxietyChanceTooltip>
+  <TraitOpinionMultiplierTitle>Множитель мнения от черт</TraitOpinionMultiplierTitle>
+  <TraitOpinionMultiplierTooltip>Масштабирует изменения мнения от следующих черт: красивый, уродливый, обезображенный, раздражающий голос, жуткое дыхание, одобрение модификаций тела и отвращение пуриста тела. Установите 0, чтобы полностью отключить. Требуется перезапуск.</TraitOpinionMultiplierTooltip>
+  <PersonalityExtremenessTitle>Выраженность личности</PersonalityExtremenessTitle>
+  <PersonalityExtremenessTooltip>Задаёт, насколько сильно личности усиливаются, чтобы соответствовать архетипам «Большой пятёрки».</PersonalityExtremenessTooltip>
+  <IdeoPsycheMultiplierTitle>Множитель взаимодействия с идеологией</IdeoPsycheMultiplierTitle>
+  <IdeoPsycheMultiplierTooltip>Определяет, насколько сильно личность и идеология влияют друг на друга. Установите 0, чтобы полностью отключить.</IdeoPsycheMultiplierTooltip>
+  <DisplayOptionsTitle>Параметры отображения вкладки «Психика»</DisplayOptionsTitle>
+  <DisplayOptionsTooltip>Изменить вариант отображения вкладки «Психика» по умолчанию.</DisplayOptionsTooltip>
+  <UseColorsTooltip>Раскрашивать черты во вкладке «Психика».</UseColorsTooltip>
+  <ListAlphabeticalTooltip>Сортировать черты во вкладке «Психика» по алфавиту.</ListAlphabeticalTooltip>
+  <UseAntonymsTooltip>Показывать антонимы черт во вкладке «Психика».</UseAntonymsTooltip>
+  <SpeciesSettingsTitle>Вид</SpeciesSettingsTitle>
+  <SpeciesSettingsTooltip>Настройки для каждого вида.</SpeciesSettingsTooltip>
+  <EnablePsycheTitle>Психика</EnablePsycheTitle>
+  <EnablePsycheTooltip>Выключите, чтобы отключить личность. Рекомендуется для видов, не способных иметь человекоподобную личность, например зомби или простых роботов. Глубокие беседы и романтика для этого вида будут отключены.</EnablePsycheTooltip>
+  <EnableAgeGapTitle>Разница в возрасте</EnableAgeGapTitle>
+  <EnableAgeGapTooltip>Выключите, чтобы отключить предпочтение по разнице в возрасте у всех пешек, рассматривающих роман с представителями этого вида. Рекомендуется для андроидоподобных и эльфоподобных видов, которые не стареют после взросления.</EnableAgeGapTooltip>
+  <MinDatingAgeTitle>Свидания</MinDatingAgeTitle>
+  <MinLovinAgeTitle>Любовь</MinLovinAgeTitle>
+  <dating>свиданий</dating>
+  <lovin>любви</lovin>
+  <MinRomanceAgeTooltip>Минимальный возраст {0} для этого вида. Если значение положительное, эффективный возраст в формулах {0} масштабируется этим числом относительно {1}. 0 разрешает {0} в любом возрасте и фактически отключает разницу в возрасте. Рекомендуется для видов без детства, например разумных андроидов. Любое отрицательное число отключает {0} для этого вида.</MinRomanceAgeTooltip>
+  <LovinFrequencyTitle>Частота любви</LovinFrequencyTitle>
+  <LovinFrequencyTooltip>Как часто пары занимаются любовью: 2 = вдвое чаще, 0,5 = вдвое реже.</LovinFrequencyTooltip>
+  <AdjustRapportByCompatibilityTitle>Учитывать совместимость при сближении</AdjustRapportByCompatibilityTitle>
+  <AdjustRapportByCompatibilityTooltip>В ванильной игре каждый раз, когда надзиратель беседует с пленником, тот получает +2 к мнению о надзирателе (до +100), что также ослабляет его сопротивление до 1,5 раза быстрее. С этой опцией эти +2 масштабируются по совместимости их личностей: около +2 для обычной пары, до примерно +6 при отличной совместимости и отрицательное значение («натянутые отношения»), если их личности конфликтуют. Это касается и бесед перед попыткой обращения, которые в ванильной игре — простая болтовня. Выкл.: каждый раз +2, как в ванильной игре.</AdjustRapportByCompatibilityTooltip>
+  <ArrestBaseChanceTitle>Базовый шанс мирного ареста (%)</ArrestBaseChanceTitle>
+  <ArrestBaseChanceTooltip>Psychology заменяет ванильный шанс ареста. Пешка сдаётся без боя с шансом: шанс мирного ареста у арестующего (эта база плюс 5% за уровень общения, меньше, если он плохо говорит) x мнение арестуемого об арестующем (0 при -100, 0,5 при 0, 1 при +100) x 1,5, если они из одной фракции, x 0,2, если арестуемый в ментальном состоянии. Недееспособные, мирные и виновные пешки по-прежнему всегда сдаются без боя. По умолчанию 2%: при нейтральном мнении арестующий с общением 10 добивается успеха примерно в 26% случаев, с общением 20 — примерно в 51%.</ArrestBaseChanceTooltip>
+  <CheatChanceTitle>Шанс измены (%)</CheatChanceTitle>
+  <CheatChanceTooltip>Насколько вероятно, что пешки изменят партнёру — либо ухаживая за кем-то другим (при успехе оба бросают своих партнёров), либо через интрижку. Шанс пешки равен этому значению x насколько она недовольна партнёром x её личность. Пешки, которым нравится партнёр, не изменяют; романтичные дольше хранят верность, но быстрее отворачиваются от неприятного им партнёра; распутники изменяют гораздо легче, особенно когда партнёр далеко. Моралисты и целомудренные изменяют реже, любители экспериментов — чаще. Созависимые пешки никогда не изменяют, а для полиаморных это не измена. Пример при стандартных 50%: обычная пешка изменяет с шансом 0% при мнении о партнёре +50, 25% при 0 и 50% при -50. 0 — отключить измены.</CheatChanceTooltip>
+  <CourtshipChanceTitle>Шанс ухаживания (x)</CourtshipChanceTitle>
+  <CourtshipChanceTooltip>Как часто одинокие пешки (и пешки, готовые изменить) приглашают на свидание того, кто их привлекает. Шанс также растёт с влечением, мнением, романтическим стремлением и уверенностью, а также с прошлыми удачными свиданиями. Каждое свидание оставляет хорошее или плохое воспоминание; удачные свидания повышают шанс попытки завести роман. 0 — отключить ухаживания. Романтические вечера пар не затрагиваются.</CourtshipChanceTooltip>
+  <SecondDateChanceTitle>Шанс второго свидания (%)</SecondDateChanceTitle>
+  <SecondDateChanceTooltip>Раз в день пешки, чьё последнее свидание понравилось обоим, могут снова пригласить друг друга, где бы они ни находились на карте. Это ежедневный шанс для пары, чьё свидание прошло как нельзя лучше; после просто хорошего свидания он ниже, а после нескольких удачных — выше. Ответ определяется как для любого приглашения. В дополнение к приглашению лично; 0 — отключить.</SecondDateChanceTooltip>
+  <SocialRomanceChanceTitle>Романтика при общении (%)</SocialRomanceChanceTitle>
+  <SocialRomanceChanceTooltip>Отдыхая в компании (за столом или у костра), на вечеринке или посиделках, танцуя или играя в бильярд, пешки болтают гораздо чаще обычного. Это шанс, что такой разговор превратится в поиск романтики. Осматриваются только одинокие пешки, те, кому можно иметь ещё одного партнёра, или те, кто на этот раз готов изменить (см. шанс измены). Они выбирают кого-то рядом, кто их привлекает и достаточно нравится, предпочитая самых привлекательных, и пытаются завести роман: романтический вечер для партнёров, приглашение на свидание, интрижка или измена. Не во время свиданий. 0 — отключить.</SocialRomanceChanceTooltip>
+  <HugChanceTitle>Шанс объятий (x)</HugChanceTitle>
+  <HugChanceTooltip>Как часто обнимаются пешки с крепкой связью: возлюбленные и супруги, близкие родственники и очень хорошие друзья, если оба хорошо друг о друге думают. Объятия немного поднимают настроение обоих и их мнение друг о друге. Тёплые личности обнимаются чаще. 0 — отключить объятия.</HugChanceTooltip>
+  <DateOpinionGoodTitle>Мнение после хорошего свидания</DateOpinionGoodTitle>
+  <DateOpinionGoodTooltip>Бонус к мнению от идеально прошедшего свидания. Результат каждого свидания лежит между этим значением и мнением после плохого свидания, в зависимости от совместимости личностей, настроения, мнения друг о друге и удачи. До 5 воспоминаний о хороших свиданиях складываются (каждое после первого — на 75%) и длятся 20 дней.</DateOpinionGoodTooltip>
+  <DateOpinionBadTitle>Мнение после плохого свидания</DateOpinionBadTitle>
+  <DateOpinionBadTooltip>Штраф к мнению от свидания, прошедшего хуже некуда. См. «Мнение после хорошего свидания».</DateOpinionBadTooltip>
+  <DateRomanceChanceTitle>Шанс романа после свидания (%)</DateRomanceChanceTitle>
+  <DateRomanceChanceTooltip>Шанс, что свидание, понравившееся обоим, закончится тем, что один предложит другому стать парой (обычная попытка романа, которая всё ещё может провалиться). Он масштабируется от x0,5 до x1,5 по их настроению и от x0,5 до x2 по их мнению друг о друге, и шанса нет, если чьё-то мнение ниже минимального мнения для романтики.</DateRomanceChanceTooltip>
+  <DateRomanceBonusTitle>Бонус к роману за каждое хорошее свидание (%)</DateRomanceBonusTitle>
+  <DateRomanceBonusTooltip>Сколько каждое прошлое хорошее свидание пары добавляет к шансу романа после свидания, в процентах от него. Пример при стандартных значениях: после 2 прошлых хороших свиданий при хорошем настроении и мнении шанс около 15% x 2 = 30%.</DateRomanceBonusTooltip>
+  <PrintDebugInfoTitle>Выводить отладочную информацию</PrintDebugInfoTitle>
+  <PrintDebugInfoTooltip>Записывать решения и шансы Psychology в лог (свидания, ухаживания, романы после свиданий, измены при интрижках) с префиксом [Psychology]. Полезно для тестов и отчётов об ошибках; в обычной игре лучше выключить. В режиме разработчика у колонистов также появляется кнопка «DEV: Romance» для принудительных свиданий и интрижек.</PrintDebugInfoTooltip>
 </LanguageData>

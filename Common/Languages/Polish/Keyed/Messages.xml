@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatedTrait>Cecha {1} u {0_labelShort} została skutecznie wyleczona.</TreatedTrait>
+  <TreatmentFailedMessage>Leczenie cechy {1} u {0_labelShort} się nie powiodło. Można spróbować ponownie za {2}.</TreatmentFailedMessage>
+  <MessageCuredAnxiety>{SURGEON_labelShort} {SURGEON_gender ? wyleczył : wyleczyła} lęk u {PATIENT_labelShort}.</MessageCuredAnxiety>
+</LanguageData>

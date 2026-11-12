@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HoldingConversation.description>Conversa</HoldingConversation.description>
+  <HoldingConversation.label>conversa</HoldingConversation.label>
+  <HoldingConversation.stages.0.label>oculto</HoldingConversation.stages.0.label>
+  <PlannedDate.description>Encontro planejado</PlannedDate.description>
+  <PlannedDate.label>encontro</PlannedDate.label>
+  <PlannedDate.stages.0.label>oculto</PlannedDate.stages.0.label>
+</LanguageData>

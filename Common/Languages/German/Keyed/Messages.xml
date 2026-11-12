@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<TreatedTrait>{0_labelShort}'s {1} wurden erfolgreich behandelt.</TreatedTrait>
-	<MessageCuredAnxiety>{SURGEON_labelShort} hat die Angst von {PATIENT_labelShort} erfolgreich geheilt.</MessageCuredAnxiety>
-	<TreatmentFailedMessage>Die Behandlung von {0_labelShort} ({1}) ist fehlgeschlagen. Ein neuer Versuch ist in {2} möglich.</TreatmentFailedMessage>
-
+  <TreatedTrait>{0_labelShort}'s {1} wurden erfolgreich behandelt.</TreatedTrait>
+  <TreatmentFailedMessage>{0_labelShort}s Behandlung gegen {1} ist fehlgeschlagen. Sie kann in {2} erneut versucht werden.</TreatmentFailedMessage>
+  <MessageCuredAnxiety>{SURGEON_labelShort} hat {PATIENT_labelShort}s Angst erfolgreich geheilt.</MessageCuredAnxiety>
 </LanguageData>

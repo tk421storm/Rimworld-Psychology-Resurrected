@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>comió una comida lujosa</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>Esa comida lujosa estaba increíble. ¡Es justo lo que quiero comer todos los días!</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>comió una comida fina</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>Comí una comida fina riquísima. ¡Justo como me gusta!</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>comió una comida horrible</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>Tuve que comer una comida asquerosa e insípida. Inaceptable. Espero que me den de comer mejor.</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>comió comida cruda</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>Tuve que comer comida cruda. No quiero vivir aquí si ni siquiera podemos tener un cocinero.</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>comió una comida sencilla</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>Esa comida no estaba a mi altura. Solo la comí porque no había nada mejor.</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>comió carne de insecto cocinada</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>Comí un plato hecho con carne de insecto gris y viscosa. Fue una sorpresa muy desagradable al morderlo.</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>comió carne de insecto</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>Comí carne de insecto gris y viscosa. Mátenme ya, por favor.</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>comió comida podrida</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>Comí comida asquerosa y putrefacta. Preferiría estar muerto antes que verme reducido a esto.</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

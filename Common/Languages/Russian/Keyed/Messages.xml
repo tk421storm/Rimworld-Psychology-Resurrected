@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<TreatedTrait>{0_labelShort} {0_gender ? был : была} успешно {0_gender ? вылечен : вылечена} от {1}.</TreatedTrait>
-	<MessageCuredAnxiety>{PATIENT_labelShort}: тревожность успешно излечена ({SURGEON_labelShort}).</MessageCuredAnxiety>
-	<TreatmentFailedMessage>{0_labelShort}: лечение ({1}) не удалось. Повторить можно через {2}.</TreatmentFailedMessage>
-
+  <TreatedTrait>{0_labelShort} {0_gender ? был : была} успешно {0_gender ? вылечен : вылечена} от {1}.</TreatedTrait>
+  <TreatmentFailedMessage>Лечение {0_labelShort} ({1}) не удалось. Повторить можно через {2}.</TreatmentFailedMessage>
+  <MessageCuredAnxiety>{SURGEON_labelShort} успешно {SURGEON_gender ? вылечил : вылечила} тревожность {PATIENT_labelShort}.</MessageCuredAnxiety>
 </LanguageData>

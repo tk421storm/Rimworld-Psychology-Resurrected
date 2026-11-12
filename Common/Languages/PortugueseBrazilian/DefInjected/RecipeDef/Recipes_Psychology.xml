@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatPyromania.label>tratar piromania</TreatPyromania.label>
+  <TreatPyromania.description>Ajuda um piromaníaco a se recuperar.</TreatPyromania.description>
+  <TreatPyromania.jobString>Tratando um piromaníaco.</TreatPyromania.jobString>
+  <TreatChemicalInterest.label>tratar interesse químico</TreatChemicalInterest.label>
+  <TreatChemicalInterest.description>Ajuda alguém com interesse químico a se manter livre de drogas.</TreatChemicalInterest.description>
+  <TreatChemicalInterest.jobString>Tratando interesse químico.</TreatChemicalInterest.jobString>
+  <TreatChemicalFascination.label>tratar fascínio químico</TreatChemicalFascination.label>
+  <TreatChemicalFascination.description>Ajuda alguém com fascínio químico a se manter livre de drogas.</TreatChemicalFascination.description>
+  <TreatChemicalFascination.jobString>Tratando fascínio químico.</TreatChemicalFascination.jobString>
+  <TreatDepression.label>tratar depressão</TreatDepression.label>
+  <TreatDepression.description>Ajuda alguém com depressão a controlar o humor.</TreatDepression.description>
+  <TreatDepression.jobString>Tratando depressão.</TreatDepression.jobString>
+  <TreatInsomnia.label>tratar insônia</TreatInsomnia.label>
+  <TreatInsomnia.description>Ajuda alguém com insônia a dormir melhor.</TreatInsomnia.description>
+  <TreatInsomnia.jobString>Tratando insônia.</TreatInsomnia.jobString>
+  <CureAnxiety.label>curar ansiedade</CureAnxiety.label>
+  <CureAnxiety.description>Remove a ansiedade permanentemente graças à terapia dos mundos brilhantes.</CureAnxiety.description>
+  <CureAnxiety.jobString>Curando ansiedade.</CureAnxiety.jobString>
+</LanguageData>

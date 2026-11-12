@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LordReportHangingOut>누군가와 시간을 보내는 중</LordReportHangingOut>
+  <LordReportDate>데이트 중</LordReportDate>
+  <DateKindCourtship>구애 데이트</DateKindCourtship>
+  <DateKindDateNight>로맨틱 데이트</DateKindDateNight>
+  <DateStarted>{0_labelShort}와(과) {1_labelShort}의 {2}(이)가 시작되었습니다!</DateStarted>
+  <DateNightWentWell>{0_labelShort}와(과) {1_labelShort}(은)는 로맨틱 데이트를 즐겼습니다.</DateNightWentWell>
+  <DateNightWentWellForOne>{0_labelShort}(은)는 {1_labelShort}와(과)의 로맨틱 데이트를 즐겼지만, {1_labelShort}(은)는 그렇지 않았습니다.</DateNightWentWellForOne>
+  <DateNightWentBadly>{0_labelShort}와(과) {1_labelShort}의 로맨틱 데이트는 잘 안 됐습니다.</DateNightWentBadly>
+  <DateWentWell>{0_labelShort}와(과) {1_labelShort}의 구애 데이트는 둘 다에게 좋았습니다.</DateWentWell>
+  <DateWentWellForOne>{0_labelShort}(은)는 {1_labelShort}와(과)의 구애 데이트를 즐겼지만, {1_labelShort}(은)는 그렇지 않았습니다.</DateWentWellForOne>
+  <DateWentBadly>{0_labelShort}와(과) {1_labelShort}의 구애 데이트는 잘 안 됐습니다.</DateWentBadly>
+  <DateCutShort>{0_labelShort}와(과) {1_labelShort}의 {2}(이)가 중단되었습니다: {3}.</DateCutShort>
+  <DateRuined>{0_labelShort}의 정신 붕괴가 {1_labelShort}의 {2}(을)를 망쳤습니다.</DateRuined>
+  <DateCancelled>{0_labelShort}와(과) {1_labelShort}의 {2}(이)가 취소되었습니다: {3}.</DateCancelled>
+  <DateMissed>{0_labelShort}(은)는 기다렸지만, {1_labelShort}(은)는 {2} 시간에 잠을 자 버렸습니다.</DateMissed>
+  <DateBothSlept>{0_labelShort}와(과) {1_labelShort} 모두 {2} 시간에 잠을 자 버렸습니다.</DateBothSlept>
+  <DateCalledOff>{0_labelShort}와(과) {1_labelShort}의 예정된 {2}(이)가 취소되었습니다.</DateCalledOff>
+  <DateReasonDanger>지금은 안전하지 않음</DateReasonDanger>
+  <DateReasonDowned>{0_labelShort}(이)가 무력화됨</DateReasonDowned>
+  <DateReasonStarving>{0_labelShort}(이)가 굶주리는 중</DateReasonStarving>
+  <DateReasonBleeding>{0_labelShort}(이)가 출혈 중</DateReasonBleeding>
+  <DateReasonHurt>{0_labelShort}(이)가 다침</DateReasonHurt>
+  <DateReasonTired>{0_labelShort}(이)가 너무 피곤함</DateReasonTired>
+  <DateReasonMentalState>{0_labelShort}(이)가 정신 붕괴 중</DateReasonMentalState>
+  <DateReasonPrisoner>{0_labelShort}(은)는 수감자임</DateReasonPrisoner>
+  <DateReasonWork>{0_labelShort}에게 예정된 작업이 있음</DateReasonWork>
+  <DateReasonDrafted>{0_labelShort}(이)가 징집됨</DateReasonDrafted>
+  <DateReasonAway>{0_labelShort}(이)가 여기 없음</DateReasonAway>
+  <DateReasonLeft>{0_labelShort}(이)가 떠나야 했음</DateReasonLeft>
+  <DateReasonBusy>{0_labelShort}(이)가 바쁨</DateReasonBusy>
+  <RitualDateWillClash>{PAWN_labelShort}(은)는 이 의식 중인 {HOUR}시({IN} 후)에 {PARTNER_labelShort}와(과) {KIND} 약속이 있습니다. 데이트는 미뤄지며, 의식이 길어지면 취소됩니다.</RitualDateWillClash>
+  <RitualDateMightClash>{PAWN_labelShort}와(과) {PARTNER_labelShort}의 {HOUR}시({IN} 후) {KIND}(이)가 이 의식과 겹칠 수 있습니다. 데이트는 미뤄지며, 의식이 길어지면 취소됩니다.</RitualDateMightClash>
+  <ConversationStage>대화 주제:</ConversationStage>
+  <ConversationEnd>[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]와(과)의 대화를 끝냈습니다.</ConversationEnd>
+  <ConversationEnded>대화 종료</ConversationEnded>
+  <DrugFreeDescription>약물 없는 생활 덕분에 {PAWN_labelShort}의 {TRAIT} 특성이 완화되었습니다.</DrugFreeDescription>
+  <DrugFreeDescriptionNoTrait>{PAWN_labelShort}(은)는 약물 없는 생활을 유지하고 있습니다.</DrugFreeDescriptionNoTrait>
+  <EdBPrepareCarefullyPsycheTooltip>이 인물의 정신을 확인하고 편집합니다. Prepare Carefully의 프리셋과 저장된 정착민은 정신을 저장하지 않으므로, 불러오면 새로운 무작위 정신이 부여됩니다.</EdBPrepareCarefullyPsycheTooltip>
+  <ChildFreePregnancyApproach>{PAWN_labelShort}(은)는 자발적 무자녀주의자라 아이를 원하지 않습니다.</ChildFreePregnancyApproach>
+</LanguageData>

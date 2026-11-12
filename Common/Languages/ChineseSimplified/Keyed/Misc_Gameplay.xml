@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LordReportHangingOut>和某人共度时光</LordReportHangingOut>
+  <LordReportDate>约会中</LordReportDate>
+  <DateKindCourtship>追求约会</DateKindCourtship>
+  <DateKindDateNight>浪漫约会</DateKindDateNight>
+  <DateStarted>{0_labelShort}和{1_labelShort}的{2}开始了！</DateStarted>
+  <DateNightWentWell>{0_labelShort}和{1_labelShort}享受了他们的浪漫约会。</DateNightWentWell>
+  <DateNightWentWellForOne>{0_labelShort}享受了和{1_labelShort}的浪漫约会，但{1_labelShort}没有。</DateNightWentWellForOne>
+  <DateNightWentBadly>{0_labelShort}和{1_labelShort}的浪漫约会不太顺利。</DateNightWentBadly>
+  <DateWentWell>{0_labelShort}和{1_labelShort}的追求约会对双方都很顺利。</DateWentWell>
+  <DateWentWellForOne>{0_labelShort}享受了和{1_labelShort}的追求约会，但{1_labelShort}没有。</DateWentWellForOne>
+  <DateWentBadly>{0_labelShort}和{1_labelShort}的追求约会不太顺利。</DateWentBadly>
+  <DateCutShort>{0_labelShort}和{1_labelShort}的{2}被打断了：{3}。</DateCutShort>
+  <DateRuined>{0_labelShort}的精神崩溃毁了{1_labelShort}的{2}。</DateRuined>
+  <DateCancelled>{0_labelShort}和{1_labelShort}的{2}被取消了：{3}。</DateCancelled>
+  <DateMissed>{0_labelShort}等了又等，但{1_labelShort}睡过了他们的{2}。</DateMissed>
+  <DateBothSlept>{0_labelShort}和{1_labelShort}都睡过了他们的{2}。</DateBothSlept>
+  <DateCalledOff>{0_labelShort}和{1_labelShort}计划好的{2}被取消了。</DateCalledOff>
+  <DateReasonDanger>现在不安全</DateReasonDanger>
+  <DateReasonDowned>{0_labelShort}失去了行动能力</DateReasonDowned>
+  <DateReasonStarving>{0_labelShort}正在挨饿</DateReasonStarving>
+  <DateReasonBleeding>{0_labelShort}正在流血</DateReasonBleeding>
+  <DateReasonHurt>{0_labelShort}受伤了</DateReasonHurt>
+  <DateReasonTired>{0_labelShort}太累了</DateReasonTired>
+  <DateReasonMentalState>{0_labelShort}正处于精神崩溃中</DateReasonMentalState>
+  <DateReasonPrisoner>{0_labelShort}是囚犯</DateReasonPrisoner>
+  <DateReasonWork>{0_labelShort}有工作安排</DateReasonWork>
+  <DateReasonDrafted>{0_labelShort}被征召了</DateReasonDrafted>
+  <DateReasonAway>{0_labelShort}不在这里</DateReasonAway>
+  <DateReasonLeft>{0_labelShort}不得不离开</DateReasonLeft>
+  <DateReasonBusy>{0_labelShort}很忙</DateReasonBusy>
+  <RitualDateWillClash>{PAWN_labelShort}在这个仪式期间的{HOUR}点（{IN}后）和{PARTNER_labelShort}有一场{KIND}。约会将被推迟，如果仪式拖得太久则会被取消。</RitualDateWillClash>
+  <RitualDateMightClash>{PAWN_labelShort}和{PARTNER_labelShort}在{HOUR}点（{IN}后）的{KIND}可能与这个仪式冲突。约会将被推迟，如果仪式拖得太久则会被取消。</RitualDateMightClash>
+  <ConversationStage>对话主题：</ConversationStage>
+  <ConversationEnd>[INITIATOR_nameDef]结束了与[RECIPIENT_nameDef]的对话。</ConversationEnd>
+  <ConversationEnded>结束对话</ConversationEnded>
+  <DrugFreeDescription>{PAWN_labelShort}的{TRAIT}特性因远离毒品的生活而有所缓解。</DrugFreeDescription>
+  <DrugFreeDescriptionNoTrait>{PAWN_labelShort}保持着远离毒品的生活。</DrugFreeDescriptionNoTrait>
+  <EdBPrepareCarefullyPsycheTooltip>查看和编辑此角色的心理。Prepare Carefully的预设和保存的殖民者不会保存心理；加载后，角色会获得一个新的随机心理。</EdBPrepareCarefullyPsycheTooltip>
+  <ChildFreePregnancyApproach>{PAWN_labelShort}是丁克，不想要孩子。</ChildFreePregnancyApproach>
+</LanguageData>

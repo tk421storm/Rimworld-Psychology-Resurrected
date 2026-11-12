@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PrudeSeen.label>알몸을 봄</PrudeSeen.label>
+  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]의 알몸을 보았습니다.</PrudeSeen.logRulesInitiator.rulesStrings.0>
+  <Conversation.label>대화</Conversation.label>
+  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]와(과) [conversed].</Conversation.logRulesInitiator.rulesStrings.0>
+  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 말을 걸었습니다.</Conversation.logRulesInitiator.rulesStrings.1>
+  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 화제를 꺼냈습니다.</Conversation.logRulesInitiator.rulesStrings.2>
+  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)-&gt;대화를 시작했습니다</Conversation.logRulesInitiator.rulesStrings.3>
+  <Conversation.logRulesInitiator.rulesStrings.4>conversed-&gt;이야기를 시작했습니다</Conversation.logRulesInitiator.rulesStrings.4>
+  <Conversation.logRulesInitiator.rulesStrings.5>conversed-&gt;수다를 떨기 시작했습니다</Conversation.logRulesInitiator.rulesStrings.5>
+  <Conversation.logRulesInitiator.rulesStrings.6>conversed-&gt;화제를 꺼냈습니다</Conversation.logRulesInitiator.rulesStrings.6>
+  <Conversation.logRulesInitiator.rulesStrings.7>conversed-&gt;무언가를 논의하기 시작했습니다</Conversation.logRulesInitiator.rulesStrings.7>
+  <EndConversation.label>대화 종료</EndConversation.label>
+  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]와(과)의 대화를 끝냈습니다.</EndConversation.logRulesInitiator.rulesStrings.0>
+  <HangOut.label>함께 시간 보내기</HangOut.label>
+  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 함께 시간을 보내자고 했습니다.</HangOut.logRulesInitiator.rulesStrings.0>
+  <PlanDate.label>로맨틱 데이트 계획</PlanDate.label>
+  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]와(과) 로맨틱 데이트를 계획했습니다.</PlanDate.logRulesInitiator.rulesStrings.0>
+  <AskOutOnDate.label>데이트 신청</AskOutOnDate.label>
+  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 데이트를 신청했습니다.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
+  <Indoctrinate.label>교화</Indoctrinate.label>
+  <Indoctrinate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef](을)를 교화했습니다.</Indoctrinate.logRulesInitiator.rulesStrings.0>
+  <Hug.label>포옹</Hug.label>
+  <Hug.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 [hug]하러 다가갔습니다.</Hug.logRulesInitiator.rulesStrings.0>
+  <Hug.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef](이)가 [RECIPIENT_nameDef]에게 두 팔을 벌렸습니다.</Hug.logRulesInitiator.rulesStrings.1>
+  <Hug.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef](이)가 [hug]하려고 [RECIPIENT_nameDef]에게 다가갔습니다.</Hug.logRulesInitiator.rulesStrings.2>
+  <Hug.logRulesInitiator.rulesStrings.3>hug(p=3)-&gt;포옹</Hug.logRulesInitiator.rulesStrings.3>
+  <Hug.logRulesInitiator.rulesStrings.4>hug-&gt;따뜻한 포옹</Hug.logRulesInitiator.rulesStrings.4>
+  <Hug.logRulesInitiator.rulesStrings.5>hug-&gt;꽉 껴안기</Hug.logRulesInitiator.rulesStrings.5>
+  <Hug.logRulesInitiator.rulesStrings.6>hug-&gt;가벼운 포옹</Hug.logRulesInitiator.rulesStrings.6>
+</LanguageData>

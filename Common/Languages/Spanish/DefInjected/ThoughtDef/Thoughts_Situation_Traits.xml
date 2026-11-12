@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FeelingRandomBipolar.stages.0.label>Eufórico</FeelingRandomBipolar.stages.0.label>
+  <FeelingRandomBipolar.stages.0.description>Sin motivo aparente, ¡me siento absolutamente fantástico ahora mismo!</FeelingRandomBipolar.stages.0.description>
+  <FeelingRandomBipolar.stages.1.label>Genial</FeelingRandomBipolar.stages.1.label>
+  <FeelingRandomBipolar.stages.1.description>Sin motivo aparente, me siento genial ahora mismo.</FeelingRandomBipolar.stages.1.description>
+  <FeelingRandomBipolar.stages.2.label>Bien</FeelingRandomBipolar.stages.2.label>
+  <FeelingRandomBipolar.stages.2.description>Sin motivo aparente, me siento bien ahora mismo.</FeelingRandomBipolar.stages.2.description>
+  <FeelingRandomBipolar.stages.3.label>Mal</FeelingRandomBipolar.stages.3.label>
+  <FeelingRandomBipolar.stages.3.description>Sin motivo aparente, me siento mal ahora mismo.</FeelingRandomBipolar.stages.3.description>
+  <FeelingRandomBipolar.stages.4.label>Fatal</FeelingRandomBipolar.stages.4.label>
+  <FeelingRandomBipolar.stages.4.description>Sin motivo aparente, me siento fatal ahora mismo.</FeelingRandomBipolar.stages.4.description>
+  <FeelingRandomBipolar.stages.5.label>Deprimido</FeelingRandomBipolar.stages.5.label>
+  <FeelingRandomBipolar.stages.5.description>Sin motivo aparente, me siento completamente desgraciado ahora mismo...</FeelingRandomBipolar.stages.5.description>
+  <Codependency.stages.0.label>se siente solo</Codependency.stages.0.label>
+  <Codependency.stages.0.description>Me siento tan solo... Necesito una pareja.</Codependency.stages.0.description>
+  <Codependency.stages.1.label>en una relación codependiente</Codependency.stages.1.label>
+  <Codependency.stages.1.description>Quiero a mi pareja. No podría vivir sin ella.</Codependency.stages.1.description>
+  <Codependency.stages.2.label>en un matrimonio codependiente</Codependency.stages.2.label>
+  <Codependency.stages.2.description>Quiero a mi cónyuge. Me moriría sin él o ella.</Codependency.stages.2.description>
+  <Codependency.stages.3.label>desolado</Codependency.stages.3.label>
+  <Codependency.stages.3.description>Mi pareja ya no está... ¿qué hago ahora?</Codependency.stages.3.description>
+  <Outdoorsy.stages.0.label>al aire libre</Outdoorsy.stages.0.label>
+  <Outdoorsy.stages.0.description>Me gusta sentir el cielo sobre mí.</Outdoorsy.stages.0.description>
+  <Outdoorsy.stages.1.label>al aire libre</Outdoorsy.stages.1.label>
+  <Outdoorsy.stages.1.description>¡Ahhh, el aire libre!</Outdoorsy.stages.1.description>
+  <Pluviophile.stages.0.label>llueve fuera</Pluviophile.stages.0.label>
+  <Pluviophile.stages.0.description>Me gusta el sonido de la lluvia cayendo sobre mí.</Pluviophile.stages.0.description>
+  <Pluviophile.stages.1.label>bajo la lluvia</Pluviophile.stages.1.label>
+  <Pluviophile.stages.1.description>La lluvia es muy relajante. No me importa mojarme.</Pluviophile.stages.1.description>
+  <PolygamousRelationship.stages.0.label>en una relación monógama</PolygamousRelationship.stages.0.label>
+  <PolygamousRelationship.stages.0.description>Ojalá mi amor no tuviera que limitarse a una sola persona.</PolygamousRelationship.stages.0.description>
+  <EnvironmentDarkLightSensitive.stages.0.label>en la oscuridad</EnvironmentDarkLightSensitive.stages.0.label>
+  <EnvironmentDarkLightSensitive.stages.0.description>Ah... el consuelo de la oscuridad.</EnvironmentDarkLightSensitive.stages.0.description>
+  <EnvironmentDarkLightSensitive.stages.1.label>en la luz</EnvironmentDarkLightSensitive.stages.1.label>
+  <EnvironmentDarkLightSensitive.stages.1.description>Ay... eso escuece un poco.</EnvironmentDarkLightSensitive.stages.1.description>
+  <EnvironmentDarkLightSensitive.stages.2.label>bajo una luz intensa</EnvironmentDarkLightSensitive.stages.2.label>
+  <EnvironmentDarkLightSensitive.stages.2.description>¡Mis ojos! ¡Duele muchísimo!</EnvironmentDarkLightSensitive.stages.2.description>
+  <Sedentary.stages.0.label>asentado</Sedentary.stages.0.label>
+  <Sedentary.stages.0.description>Qué bien no tener que andar corriendo tanto.</Sedentary.stages.0.description>
+  <Sedentary.stages.1.label>cómodamente asentado</Sedentary.stages.1.label>
+  <Sedentary.stages.1.description>Un lugar bonito y cómodo para descansar un rato. Justo como me gusta.</Sedentary.stages.1.description>
+  <FamilySize.stages.0.label>un hijo propio</FamilySize.stages.0.label>
+  <FamilySize.stages.0.description>Tengo un hijo. Es un comienzo; quiero una familia entera.</FamilySize.stages.0.description>
+  <FamilySize.stages.1.label>una familia que crece</FamilySize.stages.1.label>
+  <FamilySize.stages.1.description>¡Dos hijos! Mi familia está creciendo.</FamilySize.stages.1.description>
+  <FamilySize.stages.2.label>una familia de verdad</FamilySize.stages.2.label>
+  <FamilySize.stages.2.description>Tres hijos. Así debería ser una familia.</FamilySize.stages.2.description>
+  <FamilySize.stages.3.label>una gran familia</FamilySize.stages.3.label>
+  <FamilySize.stages.3.description>Cuatro hijos. Mi familia lo es todo para mí.</FamilySize.stages.3.description>
+  <FamilySize.stages.4.label>una dinastía</FamilySize.stages.4.label>
+  <FamilySize.stages.4.description>¡Cuántos hijos! Mi familia seguirá adelante mucho después de que me vaya.</FamilySize.stages.4.description>
+  <ChildFreeLife.stages.0.label>childfree</ChildFreeLife.stages.0.label>
+  <ChildFreeLife.stages.0.description>Ningún hijo que me ate. Justo como me gusta.</ChildFreeLife.stages.0.description>
+  <ChildFreeLife.stages.1.label>nunca quiso hijos</ChildFreeLife.stages.1.label>
+  <ChildFreeLife.stages.1.description>Nunca quise ser padre ni madre. Ahora hay un niño y mi vida ya no es mía.</ChildFreeLife.stages.1.description>
+</LanguageData>

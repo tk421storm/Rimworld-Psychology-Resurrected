@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Abuse.reportString>正在侮辱TargetA。</Abuse.reportString>
+  <MakeAdvance.reportString>正在和TargetA调情。</MakeAdvance.reportString>
+  <BreakHunt.reportString>正在猎杀TargetA。</BreakHunt.reportString>
+  <DoLovinCasual.reportString>正在亲热。</DoLovinCasual.reportString>
+  <DateDance.reportString>正在和TargetA跳舞。</DateDance.reportString>
+  <DateWorkwatch.reportString>正在看TargetA工作。</DateWorkwatch.reportString>
+  <Hug.reportString>正在拥抱TargetA。</Hug.reportString>
+</LanguageData>

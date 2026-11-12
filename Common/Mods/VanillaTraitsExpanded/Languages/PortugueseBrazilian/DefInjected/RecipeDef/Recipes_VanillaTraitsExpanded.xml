@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>tratar o beberrão</TreatLush.label>
+  <TreatLush.description>Ajuda um beberrão a se manter livre de drogas. Ele não vai gostar de ficar sóbrio.</TreatLush.description>
+  <TreatLush.jobString>Tratando um beberrão.</TreatLush.jobString>
+  <TreatStoner.label>tratar o maconheiro</TreatStoner.label>
+  <TreatStoner.description>Ajuda um fumante de erva-de-fumo a se manter livre de drogas. Ele não vai gostar de ficar sóbrio.</TreatStoner.description>
+  <TreatStoner.jobString>Tratando um maconheiro.</TreatStoner.jobString>
+</LanguageData>

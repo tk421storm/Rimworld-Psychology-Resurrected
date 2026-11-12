@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KinseyDisable>Desactivando la escala de Kinsey por detectarse un mod de romance/sexualidad.</KinseyDisable>
+  <KinseyDetourDisable>Se ha desactivado la redirección de métodos vitales para algunos rasgos para proteger la compatibilidad. La frecuencia de esos rasgos se pone a cero.</KinseyDetourDisable>
+  <MedicalDetourDisable>Desactivando la redirección de métodos médicos por detectarse un mod de medicina/cirugía. Esto quitará algunas funciones a los personajes de corazón sensible, salvo que el mod en cuestión sea Less Arbitrary Surgery.</MedicalDetourDisable>
+  <DuplicateDefLabel>Etiqueta de PersonalityNodeDef duplicada en {0}. Por favor, infórmalo para que se pueda corregir la traducción.</DuplicateDefLabel>
+</LanguageData>

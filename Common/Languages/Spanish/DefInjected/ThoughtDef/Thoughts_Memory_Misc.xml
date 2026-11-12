@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dynamic.stages.0.label>dinámico</Dynamic.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.label>subidón de adrenalina</KilledHumanlikeEnemy.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.description>Maté a alguien que atacaba nuestra colonia. Aún me tiemblan las manos... No puedo creer que haya sobrevivido.</KilledHumanlikeEnemy.stages.0.description>
+  <KnowPrisonerSoldBleedingHeart.stages.0.label>se vendió a un prisionero</KnowPrisonerSoldBleedingHeart.stages.0.label>
+  <KnowPrisonerSoldBleedingHeart.stages.0.description>Esta colonia vendió a un prisionero como esclavo. No puedo creer que participemos en esa barbarie.</KnowPrisonerSoldBleedingHeart.stages.0.description>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.label>le extrajeron órganos a alguien</KnowGuestOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.description>La colonia le quitó partes del cuerpo a un invitado o prisionero. Es inaceptable despiezar a alguien que no tiene elección.</KnowGuestOrganHarvestedBleedingHeart.stages.0.description>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.label>le extrajeron órganos a un colono</KnowColonistOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.description>Alguien le quitó partes del cuerpo a un colono. Es inaceptable despiezar a alguien que no tiene elección.</KnowColonistOrganHarvestedBleedingHeart.stages.0.description>
+  <ReplacedPartBleedingHeart.stages.0.label>instaló un órgano o parte del cuerpo</ReplacedPartBleedingHeart.stages.0.label>
+  <ReplacedPartBleedingHeart.stages.0.description>Le di a alguien un órgano o una parte del cuerpo nueva. ¡Seguro que he mejorado su calidad de vida! Estoy muy contento.</ReplacedPartBleedingHeart.stages.0.description>
+  <DoctorBleedingHeart.stages.0.label>ayudó a un paciente</DoctorBleedingHeart.stages.0.label>
+  <DoctorBleedingHeart.stages.0.description>Me encanta la medicina. Te da muchísimas oportunidades de ayudar a la gente.</DoctorBleedingHeart.stages.0.description>
+  <RescuedBleedingHeart.stages.0.label>salvó a alguien</RescuedBleedingHeart.stages.0.label>
+  <RescuedBleedingHeart.stages.0.description>Rescaté a alguien al borde de la muerte. No hace falta que me lo agradezcan, las buenas acciones son su propia recompensa.</RescuedBleedingHeart.stages.0.description>
+  <CookedMealBleedingHeart.stages.0.label>cocinó una comida</CookedMealBleedingHeart.stages.0.label>
+  <CookedMealBleedingHeart.stages.0.description>Me encanta cocinar, siento que ayudo a la gente. ¡Mantengo viva esta colonia!</CookedMealBleedingHeart.stages.0.description>
+  <FilledGraveBleedingHeart.stages.0.label>enterró a alguien</FilledGraveBleedingHeart.stages.0.label>
+  <FilledGraveBleedingHeart.stages.0.description>Espero que encuentre la paz.</FilledGraveBleedingHeart.stages.0.description>
+  <KilledPatientBleedingHeart.stages.0.label>mató a un paciente</KilledPatientBleedingHeart.stages.0.label>
+  <KilledPatientBleedingHeart.stages.0.description>Maté a uno de mis pacientes en una operación. Todo es culpa mía... debería seguir vivo.</KilledPatientBleedingHeart.stages.0.description>
+  <RecentlyDesensitized.stages.0.label>insensibilizado a la violencia</RecentlyDesensitized.stages.0.label>
+  <RecentlyDesensitized.stages.0.description>Presencié una muerte y no sentí nada. Qué deprimente...</RecentlyDesensitized.stages.0.description>
+  <DreamGood.stages.0.label>tuvo un buen sueño</DreamGood.stages.0.label>
+  <DreamGood.stages.0.description>Fue un sueño bonito. Me dio esperanza.</DreamGood.stages.0.description>
+  <DreamBad.stages.0.label>tuvo un mal sueño</DreamBad.stages.0.label>
+  <DreamBad.stages.0.description>Fue un sueño desagradable. Todavía me inquieta.</DreamBad.stages.0.description>
+  <DreamNightmare.stages.0.label>tuvo una pesadilla</DreamNightmare.stages.0.label>
+  <DreamNightmare.stages.0.description>¡Uf! Qué sueño tan horrible. Solo de pensarlo me deprimo.</DreamNightmare.stages.0.description>
+  <TreatmentFailed.stages.0.label>falló el tratamiento de {0}</TreatmentFailed.stages.0.label>
+  <TreatmentFailed.stages.0.description>El médico no logró tratar mi {0}... Sentí que no me entendía.</TreatmentFailed.stages.0.description>
+  <SuccessfulPlot.stages.0.label>conspiración siniestra lograda</SuccessfulPlot.stages.0.label>
+  <SuccessfulPlot.stages.0.description>He destruido la plaga de este lugar. Ahora estamos a salvo.</SuccessfulPlot.stages.0.description>
+  <HeardParanoia.stages.0.label>expuesto a desvaríos paranoicos</HeardParanoia.stages.0.label>
+  <HeardParanoia.stages.0.description>Las cosas que oí... no pueden ser verdad. ¿O sí?</HeardParanoia.stages.0.description>
+  <ColonistAbandonedBleedingHeart.stages.0.label>colono abandonado</ColonistAbandonedBleedingHeart.stages.0.label>
+  <ColonistAbandonedBleedingHeart.stages.0.description>Acabamos de dejar atrás a alguien. No dejo de pensar en lo que podría pasarle.</ColonistAbandonedBleedingHeart.stages.0.description>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.label>colono abandonado a su suerte</ColonistAbandonedToDieBleedingHeart.stages.0.label>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.description>Dejamos atrás a alguien de tal manera que casi no tiene posibilidades de sobrevivir. ¿Cómo hemos podido?</ColonistAbandonedToDieBleedingHeart.stages.0.description>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.label>prisionero abandonado a su suerte</PrisonerAbandonedToDieBleedingHeart.stages.0.label>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.description>Dejamos atrás a un prisionero de tal manera que casi no tiene posibilidades de sobrevivir. Tenemos la responsabilidad de proteger a quienes encarcelamos.</PrisonerAbandonedToDieBleedingHeart.stages.0.description>
+  <DateCancelled.stages.0.label>tuvo que cancelar una cita</DateCancelled.stages.0.label>
+  <DateCancelled.stages.0.description>Iba a tener una cita con mi pareja, pero surgió algo en la colonia y tuvimos que cancelarla. Me hacía ilusión...</DateCancelled.stages.0.description>
+  <WonFight.stages.0.label>ganó una pelea</WonFight.stages.0.label>
+  <WonFight.stages.0.description>Así aprenderán a no meterse conmigo.</WonFight.stages.0.description>
+</LanguageData>

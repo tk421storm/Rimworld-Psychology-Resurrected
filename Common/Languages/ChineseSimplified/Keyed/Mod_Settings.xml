@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EnableKinseyTitle>启用性取向变更</EnableKinseyTitle>
+  <EnableKinseyTooltip>关闭以移除角色的金赛量表并重新启用同性恋特性。请勿在游戏过程中更改，更改后请重启游戏。</EnableKinseyTooltip>
+  <EnableEmpathyTitle>启用共情变更</EnableEmpathyTitle>
+  <EnableEmpathyTooltip>关闭后，殖民者对他人不幸的反应将恢复原状。这会增加难度；心软的角色不受影响。关闭后请重启游戏。</EnableEmpathyTooltip>
+  <KinseyFormulaTitle>金赛量表公式</KinseyFormulaTitle>
+  <KinseyFormulaTooltip>此设置决定为生成的角色分配金赛分数所用的公式。权重之和不必为100。</KinseyFormulaTooltip>
+  <KinseyMode_Realistic>默认</KinseyMode_Realistic>
+  <KinseyMode_Invisible>居中</KinseyMode_Invisible>
+  <KinseyMode_Gaypocalypse>反转</KinseyMode_Gaypocalypse>
+  <KinseyMode_Uniform>均匀</KinseyMode_Uniform>
+  <KinseyMode_Custom>自定义</KinseyMode_Custom>
+  <KWTitle>金赛 {0}</KWTitle>
+  <KWTooltip>角色生成时金赛分数为{0}的相对权重。权重之和不必为100。</KWTooltip>
+  <EnableIndividualityTitle>启用个性想法</EnableIndividualityTitle>
+  <EnableIndividualityTooltip>关闭以移除殖民者与其他殖民者穿着完全相同时获得的负面想法。该想法会增加难度，因此是可选的，但推荐开启。需要重启。</EnableIndividualityTooltip>
+  <ConversationDurationTitle>对话记忆时长</ConversationDurationTitle>
+  <ConversationDurationTooltip>人们记住对话的时长。默认为60天，即一年。最少15天（一个季度），最多180天（三年）。数值越低，殖民者之间的互动越短暂；越高则越持久。需要重启。</ConversationDurationTooltip>
+  <ConvoMaxOpinionChangeTitle>每次对话的最大好感变化</ConvoMaxOpinionChangeTitle>
+  <ConvoMaxOpinionChangeTooltip>单次对话可造成的最大好感变化（默认40）。数值越高，对话越重要。</ConvoMaxOpinionChangeTooltip>
+  <ConvoMeanHoursTitle>预期对话时长</ConvoMeanHoursTitle>
+  <ConvoMeanHoursTooltip>对话的平均时长，以小时计（默认1.3）。</ConvoMeanHoursTooltip>
+  <ConvoTimeScaleHoursTitle>对话时间尺度</ConvoTimeScaleHoursTitle>
+  <ConvoTimeScaleHoursTooltip>对话带来的好感随对话时长变化的时间尺度（小时）。</ConvoTimeScaleHoursTooltip>
+  <ConvoPersonalityEffectMultiplierTitle>性格对对话的影响</ConvoPersonalityEffectMultiplierTitle>
+  <ConvoPersonalityEffectMultiplierTooltip>此倍率控制友善、礼貌、酷等性格特质对好感变化的影响程度。</ConvoPersonalityEffectMultiplierTooltip>
+  <EnableDateLettersTitle>发送约会信件</EnableDateLettersTitle>
+  <EnableDateLettersTooltip>关闭后，殖民者安排约会时你将不会收到信件。</EnableDateLettersTooltip>
+  <PawnsChoosePregnancyApproachTitle>角色自行选择怀孕方式</PawnsChoosePregnancyApproachTitle>
+  <PawnsChoosePregnancyApproachTooltip>安装Biotech后，每个角色都有自己的怀孕方式，对任何伴侣都一样，取决于他们有多想要孩子（家庭渴望，每多一个仍在抚养的孩子就降低一些，女家长或男家长只降低一半）：避免怀孕、顺其自然或尝试要孩子。每对伴侣采用两人中更谨慎的那种方式，因此避免怀孕的人对所有伴侣都会避孕，而只有双方都想要时伴侣才会尝试要孩子。这适用于恋人、炮友和其他模组中的伴侣。如果你在社交标签页中更改了伴侣的方式，你的选择会被保留。即使关闭此选项，丁克角色也始终避免怀孕。</PawnsChoosePregnancyApproachTooltip>
+  <ImprisonedDebuffTitle>招募囚犯惩罚</ImprisonedDebuffTitle>
+  <ImprisonedDebuffTooltip>被招募的囚犯对每位殖民者的好感惩罚（“我的派系囚禁了我”，持续45天）。设为0则禁用。需要重启。</ImprisonedDebuffTooltip>
+  <RomanceChanceMultiplierTitle>恋爱几率倍率</RomanceChanceMultiplierTitle>
+  <RomanceChanceMultiplierTooltip>恋爱几率乘以此数值。设为0时新的恋情应会完全消失。</RomanceChanceMultiplierTooltip>
+  <RomanceOpinionThresholdTitle>恋爱最低好感</RomanceOpinionThresholdTitle>
+  <RomanceOpinionThresholdTooltip>殖民者在邀请心仪对象约会或尝试恋爱之前，必须对其拥有的最低好感。默认值较低，让几乎不认识的角色也能尝试；吸引力远比好感重要。</RomanceOpinionThresholdTooltip>
+  <MentalBreakAnxietyChanceTitle>精神崩溃后焦虑几率</MentalBreakAnxietyChanceTitle>
+  <MentalBreakAnxietyChanceTooltip>设置角色在严重精神崩溃后患上焦虑的平均几率。轻微崩溃时几率减半，极端崩溃时加倍。几率还取决于殖民者的心理。注意焦虑仍可能作为与年龄相关的随机疾病出现。完全生效需要重启。</MentalBreakAnxietyChanceTooltip>
+  <TraitOpinionMultiplierTitle>特性好感倍率</TraitOpinionMultiplierTitle>
+  <TraitOpinionMultiplierTooltip>调整以下特性带来的好感变化：美丽、丑陋、毁容、恼人的声音、恐怖的呼吸声、改造爱好者和身体纯粹主义者。设为0则完全禁用。需要重启。</TraitOpinionMultiplierTooltip>
+  <PersonalityExtremenessTitle>性格极端化</PersonalityExtremenessTitle>
+  <PersonalityExtremenessTooltip>性格被强化以符合大五人格原型的程度。</PersonalityExtremenessTooltip>
+  <IdeoPsycheMultiplierTitle>意识形态互动倍率</IdeoPsycheMultiplierTitle>
+  <IdeoPsycheMultiplierTooltip>控制性格与意识形态相互作用的强度。设为0则完全禁用。</IdeoPsycheMultiplierTooltip>
+  <DisplayOptionsTitle>心理标签页选项</DisplayOptionsTitle>
+  <DisplayOptionsTooltip>更改心理标签页的默认显示方式。</DisplayOptionsTooltip>
+  <UseColorsTooltip>为心理标签页中显示的特质上色。</UseColorsTooltip>
+  <ListAlphabeticalTooltip>按字母顺序排列心理标签页中的特质。</ListAlphabeticalTooltip>
+  <UseAntonymsTooltip>在心理标签页中使用特质的反义词。</UseAntonymsTooltip>
+  <SpeciesSettingsTitle>种族</SpeciesSettingsTitle>
+  <SpeciesSettingsTooltip>各种族的设置。</SpeciesSettingsTooltip>
+  <EnablePsycheTitle>心理</EnablePsycheTitle>
+  <EnablePsycheTooltip>关闭以移除性格。推荐用于无法拥有人类性格的种族，例如僵尸或简单的机器人。该种族的深度对话和恋爱将被禁用。</EnablePsycheTooltip>
+  <EnableAgeGapTitle>年龄差距</EnableAgeGapTitle>
+  <EnableAgeGapTooltip>关闭以移除与该种族成员恋爱时的年龄差距偏好。推荐用于成年后不再衰老的仿生人或精灵类种族。</EnableAgeGapTooltip>
+  <MinDatingAgeTitle>约会</MinDatingAgeTitle>
+  <MinLovinAgeTitle>爱情</MinLovinAgeTitle>
+  <dating>约会</dating>
+  <lovin>爱情</lovin>
+  <MinRomanceAgeTooltip>该种族的{0}最低年龄。若为正数，{0}公式中的有效年龄将按此数值相对于{1}进行缩放。设为0则任何年龄都可{0}，并实际上禁用年龄差距。推荐用于没有童年的种族，如有意识的仿生人。任何负数都会禁用该种族的{0}。</MinRomanceAgeTooltip>
+  <LovinFrequencyTitle>亲热频率</LovinFrequencyTitle>
+  <LovinFrequencyTooltip>伴侣亲热的频率：2 = 两倍，0.5 = 一半。</LovinFrequencyTooltip>
+  <AdjustRapportByCompatibilityTitle>按契合度调整亲近度</AdjustRapportByCompatibilityTitle>
+  <AdjustRapportByCompatibilityTooltip>在原版中，每当狱卒与囚犯交谈，囚犯对该狱卒的好感+2（最高+100），这也会使其抵抗降低最多快1.5倍。启用此选项后，这个+2会按性格契合度调整：一般组合约+2，非常契合时最多约+6，性格冲突时为负值（“关系紧张”）。也适用于转化尝试前的交谈，原版中那只是普通闲聊。关闭：和原版一样每次+2。</AdjustRapportByCompatibilityTooltip>
+  <ArrestBaseChanceTitle>和平逮捕基础几率（%）</ArrestBaseChanceTitle>
+  <ArrestBaseChanceTooltip>Psychology取代了原版的逮捕几率。角色不抵抗而投降的几率为：逮捕者的和平逮捕几率（此基础值加上每级社交5%，若无法正常说话则降低）x 被捕者对逮捕者的好感（-100时为0，0时为0.5，+100时为1）x 同一派系时1.5 x 被捕者处于精神状态时0.2。失去行动能力、非暴力和有罪的人仍然总是投降。默认2%：好感中立时，社交10的人成功率为26%，社交20为51%。</ArrestBaseChanceTooltip>
+  <CheatChanceTitle>出轨几率（%）</CheatChanceTitle>
+  <CheatChanceTooltip>角色背叛伴侣的可能性，无论是追求别人（如果成功，双方都会离开各自的伴侣）还是通过一夜情。角色的几率 = 此数值 x 对伴侣的不满程度 x 性格。喜欢伴侣的人不会出轨；浪漫的人保持忠诚更久，但会更早对不喜欢的伴侣变心；好色的人更容易出轨，尤其是伴侣不在身边时。有道德的和纯洁的人出轨更少，爱尝试的人更多。共依存的人从不出轨，对多元之爱者来说这不算出轨。默认50%的例子：普通角色对伴侣好感为+50时出轨几率为0%，为0时25%，为-50时50%。设为0则禁用出轨。</CheatChanceTooltip>
+  <CourtshipChanceTitle>追求几率（x）</CourtshipChanceTitle>
+  <CourtshipChanceTooltip>单身角色（以及愿意出轨的角色）邀请心仪对象约会的频率。几率还随吸引力、好感、恋爱欲望和自信以及之前的美好约会而提高。每次约会都会留下好或坏的回忆；美好的约会会使恋爱尝试更有可能。设为0则禁用追求。伴侣的浪漫约会不受影响。</CourtshipChanceTooltip>
+  <SecondDateChanceTitle>第二次约会几率（%）</SecondDateChanceTitle>
+  <SecondDateChanceTooltip>上一次追求约会对双方都很顺利的角色每天可以再次邀约一次，无论他们在地图的哪里。这是约会完美的一对的每日几率；仅仅不错的约会后几率较低，几次美好约会后则更高。回应的方式与普通邀约相同。这是面对面邀约之外的方式；设为0则禁用。</SecondDateChanceTooltip>
+  <SocialRomanceChanceTitle>社交时的恋爱（%）</SocialRomanceChanceTitle>
+  <SocialRomanceChanceTooltip>在社交放松（在桌旁或篝火边）、派对或聚会、跳舞或打台球时，角色们聊天比平时多得多。这是其中一次聊天变成寻找恋情的几率。只有单身者、可以拥有另一位伴侣的人或这次愿意背叛伴侣的人才会寻找（见出轨几率）。他们会选择附近有吸引力且喜欢的人，更偏好更有魅力的人，并尝试恋爱：如果是伴侣则是浪漫约会，或是约会邀请、一夜情，若算出轨则是偷情。约会期间不会发生。设为0则禁用。</SocialRomanceChanceTooltip>
+  <HugChanceTitle>拥抱几率（x）</HugChanceTitle>
+  <HugChanceTooltip>关系紧密的角色（恋人和配偶、近亲、非常要好的朋友）在彼此都对对方有好感时拥抱的频率。拥抱会稍微提升双方的心情和对彼此的好感。性格热情的人拥抱更多。设为0则禁用拥抱。</HugChanceTooltip>
+  <DateOpinionGoodTitle>美好约会好感</DateOpinionGoodTitle>
+  <DateOpinionGoodTooltip>完美约会的好感加成。每次约会的结果介于此数值与糟糕约会好感之间，取决于性格契合度、心情、彼此的好感和运气。最多叠加5个美好约会回忆（第一个之后每个为75%），持续20天。</DateOpinionGoodTooltip>
+  <DateOpinionBadTitle>糟糕约会好感</DateOpinionBadTitle>
+  <DateOpinionBadTooltip>一场糟到极点的约会的好感惩罚。见“美好约会好感”。</DateOpinionBadTooltip>
+  <DateRomanceChanceTitle>约会后恋爱几率（%）</DateRomanceChanceTitle>
+  <DateRomanceChanceTooltip>对双方都很顺利的追求约会以一方请求另一方成为恋人而结束的几率（一次普通的恋爱尝试，仍可能失败）。按心情在x0.5到x1.5之间调整，按彼此好感在x0.5到x2之间调整；若任一方好感低于恋爱最低好感则没有几率。</DateRomanceChanceTooltip>
+  <DateRomanceBonusTitle>美好约会恋爱加成（%）</DateRomanceBonusTitle>
+  <DateRomanceBonusTooltip>这对伴侣之前每一次美好约会为约会后恋爱几率增加的比例，以该几率的百分比表示。默认值示例：之前有2次美好约会，心情和好感都不错时，几率为15% x 2 = 30%。</DateRomanceBonusTooltip>
+  <PrintDebugInfoTitle>显示调试信息</PrintDebugInfoTitle>
+  <PrintDebugInfoTooltip>将Psychology的决策和几率（约会、追求、约会后恋爱、一夜情出轨）记录到日志中，前缀为[Psychology]。适用于测试或报告错误；普通游戏中请保持关闭。在开发者模式下，殖民者还会有一个“DEV: Romance”按钮，用于强制约会和一夜情。</PrintDebugInfoTooltip>
+</LanguageData>

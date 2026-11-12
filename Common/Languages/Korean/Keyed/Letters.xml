@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterLabelPTSD>스트레스 트라우마</LetterLabelPTSD>
+  <LetterPTSD>{0_labelShort}(은)는 정신 붕괴로 인해 외상 후 불안을 겪게 되었습니다. 불안은 영구적인 질환이지만, 치료를 통해 심각도를 점차 관리 가능한 수준으로 낮춰 정상적인 생활을 할 수 있습니다. 정신 붕괴를 다시 겪으면 불안이 악화됩니다.\n\n빛나는 세계의 의사들은 불안 같은 정신 질환을 완치했다는 소문이 있습니다. 초기술 의약품을 구할 수 있다면, 매우 숙련된 의사가 이를 이용해 {0_labelShort}의 불안을 치료할 수 있을지도 모릅니다.</LetterPTSD>
+  <LetterLabelDatePlanned>로맨틱 데이트</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort}(이)가 {1_labelShort}와(과) {2} {3}시에 데이트를 잡았습니다.\n\n데이트는 여러 이유로 취소될 수 있습니다. 특히 둘 중 한 명에게 예정된 작업이 있거나, 징집되거나, 부상이나 급한 정착지 일로 움직일 수 없게 되면 취소됩니다.\n\n데이트가 취소되면 두 정착민 모두 불행해합니다. 늦잠을 자서 데이트를 놓칠 수도 있습니다. 상대방은 짜증을 내지만 부정적인 생각이 생기지는 않습니다.</LetterDatePlanned>
+  <LetterRejectedProposalPsychology>성격에 따라 기분과 관계에 영향을 미칩니다.</LetterRejectedProposalPsychology>
+  <LetterLabelCourtshipDatePlanned>데이트</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort}(이)가 {1_labelShort}에게 {2} {3}시에 데이트하자고 했습니다.\n\n데이트가 잘 되면 서로를 더 좋아하게 되고 연인이 될 수도 있습니다. 데이트가 잘못되면 서로를 덜 좋아하게 될 수 있습니다. 둘 중 한 명에게 예정된 작업이 있거나, 징집되거나, 다른 이유로 움직일 수 없게 되면 데이트가 취소될 수 있습니다.</LetterCourtshipDatePlanned>
+</LanguageData>

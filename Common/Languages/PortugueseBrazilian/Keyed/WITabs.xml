@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CertaintyChangePerDay>Mudança por dia</CertaintyChangePerDay>
+  <AbilityIdeoConvertBreakdownPsychologyEffects>Personalidade x ideologias</AbilityIdeoConvertBreakdownPsychologyEffects>
+  <AbilityIdeoConvertBreakdownPersonalityTraits>Persuasão e abertura</AbilityIdeoConvertBreakdownPersonalityTraits>
+  <AbilityIdeoConvertBreakdownPersuasion>Carisma de {PAWN_labelShort}</AbilityIdeoConvertBreakdownPersuasion>
+  <AbilityIdeoConvertBreakdownOpenness>Abertura de {PAWN_labelShort} (ingênuo, experimental, não nostálgico)</AbilityIdeoConvertBreakdownOpenness>
+  <AbilityIdeoConvertBreakdownPawnCompatWithIdeo>Compatibilidade de {PAWN_labelShort} com {IDEO}</AbilityIdeoConvertBreakdownPawnCompatWithIdeo>
+  <AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>Incompatibilidade de {PAWN_labelShort} com {IDEO}</AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>
+  <PsycheCurrentlyDisabled>Psique desativada no momento</PsycheCurrentlyDisabled>
+  <TabPsyche>Psique</TabPsyche>
+  <SexualityDisabledWarning>O sistema de sexualidade do Psychology está desativado, seja por você ou por um mod incompatível na sua lista. Desative qualquer outro mod que altere a sexualidade ou as interações dos colonos.</SexualityDisabledWarning>
+  <KinseyRating>Pontuação Kinsey:</KinseyRating>
+  <KinseyDescription0>Escala Kinsey</KinseyDescription0>
+  <KinseyDescription>A {0} descreve a orientação sexual de uma pessoa, indo de 0, exclusivamente heterossexual, a 6, exclusivamente homossexual.\n\nKinsey escolheu sete categorias por simplicidade, e escreveu que "deve-se reconhecer que a realidade inclui indivíduos de todos os tipos intermediários, situados num contínuo entre os dois extremos e entre cada uma das categorias da escala".</KinseyDescription>
+  <SexDrive0>Assexual</SexDrive0>
+  <SexDrive1>Desejo sexual baixo</SexDrive1>
+  <SexDrive2>Desejo sexual médio</SexDrive2>
+  <SexDrive3>Desejo sexual alto</SexDrive3>
+  <SexDrive4>Desejo sexual extremo</SexDrive4>
+  <SexDriveDescription0>Desejo sexual</SexDriveDescription0>
+  <SexDriveDescription>O {0}, também chamado de libido, descreve o desejo geral de uma pessoa por atividade sexual.</SexDriveDescription>
+  <AsexualDescription>Este personagem tem muito pouco desejo sexual. Quase não sente atração sexual e dificilmente terá intimidade, embora possa viver um romance.</AsexualDescription>
+  <RomanticDrive0>Arromântico</RomanticDrive0>
+  <RomanticDrive1>Desejo romântico baixo</RomanticDrive1>
+  <RomanticDrive2>Desejo romântico médio</RomanticDrive2>
+  <RomanticDrive3>Desejo romântico alto</RomanticDrive3>
+  <RomanticDrive4>Desejo romântico extremo</RomanticDrive4>
+  <RomanticDriveDescription0>Desejo romântico</RomanticDriveDescription0>
+  <RomanticDriveDescription>O {0} descreve o desejo geral de uma pessoa por relacionamentos românticos.</RomanticDriveDescription>
+  <AromanticDescription>Este personagem tem muito pouco desejo romântico. Dificilmente tentará romances ou aceitará pedidos de casamento, embora possa ter amantes.</AromanticDescription>
+  <FamilyDrive0>Sem desejo de ter filhos</FamilyDrive0>
+  <FamilyDrive1>Desejo de família baixo</FamilyDrive1>
+  <FamilyDrive2>Desejo de família médio</FamilyDrive2>
+  <FamilyDrive3>Desejo de família alto</FamilyDrive3>
+  <FamilyDrive4>Desejo de família extremo</FamilyDrive4>
+  <FamilyDriveDescription0>Desejo de família</FamilyDriveDescription0>
+  <FamilyDriveDescription>O {0} descreve o quanto uma pessoa deseja ter filhos. É moldado pela personalidade e pelos traços Matriarca/Patriarca e Childfree. Com Biotech, determina a abordagem sobre gravidez: quem tem pouco desejo evita a gravidez, e quem tem muito tenta ter um bebê.</FamilyDriveDescription>
+  <OptionsText4>Nuvem de palavras</OptionsText4>
+  <OptionsText3>Mostrar menos</OptionsText3>
+  <OptionsText2>Mostrar mais</OptionsText2>
+  <OptionsText1>Mostrar o principal</OptionsText1>
+  <OptionsText0>Mostrar tudo</OptionsText0>
+  <UseColors>Colorir traços</UseColors>
+  <ListAlphabetical>Ordem alfabética</ListAlphabetical>
+  <UseAntonyms>Usar antônimos</UseAntonyms>
+  <EditPsyche>Editar</EditPsyche>
+  <PsycheEditor>Modificando a psique de {0}:</PsycheEditor>
+  <PsycheEditorNewColonist>Modificando a psique do colono:</PsycheEditorNewColonist>
+  <PersonalityNodeWarning>Você está editando os valores brutos da personalidade de um personagem. As estatísticas reais serão ajustadas por outros fatores.</PersonalityNodeWarning>
+  <SexDrive>Desejo sexual:</SexDrive>
+  <RomanticDrive>Desejo romântico:</RomanticDrive>
+  <FamilyDrive>Desejo de família:</FamilyDrive>
+  <PsycheResetTooltip>Restaurar a psique deste personagem para a padrão com base no seu ID HashCode único.</PsycheResetTooltip>
+  <PsycheNot>Nada</PsycheNot>
+  <PsycheSlightly>Levemente</PsycheSlightly>
+  <PsycheLess>Menos</PsycheLess>
+  <PsycheSomewhat>Um pouco</PsycheSomewhat>
+  <PsycheMore>Mais</PsycheMore>
+  <PsycheVery>Muito</PsycheVery>
+  <PsycheExtremely>Extremamente</PsycheExtremely>
+  <ConversationTooltip>As pessoas vão falar de {0}, e {1} para discutir entre si.</ConversationTooltip>
+  <PsycheComma>,</PsycheComma>
+  <AntonymColon> Antônimo: {0}.</AntonymColon>
+  <FiveFactorModelTitle>Resumo dos Cinco Grandes</FiveFactorModelTitle>
+  <FiveFactorDescription0>modelo dos cinco fatores</FiveFactorDescription0>
+  <FiveFactorDescription>O {0} (Cinco Grandes) foi desenvolvido no fim do século XX a partir da hipótese léxica, que sugeria que os traços fundamentais da personalidade estão codificados na linguagem.\n\nCinco fatores surgiram de forma consistente em análises de inúmeros conjuntos de termos descritivos de traços em vários idiomas, como inglês, chinês, russo e alemão.\n\nEstudos com gêmeos e adoções revelaram um componente genético substancial, e mostrou-se que a posição relativa de cada indivíduo é bastante estável ao longo da vida adulta.</FiveFactorDescription>
+  <BigFiveO>O</BigFiveO>
+  <BigFiveODescription0>Abertura à experiência</BigFiveODescription0>
+  <BigFiveODescription>A {0} é a disposição de abraçar novas ideias, valores, ações, sentimentos, fantasias e estéticas.</BigFiveODescription>
+  <BigFiveC>C</BigFiveC>
+  <BigFiveCDescription0>Conscienciosidade</BigFiveCDescription0>
+  <BigFiveCDescription>A {0} é a propensão à diligência, eficiência, organização, planejamento, dever e autodisciplina.</BigFiveCDescription>
+  <BigFiveE>E</BigFiveE>
+  <BigFiveEDescription0>Extroversão</BigFiveEDescription0>
+  <BigFiveEDescription>A {0} é a busca externa de gratificação, manifestada em comportamento sociável, falante, enérgico, alegre, assertivo e gregário.</BigFiveEDescription>
+  <BigFiveA>A</BigFiveA>
+  <BigFiveADescription0>Amabilidade</BigFiveADescription0>
+  <BigFiveADescription>A {0} é a capacidade de bondade, simpatia, cooperação, calor humano, cortesia e compaixão.</BigFiveADescription>
+  <BigFiveN>N</BigFiveN>
+  <BigFiveNDescription0>Neuroticismo</BigFiveNDescription0>
+  <BigFiveNDescription>O {0} é a tendência a emoções negativas como ansiedade, medo, raiva, inveja, culpa e tristeza.</BigFiveNDescription>
+</LanguageData>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FellPlotting.label>conspirando como loco</FellPlotting.label>
+  <FellPlotting.beginLetterLabel>conspiración siniestra</FellPlotting.beginLetterLabel>
+  <FellPlotting.beginLetter>¡{0} se retira a su habitación a conspirar!</FellPlotting.beginLetter>
+  <FellPlotting.recoveryMessage>La conspiración siniestra de {0} ha terminado.</FellPlotting.recoveryMessage>
+  <FellPlotting.baseInspectLine>Estado mental: conspiración siniestra</FellPlotting.baseInspectLine>
+  <SelfHarm.label>autolesionándose</SelfHarm.label>
+  <SelfHarm.beginLetterLabel>autolesiones</SelfHarm.beginLetterLabel>
+  <SelfHarm.beginLetter>{0} se ha cortado las muñecas y se esconde en su habitación.</SelfHarm.beginLetter>
+  <SelfHarm.recoveryMessage>{0} ha dejado de autolesionarse.</SelfHarm.recoveryMessage>
+  <SelfHarm.baseInspectLine>Estado mental: autolesiones</SelfHarm.baseInspectLine>
+  <Paranoia.label>balbuceando</Paranoia.label>
+  <Paranoia.beginLetterLabel>paranoia</Paranoia.beginLetterLabel>
+  <Paranoia.beginLetter>{0} está absorto en balbuceos paranoicos.</Paranoia.beginLetter>
+  <Paranoia.recoveryMessage>{0} ha superado su paranoia.</Paranoia.recoveryMessage>
+  <Paranoia.baseInspectLine>Estado mental: paranoia</Paranoia.baseInspectLine>
+  <Abuse.label>gritando</Abuse.label>
+  <Abuse.beginLetterLabel>abuso verbal</Abuse.beginLetterLabel>
+  <Abuse.beginLetter>{0} se ha enfurecido y está insultando a todo el que ve.</Abuse.beginLetter>
+  <Abuse.recoveryMessage>{0} ha dejado de insultar a la gente.</Abuse.recoveryMessage>
+  <Abuse.baseInspectLine>Estado mental: abusivo</Abuse.baseInspectLine>
+  <Compulsion.label>limpiando compulsivamente</Compulsion.label>
+  <Compulsion.beginLetterLabel>compulsión</Compulsion.beginLetterLabel>
+  <Compulsion.beginLetter>{0} está limpiando obsesivamente su entorno sin preocuparse por su propio bienestar.</Compulsion.beginLetter>
+  <Compulsion.recoveryMessage>{0} ha dejado de ordenar compulsivamente su entorno.</Compulsion.recoveryMessage>
+  <Compulsion.baseInspectLine>Estado mental: limpieza compulsiva</Compulsion.baseInspectLine>
+  <Antisocial.label>evitando a la gente</Antisocial.label>
+  <Antisocial.beginLetterLabel>antisocial</Antisocial.beginLetterLabel>
+  <Antisocial.beginLetter>{0} está evitando a sus compañeros colonos.</Antisocial.beginLetter>
+  <Antisocial.recoveryMessage>{0} ha dejado de ser antisocial.</Antisocial.recoveryMessage>
+  <Antisocial.baseInspectLine>Estado mental: antisocial</Antisocial.baseInspectLine>
+  <Apathy.label>holgazaneando</Apathy.label>
+  <Apathy.beginLetterLabel>apatía</Apathy.beginLetterLabel>
+  <Apathy.beginLetter>{0} se ha vuelto apático y es menos probable que haga el trabajo asignado.</Apathy.beginLetter>
+  <Apathy.recoveryMessage>{0} ha dejado de estar apático.</Apathy.recoveryMessage>
+  <Apathy.baseInspectLine>Estado mental: apatía</Apathy.baseInspectLine>
+  <Histrionic.label>comportándose de forma histriónica</Histrionic.label>
+  <Histrionic.beginLetterLabel>histrionismo</Histrionic.beginLetterLabel>
+  <Histrionic.beginLetter>{0} se ha vuelto histriónico y busca atención desesperadamente.</Histrionic.beginLetter>
+  <Histrionic.recoveryMessage>{0} ha dejado de ser histriónico.</Histrionic.recoveryMessage>
+  <Histrionic.baseInspectLine>Estado mental: histrionismo</Histrionic.baseInspectLine>
+  <HuntingTrip.label>retiro en la naturaleza</HuntingTrip.label>
+  <HuntingTrip.beginLetterLabel>retiro en la naturaleza</HuntingTrip.beginLetterLabel>
+  <HuntingTrip.beginLetter>{0} ha escapado a la naturaleza y encuentra alivio cazando.</HuntingTrip.beginLetter>
+  <HuntingTrip.recoveryMessage>{0} ha decidido volver de su viaje de caza.</HuntingTrip.recoveryMessage>
+  <HuntingTrip.baseInspectLine>Estado mental: retiro en la naturaleza</HuntingTrip.baseInspectLine>
+  <PanicAttack.label>en pánico</PanicAttack.label>
+  <PanicAttack.beginLetterLabel>ataque de pánico</PanicAttack.beginLetterLabel>
+  <PanicAttack.beginLetter>{0} está sufriendo un ataque de pánico.</PanicAttack.beginLetter>
+  <PanicAttack.recoveryMessage>El ataque de pánico de {0} ha terminado.</PanicAttack.recoveryMessage>
+  <PanicAttack.baseInspectLine>Estado mental: ataque de pánico</PanicAttack.baseInspectLine>
+</LanguageData>

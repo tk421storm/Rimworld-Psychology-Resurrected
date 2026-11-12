@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KinseyDisable>로맨스/성적 지향 모드가 감지되어 킨제이 척도를 비활성화합니다.</KinseyDisable>
+  <KinseyDetourDisable>호환성을 위해 일부 특성의 핵심 메서드 우회가 비활성화되었습니다. 해당 특성의 출현 빈도는 0으로 설정됩니다.</KinseyDetourDisable>
+  <MedicalDetourDisable>의료/수술 모드가 감지되어 의료 메서드 우회를 비활성화합니다. 해당 모드가 Less Arbitrary Surgery가 아니라면 마음 약한 인물의 일부 기능이 제거됩니다.</MedicalDetourDisable>
+  <DuplicateDefLabel>{0}에 중복된 PersonalityNodeDef 라벨이 있습니다. 번역을 수정할 수 있도록 제보해 주세요.</DuplicateDefLabel>
+</LanguageData>

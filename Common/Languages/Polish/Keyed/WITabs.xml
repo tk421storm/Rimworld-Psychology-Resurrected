@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CertaintyChangePerDay>Zmiana na dzień</CertaintyChangePerDay>
+  <AbilityIdeoConvertBreakdownPsychologyEffects>Osobowość a ideologie</AbilityIdeoConvertBreakdownPsychologyEffects>
+  <AbilityIdeoConvertBreakdownPersonalityTraits>Perswazja i otwartość</AbilityIdeoConvertBreakdownPersonalityTraits>
+  <AbilityIdeoConvertBreakdownPersuasion>Charyzma {PAWN_labelShort}</AbilityIdeoConvertBreakdownPersuasion>
+  <AbilityIdeoConvertBreakdownOpenness>Otwartość {PAWN_labelShort} (naiwny, eksperymentujący, nienostalgiczny)</AbilityIdeoConvertBreakdownOpenness>
+  <AbilityIdeoConvertBreakdownPawnCompatWithIdeo>Zgodność {PAWN_labelShort} z {IDEO}</AbilityIdeoConvertBreakdownPawnCompatWithIdeo>
+  <AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>Niezgodność {PAWN_labelShort} z {IDEO}</AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>
+  <PsycheCurrentlyDisabled>Psychika obecnie wyłączona</PsycheCurrentlyDisabled>
+  <TabPsyche>Psychika</TabPsyche>
+  <SexualityDisabledWarning>System seksualności Psychology jest wyłączony, przez ciebie lub przez niekompatybilny mod na liście. Wyłącz wszelkie inne mody zmieniające seksualność lub interakcje kolonistów.</SexualityDisabledWarning>
+  <KinseyRating>Wynik Kinseya:</KinseyRating>
+  <KinseyDescription0>Skala Kinseya</KinseyDescription0>
+  <KinseyDescription>{0} opisuje orientację seksualną osoby, od 0, wyłącznie heteroseksualnej, do 6, wyłącznie homoseksualnej.\n\nKinsey wybrał siedem kategorii dla uproszczenia i napisał, że „należy uznać, iż rzeczywistość obejmuje osoby wszystkich typów pośrednich, rozmieszczone na kontinuum między dwoma skrajnościami oraz między każdą z kategorii skali”.</KinseyDescription>
+  <SexDrive0>Aseksualny</SexDrive0>
+  <SexDrive1>Niski popęd seksualny</SexDrive1>
+  <SexDrive2>Średni popęd seksualny</SexDrive2>
+  <SexDrive3>Wysoki popęd seksualny</SexDrive3>
+  <SexDrive4>Skrajny popęd seksualny</SexDrive4>
+  <SexDriveDescription0>Popęd seksualny</SexDriveDescription0>
+  <SexDriveDescription>{0}, zwany też libido, opisuje ogólne pragnienie aktywności seksualnej.</SexDriveDescription>
+  <AsexualDescription>Ta postać ma bardzo mały popęd seksualny. Prawie nie odczuwa pociągu seksualnego i rzadko wchodzi w intymność, choć może przeżyć romans.</AsexualDescription>
+  <RomanticDrive0>Aromantyczny</RomanticDrive0>
+  <RomanticDrive1>Niskie pragnienie romantyczne</RomanticDrive1>
+  <RomanticDrive2>Średnie pragnienie romantyczne</RomanticDrive2>
+  <RomanticDrive3>Wysokie pragnienie romantyczne</RomanticDrive3>
+  <RomanticDrive4>Skrajne pragnienie romantyczne</RomanticDrive4>
+  <RomanticDriveDescription0>Pragnienie romantyczne</RomanticDriveDescription0>
+  <RomanticDriveDescription>{0} opisuje ogólne pragnienie związków romantycznych.</RomanticDriveDescription>
+  <AromanticDescription>Ta postać ma bardzo małe pragnienie romantyczne. Rzadko próbuje romansów lub przyjmuje oświadczyny, choć może mieć kochanków.</AromanticDescription>
+  <FamilyDrive0>Brak chęci posiadania dzieci</FamilyDrive0>
+  <FamilyDrive1>Niska chęć założenia rodziny</FamilyDrive1>
+  <FamilyDrive2>Średnia chęć założenia rodziny</FamilyDrive2>
+  <FamilyDrive3>Wysoka chęć założenia rodziny</FamilyDrive3>
+  <FamilyDrive4>Skrajna chęć założenia rodziny</FamilyDrive4>
+  <FamilyDriveDescription0>Chęć założenia rodziny</FamilyDriveDescription0>
+  <FamilyDriveDescription>{0} opisuje, jak bardzo ktoś chce mieć własne dzieci. Kształtują ją osobowość oraz cechy Matriarcha/Patriarcha i Childfree. Z Biotech określa podejście do ciąży: osoby o niskiej chęci unikają ciąży, a o wysokiej starają się o dziecko.</FamilyDriveDescription>
+  <OptionsText4>Chmura słów</OptionsText4>
+  <OptionsText3>Pokaż mniej</OptionsText3>
+  <OptionsText2>Pokaż więcej</OptionsText2>
+  <OptionsText1>Pokaż najważniejsze</OptionsText1>
+  <OptionsText0>Pokaż wszystko</OptionsText0>
+  <UseColors>Koloruj cechy</UseColors>
+  <ListAlphabetical>Kolejność alfabetyczna</ListAlphabetical>
+  <UseAntonyms>Używaj antonimów</UseAntonyms>
+  <EditPsyche>Edytuj</EditPsyche>
+  <PsycheEditor>Modyfikowanie psychiki: {0}</PsycheEditor>
+  <PsycheEditorNewColonist>Modyfikowanie psychiki kolonisty:</PsycheEditorNewColonist>
+  <PersonalityNodeWarning>Edytujesz surowe wartości osobowości postaci. Rzeczywiste statystyki zostaną dostosowane przez inne czynniki.</PersonalityNodeWarning>
+  <SexDrive>Popęd seksualny:</SexDrive>
+  <RomanticDrive>Pragnienie romantyczne:</RomanticDrive>
+  <FamilyDrive>Chęć założenia rodziny:</FamilyDrive>
+  <PsycheResetTooltip>Przywróć psychikę tej postaci do domyślnej na podstawie jej unikalnego ID HashCode.</PsycheResetTooltip>
+  <PsycheNot>Wcale</PsycheNot>
+  <PsycheSlightly>Lekko</PsycheSlightly>
+  <PsycheLess>Mniej</PsycheLess>
+  <PsycheSomewhat>Trochę</PsycheSomewhat>
+  <PsycheMore>Bardziej</PsycheMore>
+  <PsycheVery>Bardzo</PsycheVery>
+  <PsycheExtremely>Skrajnie</PsycheExtremely>
+  <ConversationTooltip>Ludzie będą rozmawiać o {0}, a {1} omawiać między sobą.</ConversationTooltip>
+  <PsycheComma>,</PsycheComma>
+  <AntonymColon> Antonim: {0}.</AntonymColon>
+  <FiveFactorModelTitle>Podsumowanie Wielkiej Piątki</FiveFactorModelTitle>
+  <FiveFactorDescription0>model pięcioczynnikowy</FiveFactorDescription0>
+  <FiveFactorDescription>{0} (Wielka Piątka) powstał pod koniec XX wieku na podstawie hipotezy leksykalnej, według której podstawowe cechy osobowości są zakodowane w języku.\n\nPięć czynników konsekwentnie pojawiało się w analizach licznych zbiorów określeń opisujących cechy w wielu językach, m.in. angielskim, chińskim, rosyjskim i niemieckim.\n\nBadania bliźniąt i adopcji ujawniły znaczący składnik genetyczny, a względna pozycja każdej osoby okazała się dość stabilna w dorosłym życiu.</FiveFactorDescription>
+  <BigFiveO>O</BigFiveO>
+  <BigFiveODescription0>Otwartość na doświadczenia</BigFiveODescription0>
+  <BigFiveODescription>{0} to gotowość do przyjmowania nowych idei, wartości, działań, uczuć, fantazji i estetyki.</BigFiveODescription>
+  <BigFiveC>C</BigFiveC>
+  <BigFiveCDescription0>Sumienność</BigFiveCDescription0>
+  <BigFiveCDescription>{0} to skłonność do pracowitości, efektywności, porządku, planowania, obowiązkowości i samodyscypliny.</BigFiveCDescription>
+  <BigFiveE>E</BigFiveE>
+  <BigFiveEDescription0>Ekstrawersja</BigFiveEDescription0>
+  <BigFiveEDescription>{0} to zewnętrzne poszukiwanie gratyfikacji, przejawiające się w zachowaniu towarzyskim, rozmownym, energicznym, radosnym, asertywnym i stadnym.</BigFiveEDescription>
+  <BigFiveA>A</BigFiveA>
+  <BigFiveADescription0>Ugodowość</BigFiveADescription0>
+  <BigFiveADescription>{0} to zdolność do życzliwości, współczucia, współpracy, ciepła, uprzejmości i litości.</BigFiveADescription>
+  <BigFiveN>N</BigFiveN>
+  <BigFiveNDescription0>Neurotyczność</BigFiveNDescription0>
+  <BigFiveNDescription>{0} to skłonność do negatywnych emocji, takich jak lęk, strach, złość, zazdrość, poczucie winy i smutek.</BigFiveNDescription>
+</LanguageData>

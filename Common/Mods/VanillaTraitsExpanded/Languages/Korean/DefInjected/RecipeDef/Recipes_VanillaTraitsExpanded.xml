@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>술꾼 치료</TreatLush.label>
+  <TreatLush.description>술꾼이 약물을 멀리하도록 돕습니다. 맨정신으로 지내는 것을 싫어할 것입니다.</TreatLush.description>
+  <TreatLush.jobString>술꾼 치료 중.</TreatLush.jobString>
+  <TreatStoner.label>약쟁이 치료</TreatStoner.label>
+  <TreatStoner.description>연초 흡연자가 약물을 멀리하도록 돕습니다. 맨정신으로 지내는 것을 싫어할 것입니다.</TreatStoner.description>
+  <TreatStoner.jobString>약쟁이 치료 중.</TreatStoner.jobString>
+</LanguageData>

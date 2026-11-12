@@ -23,6 +23,9 @@ Psychology exists because of these people:
 - **Nationality**, for the initial 1.1 patching.
 - **Linq**, credited as author on the unofficial update's package.
 - **Translators:** Паулк (Russian), Chaos (German), Mr.Gha (Chinese) and Éloïse Rodrake (French).
+  Their translations are kept wherever the English text hasn't changed.
+  Everything else is an AI (machine) translation, in Chinese (Simplified), French, German, Korean, Polish, Portuguese (Brazilian), Russian and Spanish. Corrections are welcome as issues or pull requests.
+  Chinese (Traditional) is still Mr.Gha's original and doesn't cover the newer content.
 - **Idea credits from the original:** ({x}) Disarray (passionate work mood bonus), twoski (many of the new mental breaks) and Wellech (the name of the Socialite trait).
 - **Tynan Sylvester and Ludeon**, for RimWorld and the modding support behind it.
 

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+  <HoldingConversation.description>Беседа</HoldingConversation.description>
   <HoldingConversation.label>разговор</HoldingConversation.label>
-  <HoldingConversation.stages.hidden.label>скрыто</HoldingConversation.stages.hidden.label>
-
-
+  <HoldingConversation.stages.0.label>скрыто</HoldingConversation.stages.0.label>
+  <PlannedDate.description>Свидание запланировано</PlannedDate.description>
   <PlannedDate.label>свидание</PlannedDate.label>
-  <PlannedDate.stages.hidden.label>скрыто</PlannedDate.stages.hidden.label>
-
-
+  <PlannedDate.stages.0.label>скрыто</PlannedDate.stages.0.label>
 </LanguageData>

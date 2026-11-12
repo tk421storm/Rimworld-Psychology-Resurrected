@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HookupSucceeded.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] {RECIPIENT_gender ? zgodził : zgodziła} się na przygodę.</HookupSucceeded.rulePack.rulesStrings.0>
+  <HookupFailed.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] nie {RECIPIENT_gender ? zgodził : zgodziła} się na przygodę.</HookupFailed.rulePack.rulesStrings.0>
+  <HookupNoBed.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] {RECIPIENT_gender ? chciał : chciała}, ale nie było łóżka dla dwojga.</HookupNoBed.rulePack.rulesStrings.0>
+  <RomanceAttemptDirect.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] {INITIATOR_gender ? poprosił : poprosiła} [RECIPIENT_nameDef], by zostali kochankami.</RomanceAttemptDirect.rulePack.rulesStrings.0>
+  <RomanceAttemptDateNight.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] {INITIATOR_gender ? zaplanował : zaplanowała} romantyczną randkę z [RECIPIENT_nameDef].</RomanceAttemptDateNight.rulePack.rulesStrings.0>
+  <RomanceAttemptDateLovin.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] {INITIATOR_gender ? zaproponował : zaproponowała}, by razem poszli do łóżka.</RomanceAttemptDateLovin.rulePack.rulesStrings.0>
+  <DateLovinAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] chętnie {RECIPIENT_gender ? przystał : przystała} na to.</DateLovinAccepted.rulePack.rulesStrings.0>
+  <DateLovinDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] nie {RECIPIENT_gender ? miał : miała} nastroju.</DateLovinDeclined.rulePack.rulesStrings.0>
+  <RomanceAttemptCourtship.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] {INITIATOR_gender ? zaprosił : zaprosiła} [RECIPIENT_nameDef] na randkę.</RomanceAttemptCourtship.rulePack.rulesStrings.0>
+  <RomanceAttemptHookup.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] {INITIATOR_gender ? zaproponował : zaproponowała} przygodę bez zobowiązań.</RomanceAttemptHookup.rulePack.rulesStrings.0>
+  <RomanceAttemptCheating.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] {INITIATOR_gender ? zaproponował : zaproponowała} skok w bok za plecami partnera.</RomanceAttemptCheating.rulePack.rulesStrings.0>
+  <Sentence_SocialFightConvoInitiatorStarted.rulePack.rulesStrings.0>sent-&gt;Różnice zdań narastały, aż [INITIATOR_nameDef] {INITIATOR_gender ? wszczął : wszczęła} bójkę!</Sentence_SocialFightConvoInitiatorStarted.rulePack.rulesStrings.0>
+  <Sentence_SocialFightConvoRecipientStarted.rulePack.rulesStrings.0>sent-&gt;Różnice zdań narastały, aż [RECIPIENT_nameDef] {RECIPIENT_gender ? wszczął : wszczęła} bójkę!</Sentence_SocialFightConvoRecipientStarted.rulePack.rulesStrings.0>
+  <DateAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] {RECIPIENT_gender ? powiedział : powiedziała} tak.</DateAccepted.rulePack.rulesStrings.0>
+  <DateDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] {RECIPIENT_gender ? odrzucił : odrzuciła} [INITIATOR_nameDef].</DateDeclined.rulePack.rulesStrings.0>
+  <HugAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] {RECIPIENT_gender ? odwzajemnił : odwzajemniła} uścisk [INITIATOR_nameDef].</HugAccepted.rulePack.rulesStrings.0>
+  <HugAccepted.rulePack.rulesStrings.1>sent-&gt; Przez chwilę trwali w uścisku.</HugAccepted.rulePack.rulesStrings.1>
+  <HugAccepted.rulePack.rulesStrings.2>sent-&gt; [RECIPIENT_nameDef] chętnie się {RECIPIENT_gender ? przytulił : przytuliła}.</HugAccepted.rulePack.rulesStrings.2>
+  <HugDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] nie {RECIPIENT_gender ? miał : miała} nastroju.</HugDeclined.rulePack.rulesStrings.0>
+  <HugDeclined.rulePack.rulesStrings.1>sent-&gt; [RECIPIENT_nameDef] {RECIPIENT_gender ? odsunął : odsunęła} się z niezręcznym uśmiechem.</HugDeclined.rulePack.rulesStrings.1>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>lecz pijaka</TreatLush.label>
+  <TreatLush.description>Pomaga pijakowi pozostać wolnym od narkotyków. Nie spodoba mu się trzeźwość.</TreatLush.description>
+  <TreatLush.jobString>Leczy pijaka.</TreatLush.jobString>
+  <TreatStoner.label>lecz palacza</TreatStoner.label>
+  <TreatStoner.description>Pomaga palaczowi dymnych liści pozostać wolnym od narkotyków. Nie spodoba mu się trzeźwość.</TreatStoner.description>
+  <TreatStoner.jobString>Leczy palacza.</TreatStoner.jobString>
+</LanguageData>

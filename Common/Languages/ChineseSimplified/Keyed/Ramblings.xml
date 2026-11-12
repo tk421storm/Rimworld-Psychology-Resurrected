@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParanoidRambling1>该死的蠢货！我们完蛋了！</ParanoidRambling1>
+  <ParanoidRambling2>它们来了！它们会毁灭我们！</ParanoidRambling2>
+  <ParanoidRambling3>这个地方被诅咒了！</ParanoidRambling3>
+  <ParanoidRambling4>我们都会死！</ParanoidRambling4>
+  <ParanoidRambling5>该死的地方！</ParanoidRambling5>
+  <ParanoidRambling6>我们过去的生活已经没了。我们是死者的影子！</ParanoidRambling6>
+  <ParanoidRambling7>这个悲惨的地方会成为我们的坟墓！</ParanoidRambling7>
+  <ParanoidRambling8>越早死，痛苦就越早结束！</ParanoidRambling8>
+  <ParanoidRambling9>蠢货！你们是吊在绳子上的木偶！</ParanoidRambling9>
+  <ParanoidRambling10>你们看不出来吗？我们只是玩具！</ParanoidRambling10>
+  <ParanoidRambling11>它们在嘲笑我们的痛苦！它们在咯咯大笑！</ParanoidRambling11>
+  <ParanoidRambling12>现在满意了吗？我们都会死！</ParanoidRambling12>
+  <ParanoidRambling13>你们离被遗忘只有一步之遥！</ParanoidRambling13>
+  <ParanoidRambling14>最糟的还在后头！我们根本没准备好！</ParanoidRambling14>
+  <ParanoidRambling15>没有希望了！我们在浪费时间！</ParanoidRambling15>
+  <ParanoidRambling16>我们为什么在这里？只是为了受苦吗？</ParanoidRambling16>
+  <ParanoidRambling17>我们的思想不属于我们自己！</ParanoidRambling17>
+  <ParanoidRambling18>你们的愚蠢害了我们所有人！</ParanoidRambling18>
+  <ParanoidRambling19>趁还能跑就快跑！</ParanoidRambling19>
+  <ParanoidRambling20>这该死的地狱会成为我们的坟墓！</ParanoidRambling20>
+  <ParanoidRambling21>我们只不过是命运手中的棋子！</ParanoidRambling21>
+  <ParanoidRambling22>我在浪费时间。你们全都又瞎又聋！</ParanoidRambling22>
+  <ParanoidRambling23>永远不会好起来！永远没人来救我们！</ParanoidRambling23>
+  <ParanoidRambling24>我们从未如此孤独和被遗弃！</ParanoidRambling24>
+  <ParanoidRambling25>我们工作、生病、死去，到底为了什么？</ParanoidRambling25>
+  <ParanoidRambling26>你们任何人随时都可能死！</ParanoidRambling26>
+  <ParanoidRambling27>我们还不如死了！</ParanoidRambling27>
+  <ParanoidRambling28>这只是一场梦，我们还能醒来！</ParanoidRambling28>
+  <ParanoidRambling29>每一次呼吸都只是在延长痛苦！</ParanoidRambling29>
+  <ParanoidRambling30>如果真有谁在照看我们，我们会落到如此绝望的境地吗？</ParanoidRambling30>
+  <ParanoidRambling31>意识是一道化脓的伤口！</ParanoidRambling31>
+  <ParanoidRambling32>它们把我们逼疯！逼我们互相吞食！</ParanoidRambling32>
+  <ParanoidRambling33>它们想把我们像动物一样关在这里！</ParanoidRambling33>
+  <FellMurmuring1>都是{0_gender ? 他 : 她}的错……</FellMurmuring1>
+  <FellMurmuring2>这一切都是{0_gender ? 他 : 她}的错……</FellMurmuring2>
+  <FellMurmuring3>我不能让{0_gender ? 他 : 她}就这么逃脱……</FellMurmuring3>
+  <FellMurmuring4>{0_gender ? 他 : 她}以为自己很聪明，是吧？</FellMurmuring4>
+  <FellMurmuring5>我会让{0_gender ? 他 : 她}好看的……</FellMurmuring5>
+  <FellMurmuring6>叛徒……破坏者……阴谋家……</FellMurmuring6>
+  <FellMurmuring7>{0_gender ? 他 : 她}在嘲笑我……</FellMurmuring7>
+  <FellMurmuring8>{0_gender ? 他 : 她}怎么敢……</FellMurmuring8>
+  <FellMurmuring9>{0_gender ? 他 : 她}以为我没注意到？</FellMurmuring9>
+  <FellMurmuring10>我必须亲自动手……谁都不能信任。</FellMurmuring10>
+  <FellMurmuring11>为了大家好……</FellMurmuring11>
+  <FellMurmuring12>我会自己解决这个问题……</FellMurmuring12>
+  <FellMurmuring13>[喃喃自语]</FellMurmuring13>
+  <FellMurmuring14>[嘟嘟囔囔]</FellMurmuring14>
+  <FellMurmuring15>[嘶嘶作声]</FellMurmuring15>
+  <FellMurmuring16>[窃窃私语]</FellMurmuring16>
+  <FellMurmuring17>[语无伦次地嘟囔]</FellMurmuring17>
+  <FellMurmuring18>白痴！</FellMurmuring18>
+  <FellMurmuring19>恶魔！</FellMurmuring19>
+  <FellMurmuring20>秃鹫！</FellMurmuring20>
+  <FellMurmuring21>怪物！</FellMurmuring21>
+  <FellMurmuring22>骗子！</FellMurmuring22>
+  <FellMurmuring23>在我背后……总是在我背后……</FellMurmuring23>
+  <FellMurmuring24>我们所有问题的根源……</FellMurmuring24>
+  <FellMurmuring25>{0_gender ? 他 : 她}绝对想不到……</FellMurmuring25>
+  <FellMurmuring26>我会计划好一切……</FellMurmuring26>
+  <FellMurmuring27>我会把一切都想清楚……</FellMurmuring27>
+  <FellMurmuring28>我会等待合适的时机……</FellMurmuring28>
+  <FellMurmuring29>我要为这个地方清除这场瘟疫！</FellMurmuring29>
+  <FellMurmuring30>如果没人做，那就我来。</FellMurmuring30>
+  <FellMurmuring31>他们都看不见……他们全都瞎了……</FellMurmuring31>
+  <FellMurmuring32>我能做到……我必须做到……</FellMurmuring32>
+  <FellMurmuring33>即使现在，{0_gender ? 他 : 她}也在嘲笑我……</FellMurmuring33>
+  <FellMurmuring34>{0_gender ? 他 : 她}活该……</FellMurmuring34>
+  <FellMurmuring35>{0_gender ? 他 : 她}会害死我的……</FellMurmuring35>
+  <FellMurmuring36>早就该这么做了……</FellMurmuring36>
+</LanguageData>

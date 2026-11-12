@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Prude.degreeDatas.0.label>pudico</Prude.degreeDatas.0.label>
+  <Prude.degreeDatas.0.description>[PAWN_nameDef] odeia ver o corpo humano. Fica extremamente infeliz quando está nu, mais incomodado que o normal com roupas gastas ou em farrapos, e não gosta de ver outras pessoas nuas.</Prude.degreeDatas.0.description>
+  <Insomniac.degreeDatas.0.label>insone</Insomniac.degreeDatas.0.label>
+  <Insomniac.degreeDatas.0.description>[PAWN_nameDef] tem dificuldade para dormir por causa de sua condição. Dará menos prioridade ao sono, acordará mais cedo e descansará menos ao dormir.</Insomniac.degreeDatas.0.description>
+  <BleedingHeart.degreeDatas.0.label>coração mole</BleedingHeart.degreeDatas.0.label>
+  <BleedingHeart.degreeDatas.0.description>[PAWN_nameDef] tem um coração enorme e se emociona muito. Adora ajudar as pessoas e odeia violência e injustiça. É mais afetado por essas coisas do que os outros.</BleedingHeart.degreeDatas.0.description>
+  <Gourmet.degreeDatas.0.label>gourmet</Gourmet.degreeDatas.0.label>
+  <Gourmet.degreeDatas.0.description>[PAWN_nameDef] é sempre exigente com comida. Espera ser bem alimentado e vai reclamar se as refeições não estiverem à altura.</Gourmet.degreeDatas.0.description>
+  <Unstable.degreeDatas.0.label>instável</Unstable.degreeDatas.0.label>
+  <Unstable.degreeDatas.0.description>[PAWN_nameDef] é mais propenso a mudanças de humor aleatórias, que podem ser mais fortes do que o normal para os outros.</Unstable.degreeDatas.0.description>
+  <Lecher.degreeDatas.0.label>lascivo</Lecher.degreeDatas.0.label>
+  <Lecher.degreeDatas.0.description>[PAWN_nameDef] é abertamente lascivo e um destruidor de corações inconsequente. Vai dar em cima de qualquer um que desejar, sem se importar com as consequências.</Lecher.degreeDatas.0.description>
+  <Codependent.degreeDatas.0.label>codependente</Codependent.degreeDatas.0.label>
+  <Codependent.degreeDatas.0.description>[PAWN_nameDef] é emocionalmente dependente e só será feliz num relacionamento. Ficará arrasado com traições e términos.</Codependent.degreeDatas.0.description>
+  <Outdoorsy.degreeDatas.0.label>amante da natureza</Outdoorsy.degreeDatas.0.label>
+  <Outdoorsy.degreeDatas.0.description>[PAWN_nameDef] adora ficar ao ar livre. Ganha um bônus de humor quando não há teto sobre a cabeça.</Outdoorsy.degreeDatas.0.description>
+  <Pluviophile.degreeDatas.0.label>pluviófilo</Pluviophile.degreeDatas.0.label>
+  <Pluviophile.degreeDatas.0.description>[PAWN_nameDef] gosta de chuva. Ganha um bônus de humor quando chove forte lá fora, principalmente se puder sair na chuva.</Pluviophile.degreeDatas.0.description>
+  <Photosensitive.degreeDatas.0.label>fotossensível</Photosensitive.degreeDatas.0.label>
+  <Photosensitive.degreeDatas.0.description>[PAWN_nameDef] tem olhos extremamente sensíveis à luz, por modificação genética ou mutação aleatória. Acha a luz forte extremamente dolorosa e a iluminação interna incômoda, e será mais feliz no escuro.</Photosensitive.degreeDatas.0.description>
+  <Socialite.degreeDatas.0.label>festeiro</Socialite.degreeDatas.0.label>
+  <Socialite.degreeDatas.0.description>[PAWN_nameDef] adora festas! Sua simples presença inspira mais festas na colônia, porque todo mundo gosta de festejar com [PAWN_objective].</Socialite.degreeDatas.0.description>
+  <Desensitized.degreeDatas.0.label>insensível</Desensitized.degreeDatas.0.label>
+  <Desensitized.degreeDatas.0.description>[PAWN_nameDef] já viu tanta violência e morte que isso não o choca mais como antes.</Desensitized.degreeDatas.0.description>
+  <HeavySleeper.degreeDatas.0.label>sono pesado</HeavySleeper.degreeDatas.0.label>
+  <HeavySleeper.degreeDatas.0.description>[PAWN_nameDef] dorme como uma pedra e nunca é incomodado por más condições de sono, mas é difícil acordá-lo.</HeavySleeper.degreeDatas.0.description>
+  <Polygamous.degreeDatas.0.label>poliamoroso</Polygamous.degreeDatas.0.label>
+  <Polygamous.degreeDatas.0.description>[PAWN_nameDef] não vê problema em ter vários parceiros. Não se importa que o parceiro tenha romances com outros, mas será menos feliz num relacionamento monogâmico restritivo.</Polygamous.degreeDatas.0.description>
+  <OpenMinded.degreeDatas.0.label>mente aberta</OpenMinded.degreeDatas.0.label>
+  <OpenMinded.degreeDatas.0.description>[PAWN_nameDef] vê as pessoas pelo que são por dentro, não por fora. Não julga os outros pela aparência.</OpenMinded.degreeDatas.0.description>
+  <Sedentary.degreeDatas.0.label>sedentário</Sedentary.degreeDatas.0.label>
+  <Sedentary.degreeDatas.0.description>[PAWN_nameDef] não é uma pessoa muito ativa. Não está em boa forma física, mas gosta de passar o dia sentado trabalhando nas suas coisas.</Sedentary.degreeDatas.0.description>
+  <Chatty.degreeDatas.0.label>tagarela</Chatty.degreeDatas.0.label>
+  <Chatty.degreeDatas.0.description>[PAWN_nameDef] fala, fala e fala... e continua falando. Costuma ter conversas mais longas que a maioria, porque não consegue terminá-las.</Chatty.degreeDatas.0.description>
+  <Matriarch.degreeDatas.0.label>patriarca</Matriarch.degreeDatas.0.label>
+  <Matriarch.degreeDatas.0.labelMale>patriarca</Matriarch.degreeDatas.0.labelMale>
+  <Matriarch.degreeDatas.0.labelFemale>matriarca</Matriarch.degreeDatas.0.labelFemale>
+  <Matriarch.degreeDatas.0.description>[PAWN_nameDef] sonha com uma família grande e é mais feliz cercado pelos filhos. Cada filho o deixa mais feliz, e sempre vai querer mais um.</Matriarch.degreeDatas.0.description>
+  <ChildFree.degreeDatas.0.label>childfree</ChildFree.degreeDatas.0.label>
+  <ChildFree.degreeDatas.0.description>[PAWN_nameDef] nunca quis filhos e nunca vai querer. Aproveita a liberdade, sempre evita a gravidez e seria infeliz como pai ou mãe.</ChildFree.degreeDatas.0.description>
+</LanguageData>

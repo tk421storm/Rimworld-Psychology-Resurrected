@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dynamic.stages.0.label>энергичность</Dynamic.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.label>прилив адреналина</KilledHumanlikeEnemy.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.description>Моими руками убит напавший на наше поселение. Я весь трясусь... Не могу поверить, что я в живых.</KilledHumanlikeEnemy.stages.0.description>
+  <KnowPrisonerSoldBleedingHeart.stages.0.label>заключённый продан в рабство</KnowPrisonerSoldBleedingHeart.stages.0.label>
+  <KnowPrisonerSoldBleedingHeart.stages.0.description>Мы продали заключённого в рабство. Не могу поверить, что мы практикуем такое варварство.</KnowPrisonerSoldBleedingHeart.stages.0.description>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.label>вырезан чей-то орган</KnowGuestOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.description>У гостя или пленника удалили орган. Это ужасно, резать людей на части без их согласия.</KnowGuestOrganHarvestedBleedingHeart.stages.0.description>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.label>поселенцу вырезали орган</KnowColonistOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.description>У поселенца удалили орган. Это ужасно, разбирать людей на части, когда у них нет выбора.</KnowColonistOrganHarvestedBleedingHeart.stages.0.description>
+  <ReplacedPartBleedingHeart.stages.0.label>вживлён орган или часть тела</ReplacedPartBleedingHeart.stages.0.label>
+  <ReplacedPartBleedingHeart.stages.0.description>С моей помощью у другого человека появилась новая часть тела или орган! Возможно, качество жизни этого человека теперь улучшится. Какое счастье!.</ReplacedPartBleedingHeart.stages.0.description>
+  <DoctorBleedingHeart.stages.0.label>помощь пациенту</DoctorBleedingHeart.stages.0.label>
+  <DoctorBleedingHeart.stages.0.description>Обожаю медицину. Так много возможностей помочь другим людям.</DoctorBleedingHeart.stages.0.description>
+  <RescuedBleedingHeart.stages.0.label>кто-то спасён</RescuedBleedingHeart.stages.0.label>
+  <RescuedBleedingHeart.stages.0.description>Я спас человека на волоске от смерти. Не стоит благодарности, для меня одна возможность помочь была самой наградой.</RescuedBleedingHeart.stages.0.description>
+  <CookedMealBleedingHeart.stages.0.label>приготовлено блюдо</CookedMealBleedingHeart.stages.0.label>
+  <CookedMealBleedingHeart.stages.0.description>Люблю готовить, потому что чувствую, что помогаю людям. Благодаря мне все в поселении сыты!</CookedMealBleedingHeart.stages.0.description>
+  <FilledGraveBleedingHeart.stages.0.label>кто-то погребён</FilledGraveBleedingHeart.stages.0.label>
+  <FilledGraveBleedingHeart.stages.0.description>Покойся с миром.</FilledGraveBleedingHeart.stages.0.description>
+  <KilledPatientBleedingHeart.stages.0.label>пациент погиб</KilledPatientBleedingHeart.stages.0.label>
+  <KilledPatientBleedingHeart.stages.0.description>Из-за меня во время операции погиб пациент. Это всё моя ошибка... Этот человек мог бы сейчас быть с нами.</KilledPatientBleedingHeart.stages.0.description>
+  <RecentlyDesensitized.stages.0.label>бесчувственность к насилию</RecentlyDesensitized.stages.0.label>
+  <RecentlyDesensitized.stages.0.description>Я видел смерть другого человека и ничего не почувствовал. Как же это угнетает...</RecentlyDesensitized.stages.0.description>
+  <DreamGood.stages.0.label>приснился хороший сон</DreamGood.stages.0.label>
+  <DreamGood.stages.0.description>Это был хороший сон. Он вселил в меня надежду.</DreamGood.stages.0.description>
+  <DreamBad.stages.0.label>приснился плохой сон</DreamBad.stages.0.label>
+  <DreamBad.stages.0.description>Это был неприятный сон. До сих пор о нём думаю.</DreamBad.stages.0.description>
+  <DreamNightmare.stages.0.label>приснился кошмар</DreamNightmare.stages.0.label>
+  <DreamNightmare.stages.0.description>Аа! Какой ужасный кошмар. Мне плохо даже от одной мысли о нём.</DreamNightmare.stages.0.description>
+  <TreatmentFailed.stages.0.label>лечение ({0}) не удалось</TreatmentFailed.stages.0.label>
+  <TreatmentFailed.stages.0.description>Врачу не удалось вылечить мою {0}... Казалось, меня просто не поняли.</TreatmentFailed.stages.0.description>
+  <SuccessfulPlot.stages.0.label>сумасшедший заговор удался</SuccessfulPlot.stages.0.label>
+  <SuccessfulPlot.stages.0.description>Я стёр с лица земли эту чуму. Теперь мы в безопасности.</SuccessfulPlot.stages.0.description>
+  <HeardParanoia.stages.0.label>параноидальный бред</HeardParanoia.stages.0.label>
+  <HeardParanoia.stages.0.description>Все эти вещи... Это же неправда да?</HeardParanoia.stages.0.description>
+  <ColonistAbandonedBleedingHeart.stages.0.label>поселенец брошен</ColonistAbandonedBleedingHeart.stages.0.label>
+  <ColonistAbandonedBleedingHeart.stages.0.description>Мы оставили кого-то позади. Не могу перестать думать, что же может произойти с этим человеком.</ColonistAbandonedBleedingHeart.stages.0.description>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.label>поселенец брошен умирать</ColonistAbandonedToDieBleedingHeart.stages.0.label>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.description>Мы бросили кого-то на верную смерть! Как мы могли?</ColonistAbandonedToDieBleedingHeart.stages.0.description>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.label>заключённый брошен умирать</PrisonerAbandonedToDieBleedingHeart.stages.0.label>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.description>Мы бросили заключённого на верную смерть. Мы должны нести ответственность за тех, кого берём в плен.</PrisonerAbandonedToDieBleedingHeart.stages.0.description>
+  <DateCancelled.stages.0.label>пришлось отменить свидание</DateCancelled.stages.0.label>
+  <DateCancelled.stages.0.description>У меня было запланировано свидание со своим партнёром, но в поселении что-то пошло не так и всё пришлось отменить. Такая досада...</DateCancelled.stages.0.description>
+  <WonFight.stages.0.label>победа в драке</WonFight.stages.0.label>
+  <WonFight.stages.0.description>Каждый теперь дважды подумает, прежде чем лезть на меня.</WonFight.stages.0.description>
+</LanguageData>

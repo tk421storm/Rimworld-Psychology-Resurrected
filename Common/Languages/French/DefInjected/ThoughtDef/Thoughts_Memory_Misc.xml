@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dynamic.stages.0.label>dynamique</Dynamic.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.label>montée d'adrénaline</KilledHumanlikeEnemy.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.description>J'ai tué quelqu'un qui attaquait notre colonie. Mes mains tremblent encore... Je n'arrive pas à croire que j'ai survécu.</KilledHumanlikeEnemy.stages.0.description>
+  <KnowPrisonerSoldBleedingHeart.stages.0.label>un prisonnier a été vendu</KnowPrisonerSoldBleedingHeart.stages.0.label>
+  <KnowPrisonerSoldBleedingHeart.stages.0.description>Cette colonie a vendu un prisonnier comme esclave. Je n'arrive pas à croire que nous participons à cette barbarie.</KnowPrisonerSoldBleedingHeart.stages.0.description>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.label>organes de quelqu'un prélevés</KnowGuestOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.description>La colonie a prélevé des parties du corps d'un invité ou d'un prisonnier. C'est inacceptable de dépecer quelqu'un pour ses organes alors qu'il n'a pas le choix.</KnowGuestOrganHarvestedBleedingHeart.stages.0.description>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.label>organes d'un colon prélevés</KnowColonistOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.description>Quelqu'un a prélevé des parties du corps d'un colon. C'est inacceptable de dépecer quelqu'un pour ses organes alors qu'il n'a pas le choix.</KnowColonistOrganHarvestedBleedingHeart.stages.0.description>
+  <ReplacedPartBleedingHeart.stages.0.label>a installé un organe ou une partie du corps</ReplacedPartBleedingHeart.stages.0.label>
+  <ReplacedPartBleedingHeart.stages.0.description>J'ai donné à quelqu'un un nouvel organe ou une nouvelle partie du corps. J'ai sans doute amélioré sa qualité de vie ! Je suis si heureux.</ReplacedPartBleedingHeart.stages.0.description>
+  <DoctorBleedingHeart.stages.0.label>a aidé un patient</DoctorBleedingHeart.stages.0.label>
+  <DoctorBleedingHeart.stages.0.description>J'adore la médecine. Elle offre tant d'occasions d'aider les gens.</DoctorBleedingHeart.stages.0.description>
+  <RescuedBleedingHeart.stages.0.label>a sauvé quelqu'un</RescuedBleedingHeart.stages.0.label>
+  <RescuedBleedingHeart.stages.0.description>J'ai sauvé quelqu'un d'une mort certaine. Inutile de me remercier, une bonne action est sa propre récompense.</RescuedBleedingHeart.stages.0.description>
+  <CookedMealBleedingHeart.stages.0.label>a cuisiné un repas</CookedMealBleedingHeart.stages.0.label>
+  <CookedMealBleedingHeart.stages.0.description>J'adore cuisiner, j'ai l'impression d'aider les gens. C'est moi qui garde cette colonie en vie !</CookedMealBleedingHeart.stages.0.description>
+  <FilledGraveBleedingHeart.stages.0.label>a enterré quelqu'un</FilledGraveBleedingHeart.stages.0.label>
+  <FilledGraveBleedingHeart.stages.0.description>J'espère qu'il trouvera la paix.</FilledGraveBleedingHeart.stages.0.description>
+  <KilledPatientBleedingHeart.stages.0.label>a tué un patient</KilledPatientBleedingHeart.stages.0.label>
+  <KilledPatientBleedingHeart.stages.0.description>J'ai tué l'un de mes patients en chirurgie. Tout est de ma faute... il devrait encore être en vie.</KilledPatientBleedingHeart.stages.0.description>
+  <RecentlyDesensitized.stages.0.label>désensibilisé à la violence</RecentlyDesensitized.stages.0.label>
+  <RecentlyDesensitized.stages.0.description>J'ai été témoin d'une mort, et je n'ai rien ressenti. Comme c'est déprimant...</RecentlyDesensitized.stages.0.description>
+  <DreamGood.stages.0.label>a fait un beau rêve</DreamGood.stages.0.label>
+  <DreamGood.stages.0.description>C'était un beau rêve. Il m'a donné de l'espoir.</DreamGood.stages.0.description>
+  <DreamBad.stages.0.label>a fait un mauvais rêve</DreamBad.stages.0.label>
+  <DreamBad.stages.0.description>C'était un rêve désagréable. Ça me trouble encore.</DreamBad.stages.0.description>
+  <DreamNightmare.stages.0.label>a fait un cauchemar</DreamNightmare.stages.0.label>
+  <DreamNightmare.stages.0.description>Argh ! Quel rêve horrible. Rien que d'y penser, ça me déprime.</DreamNightmare.stages.0.description>
+  <TreatmentFailed.stages.0.label>traitement contre {0} échoué</TreatmentFailed.stages.0.label>
+  <TreatmentFailed.stages.0.description>Le médecin n'a pas réussi à traiter mon/ma {0}... J'ai eu l'impression qu'il ne me comprenait pas.</TreatmentFailed.stages.0.description>
+  <SuccessfulPlot.stages.0.label>complot funeste réussi</SuccessfulPlot.stages.0.label>
+  <SuccessfulPlot.stages.0.description>J'ai détruit le fléau de cet endroit. Nous sommes en sécurité maintenant.</SuccessfulPlot.stages.0.description>
+  <HeardParanoia.stages.0.label>exposé à des divagations paranoïaques</HeardParanoia.stages.0.label>
+  <HeardParanoia.stages.0.description>Ce que j'ai entendu... ça ne peut pas être vrai. N'est-ce pas ?</HeardParanoia.stages.0.description>
+  <ColonistAbandonedBleedingHeart.stages.0.label>colon abandonné</ColonistAbandonedBleedingHeart.stages.0.label>
+  <ColonistAbandonedBleedingHeart.stages.0.description>Nous venons de laisser quelqu'un derrière nous. Je n'arrête pas de penser à ce qui pourrait lui arriver.</ColonistAbandonedBleedingHeart.stages.0.description>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.label>colon abandonné à la mort</ColonistAbandonedToDieBleedingHeart.stages.0.label>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.description>Nous avons abandonné quelqu'un de telle sorte qu'il n'a presque aucune chance de survivre. Comment avons-nous pu ?</ColonistAbandonedToDieBleedingHeart.stages.0.description>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.label>prisonnier abandonné à la mort</PrisonerAbandonedToDieBleedingHeart.stages.0.label>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.description>Nous avons abandonné un prisonnier de telle sorte qu'il n'a presque aucune chance de survivre. Nous avons la responsabilité de protéger les gens que nous emprisonnons.</PrisonerAbandonedToDieBleedingHeart.stages.0.description>
+  <DateCancelled.stages.0.label>a dû annuler un rendez-vous</DateCancelled.stages.0.label>
+  <DateCancelled.stages.0.description>Je devais avoir un rendez-vous avec mon partenaire, mais un imprévu est survenu dans la colonie et nous avons dû annuler. J'avais hâte...</DateCancelled.stages.0.description>
+  <WonFight.stages.0.label>a gagné une bagarre</WonFight.stages.0.label>
+  <WonFight.stages.0.description>Ça lui apprendra à me chercher.</WonFight.stages.0.description>
+</LanguageData>

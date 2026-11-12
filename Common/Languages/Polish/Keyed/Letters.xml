@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterLabelPTSD>Trauma stresowa</LetterLabelPTSD>
+  <LetterPTSD>U {0_labelShort} rozwinął się pourazowy lęk w wyniku załamania psychicznego. Lęk to trwały stan, ale można go leczyć, by stopniowo zmniejszyć jego nasilenie do poziomu pozwalającego na normalne życie. Każde kolejne załamanie psychiczne pogłębi lęk.\n\nMówi się, że lekarze z błyszczących światów potrafili wyleczyć u swoich pacjentów choroby psychiczne takie jak lęk. Jeśli zdobędziesz ultratechnologiczne leki, niezwykle wykwalifikowany lekarz mógłby ich użyć, by wyleczyć lęk {0_labelShort}.</LetterPTSD>
+  <LetterLabelDatePlanned>Romantyczna randka</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort} {0_gender ? zaplanował : zaplanowała} randkę z {1_labelShort} na {2}, godz. {3}:00.\n\nRandki mogą zostać odwołane z wielu powodów, zwłaszcza gdy któryś z kolonistów ma zaplanowaną pracę, zostanie powołany albo unieruchomiony przez rany lub pilne sprawy kolonii.\n\nJeśli randka zostanie odwołana, oboje koloniści będą niezadowoleni. Koloniści mogą też przegapić randkę, jeśli zaśpią. Zirytuje to drugą osobę, ale nie wywoła negatywnej myśli.</LetterDatePlanned>
+  <LetterRejectedProposalPsychology>Zależnie od osobowości wpłynie to na ich nastrój i relację.</LetterRejectedProposalPsychology>
+  <LetterLabelCourtshipDatePlanned>Randka</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort} {0_gender ? zaprosił : zaprosiła} {1_labelShort} na randkę: {2}, godz. {3}:00.\n\nJeśli się uda, polubią się bardziej i może zdecydują się zostać kochankami. Nieudana randka może sprawić, że polubią się mniej. Randki mogą zostać odwołane, jeśli któreś z nich ma zaplanowaną pracę, zostanie powołane lub w inny sposób unieruchomione.</LetterCourtshipDatePlanned>
+</LanguageData>

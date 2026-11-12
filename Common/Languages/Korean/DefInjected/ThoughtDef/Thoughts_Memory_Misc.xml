@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dynamic.stages.0.label>역동적</Dynamic.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.label>아드레날린 폭발</KilledHumanlikeEnemy.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.description>우리 정착지를 공격하던 사람을 죽였어. 아직도 손이 떨려... 내가 살아남았다니 믿기지 않아.</KilledHumanlikeEnemy.stages.0.description>
+  <KnowPrisonerSoldBleedingHeart.stages.0.label>수감자가 팔림</KnowPrisonerSoldBleedingHeart.stages.0.label>
+  <KnowPrisonerSoldBleedingHeart.stages.0.description>이 정착지가 수감자를 노예로 팔았어. 우리가 이런 야만에 가담하다니 믿을 수 없어.</KnowPrisonerSoldBleedingHeart.stages.0.description>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.label>누군가의 장기가 적출됨</KnowGuestOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.description>정착지가 손님이나 수감자의 신체 부위를 떼어 냈어. 선택권도 없는 사람을 장기 때문에 해체하다니 용납할 수 없어.</KnowGuestOrganHarvestedBleedingHeart.stages.0.description>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.label>정착민의 장기가 적출됨</KnowColonistOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.description>누군가 정착민의 신체 부위를 떼어 냈어. 선택권도 없는 사람을 장기 때문에 해체하다니 용납할 수 없어.</KnowColonistOrganHarvestedBleedingHeart.stages.0.description>
+  <ReplacedPartBleedingHeart.stages.0.label>장기나 신체 부위를 이식함</ReplacedPartBleedingHeart.stages.0.label>
+  <ReplacedPartBleedingHeart.stages.0.description>누군가에게 새 장기나 신체 부위를 달아 줬어. 분명 그 사람의 삶의 질을 높였을 거야! 정말 기뻐.</ReplacedPartBleedingHeart.stages.0.description>
+  <DoctorBleedingHeart.stages.0.label>환자를 도움</DoctorBleedingHeart.stages.0.label>
+  <DoctorBleedingHeart.stages.0.description>난 의학이 정말 좋아. 사람들을 도울 기회가 정말 많거든.</DoctorBleedingHeart.stages.0.description>
+  <RescuedBleedingHeart.stages.0.label>누군가를 구함</RescuedBleedingHeart.stages.0.label>
+  <RescuedBleedingHeart.stages.0.description>죽음의 문턱에서 누군가를 구해 냈어. 고마워할 필요 없어, 선행은 그 자체로 보상이니까.</RescuedBleedingHeart.stages.0.description>
+  <CookedMealBleedingHeart.stages.0.label>요리를 함</CookedMealBleedingHeart.stages.0.label>
+  <CookedMealBleedingHeart.stages.0.description>난 요리하는 게 정말 좋아. 사람들을 돕는 기분이야. 내가 이 정착지를 먹여 살리고 있어!</CookedMealBleedingHeart.stages.0.description>
+  <FilledGraveBleedingHeart.stages.0.label>누군가를 묻어 줌</FilledGraveBleedingHeart.stages.0.label>
+  <FilledGraveBleedingHeart.stages.0.description>편히 쉬길 바라.</FilledGraveBleedingHeart.stages.0.description>
+  <KilledPatientBleedingHeart.stages.0.label>환자를 죽게 함</KilledPatientBleedingHeart.stages.0.label>
+  <KilledPatientBleedingHeart.stages.0.description>수술 중에 내 환자 한 명을 죽게 했어. 다 내 잘못이야... 그는 아직 살아 있어야 했어.</KilledPatientBleedingHeart.stages.0.description>
+  <RecentlyDesensitized.stages.0.label>폭력에 무뎌짐</RecentlyDesensitized.stages.0.label>
+  <RecentlyDesensitized.stages.0.description>죽음을 목격했는데 아무것도 느껴지지 않았어. 정말 우울하네...</RecentlyDesensitized.stages.0.description>
+  <DreamGood.stages.0.label>좋은 꿈을 꿈</DreamGood.stages.0.label>
+  <DreamGood.stages.0.description>아름다운 꿈이었어. 희망이 생겼어.</DreamGood.stages.0.description>
+  <DreamBad.stages.0.label>나쁜 꿈을 꿈</DreamBad.stages.0.label>
+  <DreamBad.stages.0.description>불쾌한 꿈이었어. 아직도 마음이 뒤숭숭해.</DreamBad.stages.0.description>
+  <DreamNightmare.stages.0.label>악몽을 꿈</DreamNightmare.stages.0.label>
+  <DreamNightmare.stages.0.description>으악! 정말 끔찍한 꿈이었어. 생각만 해도 우울해져.</DreamNightmare.stages.0.description>
+  <TreatmentFailed.stages.0.label>{0} 치료 실패</TreatmentFailed.stages.0.label>
+  <TreatmentFailed.stages.0.description>의사가 내 {0}(을)를 치료하지 못했어... 나를 이해하지 못하는 것 같았어.</TreatmentFailed.stages.0.description>
+  <SuccessfulPlot.stages.0.label>흉악한 음모 성공</SuccessfulPlot.stages.0.label>
+  <SuccessfulPlot.stages.0.description>이곳의 역병을 없애 버렸어. 이제 우린 안전해.</SuccessfulPlot.stages.0.description>
+  <HeardParanoia.stages.0.label>편집증적인 헛소리를 들음</HeardParanoia.stages.0.label>
+  <HeardParanoia.stages.0.description>내가 들은 그것들... 사실일 리 없어. 그렇지?</HeardParanoia.stages.0.description>
+  <ColonistAbandonedBleedingHeart.stages.0.label>정착민을 버림</ColonistAbandonedBleedingHeart.stages.0.label>
+  <ColonistAbandonedBleedingHeart.stages.0.description>방금 누군가를 두고 왔어. 그에게 무슨 일이 생길지 계속 생각나.</ColonistAbandonedBleedingHeart.stages.0.description>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.label>정착민을 죽게 버림</ColonistAbandonedToDieBleedingHeart.stages.0.label>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.description>살아남을 가망이 거의 없게 누군가를 버려두고 왔어. 어떻게 그럴 수 있지?</ColonistAbandonedToDieBleedingHeart.stages.0.description>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.label>수감자를 죽게 버림</PrisonerAbandonedToDieBleedingHeart.stages.0.label>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.description>살아남을 가망이 거의 없게 수감자를 버려두고 왔어. 우리에겐 우리가 가둔 사람들을 지킬 책임이 있어.</PrisonerAbandonedToDieBleedingHeart.stages.0.description>
+  <DateCancelled.stages.0.label>데이트를 취소해야 했음</DateCancelled.stages.0.label>
+  <DateCancelled.stages.0.description>연인과 데이트하기로 했는데, 정착지에 일이 생겨서 취소해야 했어. 기대하고 있었는데...</DateCancelled.stages.0.description>
+  <WonFight.stages.0.label>싸움에서 이김</WonFight.stages.0.label>
+  <WonFight.stages.0.description>이제 나한테 함부로 덤비지 않겠지.</WonFight.stages.0.description>
+</LanguageData>

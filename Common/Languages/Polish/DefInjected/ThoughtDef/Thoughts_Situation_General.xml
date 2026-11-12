@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ApparelDamagedPrude.stages.0.label>znoszone ubranie</ApparelDamagedPrude.stages.0.label>
+  <ApparelDamagedPrude.stages.0.description>Mój strój wygląda kiepsko. Zaczyna za dużo odsłaniać...</ApparelDamagedPrude.stages.0.description>
+  <ApparelDamagedPrude.stages.1.label>podarte ubranie</ApparelDamagedPrude.stages.1.label>
+  <ApparelDamagedPrude.stages.1.description>Mam na sobie podartą szmatę. Wszystko przez nią widać!</ApparelDamagedPrude.stages.1.description>
+  <Individuality.stages.0.label>identyczny strój</Individuality.stages.0.label>
+  <Individuality.stages.0.description>Ktoś inny w kolonii jest ubrany dokładnie tak jak ja, od stóp do głów. To trochę niepokojące.</Individuality.stages.0.description>
+  <Individuality.stages.1.label>identyczny strój</Individuality.stages.1.label>
+  <Individuality.stages.1.description>Inne osoby w kolonii są ubrane dokładnie tak jak ja, od stóp do głów. To deprymujące.</Individuality.stages.1.description>
+  <Individuality.stages.2.label>stłumiona indywidualność</Individuality.stages.2.label>
+  <Individuality.stages.2.description>Większość kolonii wygląda dokładnie tak samo, od stóp do głów. To przerażające, a ja chcę wyrażać swoją indywidualność.</Individuality.stages.2.description>
+  <Individuality.stages.3.label>stłumiona indywidualność</Individuality.stages.3.label>
+  <Individuality.stages.3.description>Wszyscy tutaj wyglądają dokładnie tak samo, od stóp do głów! To głęboko niepokojące, a ja chcę wyrażać swoją indywidualność.</Individuality.stages.3.description>
+  <SurvivedTogether.stages.0.label>rok wspólnego przetrwania</SurvivedTogether.stages.0.label>
+  <SurvivedTogether.stages.1.label>dwa lata wspólnego przetrwania</SurvivedTogether.stages.1.label>
+  <SurvivedTogether.stages.2.label>trzy lata wspólnego przetrwania</SurvivedTogether.stages.2.label>
+  <SurvivedTogether.stages.3.label>cztery lata wspólnego przetrwania</SurvivedTogether.stages.3.label>
+  <SurvivedTogether.stages.4.label>pięć lat wspólnego przetrwania</SurvivedTogether.stages.4.label>
+  <SurvivedTogether.stages.5.label>ponad pięć lat wspólnego przetrwania</SurvivedTogether.stages.5.label>
+  <LongDistance.stages.0.label>związek na odległość</LongDistance.stages.0.label>
+  <LongDistance.stages.1.label>związek na odległość</LongDistance.stages.1.label>
+  <LongDistance.stages.2.label>związek na odległość</LongDistance.stages.2.label>
+  <LongDistance.stages.3.label>związek na odległość</LongDistance.stages.3.label>
+  <LongDistance.stages.4.label>związek na odległość</LongDistance.stages.4.label>
+  <LongDistance.stages.5.label>związek na odległość</LongDistance.stages.5.label>
+  <LongDistance.stages.6.label>związek na odległość</LongDistance.stages.6.label>
+  <PrudeVsNudist.stages.0.label>pruderia kontra nudyzm</PrudeVsNudist.stages.0.label>
+  <NudistVsPrude.stages.0.label>nudyzm kontra pruderia</NudistVsPrude.stages.0.label>
+</LanguageData>

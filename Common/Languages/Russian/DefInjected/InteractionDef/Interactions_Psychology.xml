@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Random social interactions -->
-
   <PrudeSeen.label>голый человек</PrudeSeen.label>
-  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] {INITIATOR_gender ? увидел : увидела} [RECIPIENT_nameDef] голым.</PrudeSeen.logRulesInitiator.rulesStrings.0>
-
+  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? увидел : увидела} [RECIPIENT_nameDef] голым.</PrudeSeen.logRulesInitiator.rulesStrings.0>
   <Conversation.label>беседа</Conversation.label>
-  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)->[INITIATOR_nameDef] [conversed] с [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.0>
-  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] к разговору.</Conversation.logRulesInitiator.rulesStrings.1>
-  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef] говорит с [RECIPIENT_nameDef] о чём-то.</Conversation.logRulesInitiator.rulesStrings.2>
-  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)->начинает разговор</Conversation.logRulesInitiator.rulesStrings.3>
-  <Conversation.logRulesInitiator.rulesStrings.4>conversed->начинает беседу</Conversation.logRulesInitiator.rulesStrings.4>
-  <Conversation.logRulesInitiator.rulesStrings.5>conversed->начинает болтать</Conversation.logRulesInitiator.rulesStrings.5>
-  <Conversation.logRulesInitiator.rulesStrings.6>conversed->заговаривает о чём-то</Conversation.logRulesInitiator.rulesStrings.6>
-  <Conversation.logRulesInitiator.rulesStrings.7>conversed->начинает что-то обсуждать</Conversation.logRulesInitiator.rulesStrings.7>
-
+  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)-&gt;[INITIATOR_nameDef] [conversed] с [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.0>
+  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] к разговору.</Conversation.logRulesInitiator.rulesStrings.1>
+  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] говорит с [RECIPIENT_nameDef] о чём-то.</Conversation.logRulesInitiator.rulesStrings.2>
+  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)-&gt;начинает разговор</Conversation.logRulesInitiator.rulesStrings.3>
+  <Conversation.logRulesInitiator.rulesStrings.4>conversed-&gt;начинает беседу</Conversation.logRulesInitiator.rulesStrings.4>
+  <Conversation.logRulesInitiator.rulesStrings.5>conversed-&gt;начинает болтать</Conversation.logRulesInitiator.rulesStrings.5>
+  <Conversation.logRulesInitiator.rulesStrings.6>conversed-&gt;заговаривает о чём-то</Conversation.logRulesInitiator.rulesStrings.6>
+  <Conversation.logRulesInitiator.rulesStrings.7>conversed-&gt;начинает что-то обсуждать</Conversation.logRulesInitiator.rulesStrings.7>
   <EndConversation.label>конец разговора</EndConversation.label>
-  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] заканчивает разговор с [RECIPIENT_nameDef].</EndConversation.logRulesInitiator.rulesStrings.0>
-
+  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] заканчивает разговор с [RECIPIENT_nameDef].</EndConversation.logRulesInitiator.rulesStrings.0>
   <HangOut.label>тусовка</HangOut.label>
-  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] провести с собой время.</HangOut.logRulesInitiator.rulesStrings.0>
-
-  <PlanDate.label>романтический вечер</PlanDate.label>
-  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] на романтический вечер.</PlanDate.logRulesInitiator.rulesStrings.0>
-
-  <AskOutOnDate.label>приглашение на свидание</AskOutOnDate.label>
-  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] на свидание.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
-
+  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] приглашает [RECIPIENT_nameDef] провести с собой время.</HangOut.logRulesInitiator.rulesStrings.0>
+  <PlanDate.label>планирует романтический вечер</PlanDate.label>
+  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? запланировал : запланировала} романтический вечер с [RECIPIENT_nameDef].</PlanDate.logRulesInitiator.rulesStrings.0>
+  <AskOutOnDate.label>приглашает на свидание</AskOutOnDate.label>
+  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? пригласил : пригласила} [RECIPIENT_nameDef] на свидание.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
+  <Indoctrinate.label>индоктринация</Indoctrinate.label>
+  <Indoctrinate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] {INITIATOR_gender ? провёл : провела} индоктринацию [RECIPIENT_nameDef].</Indoctrinate.logRulesInitiator.rulesStrings.0>
+  <Hug.label>объятия</Hug.label>
+  <Hug.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] подходит к [RECIPIENT_nameDef]: [hug].</Hug.logRulesInitiator.rulesStrings.0>
+  <Hug.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] раскрывает объятия для [RECIPIENT_nameDef].</Hug.logRulesInitiator.rulesStrings.1>
+  <Hug.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] тянется к [RECIPIENT_nameDef]: [hug].</Hug.logRulesInitiator.rulesStrings.2>
+  <Hug.logRulesInitiator.rulesStrings.3>hug(p=3)-&gt;объятия</Hug.logRulesInitiator.rulesStrings.3>
+  <Hug.logRulesInitiator.rulesStrings.4>hug-&gt;тёплые объятия</Hug.logRulesInitiator.rulesStrings.4>
+  <Hug.logRulesInitiator.rulesStrings.5>hug-&gt;крепкие объятия</Hug.logRulesInitiator.rulesStrings.5>
+  <Hug.logRulesInitiator.rulesStrings.6>hug-&gt;быстрые объятия</Hug.logRulesInitiator.rulesStrings.6>
 </LanguageData>

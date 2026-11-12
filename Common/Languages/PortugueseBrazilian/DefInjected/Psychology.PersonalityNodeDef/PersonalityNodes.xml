@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Experimental.label>experimental</Experimental.label>
+  <Experimental.antonymLabel>conservador</Experimental.antonymLabel>
+  <Experimental.descriptionLabel>experimental</Experimental.descriptionLabel>
+  <Experimental.description>Alguém {0} experimenta de tudo pelo menos uma vez, gosta de surpresas e tem mais experiência.</Experimental.description>
+  <DrugFriendly.label>pró-drogas</DrugFriendly.label>
+  <DrugFriendly.antonymLabel>straight edge</DrugFriendly.antonymLabel>
+  <DrugFriendly.descriptionLabel>pró-drogas</DrugFriendly.descriptionLabel>
+  <DrugFriendly.description>Uma pessoa {0} não vê nada de errado nas drogas e não se esforça para evitá-las.</DrugFriendly.description>
+  <DrugFriendly.conversationTopics.0>as drogas</DrugFriendly.conversationTopics.0>
+  <DrugFriendly.conversationTopics.1>a embriaguez</DrugFriendly.conversationTopics.1>
+  <DrugFriendly.conversationTopics.2>ficar bêbado</DrugFriendly.conversationTopics.2>
+  <DrugFriendly.conversationTopics.3>ficar chapado</DrugFriendly.conversationTopics.3>
+  <DrugFriendly.conversationTopics.4>a erva-de-fumo</DrugFriendly.conversationTopics.4>
+  <DrugFriendly.conversationTopics.5>a cerveja</DrugFriendly.conversationTopics.5>
+  <DrugFriendly.conversationTopics.6>o flake</DrugFriendly.conversationTopics.6>
+  <DrugFriendly.conversationTopics.7>o yayo</DrugFriendly.conversationTopics.7>
+  <DrugFriendly.conversationTopics.8>o go-juice</DrugFriendly.conversationTopics.8>
+  <DrugFriendly.conversationTopics.9>a ambrosia</DrugFriendly.conversationTopics.9>
+  <DrugFriendly.conversationTopics.10>o chá psicoide</DrugFriendly.conversationTopics.10>
+  <Creative.label>criativo</Creative.label>
+  <Creative.antonymLabel>sem graça</Creative.antonymLabel>
+  <Creative.descriptionLabel>criativas</Creative.descriptionLabel>
+  <Creative.description>Pessoas {0} conseguem imaginar coisas em detalhes, tenham elas existido ou não.</Creative.description>
+  <Creative.conversationTopics.0>a escrita e o desenho</Creative.conversationTopics.0>
+  <Creative.conversationTopics.1>a arte</Creative.conversationTopics.1>
+  <Creative.conversationTopics.2>o teatro</Creative.conversationTopics.2>
+  <Creative.conversationTopics.3>os alienígenas</Creative.conversationTopics.3>
+  <Creative.conversationTopics.4>o contato alienígena</Creative.conversationTopics.4>
+  <Creative.conversationTopics.5>os críptidos</Creative.conversationTopics.5>
+  <Creative.conversationTopics.6>as histórias de fantasmas</Creative.conversationTopics.6>
+  <Creative.conversationTopics.7>a fantasia</Creative.conversationTopics.7>
+  <Creative.conversationTopics.8>seus livros favoritos</Creative.conversationTopics.8>
+  <Creative.conversationTopics.9>seus filmes favoritos</Creative.conversationTopics.9>
+  <Creative.conversationTopics.10>os xeno-humanos</Creative.conversationTopics.10>
+  <Pure.label>puro</Pure.label>
+  <Pure.antonymLabel>depravado</Pure.antonymLabel>
+  <Pure.descriptionLabel>puras</Pure.descriptionLabel>
+  <Pure.description>Pessoas {0} tentam ser castas, tradicionais e decentes.</Pure.description>
+  <Pure.conversationTopics.0>a religião</Pure.conversationTopics.0>
+  <Pure.conversationTopics.1>a espiritualidade</Pure.conversationTopics.1>
+  <Pure.conversationTopics.2>os valores tradicionais</Pure.conversationTopics.2>
+  <Pure.conversationTopics.3>a moral sexual</Pure.conversationTopics.3>
+  <Pure.conversationTopics.4>a feminilidade</Pure.conversationTopics.4>
+  <Pure.conversationTopics.5>a masculinidade</Pure.conversationTopics.5>
+  <Pure.conversationTopics.6>os papéis de gênero</Pure.conversationTopics.6>
+  <Pure.conversationTopics.7>as divindades</Pure.conversationTopics.7>
+  <Pure.conversationTopics.8>a família</Pure.conversationTopics.8>
+  <Pure.conversationTopics.9>o parentesco</Pure.conversationTopics.9>
+  <Pure.conversationTopics.10>a homossexualidade</Pure.conversationTopics.10>
+  <Intelligent.label>inteligente</Intelligent.label>
+  <Intelligent.antonymLabel>simplório</Intelligent.antonymLabel>
+  <Intelligent.descriptionLabel>inteligente</Intelligent.descriptionLabel>
+  <Intelligent.description>Uma pessoa {0} tem muita capacidade intelectual.</Intelligent.description>
+  <Rational.label>racional</Rational.label>
+  <Rational.antonymLabel>irracional</Rational.antonymLabel>
+  <Rational.descriptionLabel>racional</Rational.descriptionLabel>
+  <Rational.description>Quanto mais {0} alguém é, mais capaz é de pensar de um ponto de vista objetivo e baseado em fatos.</Rational.description>
+  <Rational.conversationTopics.0>a filosofia</Rational.conversationTopics.0>
+  <Rational.conversationTopics.1>a maturidade</Rational.conversationTopics.1>
+  <Rational.conversationTopics.2>a realidade</Rational.conversationTopics.2>
+  <Rational.conversationTopics.3>a epistemologia</Rational.conversationTopics.3>
+  <Rational.conversationTopics.4>a causalidade</Rational.conversationTopics.4>
+  <Rational.conversationTopics.5>o viés de confirmação</Rational.conversationTopics.5>
+  <Rational.conversationTopics.6>a perseverança de crenças</Rational.conversationTopics.6>
+  <Logical.label>lógico</Logical.label>
+  <Logical.antonymLabel>ilógico</Logical.antonymLabel>
+  <Logical.descriptionLabel>lógica</Logical.descriptionLabel>
+  <Logical.description>Uma pessoa {0} é muito capaz de relacionar causas e efeitos e prever as consequências dos atos.</Logical.description>
+  <Logical.conversationTopics.0>inventar coisas</Logical.conversationTopics.0>
+  <Logical.conversationTopics.1>as teorias da conspiração</Logical.conversationTopics.1>
+  <Logical.conversationTopics.2>as falácias lógicas</Logical.conversationTopics.2>
+  <Logical.conversationTopics.3>os limites humanos</Logical.conversationTopics.3>
+  <Logical.conversationTopics.4>a pesquisa</Logical.conversationTopics.4>
+  <Logical.conversationTopics.5>a ciência</Logical.conversationTopics.5>
+  <Logical.conversationTopics.6>a astronomia</Logical.conversationTopics.6>
+  <Logical.conversationTopics.7>a química</Logical.conversationTopics.7>
+  <Logical.conversationTopics.8>a engenharia</Logical.conversationTopics.8>
+  <Logical.conversationTopics.9>a biologia</Logical.conversationTopics.9>
+  <Logical.conversationTopics.10>a tecnologia</Logical.conversationTopics.10>
+  <Cultured.label>culto</Cultured.label>
+  <Cultured.antonymLabel>ignorante</Cultured.antonymLabel>
+  <Cultured.descriptionLabel>culta</Cultured.descriptionLabel>
+  <Cultured.description>Uma pessoa {0} é lida, instruída e refinada.</Cultured.description>
+  <Cultured.conversationTopics.0>a estética</Cultured.conversationTopics.0>
+  <Cultured.conversationTopics.1>a televisão</Cultured.conversationTopics.1>
+  <Cultured.conversationTopics.2>os livros que leram</Cultured.conversationTopics.2>
+  <Cultured.conversationTopics.3>os filmes que viram</Cultured.conversationTopics.3>
+  <Cultured.conversationTopics.4>as estátuas</Cultured.conversationTopics.4>
+  <Cultured.conversationTopics.5>as artes e a literatura</Cultured.conversationTopics.5>
+  <Cultured.conversationTopics.6>a história da arte</Cultured.conversationTopics.6>
+  <Cultured.conversationTopics.7>a legitimidade da arte</Cultured.conversationTopics.7>
+  <Cultured.conversationTopics.8>a educação</Cultured.conversationTopics.8>
+  <Cultured.conversationTopics.9>os professores</Cultured.conversationTopics.9>
+  <Cultured.conversationTopics.10>a história antiga</Cultured.conversationTopics.10>
+  <Cultured.conversationTopics.11>a alta gastronomia</Cultured.conversationTopics.11>
+  <Geeky.label>nerd</Geeky.label>
+  <Geeky.antonymLabel>normie</Geeky.antonymLabel>
+  <Geeky.descriptionLabel>nerd</Geeky.descriptionLabel>
+  <Geeky.description>Alguém {0} é intelectual, excêntrico e muitas vezes socialmente desajeitado.</Geeky.description>
+  <Geeky.conversationTopics.0>seus hobbies</Geeky.conversationTopics.0>
+  <Geeky.conversationTopics.1>as máquinas autorreplicantes</Geeky.conversationTopics.1>
+  <Geeky.conversationTopics.2>as naves geracionais</Geeky.conversationTopics.2>
+  <Geeky.conversationTopics.3>as sondas de Von Neumann</Geeky.conversationTopics.3>
+  <Geeky.conversationTopics.4>a arqueotecnologia</Geeky.conversationTopics.4>
+  <Geeky.conversationTopics.5>os mecanoides</Geeky.conversationTopics.5>
+  <Geeky.conversationTopics.6>o criossono</Geeky.conversationTopics.6>
+  <Geeky.conversationTopics.7>as cápsulas de criossono</Geeky.conversationTopics.7>
+  <Geeky.conversationTopics.8>a inteligência artificial</Geeky.conversationTopics.8>
+  <Geeky.conversationTopics.9>o motor Johnson-Tanaka</Geeky.conversationTopics.9>
+  <Geeky.conversationTopics.10>a Ordo Historia</Geeky.conversationTopics.10>
+  <Geeky.conversationTopics.11>a computação</Geeky.conversationTopics.11>
+  <Geeky.conversationTopics.12>a tecnologia de armas</Geeky.conversationTopics.12>
+  <Geeky.conversationTopics.13>as pessoas de IA</Geeky.conversationTopics.13>
+  <Geeky.conversationTopics.14>a biônica</Geeky.conversationTopics.14>
+  <Geeky.conversationTopics.15>o transumanismo</Geeky.conversationTopics.15>
+  <Naive.label>ingênuo</Naive.label>
+  <Naive.antonymLabel>cético</Naive.antonymLabel>
+  <Naive.descriptionLabel>ingênuo</Naive.descriptionLabel>
+  <Naive.description>Alguém {0} não tem malícia e costuma ser supersticioso.</Naive.description>
+  <Naive.conversationTopics.0>o idealismo</Naive.conversationTopics.0>
+  <Naive.conversationTopics.1>a vida após a morte</Naive.conversationTopics.1>
+  <Naive.conversationTopics.2>a honra</Naive.conversationTopics.2>
+  <Naive.conversationTopics.3>a sina</Naive.conversationTopics.3>
+  <Naive.conversationTopics.4>o destino</Naive.conversationTopics.4>
+  <Naive.conversationTopics.5>a verdade</Naive.conversationTopics.5>
+  <Naive.conversationTopics.6>as profecias</Naive.conversationTopics.6>
+  <Naive.conversationTopics.7>o carma</Naive.conversationTopics.7>
+  <Naive.conversationTopics.8>a astrologia</Naive.conversationTopics.8>
+  <Naive.conversationTopics.9>a adivinhação</Naive.conversationTopics.9>
+  <Naive.conversationTopics.10>a sorte</Naive.conversationTopics.10>
+  <Ambitious.label>ambicioso</Ambitious.label>
+  <Ambitious.antonymLabel>acomodado</Ambitious.antonymLabel>
+  <Ambitious.descriptionLabel>ambicioso</Ambitious.descriptionLabel>
+  <Ambitious.description>Alguém {0} estabelece metas grandes e difíceis e quer ter sucesso.</Ambitious.description>
+  <Ambitious.conversationTopics.0>suas esperanças e sonhos</Ambitious.conversationTopics.0>
+  <Ambitious.conversationTopics.1>seus medos</Ambitious.conversationTopics.1>
+  <Ambitious.conversationTopics.2>os desafios da vida</Ambitious.conversationTopics.2>
+  <Ambitious.conversationTopics.3>a perseverança</Ambitious.conversationTopics.3>
+  <Ambitious.conversationTopics.4>acreditar em si mesmo</Ambitious.conversationTopics.4>
+  <Ambitious.conversationTopics.5>ficar rico</Ambitious.conversationTopics.5>
+  <Ambitious.conversationTopics.6>as metas elevadas</Ambitious.conversationTopics.6>
+  <Ambitious.conversationTopics.7>o luxo</Ambitious.conversationTopics.7>
+  <Independent.label>independente</Independent.label>
+  <Independent.antonymLabel>dependente</Independent.antonymLabel>
+  <Independent.descriptionLabel>independente</Independent.descriptionLabel>
+  <Independent.description>Uma pessoa {0} é perfeitamente feliz sozinha e não depende dos outros.</Independent.description>
+  <Independent.conversationTopics.0>a solidão</Independent.conversationTopics.0>
+  <Independent.conversationTopics.1>a introversão</Independent.conversationTopics.1>
+  <Independent.conversationTopics.2>a extroversão</Independent.conversationTopics.2>
+  <Independent.conversationTopics.3>o trabalho duro</Independent.conversationTopics.3>
+  <Independent.conversationTopics.4>a liberdade</Independent.conversationTopics.4>
+  <Independent.conversationTopics.5>a autossuficiência</Independent.conversationTopics.5>
+  <Independent.conversationTopics.6>a autonomia</Independent.conversationTopics.6>
+  <Independent.conversationTopics.7>a sobrevivência</Independent.conversationTopics.7>
+  <Independent.conversationTopics.8>a sociedade</Independent.conversationTopics.8>
+  <Independent.conversationTopics.9>a dependência</Independent.conversationTopics.9>
+  <Independent.conversationTopics.10>o vício</Independent.conversationTopics.10>
+  <Organized.label>organizado</Organized.label>
+  <Organized.antonymLabel>bagunceiro</Organized.antonymLabel>
+  <Organized.descriptionLabel>organizada</Organized.descriptionLabel>
+  <Organized.description>Uma pessoa {0} mantém tudo arrumado, limpo e minimalista.</Organized.description>
+  <Organized.conversationTopics.0>a limpeza</Organized.conversationTopics.0>
+  <Organized.conversationTopics.1>os animais de estimação</Organized.conversationTopics.1>
+  <Organized.conversationTopics.2>a lavanderia</Organized.conversationTopics.2>
+  <Organized.conversationTopics.3>o transporte de cargas</Organized.conversationTopics.3>
+  <Organized.conversationTopics.4>limpar</Organized.conversationTopics.4>
+  <Organized.conversationTopics.5>comer à mesa</Organized.conversationTopics.5>
+  <Organized.conversationTopics.6>a sujeira</Organized.conversationTopics.6>
+  <Organized.conversationTopics.7>os animais exóticos</Organized.conversationTopics.7>
+  <Spontaneous.label>espontâneo</Spontaneous.label>
+  <Spontaneous.antonymLabel>comedido</Spontaneous.antonymLabel>
+  <Spontaneous.descriptionLabel>espontânea</Spontaneous.descriptionLabel>
+  <Spontaneous.description>Uma pessoa {0} tende a ser impulsiva e a gostar de surpreender os outros.</Spontaneous.description>
+  <Spontaneous.conversationTopics.0>as pegadinhas</Spontaneous.conversationTopics.0>
+  <Spontaneous.conversationTopics.1>o humor</Spontaneous.conversationTopics.1>
+  <Spontaneous.conversationTopics.2>os trocadilhos</Spontaneous.conversationTopics.2>
+  <Spontaneous.conversationTopics.3>planejar com antecedência</Spontaneous.conversationTopics.3>
+  <Spontaneous.conversationTopics.4>a introspecção</Spontaneous.conversationTopics.4>
+  <Spontaneous.conversationTopics.5>as festas surpresa</Spontaneous.conversationTopics.5>
+  <Spontaneous.conversationTopics.6>os presentes</Spontaneous.conversationTopics.6>
+  <Thoughtful.label>reflexivo</Thoughtful.label>
+  <Thoughtful.antonymLabel>descuidado</Thoughtful.antonymLabel>
+  <Thoughtful.descriptionLabel>reflexivas</Thoughtful.descriptionLabel>
+  <Thoughtful.description>Pessoas {0} são introspectivas e críticas, e tendem a planejar.</Thoughtful.description>
+  <Thoughtful.conversationTopics.0>o futuro</Thoughtful.conversationTopics.0>
+  <Thoughtful.conversationTopics.1>as metas de vida</Thoughtful.conversationTopics.1>
+  <Thoughtful.conversationTopics.2>as prioridades</Thoughtful.conversationTopics.2>
+  <Thoughtful.conversationTopics.3>as soluções</Thoughtful.conversationTopics.3>
+  <Thoughtful.conversationTopics.4>a memória</Thoughtful.conversationTopics.4>
+  <Thoughtful.conversationTopics.5>o brainstorming</Thoughtful.conversationTopics.5>
+  <Thoughtful.conversationTopics.6>os sonhos</Thoughtful.conversationTopics.6>
+  <Thoughtful.conversationTopics.7>a procrastinação</Thoughtful.conversationTopics.7>
+  <Thoughtful.conversationTopics.8>a pontualidade</Thoughtful.conversationTopics.8>
+  <Thoughtful.conversationTopics.9>a responsabilidade</Thoughtful.conversationTopics.9>
+  <Extroverted.label>extrovertido</Extroverted.label>
+  <Extroverted.antonymLabel>introvertido</Extroverted.antonymLabel>
+  <Extroverted.descriptionLabel>extrovertidas</Extroverted.descriptionLabel>
+  <Extroverted.description>Pessoas {0} gostam de sair, viver experiências e se manter ativas.</Extroverted.description>
+  <Passionate.label>apaixonado</Passionate.label>
+  <Passionate.antonymLabel>apático</Passionate.antonymLabel>
+  <Passionate.descriptionLabel>apaixonadas</Passionate.descriptionLabel>
+  <Passionate.description>Pessoas {0} sentem as coisas com muita intensidade e tendem a se expressar com veemência.</Passionate.description>
+  <Passionate.conversationTopics.0>do que gostam e não gostam</Passionate.conversationTopics.0>
+  <Passionate.conversationTopics.1>o entusiasmo</Passionate.conversationTopics.1>
+  <Passionate.conversationTopics.2>seus desejos</Passionate.conversationTopics.2>
+  <Passionate.conversationTopics.3>aprender</Passionate.conversationTopics.3>
+  <Passionate.conversationTopics.4>ser autoritário</Passionate.conversationTopics.4>
+  <Passionate.conversationTopics.5>a apatia</Passionate.conversationTopics.5>
+  <Upbeat.label>alegre</Upbeat.label>
+  <Upbeat.antonymLabel>sombrio</Upbeat.antonymLabel>
+  <Upbeat.descriptionLabel>alegres</Upbeat.descriptionLabel>
+  <Upbeat.description>Pessoas {0} são felizes, calorosas e agradáveis.</Upbeat.description>
+  <Upbeat.conversationTopics.0>a vida</Upbeat.conversationTopics.0>
+  <Upbeat.conversationTopics.1>a vida adulta</Upbeat.conversationTopics.1>
+  <Upbeat.conversationTopics.2>os pesadelos</Upbeat.conversationTopics.2>
+  <Upbeat.conversationTopics.3>suas implicâncias</Upbeat.conversationTopics.3>
+  <Upbeat.conversationTopics.4>os incômodos da vida</Upbeat.conversationTopics.4>
+  <Upbeat.conversationTopics.5>dar o seu melhor</Upbeat.conversationTopics.5>
+  <Upbeat.conversationTopics.6>a positividade</Upbeat.conversationTopics.6>
+  <Upbeat.conversationTopics.7>olhar o lado bom da vida</Upbeat.conversationTopics.7>
+  <Upbeat.conversationTopics.8>o ceticismo</Upbeat.conversationTopics.8>
+  <Adventurous.label>aventureiro</Adventurous.label>
+  <Adventurous.antonymLabel>cauteloso</Adventurous.antonymLabel>
+  <Adventurous.descriptionLabel>aventureira</Adventurous.descriptionLabel>
+  <Adventurous.description>Uma pessoa {0} se sente mais realizada quando experimenta coisas novas, amplia seus horizontes e vai a lugares novos.</Adventurous.description>
+  <Adventurous.conversationTopics.0>suas listas de coisas para fazer antes de morrer</Adventurous.conversationTopics.0>
+  <Adventurous.conversationTopics.1>as recompensas da vida</Adventurous.conversationTopics.1>
+  <Adventurous.conversationTopics.2>sair e se movimentar</Adventurous.conversationTopics.2>
+  <Adventurous.conversationTopics.3>a aventura</Adventurous.conversationTopics.3>
+  <Adventurous.conversationTopics.4>as caravanas</Adventurous.conversationTopics.4>
+  <Adventurous.conversationTopics.5>as viagens</Adventurous.conversationTopics.5>
+  <Adventurous.conversationTopics.6>os desconhecidos</Adventurous.conversationTopics.6>
+  <Adventurous.conversationTopics.7>as novas pesquisas</Adventurous.conversationTopics.7>
+  <Adventurous.conversationTopics.8>a comida exótica</Adventurous.conversationTopics.8>
+  <Adventurous.conversationTopics.9>ficar à toa</Adventurous.conversationTopics.9>
+  <Adventurous.conversationTopics.10>voltar às estrelas</Adventurous.conversationTopics.10>
+  <Confident.label>confiante</Confident.label>
+  <Confident.antonymLabel>inseguro</Confident.antonymLabel>
+  <Confident.descriptionLabel>confiante</Confident.descriptionLabel>
+  <Confident.description>Uma pessoa {0} tem muita segurança e autoestima.</Confident.description>
+  <Outspoken.label>franco</Outspoken.label>
+  <Outspoken.antonymLabel>reservado</Outspoken.antonymLabel>
+  <Outspoken.descriptionLabel>franca</Outspoken.descriptionLabel>
+  <Outspoken.description>Uma pessoa {0} tem muitas opiniões firmes e não hesita em compartilhá-las.</Outspoken.description>
+  <Outspoken.conversationTopics.0>a política</Outspoken.conversationTopics.0>
+  <Outspoken.conversationTopics.1>o estado de direito</Outspoken.conversationTopics.1>
+  <Outspoken.conversationTopics.2>o governo</Outspoken.conversationTopics.2>
+  <Outspoken.conversationTopics.3>os direitos civis</Outspoken.conversationTopics.3>
+  <Outspoken.conversationTopics.4>o extremismo</Outspoken.conversationTopics.4>
+  <Outspoken.conversationTopics.5>o radicalismo</Outspoken.conversationTopics.5>
+  <Outspoken.conversationTopics.6>o debate político</Outspoken.conversationTopics.6>
+  <Outspoken.conversationTopics.7>as opiniões políticas</Outspoken.conversationTopics.7>
+  <Outspoken.conversationTopics.8>o crime e o castigo</Outspoken.conversationTopics.8>
+  <Outspoken.conversationTopics.9>o ativismo</Outspoken.conversationTopics.9>
+  <Outspoken.conversationTopics.10>a liderança</Outspoken.conversationTopics.10>
+  <Outspoken.conversationTopics.11>discutir sobre as coisas</Outspoken.conversationTopics.11>
+  <Outspoken.conversationTopics.12>seus amigos</Outspoken.conversationTopics.12>
+  <Cool.label>descolado</Cool.label>
+  <Cool.antonymLabel>careta</Cool.antonymLabel>
+  <Cool.descriptionLabel>descolado</Cool.descriptionLabel>
+  <Cool.description>Alguém {0} é ousado, único e interessante, e as pessoas costumam gostar mais dele.</Cool.description>
+  <Cool.conversationTopics.0>as tendências dos mundos brilhantes</Cool.conversationTopics.0>
+  <Cool.conversationTopics.1>a moda</Cool.conversationTopics.1>
+  <Cool.conversationTopics.2>os penteados</Cool.conversationTopics.2>
+  <Cool.conversationTopics.3>a maquiagem</Cool.conversationTopics.3>
+  <Cool.conversationTopics.4>os pelos faciais</Cool.conversationTopics.4>
+  <Cool.conversationTopics.5>ir para a balada</Cool.conversationTopics.5>
+  <Cool.conversationTopics.6>as gírias mais recentes</Cool.conversationTopics.6>
+  <Compassionate.label>compassivo</Compassionate.label>
+  <Compassionate.antonymLabel>impiedoso</Compassionate.antonymLabel>
+  <Compassionate.descriptionLabel>compassivas</Compassionate.descriptionLabel>
+  <Compassionate.description>Pessoas {0} se importam com as dificuldades alheias e tentam ajudar.</Compassionate.description>
+  <Compassionate.conversationTopics.0>os menos afortunados</Compassionate.conversationTopics.0>
+  <Compassionate.conversationTopics.1>ajudar os oprimidos</Compassionate.conversationTopics.1>
+  <Compassionate.conversationTopics.2>ajudar os doentes</Compassionate.conversationTopics.2>
+  <Compassionate.conversationTopics.3>ajudar os pobres</Compassionate.conversationTopics.3>
+  <Compassionate.conversationTopics.4>os direitos humanos</Compassionate.conversationTopics.4>
+  <Compassionate.conversationTopics.5>salvar as pessoas</Compassionate.conversationTopics.5>
+  <Compassionate.conversationTopics.6>os problemas dos outros</Compassionate.conversationTopics.6>
+  <Compassionate.conversationTopics.7>o intervencionismo</Compassionate.conversationTopics.7>
+  <Compassionate.conversationTopics.8>a preocupação com os outros</Compassionate.conversationTopics.8>
+  <Empathetic.label>empático</Empathetic.label>
+  <Empathetic.antonymLabel>insensível</Empathetic.antonymLabel>
+  <Empathetic.descriptionLabel>empática</Empathetic.descriptionLabel>
+  <Empathetic.description>Uma pessoa {0} sabe se colocar no lugar dos outros e entender seus sentimentos.</Empathetic.description>
+  <Empathetic.conversationTopics.0>a psicopatia</Empathetic.conversationTopics.0>
+  <Empathetic.conversationTopics.1>o isolacionismo</Empathetic.conversationTopics.1>
+  <Empathetic.conversationTopics.2>entender uns aos outros</Empathetic.conversationTopics.2>
+  <Empathetic.conversationTopics.3>aproveitar-se das pessoas</Empathetic.conversationTopics.3>
+  <Empathetic.conversationTopics.4>a comunidade</Empathetic.conversationTopics.4>
+  <Empathetic.conversationTopics.5>cuidar dos outros</Empathetic.conversationTopics.5>
+  <Empathetic.conversationTopics.6>a misericórdia</Empathetic.conversationTopics.6>
+  <Empathetic.conversationTopics.7>poupar vidas</Empathetic.conversationTopics.7>
+  <Empathetic.conversationTopics.8>o egoísmo</Empathetic.conversationTopics.8>
+  <Trusting.label>confiante nos outros</Trusting.label>
+  <Trusting.antonymLabel>cínico</Trusting.antonymLabel>
+  <Trusting.descriptionLabel>confiante nos outros</Trusting.descriptionLabel>
+  <Trusting.description>Alguém {0} costuma acreditar nas pessoas e ver o que há de bom nelas.</Trusting.description>
+  <Trusting.conversationTopics.0>a natureza humana</Trusting.conversationTopics.0>
+  <Trusting.conversationTopics.1>a honestidade</Trusting.conversationTopics.1>
+  <Trusting.conversationTopics.2>a integridade</Trusting.conversationTopics.2>
+  <Trusting.conversationTopics.3>os golpes</Trusting.conversationTopics.3>
+  <Trusting.conversationTopics.4>as mentiras inocentes</Trusting.conversationTopics.4>
+  <Trusting.conversationTopics.5>a lealdade</Trusting.conversationTopics.5>
+  <Trusting.conversationTopics.6>a justiça</Trusting.conversationTopics.6>
+  <Trusting.conversationTopics.7>a corrupção</Trusting.conversationTopics.7>
+  <Trusting.conversationTopics.8>os novos colonos</Trusting.conversationTopics.8>
+  <Friendly.label>amigável</Friendly.label>
+  <Friendly.antonymLabel>antipático</Friendly.antonymLabel>
+  <Friendly.descriptionLabel>amigável</Friendly.descriptionLabel>
+  <Friendly.description>Alguém {0} é gentil, tolerante e agradável de conversar.</Friendly.description>
+  <Friendly.conversationTopics.0>um ao outro</Friendly.conversationTopics.0>
+  <Friendly.conversationTopics.1>fazer amigos</Friendly.conversationTopics.1>
+  <Friendly.conversationTopics.2>o perdão</Friendly.conversationTopics.2>
+  <Friendly.conversationTopics.3>a tolerância</Friendly.conversationTopics.3>
+  <Friendly.conversationTopics.4>o que pensam um do outro</Friendly.conversationTopics.4>
+  <Friendly.conversationTopics.5>a admiração</Friendly.conversationTopics.5>
+  <Friendly.conversationTopics.6>o que vier à cabeça</Friendly.conversationTopics.6>
+  <Moralistic.label>moralista</Moralistic.label>
+  <Moralistic.antonymLabel>amoral</Moralistic.antonymLabel>
+  <Moralistic.descriptionLabel>moralista</Moralistic.descriptionLabel>
+  <Moralistic.description>Alguém {0} segue as ideias tradicionais de moralidade.</Moralistic.description>
+  <Moralistic.conversationTopics.0>a ética</Moralistic.conversationTopics.0>
+  <Moralistic.conversationTopics.1>a moralidade</Moralistic.conversationTopics.1>
+  <Moralistic.conversationTopics.2>o canibalismo</Moralistic.conversationTopics.2>
+  <Moralistic.conversationTopics.3>o couro humano</Moralistic.conversationTopics.3>
+  <Moralistic.conversationTopics.4>esquartejar pessoas</Moralistic.conversationTopics.4>
+  <Moralistic.conversationTopics.5>a escravidão</Moralistic.conversationTopics.5>
+  <Moralistic.conversationTopics.6>a escravização</Moralistic.conversationTopics.6>
+  <Moralistic.conversationTopics.7>a extração de órgãos</Moralistic.conversationTopics.7>
+  <Moralistic.conversationTopics.8>os prisioneiros de guerra</Moralistic.conversationTopics.8>
+  <Moralistic.conversationTopics.9>os crimes de guerra</Moralistic.conversationTopics.9>
+  <Moralistic.conversationTopics.10>o assassinato</Moralistic.conversationTopics.10>
+  <Moralistic.conversationTopics.11>os sacrifícios humanos</Moralistic.conversationTopics.11>
+  <Romantic.label>romântico</Romantic.label>
+  <Romantic.antonymLabel>distante</Romantic.antonymLabel>
+  <Romantic.descriptionLabel>romântico</Romantic.descriptionLabel>
+  <Romantic.description>Alguém {0} gosta de relacionamentos longos e significativos, de compromisso e de gestos íntimos.</Romantic.description>
+  <Romantic.conversationTopics.0>os relacionamentos</Romantic.conversationTopics.0>
+  <Romantic.conversationTopics.1>os antigos amores</Romantic.conversationTopics.1>
+  <Romantic.conversationTopics.2>as crianças</Romantic.conversationTopics.2>
+  <Romantic.conversationTopics.3>ter filhos</Romantic.conversationTopics.3>
+  <Romantic.conversationTopics.4>o amor</Romantic.conversationTopics.4>
+  <Romantic.conversationTopics.5>o romance</Romantic.conversationTopics.5>
+  <Romantic.conversationTopics.6>a sexualidade</Romantic.conversationTopics.6>
+  <Romantic.conversationTopics.7>os amantes</Romantic.conversationTopics.7>
+  <Romantic.conversationTopics.8>fazer amor</Romantic.conversationTopics.8>
+  <Romantic.conversationTopics.9>o compromisso</Romantic.conversationTopics.9>
+  <Romantic.conversationTopics.10>o adultério</Romantic.conversationTopics.10>
+  <Generous.label>generoso</Generous.label>
+  <Generous.antonymLabel>mesquinho</Generous.antonymLabel>
+  <Generous.descriptionLabel>generosas</Generous.descriptionLabel>
+  <Generous.description>Pessoas {0} se importam menos em ter coisas e são mais propensas a dá-las aos outros.</Generous.description>
+  <Generous.conversationTopics.0>a caridade</Generous.conversationTopics.0>
+  <Generous.conversationTopics.1>a filantropia</Generous.conversationTopics.1>
+  <Generous.conversationTopics.2>os bens materiais</Generous.conversationTopics.2>
+  <Generous.conversationTopics.3>a equidade social</Generous.conversationTopics.3>
+  <Generous.conversationTopics.4>compartilhar</Generous.conversationTopics.4>
+  <Generous.conversationTopics.5>o humanitarismo</Generous.conversationTopics.5>
+  <Generous.conversationTopics.6>o altruísmo</Generous.conversationTopics.6>
+  <Polite.label>educado</Polite.label>
+  <Polite.antonymLabel>grosseiro</Polite.antonymLabel>
+  <Polite.descriptionLabel>educada</Polite.descriptionLabel>
+  <Polite.description>Uma pessoa {0} tem bons modos e se esforça para não ofender os outros.</Polite.description>
+  <Polite.conversationTopics.0>as boas maneiras</Polite.conversationTopics.0>
+  <Polite.conversationTopics.1>o tato</Polite.conversationTopics.1>
+  <Polite.conversationTopics.2>a cortesia</Polite.conversationTopics.2>
+  <Polite.conversationTopics.3>os sentimentos</Polite.conversationTopics.3>
+  <Polite.conversationTopics.4>o respeito</Polite.conversationTopics.4>
+  <Polite.conversationTopics.5>a regra de ouro</Polite.conversationTopics.5>
+  <Polite.conversationTopics.6>a sutileza</Polite.conversationTopics.6>
+  <Polite.conversationTopics.7>a grosseria</Polite.conversationTopics.7>
+  <Polite.conversationTopics.8>os palavrões</Polite.conversationTopics.8>
+  <Polite.conversationTopics.9>os insultos</Polite.conversationTopics.9>
+  <Aggressive.label>agressivo</Aggressive.label>
+  <Aggressive.antonymLabel>pacato</Aggressive.antonymLabel>
+  <Aggressive.descriptionLabel>agressiva</Aggressive.descriptionLabel>
+  <Aggressive.description>Uma pessoa {0} é direta, brusca e costuma ficar combativa quando não consegue o que quer.</Aggressive.description>
+  <Aggressive.conversationTopics.0>um desentendimento entre eles</Aggressive.conversationTopics.0>
+  <Aggressive.conversationTopics.1>um conflito entre eles</Aggressive.conversationTopics.1>
+  <Aggressive.conversationTopics.2>os limites pessoais</Aggressive.conversationTopics.2>
+  <Aggressive.conversationTopics.3>a resolução de conflitos</Aggressive.conversationTopics.3>
+  <Aggressive.conversationTopics.4>a gentileza</Aggressive.conversationTopics.4>
+  <Aggressive.conversationTopics.5>as brigas</Aggressive.conversationTopics.5>
+  <Aggressive.conversationTopics.6>a teimosia</Aggressive.conversationTopics.6>
+  <Aggressive.conversationTopics.7>a civilidade</Aggressive.conversationTopics.7>
+  <Aggressive.conversationTopics.8>os sentimentos alheios</Aggressive.conversationTopics.8>
+  <Competitive.label>competitivo</Competitive.label>
+  <Competitive.antonymLabel>cooperativo</Competitive.antonymLabel>
+  <Competitive.descriptionLabel>competitiva</Competitive.descriptionLabel>
+  <Competitive.description>Para uma pessoa {0}, não basta ter sucesso: os outros precisam fracassar.</Competitive.description>
+  <Competitive.conversationTopics.0>o sucesso</Competitive.conversationTopics.0>
+  <Competitive.conversationTopics.1>o orgulho</Competitive.conversationTopics.1>
+  <Competitive.conversationTopics.2>o status social</Competitive.conversationTopics.2>
+  <Competitive.conversationTopics.3>suas conquistas</Competitive.conversationTopics.3>
+  <Competitive.conversationTopics.4>o talento</Competitive.conversationTopics.4>
+  <Competitive.conversationTopics.5>outros assentamentos</Competitive.conversationTopics.5>
+  <Competitive.conversationTopics.6>suas habilidades</Competitive.conversationTopics.6>
+  <Emotional.label>emotivo</Emotional.label>
+  <Emotional.antonymLabel>estoico</Emotional.antonymLabel>
+  <Emotional.descriptionLabel>emotivo</Emotional.descriptionLabel>
+  <Emotional.description>Alguém {0} tem grande capacidade de sentir emoções.</Emotional.description>
+  <LaidBack.label>tranquilo</LaidBack.label>
+  <LaidBack.antonymLabel>ansioso</LaidBack.antonymLabel>
+  <LaidBack.descriptionLabel>tranquilas</LaidBack.descriptionLabel>
+  <LaidBack.description>Pessoas {0} não se estressam facilmente e tendem a não se preocupar.</LaidBack.description>
+  <LaidBack.conversationTopics.0>as dificuldades</LaidBack.conversationTopics.0>
+  <LaidBack.conversationTopics.1>o estresse</LaidBack.conversationTopics.1>
+  <LaidBack.conversationTopics.2>seu humor</LaidBack.conversationTopics.2>
+  <LaidBack.conversationTopics.3>a ansiedade</LaidBack.conversationTopics.3>
+  <LaidBack.conversationTopics.4>a pressão</LaidBack.conversationTopics.4>
+  <LaidBack.conversationTopics.5>as aparências</LaidBack.conversationTopics.5>
+  <LaidBack.conversationTopics.6>as férias</LaidBack.conversationTopics.6>
+  <LaidBack.conversationTopics.7>seu domingo perfeito</LaidBack.conversationTopics.7>
+  <Judgmental.label>crítico</Judgmental.label>
+  <Judgmental.antonymLabel>tolerante</Judgmental.antonymLabel>
+  <Judgmental.descriptionLabel>crítica</Judgmental.descriptionLabel>
+  <Judgmental.description>Uma pessoa {0} tende a formar opiniões sobre os outros de forma rápida e superficial, e é mais afetada pelos atos alheios.</Judgmental.description>
+  <Judgmental.conversationTopics.0>as últimas fofocas</Judgmental.conversationTopics.0>
+  <Judgmental.conversationTopics.1>o último drama</Judgmental.conversationTopics.1>
+  <Judgmental.conversationTopics.2>a cultura</Judgmental.conversationTopics.2>
+  <Judgmental.conversationTopics.3>a mesquinharia</Judgmental.conversationTopics.3>
+  <Judgmental.conversationTopics.4>o melodrama</Judgmental.conversationTopics.4>
+  <Judgmental.conversationTopics.5>a superficialidade</Judgmental.conversationTopics.5>
+  <Judgmental.conversationTopics.6>os amigos interesseiros</Judgmental.conversationTopics.6>
+  <Judgmental.conversationTopics.7>tirar conclusões precipitadas</Judgmental.conversationTopics.7>
+  <Judgmental.conversationTopics.8>os julgamentos apressados</Judgmental.conversationTopics.8>
+  <Judgmental.conversationTopics.9>as segundas chances</Judgmental.conversationTopics.9>
+  <Judgmental.conversationTopics.10>se as pessoas podem mudar</Judgmental.conversationTopics.10>
+  <Optimistic.label>otimista</Optimistic.label>
+  <Optimistic.antonymLabel>pessimista</Optimistic.antonymLabel>
+  <Optimistic.descriptionLabel>otimista</Optimistic.descriptionLabel>
+  <Optimistic.description>Alguém {0} vê o lado bom da vida.</Optimistic.description>
+  <Optimistic.conversationTopics.0>seus sentimentos</Optimistic.conversationTopics.0>
+  <Optimistic.conversationTopics.1>o sentido da vida</Optimistic.conversationTopics.1>
+  <Optimistic.conversationTopics.2>a esperança</Optimistic.conversationTopics.2>
+  <Optimistic.conversationTopics.3>a inevitabilidade da morte</Optimistic.conversationTopics.3>
+  <Optimistic.conversationTopics.4>o propósito</Optimistic.conversationTopics.4>
+  <Optimistic.conversationTopics.5>o rumo</Optimistic.conversationTopics.5>
+  <Optimistic.conversationTopics.6>sobreviver ao dia</Optimistic.conversationTopics.6>
+  <Optimistic.conversationTopics.7>o que o futuro reserva</Optimistic.conversationTopics.7>
+  <Optimistic.conversationTopics.8>deixar o planeta</Optimistic.conversationTopics.8>
+  <Nostalgic.label>nostálgico</Nostalgic.label>
+  <Nostalgic.antonymLabel>pouco sentimental</Nostalgic.antonymLabel>
+  <Nostalgic.descriptionLabel>nostálgico</Nostalgic.descriptionLabel>
+  <Nostalgic.description>Alguém {0} tem um vínculo muito forte com o passado e com tudo o que evoca essas lembranças.</Nostalgic.description>
+  <Nostalgic.conversationTopics.0>os velhos tempos</Nostalgic.conversationTopics.0>
+  <Nostalgic.conversationTopics.1>a infância</Nostalgic.conversationTopics.1>
+  <Nostalgic.conversationTopics.2>os arrependimentos</Nostalgic.conversationTopics.2>
+  <Nostalgic.conversationTopics.3>a velha Terra</Nostalgic.conversationTopics.3>
+  <Nostalgic.conversationTopics.4>suas origens</Nostalgic.conversationTopics.4>
+  <Nostalgic.conversationTopics.5>como as coisas eram</Nostalgic.conversationTopics.5>
+  <Nostalgic.conversationTopics.6>a história</Nostalgic.conversationTopics.6>
+  <Nostalgic.conversationTopics.7>as lembranças</Nostalgic.conversationTopics.7>
+</LanguageData>

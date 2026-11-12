@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FellPlotting.label>gorączkowo knuje</FellPlotting.label>
+  <FellPlotting.beginLetterLabel>mroczny spisek</FellPlotting.beginLetterLabel>
+  <FellPlotting.beginLetter>{0} wycofuje się do swojego pokoju, by knuć!</FellPlotting.beginLetter>
+  <FellPlotting.recoveryMessage>Mroczny spisek {0} dobiegł końca.</FellPlotting.recoveryMessage>
+  <FellPlotting.baseInspectLine>Stan psychiczny: mroczny spisek</FellPlotting.baseInspectLine>
+  <SelfHarm.label>samookaleczanie</SelfHarm.label>
+  <SelfHarm.beginLetterLabel>samookaleczenie</SelfHarm.beginLetterLabel>
+  <SelfHarm.beginLetter>{0} ma podcięte nadgarstki i ukrywa się w swoim pokoju.</SelfHarm.beginLetter>
+  <SelfHarm.recoveryMessage>{0} przestaje się samookaleczać.</SelfHarm.recoveryMessage>
+  <SelfHarm.baseInspectLine>Stan psychiczny: samookaleczenie</SelfHarm.baseInspectLine>
+  <Paranoia.label>bełkocze</Paranoia.label>
+  <Paranoia.beginLetterLabel>paranoja</Paranoia.beginLetterLabel>
+  <Paranoia.beginLetter>{0} pogrąża się w paranoicznym bełkocie.</Paranoia.beginLetter>
+  <Paranoia.recoveryMessage>{0} wychodzi z paranoi.</Paranoia.recoveryMessage>
+  <Paranoia.baseInspectLine>Stan psychiczny: paranoja</Paranoia.baseInspectLine>
+  <Abuse.label>krzyczy</Abuse.label>
+  <Abuse.beginLetterLabel>przemoc słowna</Abuse.beginLetterLabel>
+  <Abuse.beginLetter>{0} wpada we wściekłość i obraża każdego, kogo zobaczy.</Abuse.beginLetter>
+  <Abuse.recoveryMessage>{0} przestaje obrażać ludzi.</Abuse.recoveryMessage>
+  <Abuse.baseInspectLine>Stan psychiczny: agresja słowna</Abuse.baseInspectLine>
+  <Compulsion.label>kompulsywnie sprząta</Compulsion.label>
+  <Compulsion.beginLetterLabel>kompulsja</Compulsion.beginLetterLabel>
+  <Compulsion.beginLetter>{0} obsesyjnie sprząta otoczenie, nie dbając o własne samopoczucie.</Compulsion.beginLetter>
+  <Compulsion.recoveryMessage>{0} przestaje kompulsywnie porządkować otoczenie.</Compulsion.recoveryMessage>
+  <Compulsion.baseInspectLine>Stan psychiczny: kompulsywne sprzątanie</Compulsion.baseInspectLine>
+  <Antisocial.label>unika ludzi</Antisocial.label>
+  <Antisocial.beginLetterLabel>aspołeczność</Antisocial.beginLetterLabel>
+  <Antisocial.beginLetter>{0} unika innych kolonistów.</Antisocial.beginLetter>
+  <Antisocial.recoveryMessage>{0} nie jest już aspołeczny.</Antisocial.recoveryMessage>
+  <Antisocial.baseInspectLine>Stan psychiczny: aspołeczność</Antisocial.baseInspectLine>
+  <Apathy.label>obija się</Apathy.label>
+  <Apathy.beginLetterLabel>apatia</Apathy.beginLetterLabel>
+  <Apathy.beginLetter>{0} popada w apatię i rzadziej wykonuje przydzieloną pracę.</Apathy.beginLetter>
+  <Apathy.recoveryMessage>{0} wychodzi z apatii.</Apathy.recoveryMessage>
+  <Apathy.baseInspectLine>Stan psychiczny: apatia</Apathy.baseInspectLine>
+  <Histrionic.label>zachowuje się histrionicznie</Histrionic.label>
+  <Histrionic.beginLetterLabel>histrionizm</Histrionic.beginLetterLabel>
+  <Histrionic.beginLetter>{0} zachowuje się histrionicznie i desperacko szuka uwagi.</Histrionic.beginLetter>
+  <Histrionic.recoveryMessage>{0} przestaje zachowywać się histrionicznie.</Histrionic.recoveryMessage>
+  <Histrionic.baseInspectLine>Stan psychiczny: histrionizm</Histrionic.baseInspectLine>
+  <HuntingTrip.label>ucieczka w dzicz</HuntingTrip.label>
+  <HuntingTrip.beginLetterLabel>ucieczka w dzicz</HuntingTrip.beginLetterLabel>
+  <HuntingTrip.beginLetter>{0} ucieka w dzicz i szuka ukojenia w polowaniu.</HuntingTrip.beginLetter>
+  <HuntingTrip.recoveryMessage>{0} postanawia wrócić z polowania.</HuntingTrip.recoveryMessage>
+  <HuntingTrip.baseInspectLine>Stan psychiczny: ucieczka w dzicz</HuntingTrip.baseInspectLine>
+  <PanicAttack.label>panikuje</PanicAttack.label>
+  <PanicAttack.beginLetterLabel>atak paniki</PanicAttack.beginLetterLabel>
+  <PanicAttack.beginLetter>{0} ma atak paniki.</PanicAttack.beginLetter>
+  <PanicAttack.recoveryMessage>Atak paniki {0} minął.</PanicAttack.recoveryMessage>
+  <PanicAttack.baseInspectLine>Stan psychiczny: atak paniki</PanicAttack.baseInspectLine>
+</LanguageData>

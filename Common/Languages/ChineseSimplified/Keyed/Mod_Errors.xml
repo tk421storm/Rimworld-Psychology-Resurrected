@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <KinseyDisable>检测到恋爱/性取向模组，正在禁用金赛量表。</KinseyDisable>
+  <KinseyDetourDisable>为保护兼容性，已禁用部分特性的核心方法重定向。这些特性的出现频率被设为零。</KinseyDetourDisable>
+  <MedicalDetourDisable>检测到医疗/手术模组，正在禁用医疗方法重定向。除非该模组是Less Arbitrary Surgery，否则将移除心软角色的部分功能。</MedicalDetourDisable>
+  <DuplicateDefLabel>{0}中存在重复的PersonalityNodeDef标签。请报告此问题以便修正翻译。</DuplicateDefLabel>
+</LanguageData>

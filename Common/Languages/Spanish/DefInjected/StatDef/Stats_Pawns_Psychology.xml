@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArrestPeacefullyChance.label>probabilidad de arresto pacífico</ArrestPeacefullyChance.label>
+  <ArrestPeacefullyChance.description>Probabilidad base de que esta persona convenza a un arrestado de entregarse sin resistirse.</ArrestPeacefullyChance.description>
+</LanguageData>

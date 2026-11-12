@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterLabelPTSD>Trauma por estresse</LetterLabelPTSD>
+  <LetterPTSD>{0_labelShort} desenvolveu ansiedade pós-traumática por causa do colapso mental. A ansiedade é uma condição permanente, mas pode ser tratada para reduzir gradualmente sua gravidade a um nível controlável e permitir uma vida normal. Qualquer novo colapso mental piorará a ansiedade.\n\nDizem que médicos dos mundos brilhantes já curaram doenças mentais como a ansiedade em seus pacientes. Se você conseguir medicina ultratecnológica, um médico extremamente habilidoso poderia usá-la para curar a ansiedade de {0_labelShort}.</LetterPTSD>
+  <LetterLabelDatePlanned>Encontro romântico</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort} marcou um encontro com {1_labelShort} para o dia {2} às {3}h.\n\nEncontros podem ser cancelados por vários motivos, principalmente se um dos colonos tiver trabalho agendado, for convocado ou ficar incapacitado por ferimentos ou assuntos urgentes da colônia.\n\nSe o encontro for cancelado, ambos os colonos ficarão infelizes. Colonos também podem perder encontros se dormirem demais. Isso irritará o outro colono, mas não causará um pensamento negativo.</LetterDatePlanned>
+  <LetterRejectedProposalPsychology>Dependendo da personalidade, o humor e o relacionamento deles serão afetados.</LetterRejectedProposalPsychology>
+  <LetterLabelCourtshipDatePlanned>Encontro</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort} convidou {1_labelShort} para um encontro no dia {2} às {3}h.\n\nSe der certo, eles passarão a gostar mais um do outro e talvez decidam virar amantes. Um encontro ruim pode fazer com que gostem menos um do outro. Encontros podem ser cancelados se um dos dois tiver trabalho agendado, for convocado ou ficar incapacitado de outra forma.</LetterCourtshipDatePlanned>
+</LanguageData>

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Anxiety.label>Angst</Anxiety.label>
-  <Anxiety.stages.managed.label>bewältigt</Anxiety.stages.managed.label>
-  <Anxiety.stages.minor-0.label>kaum</Anxiety.stages.minor-0.label>
-  <Anxiety.stages.minor-1.label>gering</Anxiety.stages.minor-1.label>
-  <Anxiety.stages.severe-0.label>mäßig</Anxiety.stages.severe-0.label>
-  <Anxiety.stages.severe-1.label>schwer</Anxiety.stages.severe-1.label>
-  <Anxiety.stages.extreme.label>extrem</Anxiety.stages.extreme.label>
-
   <RecoveringPyromaniac.label>erholender Pyromane</RecoveringPyromaniac.label>
+  <RecoveringPyromaniac.description>Genesender Pyromane</RecoveringPyromaniac.description>
   <DrugFree.label>drogenfrei</DrugFree.label>
+  <DrugFree.description>Drogenfrei</DrugFree.description>
   <Antidepressants.label>Antidepressiva</Antidepressants.label>
+  <Antidepressants.description>Wirkung von Antidepressiva</Antidepressants.description>
   <SleepingPills.label>Beruhigungsmittel</SleepingPills.label>
-
-
+  <SleepingPills.description>Wirkung von Schlaftabletten</SleepingPills.description>
+  <Anxiety.label>Angst</Anxiety.label>
+  <Anxiety.description>Angst</Anxiety.description>
+  <Anxiety.stages.0.label>bewältigt</Anxiety.stages.0.label>
+  <Anxiety.stages.1.label>leicht</Anxiety.stages.1.label>
+  <Anxiety.stages.2.label>mäßig</Anxiety.stages.2.label>
+  <Anxiety.stages.3.label>stark</Anxiety.stages.3.label>
+  <Anxiety.stages.4.label>schwer</Anxiety.stages.4.label>
+  <Anxiety.stages.5.label>extrem</Anxiety.stages.5.label>
 </LanguageData>

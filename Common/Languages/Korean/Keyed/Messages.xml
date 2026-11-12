@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatedTrait>{0_labelShort}의 {1} 특성이 성공적으로 치료되었습니다.</TreatedTrait>
+  <TreatmentFailedMessage>{0_labelShort}의 {1} 치료가 실패했습니다. {2} 후에 다시 시도할 수 있습니다.</TreatmentFailedMessage>
+  <MessageCuredAnxiety>{SURGEON_labelShort}(이)가 {PATIENT_labelShort}의 불안을 성공적으로 치료했습니다.</MessageCuredAnxiety>
+</LanguageData>
