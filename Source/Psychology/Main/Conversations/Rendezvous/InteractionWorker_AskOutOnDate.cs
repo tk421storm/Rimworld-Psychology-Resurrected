@@ -37,7 +37,7 @@ namespace Psychology
             float opinion = 0.6f + 0.4f * Mathf.InverseLerp(PsychologySettings.romanceOpinionThreshold, 100f, initiator.relations.OpinionOf(recipient));
             float drive = comp.Sexuality.AdjustedRomanticDrive;
             float confidence = 0.5f + comp.Psyche.GetPersonalityRating(PersonalityNodeDefOf.Confident);
-            float history = 1f + 0.5f * RomanceUtility.GoodDateCount(initiator, recipient);
+            float history = 1f + 0.5f * RomanceUtility.CourtshipHistory(initiator, recipient);
             float cheat = RomanceUtility.CheatFactor(initiator, recipient, out Pawn cheatOn);
             float colony = RendezvousUtility.ColonySizeFactor(initiator);
             details = !explain ? null : $"setting {PsychologySettings.courtshipChance:0.##} x attraction {attraction:0.00} x opinion {opinion:0.00} x romantic drive {drive:0.00} x confidence {confidence:0.00} x history {history:0.00} x cheat {cheat:0.00}{(cheatOn != null ? $" (on {cheatOn})" : "")} x colony size {colony:0.00}";
@@ -107,7 +107,7 @@ namespace Psychology
             float opinion = opinionOf >= 0f ? Mathf.Lerp(0.8f, 1f, Mathf.InverseLerp(0f, 40f, opinionOf))
                 : Mathf.Lerp(0.3f, 0.8f, Mathf.InverseLerp(-30f, 0f, opinionOf));
             float compatibility = 1f + 0.5f * RomanceUtility.Compatibility(recipient, initiator);
-            float history = 1f + 0.25f * RomanceUtility.GoodDateCount(recipient, initiator);
+            float history = 1f + 0.25f * RomanceUtility.CourtshipHistory(recipient, initiator);
             float cheat = RomanceUtility.CheatFactor(recipient, initiator, out Pawn cheatOn);
             details = $"attraction {attraction:0.00} ({rawAttraction}) x opinion {opinion:0.00} x compatibility {compatibility:0.00} x history {history:0.00} x cheat {cheat:0.00}{(cheatOn != null ? $" (on {cheatOn})" : "")}";
             return Mathf.Clamp01(attraction * opinion * compatibility * history * cheat);

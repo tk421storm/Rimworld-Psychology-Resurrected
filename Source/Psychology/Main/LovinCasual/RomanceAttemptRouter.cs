@@ -100,6 +100,14 @@ namespace Psychology
           {
             return "they turned this pawn's hookup down recently";
           }
+          if (LovePartnerRelationUtility.GetLovinMtbHours(initiator, recipient) < 0f)
+          {
+            return "lovin' not possible (age, health or drive)";
+          }
+          if (Find.TickManager.TicksGame < initiator.mindState.canLovinTick || Find.TickManager.TicksGame < recipient.mindState.canLovinTick)
+          {
+            return "too soon after their last lovin'";
+          }
           if (!new HistoryEvent(HistoryEventDefOf.GotLovin_NonSpouse, initiator.Named(HistoryEventArgsNames.Doer)).DoerWillingToDo()
               && !initiator.relations.DirectRelationExists(PawnRelationDefOf.Spouse, recipient))
           {
@@ -365,9 +373,9 @@ namespace Psychology
       return chance;
     }
 
-    // The hookup proposal, answered on the spot (JobDriver_LeadHookup walks over first): the recipient must be free and
-    // willing, then rolls RomanceUtility.HookupAcceptChance. A yes sends both to a bed for two (JobDriver_DoLovinCasual,
-    // which gives cheated-on partners their thoughts); a no gives both the same memories as a refused LeadHookup.
+    // The hookup proposal, answered on the spot: the recipient must be free and willing, then rolls
+    // RomanceUtility.HookupAcceptChance. A yes sends both to a bed for two (JobDriver_DoLovinCasual, which gives cheated-on
+    // partners their thoughts); a no gives the asker a rebuffed memory and the other a failed-attempt memory.
     private static string ProposeHookup(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks)
     {
       float chance;
@@ -394,7 +402,7 @@ namespace Psychology
         extraSentencePacks.Add(RulePackDefOfPsychology.HookupFailed);
         return "hookup declined; " + calc;
       }
-      Building_Bed bed = JoyGiver_CasualHookup.FindHookupBed(initiator, recipient);
+      Building_Bed bed = RomanceUtility.FindHookupBed(initiator, recipient);
       if (bed == null)
       {
         extraSentencePacks.Add(RulePackDefOfPsychology.HookupNoBed);
@@ -402,7 +410,6 @@ namespace Psychology
       }
       extraSentencePacks.Add(RulePackDefOfPsychology.HookupSucceeded);
       Find.HistoryEventsManager.RecordEvent(new HistoryEvent(HistoryEventDefOf.InitiatedLovin, initiator.Named(HistoryEventArgsNames.Doer)));
-      // As at the end of JobDriver_LeadHookup.
       initiator.jobs.jobQueue.EnqueueFirst(new Job(JobDefOfPsychology.DoLovinCasual, recipient, bed, bed.GetSleepingSlotPos(0)));
       recipient.jobs.jobQueue.EnqueueFirst(new Job(JobDefOfPsychology.DoLovinCasual, initiator, bed, bed.GetSleepingSlotPos(1)));
       recipient.jobs.EndCurrentJob(JobCondition.InterruptOptional);

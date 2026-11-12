@@ -16,7 +16,6 @@ public static class InteractionDefOfPsychology
     public static InteractionDef AskOutOnDate;
 
     // Hookups
-    public static InteractionDef TriedHookupWith;
 
     // Hugs
     public static InteractionDef Hug;

@@ -1,185 +1,202 @@
-﻿using RimWorld;
+﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
+using HarmonyLib;
+using RimWorld;
 using Verse;
 using Verse.AI;
 
 namespace Psychology
 {
-    // The actual hookup: like vanilla lovin (1000 ticks, longer with a love enhancer), plus a "cheated on me" memory for
-    // partners who care (Polygamous ones and "free love" ideoligions don't), and a vanilla-style lovin memory at the end.
-    public class JobDriver_DoLovinCasual : JobDriver
+  // A hookup or affair (RomanceAttemptRouter.ProposeHookup gives each of the pair this job, with their own bed slot).
+  // Modelled on vanilla's JobDriver_Lovin: both lie down in the bed (vanilla's lay-down toil, so comfort and the lying
+  // posture work as in vanilla), lovin' lasts 1000 ticks (2750 with a love enhancer) and gives recreation, and when it
+  // finishes each pawn gets vanilla's lovin' thought, history events, lovin' cooldown and pregnancy roll, and rates the
+  // hookup (a fun or awful hookup memory, RomanceUtility.GainHookupMemory). Partners who
+  // mind being cheated on get "cheated on me": always when they're on the same map, 25% otherwise.
+  public class JobDriver_DoLovinCasual : JobDriver
+  {
+    private const TargetIndex PartnerInd = TargetIndex.A;
+    private const TargetIndex BedInd = TargetIndex.B;
+    private const TargetIndex SlotInd = TargetIndex.C;
+    private const int TicksForEnhancer = 2750;
+    private const int TicksOtherwise = 1000;
+    private const int TicksToWaitForPartner = 300;
+    private const float PregnancyChance = 0.05f;
+    private const float CheatNoticedOffMapChance = 0.25f;
+
+    private int ticksLeft = -1;
+
+    // Vanilla's lovin' cooldown (with Psychology's patch on it), from a spare driver instance; it only reads the pawn.
+    private static readonly Func<Pawn, int> nextLovinTicks = AccessTools.MethodDelegate<Func<Pawn, int>>(
+      AccessTools.Method(typeof(JobDriver_Lovin), "GenerateRandomMinTicksToNextLovin"), new JobDriver_Lovin());
+
+    private Building_Bed Bed => (Building_Bed)job.GetTarget(BedInd).Thing;
+    private Pawn Partner => (Pawn)job.GetTarget(PartnerInd).Thing;
+
+    public override void ExposeData()
     {
-        private readonly TargetIndex PartnerInd = TargetIndex.A;
-        private readonly TargetIndex BedInd = TargetIndex.B;
-        private readonly TargetIndex SlotInd = TargetIndex.C;
-        private int ticksLeft;
-        private const int TicksBetweenHeartMotes = 100;
-        private static float PregnancyChance = 0.05f;
-        private const int ticksForEnhancer = 2750;
-        private const int ticksOtherwise = 1000;
-
-        private Building_Bed Bed => (Building_Bed)(Thing)job.GetTarget(BedInd);
-
-        private Pawn Partner => (Pawn)(Thing)job.GetTarget(PartnerInd);
-        private Pawn Actor => GetActor();
-
-        public override void ExposeData()
-        {
-            base.ExposeData();
-            Scribe_Values.Look(ref ticksLeft, "ticksLeft");
-        }
-
-        private bool IsInOrByBed(Building_Bed b, Pawn p)
-        {
-            for (int i = 0; i < b.SleepingSlotsCount; i++)
-            {
-                if (b.GetSleepingSlotPos(i).InHorDistOf(p.Position, 1f))
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        public override bool TryMakePreToilReservations(bool errorOnFailed)
-        {
-            if (pawn.Reserve(Partner, job, 1, -1, null, errorOnFailed))
-            {
-                return pawn.Reserve(Bed, job, Bed.SleepingSlotsCount, 0, null, errorOnFailed);
-            }
-            return false;
-        }
-
-        public override bool CanBeginNowWhileLyingDown()
-        {
-            return JobInBedUtility.InBedOrRestSpotNow(pawn, job.GetTarget(BedInd));
-        }
-
-        protected override IEnumerable<Toil> MakeNewToils()
-        {
-            //Fail if bed or partner gets despawned or wasn't assigned
-            this.FailOnDespawnedOrNull(BedInd);
-            this.FailOnDespawnedOrNull(PartnerInd);
-            //Fail if partner is unconscious
-            this.FailOn(() => !Partner.health.capacities.CanBeAwake);
-            //Reserve the bed, not claiming
-            yield return Toils_Reserve.Reserve(BedInd, 2, 0);
-            //Go to assigned spot in bed
-            yield return Toils_Goto.Goto(SlotInd, PathEndMode.OnCell);
-            //Wait for partner
-            yield return new Toil
-            {
-                initAction = delegate { ticksLeftThisToil = 300; },
-                tickAction = delegate
-                {
-                    if (IsInOrByBed(Bed, Partner))
-                    {
-                        ticksLeftThisToil = 0;
-                    }
-                },
-                defaultCompleteMode = ToilCompleteMode.Delay
-            };
-            //Get in the bed
-            Toil layDown = new Toil();
-            layDown.initAction = delegate
-            {
-                layDown.actor.pather.StopDead();
-                JobDriver curDriver = layDown.actor.jobs.curDriver;
-                curDriver.asleep = false;
-                layDown.actor.jobs.posture = PawnPosture.LayingInBed;
-            };
-            layDown.tickAction = delegate
-            {
-                Actor.GainComfortFromCellIfPossible(15); // as shipped in the 1.6 build; NOTE runs every tick, so delta 15 may over-apply comfort
-            };
-            yield return layDown;
-
-            //Actually have sex
-            Toil loveToil = new Toil
-            {
-                //This checks if actor is cheating
-                initAction = delegate
-                {
-                    if ((Actor.health != null && Actor.health.hediffSet != null && Actor.health.hediffSet.hediffs.Any((Hediff h) => h.def == HediffDefOf.LoveEnhancer)) || (Partner.health != null && Partner.health.hediffSet != null && Partner.health.hediffSet.hediffs.Any((Hediff h) => h.def == HediffDefOf.LoveEnhancer)))
-                    {
-                        ticksLeftThisToil = ticksForEnhancer;
-                    }
-                    else
-                    {
-                        ticksLeftThisToil = ticksOtherwise;
-                    }
-
-                    RomanceUtility.IsThisCheating(Actor, Partner, out List<Pawn> cheatedOnList);
-
-                    //If they're in a relationship with target, then this list will be empty
-                    if (!cheatedOnList.NullOrEmpty())
-                    {
-                        foreach (Pawn p in cheatedOnList)
-                        {
-                            //Ignore if p has the free love precept
-                            if (p.ideo.Ideo.PreceptsListForReading.Any((Precept x) => x.def == PreceptDefOfPsychology.Lovin_FreeApproved))
-                            {
-                                continue;
-                            }
-                            //If p is on the map there's a 25% they notice the cheating
-                            if (p.Map == Actor.Map || Rand.Value < 0.25)
-                            {
-                                p.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.CheatedOnMe, Actor);
-                            }
-                        }
-                    }
-                },
-                tickAction = delegate
-                {
-                    //Make hearts every 100 ticks
-                    if (ticksLeftThisToil % TicksBetweenHeartMotes == 0)
-                    {
-                        FleckMaker.ThrowMetaIcon(Actor.Position, Actor.Map, FleckDefOf.Heart);
-                    }
-                    //Gain joy every tick
-                    JoyUtility.JoyTickCheckEnd(Actor, 1, JoyTickFullJoyAction.None);
-                },
-                defaultCompleteMode = ToilCompleteMode.Delay
-            };
-            //Fail if partner dies, or there's over 100 ticks left and the partner has wandered off
-            loveToil.AddFailCondition(() => Partner.Dead || ticksLeftThisToil > 100 && !IsInOrByBed(Bed, Partner));
-            yield return loveToil;
-            //If they finish, add the appropriate memory and record events
-            //Vanilla has this as a "finish action" on the previous toil, but I think it only makes sense to add this stuff if the lovin' actually... finishes
-            yield return new Toil
-            {
-                initAction = delegate
-                {
-                    Thought_Memory thought_Memory = (Thought_Memory)ThoughtMaker.MakeThought(ThoughtDefOf.GotSomeLovin);
-                    //Increase mood power if either pawn had a love enhancer
-                    if ((Actor.health != null && Actor.health.hediffSet != null && Actor.health.hediffSet.hediffs.Any((Hediff h) => h.def == HediffDefOf.LoveEnhancer)) || (Partner.health != null && Partner.health.hediffSet != null && Partner.health.hediffSet.hediffs.Any((Hediff h) => h.def == HediffDefOf.LoveEnhancer)))
-                    {
-                        thought_Memory.moodPowerFactor = 1.5f;
-                    }
-                    if (Actor.needs.mood != null)
-                    {
-                        Actor.needs.mood.thoughts.memories.TryGainMemory(thought_Memory, Partner);
-                    }
-                    Find.HistoryEventsManager.RecordEvent(new HistoryEvent(HistoryEventDefOf.GotLovin, Actor.Named(HistoryEventArgsNames.Doer)));
-                    HistoryEventDef def = Actor.relations.DirectRelationExists(PawnRelationDefOf.Spouse, Partner) ? HistoryEventDefOf.GotLovin_Spouse : HistoryEventDefOf.GotLovin_NonSpouse;
-                    Find.HistoryEventsManager.RecordEvent(new HistoryEvent(def, Actor.Named(HistoryEventArgsNames.Doer)));
-                    //Biotech addition
-                    if (ModsConfig.BiotechActive)
-                    {
-                        Pawn male = (Actor.gender == Gender.Male) ? Actor : ((Partner.gender == Gender.Male) ? Partner : null);
-                        Pawn female = ((Actor.gender == Gender.Female) ? Actor : ((Partner.gender == Gender.Female) ? Partner : null));
-                        if (male != null && female != null && Rand.Chance(PregnancyChance * PregnancyUtility.PregnancyChanceForPartners(female, male)))
-                        {
-                            Hediff_Pregnant hediff_Pregnant = (Hediff_Pregnant)HediffMaker.MakeHediff(HediffDefOf.PregnantHuman, female);
-                            hediff_Pregnant.SetParents(null, male, PregnancyUtility.GetInheritedGeneSet(male, female));
-                            female.health.AddHediff(hediff_Pregnant);
-                        }
-                    }
-                },
-                defaultCompleteMode = ToilCompleteMode.Instant,
-                socialMode = RandomSocialMode.Off,
-            };
-        }
+      base.ExposeData();
+      Scribe_Values.Look(ref ticksLeft, "ticksLeft", -1);
     }
+
+    public override bool TryMakePreToilReservations(bool errorOnFailed)
+    {
+      return pawn.Reserve(Partner, job, 1, -1, null, errorOnFailed)
+        && pawn.Reserve(Bed, job, Bed.SleepingSlotsCount, 0, null, errorOnFailed);
+    }
+
+    public override bool CanBeginNowWhileLyingDown()
+    {
+      return JobInBedUtility.InBedOrRestSpotNow(pawn, job.GetTarget(BedInd));
+    }
+
+    private static bool InOrByBed(Building_Bed bed, Pawn p)
+    {
+      for (int i = 0; i < bed.SleepingSlotsCount; i++)
+      {
+        if (bed.GetSleepingSlotPos(i).InHorDistOf(p.Position, 1f))
+        {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    private bool LoveEnhancer(Pawn p)
+    {
+      return p.health?.hediffSet?.HasHediff(HediffDefOf.LoveEnhancer) == true;
+    }
+
+    protected override IEnumerable<Toil> MakeNewToils()
+    {
+      this.FailOnDespawnedOrNull(BedInd);
+      this.FailOnDespawnedOrNull(PartnerInd);
+      this.FailOn(() => !Partner.health.capacities.CanBeAwake);
+      this.KeepLyingDown(BedInd);
+
+      yield return Toils_Goto.Goto(SlotInd, PathEndMode.OnCell);
+
+      // Wait (up to 5 seconds) for the partner to reach the bed.
+      Toil wait = ToilMaker.MakeToil("WaitForPartner");
+      wait.initAction = delegate { ticksLeftThisToil = TicksToWaitForPartner; };
+      wait.tickIntervalAction = delegate
+      {
+        if (InOrByBed(Bed, Partner))
+        {
+          ReadyForNextToil();
+        }
+      };
+      wait.defaultCompleteMode = ToilCompleteMode.Delay;
+      yield return wait;
+
+      Toil start = ToilMaker.MakeToil("StartLovinCasual");
+      start.initAction = delegate
+      {
+        if (ticksLeft < 0)
+        {
+          ticksLeft = LoveEnhancer(pawn) || LoveEnhancer(Partner) ? TicksForEnhancer : TicksOtherwise;
+          NoticeCheating();
+        }
+      };
+      start.defaultCompleteMode = ToilCompleteMode.Instant;
+      yield return start;
+
+      Toil lovin = Toils_LayDown.LayDown(BedInd, hasBed: true, lookForOtherJobs: false, canSleep: false, gainRestAndHealth: false);
+      lovin.AddFailCondition(() => Partner.Dead || (ticksLeft > 100 && !InOrByBed(Bed, Partner)));
+      lovin.AddPreTickIntervalAction(delegate (int delta)
+      {
+        ticksLeft -= delta;
+        if (ticksLeft <= 0)
+        {
+          ReadyForNextToil();
+          return;
+        }
+        if (pawn.IsHashIntervalTick(100, delta))
+        {
+          FleckMaker.ThrowMetaIcon(pawn.Position, pawn.Map, FleckDefOf.Heart);
+        }
+        if (pawn.needs?.joy != null)
+        {
+          JoyUtility.JoyTickCheckEnd(pawn, delta, JoyTickFullJoyAction.None);
+        }
+      });
+      lovin.socialMode = RandomSocialMode.Off;
+      yield return lovin;
+
+      // Only when the lovin' actually finishes (vanilla does this on any end of the lay-down toil).
+      Toil finish = ToilMaker.MakeToil("FinishLovinCasual");
+      finish.initAction = Finished;
+      finish.defaultCompleteMode = ToilCompleteMode.Instant;
+      yield return finish;
+    }
+
+    // This pawn's partners who mind (RomanceUtility.IsThisCheating) find out: always on the same map, 25% elsewhere.
+    // Not those whose ideoligion approves of free love.
+    private void NoticeCheating()
+    {
+      RomanceUtility.IsThisCheating(pawn, Partner, out List<Pawn> cheatedOn);
+      foreach (Pawn p in cheatedOn)
+      {
+        if (p.Dead || p.needs?.mood == null)
+        {
+          continue;
+        }
+        if (PreceptDefOfPsychology.Lovin_FreeApproved != null && p.Ideo?.HasPrecept(PreceptDefOfPsychology.Lovin_FreeApproved) == true)
+        {
+          continue;
+        }
+        if ((p.MapHeld != null && p.MapHeld == pawn.MapHeld) || Rand.Chance(CheatNoticedOffMapChance))
+        {
+          p.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.CheatedOnMe, pawn);
+        }
+      }
+    }
+
+    private void Finished()
+    {
+      Pawn partner = Partner;
+      if (pawn.needs?.mood != null)
+      {
+        Thought_Memory thought = (Thought_Memory)ThoughtMaker.MakeThought(ThoughtDefOf.GotSomeLovin);
+        if (LoveEnhancer(pawn) || LoveEnhancer(partner))
+        {
+          thought.moodPowerFactor = 1.5f;
+        }
+        pawn.needs.mood.thoughts.memories.TryGainMemory(thought, partner);
+      }
+      Find.HistoryEventsManager.RecordEvent(new HistoryEvent(HistoryEventDefOf.GotLovin, pawn.Named(HistoryEventArgsNames.Doer)));
+      HistoryEventDef def = pawn.relations.DirectRelationExists(PawnRelationDefOf.Spouse, partner) ? HistoryEventDefOf.GotLovin_Spouse : HistoryEventDefOf.GotLovin_NonSpouse;
+      Find.HistoryEventsManager.RecordEvent(new HistoryEvent(def, pawn.Named(HistoryEventArgsNames.Doer)));
+      pawn.mindState.canLovinTick = Find.TickManager.TicksGame + nextLovinTicks(pawn);
+      RomanceUtility.GainHookupMemory(pawn, partner);
+      TryImpregnate(partner);
+    }
+
+    // As vanilla's lovin': each of the pair rolls, scaled by the couple's pregnancy approach and fertility.
+    private void TryImpregnate(Pawn partner)
+    {
+      if (!ModsConfig.BiotechActive)
+      {
+        return;
+      }
+      Pawn man = pawn.gender == Gender.Male ? pawn : (partner.gender == Gender.Male ? partner : null);
+      Pawn woman = pawn.gender == Gender.Female ? pawn : (partner.gender == Gender.Female ? partner : null);
+      if (man == null || woman == null || !Rand.Chance(PregnancyChance * PregnancyUtility.PregnancyChanceForPartners(woman, man)))
+      {
+        return;
+      }
+      GeneSet genes = PregnancyUtility.GetInheritedGeneSet(man, woman, out bool success);
+      if (success)
+      {
+        Hediff_Pregnant pregnancy = (Hediff_Pregnant)HediffMaker.MakeHediff(HediffDefOf.PregnantHuman, woman);
+        pregnancy.SetParents(null, man, genes);
+        woman.health.AddHediff(pregnancy);
+      }
+      else if (PawnUtility.ShouldSendNotificationAbout(man) || PawnUtility.ShouldSendNotificationAbout(woman))
+      {
+        Messages.Message("MessagePregnancyFailed".Translate(man.Named("FATHER"), woman.Named("MOTHER")) + ": " + "CombinedGenesExceedMetabolismLimits".Translate(),
+          new LookTargets(man, woman), MessageTypeDefOf.NegativeEvent);
+      }
+    }
+  }
 }

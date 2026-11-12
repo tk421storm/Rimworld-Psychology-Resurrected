@@ -358,6 +358,37 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	<!-- Hookups, rated like courtship dates when they finish (RomanceUtility.GainHookupMemory, using the date opinion
+	     settings); the stage values are only placeholders. Shorter-lived than date memories. Fun hookups count as reasons
+	     to ask the other out (RomanceUtility.CourtshipHistory). -->
+	<ThoughtDef>
+		<defName>HookupWentWell</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>fun hookup</label>
+				<baseOpinionOffset>15</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>HookupWentBadly</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>300</stackLimit>
+		<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>awful hookup</label>
+				<baseOpinionOffset>-5</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
 	<!-- SawSkillOnDate: watched the other at work on a date (DateActivityWorker_ShareWork). The stage goes by their level in
 	     the skill and the opinion slides with it, 0 to 10 (Thought_SawSkillOnDate); the stage values here are only
 	     placeholders. The newest replaces any older one about the same pawn. -->

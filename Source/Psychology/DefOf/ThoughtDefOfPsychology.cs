@@ -51,6 +51,8 @@ public static class ThoughtDefOfPsychology
   public static ThoughtDef DateCancelled;
   public static ThoughtDef DateWentWell;
   public static ThoughtDef DateWentBadly;
+  public static ThoughtDef HookupWentWell;
+  public static ThoughtDef HookupWentBadly;
   public static ThoughtDef RebuffedMyDateRequest;
   public static ThoughtDef SawSkillOnDate;
   public static ThoughtDef Hug;

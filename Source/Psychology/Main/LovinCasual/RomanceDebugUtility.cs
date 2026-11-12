@@ -241,7 +241,7 @@ public static class RomanceDebugUtility
       case RomanticIntent.Hookup:
         {
           float cheat = RomanceUtility.CheatFactor(pawn, target, out Pawn cheatOn);
-          Building_Bed bed = JoyGiver_CasualHookup.FindHookupBed(pawn, target);
+          Building_Bed bed = RomanceUtility.FindHookupBed(pawn, target);
           label += $" (cheat chance {cheat:P0}{(cheatOn != null ? " on " + cheatOn.LabelShort : "")}{(bed == null ? ", no bed for two" : "")})";
           if (bed == null)
           {
@@ -249,8 +249,8 @@ public static class RomanceDebugUtility
           }
           return new FloatMenuOption(label, () =>
           {
-            PsychologyDebug.Log($"DEV: {pawn} goes to propose a hookup to {target} ({reason}); skipped cheat check {cheat:P0}");
-            pawn.jobs.TryTakeOrderedJob(JobMaker.MakeJob(JobDefOfPsychology.LeadHookup, target, bed));
+            PsychologyDebug.Log($"DEV: {pawn} proposes a hookup to {target} ({reason}); skipped cheat check {cheat:P0}");
+            RomanceUtility.ForceInteraction(pawn, target, InteractionDefOf.RomanceAttempt);
           });
         }
       default:

@@ -27,14 +27,6 @@
 
   <!-- Hookups -->
   <JobDef>
-    <defName>LeadHookup</defName>
-    <driverClass>Psychology.JobDriver_LeadHookup</driverClass>
-    <reportString>attempting hookup.</reportString>
-    <joyDuration>4000</joyDuration>
-    <joyMaxParticipants>1</joyMaxParticipants>
-    <joyKind>Lewd</joyKind>
-  </JobDef>
-  <JobDef>
     <defName>DoLovinCasual</defName>
     <driverClass>Psychology.JobDriver_DoLovinCasual</driverClass>
     <reportString>lovin'.</reportString>

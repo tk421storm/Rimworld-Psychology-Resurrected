@@ -18,7 +18,7 @@ namespace Psychology
     None,
     DateNight,  // they're already a couple (InteractionWorker_PlanDateNight)
     Courtship,  // interested in them, or has had a good date with them (InteractionWorker_AskOutOnDate)
-    Hookup      // attracted to them but not interested in more (JoyGiver_CasualHookup)
+    Hookup      // attracted to them but not interested in more (RomanceAttemptRouter: hookup or affair)
   }
 
   /// <summary>
@@ -187,85 +187,6 @@ namespace Psychology
     }
 
     /// <summary>
-    /// Builds a list of up to five other pawns that <paramref name="pawn"/> finds suitable for the given activity. Looks at romance chance factor for hookups and opinion for dates.
-    /// </summary>
-    /// <param name="pawn">The pawn who is looking</param>
-    /// <param name="hookup">Whether this list is for a hookup or a date</param>
-    /// <returns>A list of pawns, with love relations first, then descending order by the secondary factor.</returns>
-    // Up to 5 candidates: existing partners (except bed-mates, for hookups) first, then the most attractive colonists above
-    // the attraction cut-off, the minimum hookup opinion setting, and not having turned this pawn down before.
-    public static List<Pawn> FindAttractivePawns(Pawn pawn, bool hookup = true)
-    {
-      List<Pawn> result = new List<Pawn>();
-      //Removed asexual check, it instead goes in the joy givers that generate jobs that need this
-      //Put existing partners in the list
-      if (LovePartnerRelationUtility.HasAnyLovePartner(pawn))
-      {
-        foreach (Pawn p in GetAllLoveRelationPawns(pawn, false, true))
-        {
-          //Skip pawns they share a bed with except for dates
-          if (!DoWeShareABed(pawn, p) || !hookup)
-          {
-            result.Add(p);
-          }
-        }
-      }
-      //Stop here if non-spouse lovin' is not allowed
-      if (!new HistoryEvent(HistoryEventDefOf.GotLovin_NonSpouse, pawn.Named(HistoryEventArgsNames.Doer)).DoerWillingToDo() && hookup)
-      {
-        return result;
-      }
-      //Then grab some attractive pawns
-      while (result.Count < 5)
-      {
-        //For a hookup we need to start with a non-zero number, or pawns that they actually don't find attractive end up on the list
-        //For a date we can start at zero since we're looking at opinion instead of romance factor
-        float num = hookup ? 0.15f : 0f;
-        Pawn tempPawn = null;
-        foreach (Pawn p in pawn.Map.mapPawns.FreeColonistsSpawned)
-        {
-          //Skip them if they're already in the list, or they share a bed if it's a hookup
-          if (result.Contains(p) || pawn == p || (DoWeShareABed(pawn, p) && hookup))
-          {
-            continue;
-          }
-          //For hookup check romance factor, for date check opinion
-          else if ((pawn.relations.SecondaryRomanceChanceFactor(p) > num && hookup) || (pawn.relations.OpinionOf(p) > num && !hookup))
-          {
-            //This will skip people who recently turned them down
-            Thought_Memory memory = pawn.needs.mood.thoughts.memories.Memories.Find(delegate (Thought_Memory x)
-            {
-              if (x.def == ThoughtDefOfPsychology.RebuffedMyHookupAttempt)
-              {
-                return x.otherPawn == p;
-              }
-              return false;
-            });
-            //Need to also check opinion against setting for a hookup
-            if ((memory == null && pawn.relations.OpinionOf(p) > PsychologySettings.minOpinionForHookup) || !hookup)
-            {
-              num = pawn.relations.SecondaryRomanceChanceFactor(p);
-              tempPawn = p;
-            }
-
-          }
-        }
-        if (tempPawn == null)
-        {
-          break;
-        }
-        result.Add(tempPawn);
-      }
-
-      return result;
-    }
-
-    public static bool DoWeShareABed(Pawn pawn, Pawn other)
-    {
-      return pawn.ownership.OwnedBed != null && pawn.ownership.OwnedBed.OwnersForReading.Contains(other);
-    }
-
-    /// <summary>
     /// Determines if an interaction between <paramref name="pawn"/> and <paramref name="target"/> would be cheating from <paramref name="pawn"/>'s point of view. Includes a list of pawns that would think they are being cheated on.
     /// </summary>
     /// <param name="pawn"></param>
@@ -308,8 +229,8 @@ namespace Psychology
     }
 
     /// <summary>
-    /// Probability (0-1) that <paramref name="pawn"/> cheats on <paramref name="partner"/>, used both for casual hookups
-    /// (WillPawnContinue) and for whether a pawn with a partner makes a romance attempt on someone else
+    /// Probability (0-1) that <paramref name="pawn"/> cheats on <paramref name="partner"/>, used both for hookups
+    /// (RomanceAttemptRouter) and for whether a pawn with a partner makes a romance attempt on someone else
     /// (InteractionWorker_RomanceAttempt selection weight): the "cheating chance" setting x an opinion curve x personality.
     /// - Opinion: normal pawns use a Romantic-shaped curve, 0 at or above 50 - 40r and 1 at or below -50 + 25r with
     ///   r = 2 x Romantic - 1 (romantic pawns stay loyal longer but turn faster on a partner they dislike). Lechers cheat
@@ -339,25 +260,6 @@ namespace Psychology
                                       - (psyche.GetPersonalityRating(PersonalityNodeDefOf.Moralistic) - 0.5f)
                                       - (psyche.GetPersonalityRating(PersonalityNodeDefOf.Pure) - 0.5f));
       return Mathf.Clamp01(PsychologySettings.cheatChance / 100f * opinionFactor * personality);
-    }
-
-    /// <summary>
-    /// Returns true if interaction between <paramref name="pawn"/> and <paramref name="target"/> is not cheating and is allowed by ideo. Otherwise, finds the partner they would feel the worst about cheating on and decides based on opinion.
-    /// </summary>
-    /// <param name="pawn"></param>
-    /// <param name="target"></param>
-    /// <param name="cheatOn">The pawn they feel worst about cheating on</param>
-    /// <returns></returns>
-    // Whether a pawn goes through with a hookup that would be cheating: yes with probability CheatFactor.
-    public static bool WillPawnContinue(Pawn pawn, Pawn target, out Pawn cheatOn)
-    {
-      float chance = CheatFactor(pawn, target, out cheatOn);
-      bool goAhead = Rand.Chance(chance);
-      if (cheatOn != null)
-      {
-        PsychologyDebug.Log($"{pawn} considers a hookup with {target}, cheating on {cheatOn}: chance {chance:P0} -> {(goAhead ? "goes ahead" : "stays faithful")}");
-      }
-      return goAhead;
     }
 
     /// <summary>
@@ -426,10 +328,10 @@ namespace Psychology
       }
       float opinion = initiator.relations.OpinionOf(recipient);
       float romanticDrive = PsycheHelper.Comp(initiator).Sexuality.AdjustedRomanticDrive;
-      int goodDates = GoodDateCount(initiator, recipient);
-      if (opinion >= PsychologySettings.romanceOpinionThreshold && (romanticDrive > 0f || goodDates > 0))
+      int history = CourtshipHistory(initiator, recipient);
+      if (opinion >= PsychologySettings.romanceOpinionThreshold && (romanticDrive > 0f || history > 0))
       {
-        reason = $"attraction {attraction:0.00}, opinion {opinion:0}, romantic drive {romanticDrive:0.00}, good dates {goodDates}";
+        reason = $"attraction {attraction:0.00}, opinion {opinion:0}, romantic drive {romanticDrive:0.00}, good dates and fun hookups {history}";
         return RomanticIntent.Courtship;
       }
       if (opinion >= PsychologySettings.minOpinionForHookup && WillPawnTryHookup(initiator))
@@ -489,6 +391,20 @@ namespace Psychology
     public static int GoodDateCount(Pawn pawn, Pawn other)
     {
       return CountMemoriesOf(pawn, other, ThoughtDefOfPsychology.DateWentWell);
+    }
+
+    // Fun hookups pawn remembers having with other (HookupWentWell memories last 10 days, up to 3 per pawn).
+    public static int FunHookupCount(Pawn pawn, Pawn other)
+    {
+      return CountMemoriesOf(pawn, other, ThoughtDefOfPsychology.HookupWentWell);
+    }
+
+    // Reasons for pawn to court other: good dates plus fun hookups. Used for whether a romance attempt becomes courtship
+    // (GetRomanticIntent) and in the courtship ask weight and acceptance. Romance after a date and second dates count
+    // dates only (GoodDateCount).
+    public static int CourtshipHistory(Pawn pawn, Pawn other)
+    {
+      return GoodDateCount(pawn, other) + FunHookupCount(pawn, other);
     }
 
     // How long after a pair's last courtship date TrySecondDates may still have them ask for another.
@@ -592,6 +508,38 @@ namespace Psychology
     /// </summary>
     public static void GainDateMemory(Pawn pawn, Pawn other, float quality)
     {
+      GainRatedMemory(pawn, other, quality, ThoughtDefOfPsychology.DateWentWell, ThoughtDefOfPsychology.DateWentBadly);
+    }
+
+    // How pawn rates a finished hookup with other, -1 (awful) to 1 (fun): 0.1 + 0.4 x compatibility + 0.3 x drive match
+    // (1 - 2 x the sex drive difference) + 0.2 x attraction (2a - 1) + rand(+/-0.3). Like DateQuality, with attraction in
+    // place of opinion and no mood (the lovin' thought covers that).
+    public static float HookupQuality(Pawn pawn, Pawn other, out string details)
+    {
+      float compatibility = Compatibility(pawn, other);
+      float driveMatch = 1f - 2f * Mathf.Abs(Mathf.Clamp01(PsycheHelper.Comp(pawn).Sexuality.AdjustedSexDrive) - Mathf.Clamp01(PsycheHelper.Comp(other).Sexuality.AdjustedSexDrive));
+      float attraction = 2f * Mathf.Clamp01(pawn.relations.SecondaryRomanceChanceFactor(other)) - 1f;
+      float luck = Rand.Range(-0.3f, 0.3f);
+      float quality = Mathf.Clamp(0.1f + 0.4f * compatibility + 0.3f * driveMatch + 0.2f * attraction + luck, -1f, 1f);
+      details = $"0.1 + 0.4 x compatibility {compatibility:0.00} + 0.3 x drive match {driveMatch:0.00} + 0.2 x attraction {attraction:0.00} + luck {luck:0.00}";
+      return quality;
+    }
+
+    // Fun or awful hookup memory, scaled like date memories (the date opinion settings).
+    public static void GainHookupMemory(Pawn pawn, Pawn other)
+    {
+      if (!PsycheHelper.PsychologyEnabled(pawn) || !PsycheHelper.PsychologyEnabled(other))
+      {
+        return;
+      }
+      float quality = HookupQuality(pawn, other, out string details);
+      PsychologyDebug.Log($"{pawn} rates the hookup with {other}: {quality:0.00} = {details}");
+      GainRatedMemory(pawn, other, quality, ThoughtDefOfPsychology.HookupWentWell, ThoughtDefOfPsychology.HookupWentBadly);
+    }
+
+    // An opinion memory on a sliding scale: |quality| x the good- or bad-date opinion setting; none below half a point.
+    private static void GainRatedMemory(Pawn pawn, Pawn other, float quality, ThoughtDef goodDef, ThoughtDef badDef)
+    {
       if (pawn.needs?.mood?.thoughts?.memories == null)
       {
         return;
@@ -602,7 +550,7 @@ namespace Psychology
       {
         return;
       }
-      Thought_MemorySocial thought = (Thought_MemorySocial)ThoughtMaker.MakeThought(good ? ThoughtDefOfPsychology.DateWentWell : ThoughtDefOfPsychology.DateWentBadly);
+      Thought_MemorySocial thought = (Thought_MemorySocial)ThoughtMaker.MakeThought(good ? goodDef : badDef);
       thought.opinionOffset = offset;
       pawn.needs.mood.thoughts.memories.TryGainMemory(thought, other);
     }
@@ -681,19 +629,32 @@ namespace Psychology
       return PsycheHelper.Comp(pawn).Sexuality.AdjustedRomanticDrive + PsycheHelper.Comp(pawn).Psyche.GetPersonalityRating(PersonalityNodeDefOf.Confident);
     }
 
-    /// <summary>
-    /// Determines if <paramref name="target"/> agrees to a hookup with <paramref name="asker"/>. Takes cheating into account.
-    /// </summary>
-    /// <param name="target"></param>
-    /// <param name="asker"></param>
-    /// <returns>True or False</returns>
-    // The target's decision, rolled against HookupAcceptChance.
-    public static bool IsHookupAppealing(Pawn target, Pawn asker)
+    // A bed for a hookup: either pawn's own bed for two if no one is in it, otherwise the closest free bed for two the
+    // initiator can reach and reserve (best bed type first; not medical, prisoner or forbidden beds).
+    public static Building_Bed FindHookupBed(Pawn p1, Pawn p2)
     {
-      float chance = HookupAcceptChance(target, asker, out string details);
-      bool accepted = Rand.Chance(chance);
-      PsychologyDebug.Log($"{target} considers a hookup with {asker}: chance {chance:P0} ({details}) -> {(accepted ? "yes" : "no")}");
-      return accepted;
+      foreach (Building_Bed own in new[] { p1.ownership?.OwnedBed, p2.ownership?.OwnedBed })
+      {
+        if (own != null && own.SleepingSlotsCount > 1 && !own.AnyOccupants)
+        {
+          return own;
+        }
+      }
+      foreach (ThingDef bedDef in RestUtility.AllBedDefBestToWorst)
+      {
+        if (!RestUtility.CanUseBedEver(p1, bedDef))
+        {
+          continue;
+        }
+        Building_Bed bed = (Building_Bed)GenClosest.ClosestThingReachable(p1.Position, p1.Map, ThingRequest.ForDef(bedDef),
+          PathEndMode.OnCell, TraverseParms.For(p1), 9999f, x => x is Building_Bed b && b.SleepingSlotsCount > 1 && !b.Medical && !b.ForPrisoners
+            && !b.AnyOccupants && !b.IsForbidden(p1) && p1.CanReserve(b, b.SleepingSlotsCount, 0));
+        if (bed != null)
+        {
+          return bed;
+        }
+      }
+      return null;
     }
 
     // Chance (0-1) the target agrees to a hookup: needs the minimum hookup opinion and not asexual (unless already
