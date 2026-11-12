@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-	<identifier>Psychology (unofficial)</identifier>
+	<identifier>PsychologyResurrected</identifier>
 	<version>1.0.7</version>
 	<dependencies>
-		<li>HugsLib</li>
 		<li>Harmony</li>
 	</dependencies>
 	<incompatibleWith />
 	<loadAfter>
 		<li>Harmony</li>
-		<li>HugsLib</li>
 	</loadAfter>
 </Manifest>

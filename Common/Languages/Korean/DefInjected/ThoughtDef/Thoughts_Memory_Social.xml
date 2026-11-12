@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RebuffedMyHookupAttempt.stages.0.label>나를 거절함</RebuffedMyHookupAttempt.stages.0.label>
+  <RebuffedMyHookupAttemptMood.stages.0.label>{0}에게 거절당함</RebuffedMyHookupAttemptMood.stages.0.label>
+  <RebuffedMyHookupAttemptMood.stages.0.description>뭐야, 하룻밤 상대로도 매력이 부족하다는 거야??</RebuffedMyHookupAttemptMood.stages.0.description>
+  <FailedHookupAttemptOnMe.stages.0.label>거절해야 했음</FailedHookupAttemptOnMe.stages.0.label>
+  <PrudeSeen.stages.0.label>알몸을 봄</PrudeSeen.stages.0.label>
+  <PrudeSeen.stages.0.description>저 사람 벌거벗은 거야? 여긴 옷도 안 입고 돌아다니게 내버려 두는 거야? 역겨워.</PrudeSeen.stages.0.description>
+  <DynamicSocial.stages.0.label>대화</DynamicSocial.stages.0.label>
+  <IBrokeUpWithThemMood.stages.0.label>{0}와(과) 헤어짐</IBrokeUpWithThemMood.stages.0.label>
+  <IBrokeUpWithThemMood.stages.0.description>힘든 이별을 겪고 있어.</IBrokeUpWithThemMood.stages.0.description>
+  <IBrokeUpWithThemMood.stages.1.label>{0}와(과) 헤어짐</IBrokeUpWithThemMood.stages.1.label>
+  <IBrokeUpWithThemMood.stages.1.description>잘 안 맞았지만, 그래도 조금 슬퍼.</IBrokeUpWithThemMood.stages.1.description>
+  <IBrokeUpWithThemMood.stages.2.label>{0}와(과) 헤어짐</IBrokeUpWithThemMood.stages.2.label>
+  <IBrokeUpWithThemMood.stages.2.description>나쁜 관계에서 벗어나니 기분이 좋아.</IBrokeUpWithThemMood.stages.2.description>
+  <IRejectedTheirProposalMood.stages.0.label>{0}의 청혼을 거절함</IRejectedTheirProposalMood.stages.0.label>
+  <IRejectedTheirProposalMood.stages.0.description>사랑하는 사람의 청혼을 거절하는 건 힘들었어.</IRejectedTheirProposalMood.stages.0.description>
+  <IDivorcedThemMood.stages.0.label>{0}와(과) 이혼함</IDivorcedThemMood.stages.0.label>
+  <IDivorcedThemMood.stages.0.description>이 이혼이 나를 무겁게 짓누르고 있어.</IDivorcedThemMood.stages.0.description>
+  <IDivorcedThemMood.stages.1.label>{0}와(과) 이혼함</IDivorcedThemMood.stages.1.label>
+  <IDivorcedThemMood.stages.1.description>결혼이 잘 안 돼서 슬퍼.</IDivorcedThemMood.stages.1.description>
+  <IDivorcedThemMood.stages.2.label>{0}와(과) 이혼함</IDivorcedThemMood.stages.2.label>
+  <IDivorcedThemMood.stages.2.description>드디어 자유야!</IDivorcedThemMood.stages.2.description>
+  <BrokeUpWithMeCodependent.stages.0.label>나와 헤어짐</BrokeUpWithMeCodependent.stages.0.label>
+  <BrokeUpWithMeCodependentMood.stages.0.label>{0}에게 의존함</BrokeUpWithMeCodependentMood.stages.0.label>
+  <BrokeUpWithMeCodependentMood.stages.0.description>보고 싶어... 제발 돌아와.</BrokeUpWithMeCodependentMood.stages.0.description>
+  <CheatedOnMeCodependent.stages.0.label>바람을 피움</CheatedOnMeCodependent.stages.0.label>
+  <CheatedOnMeCodependentMood.stages.0.label>{0}의 외도</CheatedOnMeCodependentMood.stages.0.label>
+  <CheatedOnMeCodependentMood.stages.0.description>이해가 안 돼... 내가 뭔가 잘못했나 봐.</CheatedOnMeCodependentMood.stages.0.description>
+  <DivorcedMeCodependent.stages.0.label>나와 이혼함</DivorcedMeCodependent.stages.0.label>
+  <DivorcedMeCodependentMood.stages.0.label>{0}에게 이혼당함</DivorcedMeCodependentMood.stages.0.label>
+  <DivorcedMeCodependentMood.stages.0.description>보고 싶어... 제발 돌아와.</DivorcedMeCodependentMood.stages.0.description>
+  <RejectedMyProposalCodependent.stages.0.label>내 청혼을 거절함</RejectedMyProposalCodependent.stages.0.label>
+  <RejectedMyProposalCodependentMood.stages.0.label>{0}에게 청혼을 거절당함</RejectedMyProposalCodependentMood.stages.0.label>
+  <RejectedMyProposalCodependentMood.stages.0.description>우리가 결혼할 운명이라고 생각했어. 그런데 그냥 거절당했어.</RejectedMyProposalCodependentMood.stages.0.description>
+  <RebuffedMyRomanceAttemptLecher.stages.0.label>나를 거절함</RebuffedMyRomanceAttemptLecher.stages.0.label>
+  <CapturedMe.stages.0.label>그들의 세력이 나를 가둠</CapturedMe.stages.0.label>
+  <WentOnDate.stages.0.label>데이트를 함</WentOnDate.stages.0.label>
+  <DateWentWell.stages.0.label>좋은 데이트</DateWentWell.stages.0.label>
+  <DateWentBadly.stages.0.label>나쁜 데이트</DateWentBadly.stages.0.label>
+  <HookupWentWell.stages.0.label>즐거운 하룻밤</HookupWentWell.stages.0.label>
+  <HookupWentBadly.stages.0.label>최악의 하룻밤</HookupWentBadly.stages.0.label>
+  <SawSkillOnDate.stages.0.label>{OTHERPAWN_nameDef}(은)는 {SKILL}에 능숙함</SawSkillOnDate.stages.0.label>
+  <SawSkillOnDate.stages.1.label>{OTHERPAWN_nameDef}(은)는 {SKILL}에 매우 능숙함</SawSkillOnDate.stages.1.label>
+  <SawSkillOnDate.stages.2.label>{OTHERPAWN_nameDef}(은)는 {SKILL}에 탁월함</SawSkillOnDate.stages.2.label>
+  <RebuffedMyDateRequest.stages.0.label>내 데이트를 거절함</RebuffedMyDateRequest.stages.0.label>
+  <HungOut.stages.0.label>함께 시간을 보냄</HungOut.stages.0.label>
+  <MissedDate.stages.0.label>우리 데이트를 놓침</MissedDate.stages.0.label>
+  <Hug.stages.0.label>{0}와(과) 포옹</Hug.stages.0.label>
+  <Hug.stages.0.description>소중한 사람과의 따뜻한 포옹.</Hug.stages.0.description>
+  <HugDeclined.stages.0.label>내 포옹을 거절함</HugDeclined.stages.0.label>
+  <HugDeclined.stages.0.description>그냥 안기고 싶었을 뿐인데.</HugDeclined.stages.0.description>
+</LanguageData>

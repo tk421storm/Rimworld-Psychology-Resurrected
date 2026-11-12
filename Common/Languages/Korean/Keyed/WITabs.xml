@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CertaintyChangePerDay>일일 변화량</CertaintyChangePerDay>
+  <AbilityIdeoConvertBreakdownPsychologyEffects>성격과 이념</AbilityIdeoConvertBreakdownPsychologyEffects>
+  <AbilityIdeoConvertBreakdownPersonalityTraits>설득과 개방성</AbilityIdeoConvertBreakdownPersonalityTraits>
+  <AbilityIdeoConvertBreakdownPersuasion>{PAWN_labelShort}의 카리스마</AbilityIdeoConvertBreakdownPersuasion>
+  <AbilityIdeoConvertBreakdownOpenness>{PAWN_labelShort}의 개방성 (순진함, 실험적, 비향수적)</AbilityIdeoConvertBreakdownOpenness>
+  <AbilityIdeoConvertBreakdownPawnCompatWithIdeo>{PAWN_labelShort}와(과) {IDEO}의 궁합</AbilityIdeoConvertBreakdownPawnCompatWithIdeo>
+  <AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>{PAWN_labelShort}와(과) {IDEO}의 부조화</AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>
+  <PsycheCurrentlyDisabled>현재 정신 비활성화됨</PsycheCurrentlyDisabled>
+  <TabPsyche>정신</TabPsyche>
+  <SexualityDisabledWarning>Psychology의 성적 지향 시스템이 꺼져 있습니다. 직접 껐거나 목록에 호환되지 않는 모드가 있기 때문입니다. 성적 지향이나 정착민 상호작용을 바꾸는 다른 모드를 끄세요.</SexualityDisabledWarning>
+  <KinseyRating>킨제이 점수:</KinseyRating>
+  <KinseyDescription0>킨제이 척도</KinseyDescription0>
+  <KinseyDescription>{0}(은)는 사람의 성적 지향을 나타내며, 0(완전한 이성애)부터 6(완전한 동성애)까지입니다.\n\n킨제이는 단순화를 위해 일곱 범주를 택했으며, "현실에는 두 극단 사이와 척도의 각 범주 사이의 연속선 위에 놓인 모든 중간 유형의 개인이 포함된다는 점을 인정해야 한다"고 썼습니다.</KinseyDescription>
+  <SexDrive0>무성애자</SexDrive0>
+  <SexDrive1>낮은 성욕</SexDrive1>
+  <SexDrive2>보통 성욕</SexDrive2>
+  <SexDrive3>높은 성욕</SexDrive3>
+  <SexDrive4>극도의 성욕</SexDrive4>
+  <SexDriveDescription0>성욕</SexDriveDescription0>
+  <SexDriveDescription>{0}(은)는 리비도라고도 하며, 성적 활동에 대한 전반적인 욕구를 나타냅니다.</SexDriveDescription>
+  <AsexualDescription>이 인물은 성욕이 매우 적습니다. 성적 끌림을 거의 느끼지 않아 친밀한 관계를 갖기 어렵지만, 로맨스는 할 수 있습니다.</AsexualDescription>
+  <RomanticDrive0>무로맨틱</RomanticDrive0>
+  <RomanticDrive1>낮은 연애 욕구</RomanticDrive1>
+  <RomanticDrive2>보통 연애 욕구</RomanticDrive2>
+  <RomanticDrive3>높은 연애 욕구</RomanticDrive3>
+  <RomanticDrive4>극도의 연애 욕구</RomanticDrive4>
+  <RomanticDriveDescription0>연애 욕구</RomanticDriveDescription0>
+  <RomanticDriveDescription>{0}(은)는 연애 관계에 대한 전반적인 욕구를 나타냅니다.</RomanticDriveDescription>
+  <AromanticDescription>이 인물은 연애 욕구가 매우 적습니다. 로맨스를 시도하거나 청혼을 받아들일 가능성이 낮지만, 연인을 가질 수는 있습니다.</AromanticDescription>
+  <FamilyDrive0>아이를 원하지 않음</FamilyDrive0>
+  <FamilyDrive1>낮은 가족 욕구</FamilyDrive1>
+  <FamilyDrive2>보통 가족 욕구</FamilyDrive2>
+  <FamilyDrive3>높은 가족 욕구</FamilyDrive3>
+  <FamilyDrive4>극도의 가족 욕구</FamilyDrive4>
+  <FamilyDriveDescription0>가족 욕구</FamilyDriveDescription0>
+  <FamilyDriveDescription>{0}(은)는 자기 아이를 얼마나 원하는지를 나타냅니다. 성격과 가모장/가부장, 자발적 무자녀 특성에 따라 결정됩니다. Biotech가 있으면 임신 방침을 정합니다: 욕구가 낮으면 임신을 피하고, 높으면 아이를 갖기 위해 노력합니다.</FamilyDriveDescription>
+  <OptionsText4>단어 구름</OptionsText4>
+  <OptionsText3>간단히 보기</OptionsText3>
+  <OptionsText2>자세히 보기</OptionsText2>
+  <OptionsText1>주요 항목 보기</OptionsText1>
+  <OptionsText0>모두 보기</OptionsText0>
+  <UseColors>특성 색상 표시</UseColors>
+  <ListAlphabetical>가나다순</ListAlphabetical>
+  <UseAntonyms>반의어 사용</UseAntonyms>
+  <EditPsyche>편집</EditPsyche>
+  <PsycheEditor>{0}의 정신 수정 중:</PsycheEditor>
+  <PsycheEditorNewColonist>정착민의 정신 수정 중:</PsycheEditorNewColonist>
+  <PersonalityNodeWarning>인물의 원래 성격 값을 편집하고 있습니다. 실제 수치는 다른 요인에 따라 조정됩니다.</PersonalityNodeWarning>
+  <SexDrive>성욕:</SexDrive>
+  <RomanticDrive>연애 욕구:</RomanticDrive>
+  <FamilyDrive>가족 욕구:</FamilyDrive>
+  <PsycheResetTooltip>이 인물의 고유 ID HashCode에 따라 정신을 기본값으로 되돌립니다.</PsycheResetTooltip>
+  <PsycheNot>전혀</PsycheNot>
+  <PsycheSlightly>약간</PsycheSlightly>
+  <PsycheLess>덜</PsycheLess>
+  <PsycheSomewhat>다소</PsycheSomewhat>
+  <PsycheMore>더</PsycheMore>
+  <PsycheVery>매우</PsycheVery>
+  <PsycheExtremely>극도로</PsycheExtremely>
+  <ConversationTooltip>사람들은 {0}에 대해 이야기하고, 서로 {1}에 대해 논의할 것입니다.</ConversationTooltip>
+  <PsycheComma>,</PsycheComma>
+  <AntonymColon> 반의어: {0}.</AntonymColon>
+  <FiveFactorModelTitle>빅 파이브 요약</FiveFactorModelTitle>
+  <FiveFactorDescription0>5요인 모델</FiveFactorDescription0>
+  <FiveFactorDescription>{0}(빅 파이브)은 20세기 후반, 성격의 근본 특성이 언어에 담겨 있다는 어휘 가설을 바탕으로 개발되었습니다.\n\n영어, 중국어, 러시아어, 독일어 등 여러 언어의 특성 서술 용어 집합을 분석한 결과 다섯 요인이 일관되게 나타났습니다.\n\n쌍둥이 및 입양 연구는 상당한 유전적 요소를 밝혀냈으며, 개인의 상대적 위치는 성인기 동안 상당히 안정적인 것으로 나타났습니다.</FiveFactorDescription>
+  <BigFiveO>O</BigFiveO>
+  <BigFiveODescription0>경험에 대한 개방성</BigFiveODescription0>
+  <BigFiveODescription>{0}(은)는 새로운 생각, 가치, 행동, 감정, 상상, 미적 감각을 받아들이려는 의지입니다.</BigFiveODescription>
+  <BigFiveC>C</BigFiveC>
+  <BigFiveCDescription0>성실성</BigFiveCDescription0>
+  <BigFiveCDescription>{0}(은)는 근면, 효율, 조직, 계획, 의무, 자기 절제에 대한 성향입니다.</BigFiveCDescription>
+  <BigFiveE>E</BigFiveE>
+  <BigFiveEDescription0>외향성</BigFiveEDescription0>
+  <BigFiveEDescription>{0}(은)는 외부에서 만족을 추구하는 성향으로, 사교적이고 말이 많고 활기차고 쾌활하며 자기주장이 강하고 어울리기 좋아하는 행동으로 나타납니다.</BigFiveEDescription>
+  <BigFiveA>A</BigFiveA>
+  <BigFiveADescription0>친화성</BigFiveADescription0>
+  <BigFiveADescription>{0}(은)는 친절, 공감, 협력, 따뜻함, 예의, 연민의 능력입니다.</BigFiveADescription>
+  <BigFiveN>N</BigFiveN>
+  <BigFiveNDescription0>신경성</BigFiveNDescription0>
+  <BigFiveNDescription>{0}(은)는 불안, 두려움, 분노, 질투, 죄책감, 슬픔 같은 부정적 감정에 대한 경향입니다.</BigFiveNDescription>
+</LanguageData>

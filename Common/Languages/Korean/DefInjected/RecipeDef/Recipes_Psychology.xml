@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatPyromania.label>방화광 치료</TreatPyromania.label>
+  <TreatPyromania.description>방화광의 회복을 돕습니다.</TreatPyromania.description>
+  <TreatPyromania.jobString>방화광 치료 중.</TreatPyromania.jobString>
+  <TreatChemicalInterest.label>화학적 관심 치료</TreatChemicalInterest.label>
+  <TreatChemicalInterest.description>화학적 관심이 있는 사람이 약물을 멀리하도록 돕습니다.</TreatChemicalInterest.description>
+  <TreatChemicalInterest.jobString>화학적 관심 치료 중.</TreatChemicalInterest.jobString>
+  <TreatChemicalFascination.label>화학적 매혹 치료</TreatChemicalFascination.label>
+  <TreatChemicalFascination.description>화학적 매혹이 있는 사람이 약물을 멀리하도록 돕습니다.</TreatChemicalFascination.description>
+  <TreatChemicalFascination.jobString>화학적 매혹 치료 중.</TreatChemicalFascination.jobString>
+  <TreatDepression.label>우울증 치료</TreatDepression.label>
+  <TreatDepression.description>우울한 사람이 기분을 관리하도록 돕습니다.</TreatDepression.description>
+  <TreatDepression.jobString>우울증 치료 중.</TreatDepression.jobString>
+  <TreatInsomnia.label>불면증 치료</TreatInsomnia.label>
+  <TreatInsomnia.description>불면증 환자가 더 잘 자도록 돕습니다.</TreatInsomnia.description>
+  <TreatInsomnia.jobString>불면증 치료 중.</TreatInsomnia.jobString>
+  <CureAnxiety.label>불안 완치</CureAnxiety.label>
+  <CureAnxiety.description>빛나는 세계의 치료법으로 불안을 영구히 제거합니다.</CureAnxiety.description>
+  <CureAnxiety.jobString>불안 완치 중.</CureAnxiety.jobString>
+</LanguageData>

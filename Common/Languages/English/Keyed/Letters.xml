@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+
+
+
+
+
+
+	<LetterLabelPTSD>Stress trauma</LetterLabelPTSD>
+	<LetterPTSD>{0_labelShort} has developed post-traumatic anxiety as a result of {0_possessive} mental break. Anxiety is a permanent condition, but can be treated to slowly reduce its severity to a manageable level and allow {0_possessive} to function normally. Any further mental breaks will worsen {0_possessive} anxiety.\n\nGlitterworld doctors are rumored to have cured mental illnesses like anxiety in their patients. If you get your hands on some ultratech medicine, an extremely skilled doctor may be able to use it to cure {0_labelShort}'s anxiety.</LetterPTSD>
+	<LetterLabelDatePlanned>Date night</LetterLabelDatePlanned>
+	<LetterDatePlanned>{0_labelShort} has planned a date with {1_labelShort} for the {2} at hour {3}.\n\nDates may be cancelled for several reasons, most notably if either colonist is assigned to Work, or they are drafted, or otherwise incapacitated by injury or urgent colony business.\n\nIf the date is cancelled, both colonists will be unhappy. Colonists can also miss dates if they sleep through them. This will make the other colonist upset at them, but not cause a negative thought.</LetterDatePlanned>
+	
+	<!-- Replaced vanilla letters -->
+	<LetterRejectedProposalPsychology>Depending on their personality, their mood and relationship will be affected.</LetterRejectedProposalPsychology>
+
+	<LetterLabelCourtshipDatePlanned>Date</LetterLabelCourtshipDatePlanned>
+	<LetterCourtshipDatePlanned>{0_labelShort} asked {1_labelShort} out on a date, for the {2} at hour {3}.\n\nIf it goes well, they'll both think better of each other, and they may decide to become lovers. A bad date can leave them liking each other less. Dates may be cancelled if either colonist is assigned to Work, drafted or otherwise incapacitated.</LetterCourtshipDatePlanned>
+
+</LanguageData>

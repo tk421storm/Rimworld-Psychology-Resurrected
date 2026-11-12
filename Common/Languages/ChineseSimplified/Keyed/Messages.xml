@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatedTrait>{0_labelShort}的{1}特性已成功治疗。</TreatedTrait>
+  <TreatmentFailedMessage>{0_labelShort}的{1}治疗失败了。可以在{2}后再次尝试。</TreatmentFailedMessage>
+  <MessageCuredAnxiety>{SURGEON_labelShort}成功治愈了{PATIENT_labelShort}的焦虑。</MessageCuredAnxiety>
+</LanguageData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Prude.degreeDatas.0.label>prude</Prude.degreeDatas.0.label>
+  <Prude.degreeDatas.0.description>[PAWN_nameDef] déteste la vue du corps humain. [PAWN_pronoun] sera extrêmement malheureux quand [PAWN_pronoun] est nu, plus mécontent que d'habitude dans des vêtements usés ou en lambeaux, et n'aime pas voir d'autres personnes nues.</Prude.degreeDatas.0.description>
+  <Insomniac.degreeDatas.0.label>insomniaque</Insomniac.degreeDatas.0.label>
+  <Insomniac.degreeDatas.0.description>[PAWN_nameDef] a du mal à dormir à cause de son état. [PAWN_pronoun] accordera moins de priorité au sommeil, se réveillera plus tôt et récupérera moins en dormant.</Insomniac.degreeDatas.0.description>
+  <BleedingHeart.degreeDatas.0.label>cœur sensible</BleedingHeart.degreeDatas.0.label>
+  <BleedingHeart.degreeDatas.0.description>[PAWN_nameDef] a un grand cœur et devient très émotif. [PAWN_pronoun] adore aider les gens et a horreur de la violence et de l'injustice. [PAWN_pronoun] est plus affecté par ces choses que les autres.</BleedingHeart.degreeDatas.0.description>
+  <Gourmet.degreeDatas.0.label>gourmet</Gourmet.degreeDatas.0.label>
+  <Gourmet.degreeDatas.0.description>[PAWN_nameDef] est toujours critique en matière de nourriture. [PAWN_pronoun] s'attend à être bien nourri et se plaindra si ses repas ne sont pas à la hauteur.</Gourmet.degreeDatas.0.description>
+  <Unstable.degreeDatas.0.label>instable</Unstable.degreeDatas.0.label>
+  <Unstable.degreeDatas.0.description>[PAWN_nameDef] est plus sujet à des sautes d'humeur aléatoires, qui peuvent être plus fortes que chez les autres.</Unstable.degreeDatas.0.description>
+  <Lecher.degreeDatas.0.label>libertin</Lecher.degreeDatas.0.label>
+  <Lecher.degreeDatas.0.description>[PAWN_nameDef] est ouvertement libidineux et brise les cœurs sans réfléchir. [PAWN_pronoun] draguera toute personne qu'il désire, sans se soucier des conséquences.</Lecher.degreeDatas.0.description>
+  <Codependent.degreeDatas.0.label>codépendant</Codependent.degreeDatas.0.label>
+  <Codependent.degreeDatas.0.description>[PAWN_nameDef] est affectivement dépendant et ne sera heureux qu'en couple. [PAWN_pronoun] sera anéanti par l'infidélité et les ruptures.</Codependent.degreeDatas.0.description>
+  <Outdoorsy.degreeDatas.0.label>amoureux de la nature</Outdoorsy.degreeDatas.0.label>
+  <Outdoorsy.degreeDatas.0.description>[PAWN_nameDef] adore être dehors. [PAWN_pronoun] gagne un bonus d'humeur quand il n'y a pas de toit au-dessus de sa tête.</Outdoorsy.degreeDatas.0.description>
+  <Pluviophile.degreeDatas.0.label>pluviophile</Pluviophile.degreeDatas.0.label>
+  <Pluviophile.degreeDatas.0.description>[PAWN_nameDef] aime la pluie. [PAWN_pronoun] gagne un bonus d'humeur quand il pleut à verse, surtout s'il peut sortir sous la pluie.</Pluviophile.degreeDatas.0.description>
+  <Photosensitive.degreeDatas.0.label>photosensible</Photosensitive.degreeDatas.0.label>
+  <Photosensitive.degreeDatas.0.description>[PAWN_nameDef] a des yeux extrêmement sensibles à la lumière, par modification génétique ou mutation aléatoire. [PAWN_pronoun] trouve la lumière vive extrêmement douloureuse et l'éclairage intérieur gênant, et sera plus heureux dans le noir.</Photosensitive.degreeDatas.0.description>
+  <Socialite.degreeDatas.0.label>mondain</Socialite.degreeDatas.0.label>
+  <Socialite.degreeDatas.0.description>[PAWN_nameDef] adore faire la fête ! Sa seule présence inspire plus de fêtes dans la colonie, car tout le monde aime faire la fête avec [PAWN_objective].</Socialite.degreeDatas.0.description>
+  <Desensitized.degreeDatas.0.label>désensibilisé</Desensitized.degreeDatas.0.label>
+  <Desensitized.degreeDatas.0.description>[PAWN_nameDef] a vu tant de violence et de mort que cela ne [PAWN_objective] choque plus comme avant.</Desensitized.degreeDatas.0.description>
+  <HeavySleeper.degreeDatas.0.label>gros dormeur</HeavySleeper.degreeDatas.0.label>
+  <HeavySleeper.degreeDatas.0.description>[PAWN_nameDef] dort comme une souche, jamais dérangé par de mauvaises conditions de sommeil, mais il est difficile de [PAWN_objective] réveiller.</HeavySleeper.degreeDatas.0.description>
+  <Polygamous.degreeDatas.0.label>polyamoureux</Polygamous.degreeDatas.0.label>
+  <Polygamous.degreeDatas.0.description>[PAWN_nameDef] ne voit aucun problème à avoir plusieurs partenaires. [PAWN_pronoun] ne voit pas d'inconvénient à ce que son partenaire en séduise d'autres, mais sera moins heureux dans une relation monogame contraignante.</Polygamous.degreeDatas.0.description>
+  <OpenMinded.degreeDatas.0.label>ouvert d'esprit</OpenMinded.degreeDatas.0.label>
+  <OpenMinded.degreeDatas.0.description>[PAWN_nameDef] voit les gens pour ce qu'ils sont à l'intérieur, pas à l'extérieur. [PAWN_pronoun] ne juge pas les autres sur leur apparence.</OpenMinded.degreeDatas.0.description>
+  <Sedentary.degreeDatas.0.label>sédentaire</Sedentary.degreeDatas.0.label>
+  <Sedentary.degreeDatas.0.description>[PAWN_nameDef] n'est pas une personne très active. [PAWN_pronoun] n'est pas en grande forme physique, mais aime rester assis toute la journée à travailler sur des choses.</Sedentary.degreeDatas.0.description>
+  <Chatty.degreeDatas.0.label>bavard</Chatty.degreeDatas.0.label>
+  <Chatty.degreeDatas.0.description>[PAWN_nameDef] parle, parle et parle... et parle encore. [PAWN_pronoun] a tendance à avoir des conversations plus longues que la plupart, car [PAWN_pronoun] n'arrive pas à les terminer.</Chatty.degreeDatas.0.description>
+  <Matriarch.degreeDatas.0.label>patriarche</Matriarch.degreeDatas.0.label>
+  <Matriarch.degreeDatas.0.labelMale>patriarche</Matriarch.degreeDatas.0.labelMale>
+  <Matriarch.degreeDatas.0.labelFemale>matriarche</Matriarch.degreeDatas.0.labelFemale>
+  <Matriarch.degreeDatas.0.description>[PAWN_nameDef] rêve d'une grande famille et n'est jamais aussi heureux qu'entouré de ses enfants. Chaque enfant [PAWN_objective] rend plus heureux, et [PAWN_pronoun] en voudra toujours un autre.</Matriarch.degreeDatas.0.description>
+  <ChildFree.degreeDatas.0.label>sans enfant par choix</ChildFree.degreeDatas.0.label>
+  <ChildFree.degreeDatas.0.description>[PAWN_nameDef] n'a jamais voulu d'enfants et n'en voudra jamais. [PAWN_pronoun] profite de sa liberté, évite toujours la grossesse et serait malheureux en tant que parent.</ChildFree.degreeDatas.0.description>
+</LanguageData>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Random social interactions -->
+
+  <RulePackDef>
+    <defName>HookupSucceeded</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] agreed to the hookup.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>HookupFailed</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] did not agree to the hookup.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>HookupNoBed</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] was willing, but there was no bed for two.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- What a vanilla romance attempt turned into (Psychology.RomanceAttemptRouter); the first sentence after the attempt -->
+  <RulePackDef>
+    <defName>RomanceAttemptDirect</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] asked [RECIPIENT_objective] to be lovers.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>RomanceAttemptDateNight</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] planned a date night with [RECIPIENT_objective].</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>RomanceAttemptDateLovin</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] suggested they head to bed together.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>DateLovinAccepted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] happily agreed.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>DateLovinDeclined</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [RECIPIENT_nameDef] wasn't in the mood.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>RomanceAttemptCourtship</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] asked [RECIPIENT_objective] out on a date.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>RomanceAttemptHookup</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] proposed a casual hookup.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>RomanceAttemptCheating</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-&gt; [INITIATOR_nameDef] proposed an affair behind [INITIATOR_possessive] partner's back.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <InteractionDef>
+    <defName>PrudeSeen</defName>
+    <label>saw naked</label>
+    <workerClass>Psychology.InteractionWorker_PrudeSeen</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <initiatorThought>PrudeSeen</initiatorThought>
+    <socialFightBaseChance>0.005</socialFightBaseChance>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] saw [RECIPIENT_nameDef] in the nude.</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <InteractionDef>
+    <defName>Conversation</defName>
+    <label>conversation</label>
+    <workerClass>Psychology.InteractionWorker_Conversation</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/DeepTalk</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry(p=4)->[INITIATOR_nameDef] [conversed] with [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] hailed [RECIPIENT_nameDef] for a conversation.</li>
+        <li>r_logentry->[INITIATOR_nameDef] brought up a topic with [RECIPIENT_nameDef].</li>
+		
+        <li>conversed(p=4)->struck up a conversation</li>
+        <li>conversed->started to talk</li>
+        <li>conversed->got into a chat</li>
+        <li>conversed->brought up a topic</li>
+        <li>conversed->started discussing something</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <InteractionDef>
+    <defName>EndConversation</defName>
+    <label>ended conversation</label>
+    <workerClass>InteractionWorker_DeepTalk</workerClass> <!-- This will prevent them from actually doing it.-->
+    <symbol>Things/Mote/SpeechSymbols/Conversation</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] ended a conversation with [RECIPIENT_nameDef].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <RulePackDef>
+    <defName>Sentence_SocialFightConvoInitiatorStarted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->Their differences escalated until [INITIATOR_nameDef] started a fight!</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>Sentence_SocialFightConvoRecipientStarted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->Their differences escalated until [RECIPIENT_nameDef] started a fight!</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <InteractionDef>
+    <defName>HangOut</defName>
+    <label>hanging out</label>
+    <workerClass>Psychology.InteractionWorker_HangOut</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/HangOut</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to hang out with [INITIATOR_objective].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <InteractionDef>
+    <defName>PlanDate</defName>
+    <label>planning a date night</label>
+    <workerClass>Psychology.InteractionWorker_PlanDateNight</workerClass>
+    <symbol>Things/Mote/Heart</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] planned a date night with [RECIPIENT_nameDef].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+  <InteractionDef>
+    <defName>AskOutOnDate</defName>
+    <label>asking out on a date</label>
+    <workerClass>Psychology.InteractionWorker_AskOutOnDate</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+    <initiatorXpGainSkill>Social</initiatorXpGainSkill>
+    <initiatorXpGainAmount>10</initiatorXpGainAmount>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] out on a date.</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <RulePackDef>
+    <defName>DateAccepted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-> [RECIPIENT_nameDef] said yes.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>DateDeclined</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-> [RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  
+
+  <!-- Ideology -->
+
+  <InteractionDef>
+    <defName>Indoctrinate</defName>
+    <label>indoctrination</label>
+    <symbol>UI/Abilities/Indoctrinate</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] indoctrinated [RECIPIENT_nameDef].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+
+  <!-- Hugs (Psychology.InteractionWorker_Hug) -->
+  <InteractionDef>
+    <defName>Hug</defName>
+    <label>hug</label>
+    <workerClass>Psychology.InteractionWorker_Hug</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/KindWords</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] went to give [RECIPIENT_nameDef] a [hug].</li>
+        <li>r_logentry->[INITIATOR_nameDef] opened [INITIATOR_possessive] arms to [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] reached out to [RECIPIENT_nameDef] for a [hug].</li>
+
+        <li>hug(p=3)->hug</li>
+        <li>hug->warm hug</li>
+        <li>hug->big hug</li>
+        <li>hug->quick hug</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <RulePackDef>
+    <defName>HugAccepted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-> [RECIPIENT_nameDef] hugged [INITIATOR_objective] back.</li>
+        <li>sent-> They held each other for a moment.</li>
+        <li>sent-> [RECIPIENT_nameDef] leaned in gladly.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>HugDeclined</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent-> [RECIPIENT_nameDef] wasn't in the mood.</li>
+        <li>sent-> [RECIPIENT_nameDef] stepped back with an awkward smile.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>호화로운 식사를 함</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>그 호화로운 식사는 정말 최고였어. 매일 이런 걸 먹고 싶어!</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>고급 식사를 함</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>정말 맛있는 고급 식사를 했어. 딱 내 취향이야!</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>끔찍한 식사를 함</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>역겹고 맛없는 식사를 해야 했어. 용납할 수 없어. 이것보단 잘 먹여 줘야지.</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>날것을 먹음</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>날것을 먹어야 했어. 요리사도 못 두는 곳이라면 여기서 살고 싶지 않아.</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>간단한 식사를 함</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>그 식사는 내 기준에 못 미쳤어. 더 나은 게 없어서 먹었을 뿐이야.</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>곤충 고기 요리를 먹음</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>회색에 끈적한 곤충 고기로 만든 요리를 먹었어. 씹는 순간 정말 불쾌한 놀라움이었어.</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>곤충 고기를 먹음</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>회색에 끈적한 곤충 고기를 먹었어. 제발 그냥 죽여 줘.</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>썩은 음식을 먹음</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>역겹고 썩은 음식을 먹었어. 이렇게까지 비참해지느니 차라리 죽는 게 낫겠어.</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

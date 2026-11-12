@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LordReportHangingOut>Проводит время с кем-то</LordReportHangingOut>
+  <LordReportDate>На свидании</LordReportDate>
+  <DateKindCourtship>свидание</DateKindCourtship>
+  <DateKindDateNight>романтическое свидание</DateKindDateNight>
+  <DateStarted>Начинается {2}: {0_labelShort} и {1_labelShort}!</DateStarted>
+  <DateNightWentWell>{0_labelShort} и {1_labelShort} чудесно провели романтический вечер.</DateNightWentWell>
+  <DateNightWentWellForOne>{0_labelShort} {0_gender ? остался доволен : осталась довольна} вечером с {1_labelShort}, а {1_labelShort} — нет.</DateNightWentWellForOne>
+  <DateNightWentBadly>Романтический вечер {0_labelShort} и {1_labelShort} не удался.</DateNightWentBadly>
+  <DateWentWell>Свидание {0_labelShort} и {1_labelShort} понравилось обоим.</DateWentWell>
+  <DateWentWellForOne>{0_labelShort} {0_gender ? остался доволен : осталась довольна} свиданием с {1_labelShort}, а {1_labelShort} — нет.</DateWentWellForOne>
+  <DateWentBadly>Свидание {0_labelShort} и {1_labelShort} прошло плохо.</DateWentBadly>
+  <DateCutShort>{2} ({0_labelShort} и {1_labelShort}) прервано: {3}.</DateCutShort>
+  <DateRuined>Срыв {0_labelShort} испортил {1_labelShort} всё {2}.</DateRuined>
+  <DateCancelled>{2} ({0_labelShort} и {1_labelShort}) отменено: {3}.</DateCancelled>
+  <DateMissed>{0_labelShort} {0_gender ? ждал : ждала}, но {1_labelShort} {1_gender ? проспал : проспала} их {2}.</DateMissed>
+  <DateBothSlept>{0_labelShort} и {1_labelShort} оба проспали своё {2}.</DateBothSlept>
+  <DateCalledOff>Запланированное {2} {0_labelShort} с {1_labelShort} отменяется.</DateCalledOff>
+  <DateReasonDanger>сейчас небезопасно</DateReasonDanger>
+  <DateReasonDowned>{0_labelShort} {0_gender ? недееспособен : недееспособна}</DateReasonDowned>
+  <DateReasonStarving>{0_labelShort} голодает</DateReasonStarving>
+  <DateReasonBleeding>{0_labelShort} истекает кровью</DateReasonBleeding>
+  <DateReasonHurt>{0_labelShort} {0_gender ? получил : получила} травму</DateReasonHurt>
+  <DateReasonTired>{0_labelShort} слишком {0_gender ? устал : устала}</DateReasonTired>
+  <DateReasonMentalState>у {0_labelShort} нервный срыв</DateReasonMentalState>
+  <DateReasonPrisoner>{0_labelShort} — пленник</DateReasonPrisoner>
+  <DateReasonWork>у {0_labelShort} по расписанию работа</DateReasonWork>
+  <DateReasonDrafted>{0_labelShort} {0_gender ? призван : призвана}</DateReasonDrafted>
+  <DateReasonAway>{0_labelShort} нет на месте</DateReasonAway>
+  <DateReasonLeft>{0_labelShort} {0_gender ? должен был : должна была} уйти</DateReasonLeft>
+  <DateReasonBusy>{0_labelShort} {0_gender ? занят : занята}</DateReasonBusy>
+  <RitualDateWillClash>У {PAWN_labelShort} {KIND} с {PARTNER_labelShort} в {HOUR} ч. (через {IN}) — во время этого ритуала. Его перенесут или отменят, если ритуал затянется.</RitualDateWillClash>
+  <RitualDateMightClash>{KIND} {PAWN_labelShort} с {PARTNER_labelShort} в {HOUR} ч. (через {IN}) может прийтись на этот ритуал. Его перенесут или отменят, если ритуал затянется.</RitualDateMightClash>
+  <ConversationStage>беседа о</ConversationStage>
+  <ConversationEnd>[INITIATOR_nameDef] заканчивает разговор с [RECIPIENT_nameDef].</ConversationEnd>
+  <ConversationEnded>заканчивает разговор</ConversationEnded>
+  <DrugFreeDescription>{TRAIT} {PAWN_labelShort} ослаблена благодаря жизни без наркотиков.</DrugFreeDescription>
+  <DrugFreeDescriptionNoTrait>{PAWN_labelShort} придерживается жизни без наркотиков.</DrugFreeDescriptionNoTrait>
+  <EdBPrepareCarefullyPsycheTooltip>Просмотреть и изменить психику этой пешки. Шаблоны Prepare Carefully и сохранённые колонисты психику не сохраняют; при загрузке пешка получает новую случайную психику.</EdBPrepareCarefullyPsycheTooltip>
+  <ChildFreePregnancyApproach>{PAWN_labelShort} не хочет детей.</ChildFreePregnancyApproach>
+</LanguageData>

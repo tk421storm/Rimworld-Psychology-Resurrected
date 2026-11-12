@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HookupSucceeded.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]接受了一夜情。</HookupSucceeded.rulePack.rulesStrings.0>
+  <HookupFailed.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]拒绝了一夜情。</HookupFailed.rulePack.rulesStrings.0>
+  <HookupNoBed.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]有意，但没有双人床。</HookupNoBed.rulePack.rulesStrings.0>
+  <RomanceAttemptDirect.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef]请求[RECIPIENT_nameDef]成为恋人。</RomanceAttemptDirect.rulePack.rulesStrings.0>
+  <RomanceAttemptDateNight.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef]和[RECIPIENT_nameDef]计划了一次浪漫约会。</RomanceAttemptDateNight.rulePack.rulesStrings.0>
+  <RomanceAttemptDateLovin.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef]提议一起上床。</RomanceAttemptDateLovin.rulePack.rulesStrings.0>
+  <DateLovinAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]欣然答应。</DateLovinAccepted.rulePack.rulesStrings.0>
+  <DateLovinDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]没那个心情。</DateLovinDeclined.rulePack.rulesStrings.0>
+  <RomanceAttemptCourtship.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef]约[RECIPIENT_nameDef]出去约会。</RomanceAttemptCourtship.rulePack.rulesStrings.0>
+  <RomanceAttemptHookup.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef]提议来一场不必负责的一夜情。</RomanceAttemptHookup.rulePack.rulesStrings.0>
+  <RomanceAttemptCheating.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef]提议背着伴侣偷情。</RomanceAttemptCheating.rulePack.rulesStrings.0>
+  <Sentence_SocialFightConvoInitiatorStarted.rulePack.rulesStrings.0>sent-&gt;他们的分歧不断升级，直到[INITIATOR_nameDef]挑起了一场打斗！</Sentence_SocialFightConvoInitiatorStarted.rulePack.rulesStrings.0>
+  <Sentence_SocialFightConvoRecipientStarted.rulePack.rulesStrings.0>sent-&gt;他们的分歧不断升级，直到[RECIPIENT_nameDef]挑起了一场打斗！</Sentence_SocialFightConvoRecipientStarted.rulePack.rulesStrings.0>
+  <DateAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]答应了。</DateAccepted.rulePack.rulesStrings.0>
+  <DateDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]拒绝了[INITIATOR_nameDef]。</DateDeclined.rulePack.rulesStrings.0>
+  <HugAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]回抱了[INITIATOR_nameDef]。</HugAccepted.rulePack.rulesStrings.0>
+  <HugAccepted.rulePack.rulesStrings.1>sent-&gt; 他们相拥了片刻。</HugAccepted.rulePack.rulesStrings.1>
+  <HugAccepted.rulePack.rulesStrings.2>sent-&gt; [RECIPIENT_nameDef]高兴地依偎过去。</HugAccepted.rulePack.rulesStrings.2>
+  <HugDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef]没那个心情。</HugDeclined.rulePack.rulesStrings.0>
+  <HugDeclined.rulePack.rulesStrings.1>sent-&gt; [RECIPIENT_nameDef]尴尬地笑着躲开了。</HugDeclined.rulePack.rulesStrings.1>
+</LanguageData>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EnableEmpathyTitle>启用移情变化</EnableEmpathyTitle>
+  <EnableEmpathyTooltip>禁用此选项可以使小人恢复感受对发生在他人身上的不幸产生的正常反应。这将增加游戏难度。拥有 [软心肠] 特性的殖民者不会受到此功能的影响。禁用此选项后请重启游戏。</EnableEmpathyTooltip>
+
+  <EnableKinseyTitle>启用性变化</EnableKinseyTitle>
+  <EnableKinseyTooltip>禁用此选项将禁用金赛量表对殖民者的性欲影响，并重新启用[同性恋]特性。请不要在游戏过程中更改此选项。禁用此选项后请重启游戏。</EnableKinseyTooltip>
+
+  <KinseyFormulaTitle>金赛量表准则</KinseyFormulaTitle>
+  <KinseyFormulaTooltip>此设置将会影响生成小人时金赛量表将用何种公式来运算小人的性欲。</KinseyFormulaTooltip>
+  <KinseyMode_Realistic>默认</KinseyMode_Realistic>
+  <KinseyMode_Invisible>中置</KinseyMode_Invisible>
+  <KinseyMode_Gaypocalypse>反向</KinseyMode_Gaypocalypse>
+  <KinseyMode_Uniform>统一</KinseyMode_Uniform>
+  <KinseyMode_Custom>Custom</KinseyMode_Custom>
+
+  <KWTitle>Kinsey {0}</KWTitle>
+  <KWTooltip>When custom mode is enabled, this sets the relative weight for {0} on the Kinsey scale for generated pawns.</KWTooltip>
+
+  <EnableIndividualityTitle>启用个性思维</EnableIndividualityTitle>
+  <EnableIndividualityTooltip>如果您的小人正因撞衫而苦恼，您可以禁用这个选项来消除那些影响。这个选项会增加额外的难度，所以您可以随时禁用它，但还是建议您开着比较好。</EnableIndividualityTooltip>
+
+
+  <ConversationDurationTitle>会谈延续时间</ConversationDurationTitle>
+  <ConversationDurationTooltip>设定人们能记住会谈内容的时间，默认为60天，即一年。 最短可设定为15天，即一象，最长可设定为180天，即三年。 设定的时间越短，殖民者之间的互动时间也越短，反之则会越长。</ConversationDurationTooltip>
+
+  <EnableDateLettersTitle>发送约会通知</EnableDateLettersTitle>
+  <EnableDateLettersTooltip>禁用此选项后，您将不会在殖民者计划一起参加约会的时候收到通知。</EnableDateLettersTooltip>
+
+  <BenchmarkingTitle>启用性能测试</BenchmarkingTitle>
+  <BenchmarkingTooltip>启用此选项，您会偶尔收到关于此心理学系统的性能测试报告，您可以提交这些报告来帮助mod作者完善这个mod， 警告: 性能测试功能本身也会影响性能。\n\n激活此选项将重启游戏。</BenchmarkingTooltip>
+
+  <ImprisonedDebuffTitle>招募囚犯惩罚</ImprisonedDebuffTitle>
+  <ImprisonedDebuffTooltip>被招募的囚犯对每位殖民者产生的负面意见（“关押了我”，持续45天）。设为0则禁用。需要重启游戏。</ImprisonedDebuffTooltip>
+
+  <RomanceChanceMultiplierTitle>追求几率乘数</RomanceChanceMultiplierTitle>
+  <RomanceChanceMultiplierTooltip>追求成功的几率将会乘上这个数值。</RomanceChanceMultiplierTooltip>
+
+  <RomanceOpinionThresholdTitle>最低追求点</RomanceOpinionThresholdTitle>
+  <RomanceOpinionThresholdTooltip>一位殖民者对另一位殖民者的看法至少要达到这个数值才能被追求。</RomanceOpinionThresholdTooltip>
+
+
+  <AllowAnxietyTitle>允许创伤后应激性焦虑症</AllowAnxietyTitle>
+  <AllowAnxietyTooltip>允许殖民者在发生精神崩溃后有可能患上难以治愈的焦虑症（几率取决于殖民者精神崩溃的严重程度）。</AllowAnxietyTooltip>
+
+  <BeatyOverrideEnabledTitle>禁用外貌影响更改</BeatyOverrideEnabledTitle>
+  <BeatyOverrideEnabledToolip>禁用对诸如：美貌、漂亮、丑陋等特征的影响更改。请注意，即使禁用此选项，此心理学mod对这些特征的更改仍然有效。建议保持此选项处于启用状态。</BeatyOverrideEnabledToolip>
+	<LovinFrequencyTitle>亲热频率</LovinFrequencyTitle>
+	<LovinFrequencyTooltip>伴侣亲热的频率：2 = 频率翻倍，0.5 = 频率减半。</LovinFrequencyTooltip>
+
+	<MentalBreakAnxietyChanceTitle>精神崩溃焦虑几率</MentalBreakAnxietyChanceTitle>
+	<MentalBreakAnxietyChanceTooltip>设置小人在严重精神崩溃后患上焦虑症的平均几率。轻微崩溃时几率减半，极端崩溃时几率翻倍。几率还取决于殖民者的心理特质。注意，焦虑症也可能作为随年龄增长的随机疾病出现。需要重启游戏才能完全生效。</MentalBreakAnxietyChanceTooltip>
+	<ConvoMaxOpinionChangeTitle>对话最大意见变化</ConvoMaxOpinionChangeTitle>
+	<ConvoMaxOpinionChangeTooltip>单次对话所能造成的最大意见变化（默认40）。数值越大，对话的影响越大。</ConvoMaxOpinionChangeTooltip>
+	<ConvoMeanHoursTitle>预期对话时长</ConvoMeanHoursTitle>
+	<ConvoMeanHoursTooltip>对话的平均持续时间，单位为小时（默认1.3）。</ConvoMeanHoursTooltip>
+	<ConvoTimeScaleHoursTitle>对话时间尺度</ConvoTimeScaleHoursTitle>
+	<ConvoTimeScaleHoursTooltip>设置对话带来的意见变化随对话时长变化的时间尺度（小时）。</ConvoTimeScaleHoursTooltip>
+	<ConvoPersonalityEffectMultiplierTitle>性格对对话的影响</ConvoPersonalityEffectMultiplierTitle>
+	<ConvoPersonalityEffectMultiplierTooltip>此乘数控制友善、礼貌或酷等性格特质对意见变化的影响程度。</ConvoPersonalityEffectMultiplierTooltip>
+	<TraitOpinionMultiplierTitle>特性意见乘数</TraitOpinionMultiplierTitle>
+	<TraitOpinionMultiplierTooltip>调整以下特性带来的意见变化：美貌、丑陋、毁容、恼人的声音、可怕的呼吸声、身体改造爱好者的赞赏以及身体纯粹主义者的厌恶。设为0则完全禁用。需要重启游戏。</TraitOpinionMultiplierTooltip>
+	<PersonalityExtremenessTitle>性格极端程度</PersonalityExtremenessTitle>
+	<PersonalityExtremenessTooltip>设置性格向大五人格原型靠拢的程度。</PersonalityExtremenessTooltip>
+	<IdeoPsycheMultiplierTitle>意识形态互动乘数</IdeoPsycheMultiplierTitle>
+	<IdeoPsycheMultiplierTooltip>控制性格与意识形态相互影响的强度。设为0则完全禁用。</IdeoPsycheMultiplierTooltip>
+	<AdjustRapportByCompatibilityTitle>根据性格契合度调整融洽关系</AdjustRapportByCompatibilityTitle>
+	<AdjustRapportByCompatibilityTooltip>原版中，狱卒每次与囚犯交谈，囚犯对该狱卒的意见+2（最多+100），这也会使其抵抗度下降最多快1.5倍。开启后，这+2会根据两人的性格契合度调整：普通的一对约+2，非常契合时最多约+6，性格冲突时则为负值（“关系紧张”）。此设置同样适用于劝说改变信仰前的交谈（原版中只是普通闲聊）。关闭时：每次交谈均为原版的+2。</AdjustRapportByCompatibilityTooltip>
+	<ArrestBaseChanceTitle>和平拘捕基础几率（%）</ArrestBaseChanceTitle>
+	<ArrestBaseChanceTooltip>心理学模组会取代原版的拘捕几率。小人平静被捕的几率为：拘捕者的和平拘捕几率（此基础值加上每级社交5%，说话能力差时会降低）×被拘捕者对拘捕者的意见（-100时为0，0时为0.5，+100时为1）×同一派系时1.5×被拘捕者处于精神状态时0.2。倒地、无法使用暴力以及有罪的小人仍会始终平静被捕。默认2%：在意见中立时，社交10的拘捕者成功率约26%，社交20的约51%。</ArrestBaseChanceTooltip>
+	<CheatChanceTitle>出轨几率（%）</CheatChanceTitle>
+	<CheatChanceTooltip>小人对伴侣出轨的可能性，包括追求其他人（成功后双方都会离开各自的伴侣）以及临时约会。小人的几率为：此数值×对伴侣的不满程度×性格。喜欢自己伴侣的小人不会出轨；浪漫的小人更长久地保持忠诚，但对不喜欢的伴侣会更快变心；好色之徒更容易出轨，尤其是伴侣不在身边时。有道德感和纯洁的小人出轨更少，爱尝试的小人更多。依赖型的小人从不出轨，对多偶的小人来说这不算出轨。默认50%时的例子：普通小人对伴侣意见为+50时出轨几率为0%，为0时为25%，为-50时为50%。设为0则关闭出轨。</CheatChanceTooltip>
+
+  <CourtshipChanceTitle>追求几率（倍数）</CourtshipChanceTitle>
+  <CourtshipChanceTooltip>单身小人（以及愿意出轨的小人）邀请心仪对象约会的频率。几率还会随吸引力、好感、浪漫欲望、自信以及之前的愉快约会而提高。每次约会都会留下愉快或糟糕的约会记忆；愉快的约会会让浪漫追求更可能发生。设为0则关闭追求。情侣的约会之夜不受影响。</CourtshipChanceTooltip>
+  <DateOpinionGoodTitle>愉快约会好感</DateOpinionGoodTitle>
+  <DateOpinionGoodTooltip>完美约会带来的好感加成。每次约会的结果会根据两人的性格契合度、心情、对彼此的好感和运气，在此数值与糟糕约会好感之间变化。最多可叠加5次愉快约会记忆（第一次之后每次按75%计算），持续20天。</DateOpinionGoodTooltip>
+  <DateOpinionBadTitle>糟糕约会好感</DateOpinionBadTitle>
+  <DateOpinionBadTooltip>最糟糕的约会带来的好感惩罚。参见“愉快约会好感”。</DateOpinionBadTooltip>
+  <DateRomanceChanceTitle>约会后的浪漫追求几率（%）</DateRomanceChanceTitle>
+  <DateRomanceChanceTooltip>双方都满意的约会结束时，其中一人请求对方成为恋人（普通的浪漫追求，仍可能失败）的几率。根据两人的心情乘以0.5到1.5，根据对彼此的好感乘以0.5到2；如果任何一方的好感低于最低浪漫好感，则没有机会。</DateRomanceChanceTooltip>
+  <DateRomanceBonusTitle>每次愉快约会的浪漫加成（%）</DateRomanceBonusTitle>
+  <DateRomanceBonusTooltip>两人之前的每次愉快约会为约会后的浪漫追求几率增加的百分比。默认值的例子：之前有2次愉快约会，且心情和好感都不错时，几率约为15%×2=30%。</DateRomanceBonusTooltip>
+
+  <PrintDebugInfoTitle>输出调试信息</PrintDebugInfoTitle>
+  <PrintDebugInfoTooltip>将 Psychology 的决定和几率（约会、追求、约会后的浪漫追求、临时约会中的出轨）写入日志，以 [Psychology] 开头。适用于测试或报告问题；正常游戏时请保持关闭。开启开发者模式时，殖民者还会有一个“DEV: Romance”按钮，可强制进行约会和临时约会。</PrintDebugInfoTooltip>
+
+</LanguageData>

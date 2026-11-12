@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MethadoneHigh.label>Под метадоном</MethadoneHigh.label>
+  <MethadoneHigh.description>Под действием метадона</MethadoneHigh.description>
+  <MethadoneTolerance.label>толерантность к метадону</MethadoneTolerance.label>
+  <MethadoneTolerance.description>Развилась толерантность к метадону</MethadoneTolerance.description>
+  <MethadoneAddiction.label>метадоновая зависимость</MethadoneAddiction.label>
+  <MethadoneAddiction.description>Развилась зависимость от метадона</MethadoneAddiction.description>
+  <MethadoneAddiction.stages.1.label>ломка</MethadoneAddiction.stages.1.label>
+</LanguageData>

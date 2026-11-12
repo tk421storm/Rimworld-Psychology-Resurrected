@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RecoveringPyromaniac.label>康复中的纵火狂</RecoveringPyromaniac.label>
+  <RecoveringPyromaniac.description>康复中的纵火狂</RecoveringPyromaniac.description>
+  <DrugFree.label>远离毒品</DrugFree.label>
+  <DrugFree.description>远离毒品</DrugFree.description>
+  <Antidepressants.label>抗抑郁药</Antidepressants.label>
+  <Antidepressants.description>抗抑郁药效果</Antidepressants.description>
+  <SleepingPills.label>处方镇静剂</SleepingPills.label>
+  <SleepingPills.description>安眠药效果</SleepingPills.description>
+  <Anxiety.label>焦虑</Anxiety.label>
+  <Anxiety.description>焦虑</Anxiety.description>
+  <Anxiety.stages.0.label>受控</Anxiety.stages.0.label>
+  <Anxiety.stages.1.label>轻度</Anxiety.stages.1.label>
+  <Anxiety.stages.2.label>中度</Anxiety.stages.2.label>
+  <Anxiety.stages.3.label>较重</Anxiety.stages.3.label>
+  <Anxiety.stages.4.label>重度</Anxiety.stages.4.label>
+  <Anxiety.stages.5.label>极重</Anxiety.stages.5.label>
+</LanguageData>

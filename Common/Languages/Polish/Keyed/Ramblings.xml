@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParanoidRambling1>Przeklęci głupcy! Jesteśmy zgubieni!</ParanoidRambling1>
+  <ParanoidRambling2>Nadchodzą! Zniszczą nas!</ParanoidRambling2>
+  <ParanoidRambling3>To miejsce jest przeklęte!</ParanoidRambling3>
+  <ParanoidRambling4>Wszyscy zginiemy!</ParanoidRambling4>
+  <ParanoidRambling5>Niech będzie przeklęte to miejsce!</ParanoidRambling5>
+  <ParanoidRambling6>Nasze dawne życie przepadło. Jesteśmy cieniami umarłych!</ParanoidRambling6>
+  <ParanoidRambling7>To nędzne miejsce będzie naszym grobem!</ParanoidRambling7>
+  <ParanoidRambling8>Im szybciej umrzemy, tym szybciej skończy się cierpienie!</ParanoidRambling8>
+  <ParanoidRambling9>Głupcy! Jesteście marionetkami na sznurkach!</ParanoidRambling9>
+  <ParanoidRambling10>Nie widzicie? Jesteśmy tylko zabawkami!</ParanoidRambling10>
+  <ParanoidRambling11>Śmieją się z naszej męki! Rechoczą!</ParanoidRambling11>
+  <ParanoidRambling12>Zadowoleni? Wszyscy zginiemy!</ParanoidRambling12>
+  <ParanoidRambling13>Jesteście o krok od zapomnienia!</ParanoidRambling13>
+  <ParanoidRambling14>Najgorsze dopiero nadejdzie! Nie jesteśmy gotowi!</ParanoidRambling14>
+  <ParanoidRambling15>Nie ma nadziei! Tracimy czas!</ParanoidRambling15>
+  <ParanoidRambling16>Po co tu jesteśmy? Tylko po to, by cierpieć?</ParanoidRambling16>
+  <ParanoidRambling17>Nasze umysły nie należą do nas!</ParanoidRambling17>
+  <ParanoidRambling18>Wasza głupota skazała nas wszystkich!</ParanoidRambling18>
+  <ParanoidRambling19>Uciekajcie, póki możecie!</ParanoidRambling19>
+  <ParanoidRambling20>To przeklęte piekło będzie naszym grobem!</ParanoidRambling20>
+  <ParanoidRambling21>Jesteśmy tylko pionkami w rękach losu!</ParanoidRambling21>
+  <ParanoidRambling22>Marnuję czas. Wszyscy jesteście ślepi i głusi!</ParanoidRambling22>
+  <ParanoidRambling23>Nigdy nie będzie lepiej! Nikt nas nie uratuje!</ParanoidRambling23>
+  <ParanoidRambling24>Nigdy nie byliśmy tak samotni i opuszczeni!</ParanoidRambling24>
+  <ParanoidRambling25>Pracujemy, chorujemy, umieramy, i po co?</ParanoidRambling25>
+  <ParanoidRambling26>Każde z was może umrzeć w każdej chwili!</ParanoidRambling26>
+  <ParanoidRambling27>Lepiej byłoby nam umrzeć!</ParanoidRambling27>
+  <ParanoidRambling28>To tylko sen, jeszcze możemy się obudzić!</ParanoidRambling28>
+  <ParanoidRambling29>Każdy oddech tylko przedłuża agonię!</ParanoidRambling29>
+  <ParanoidRambling30>Gdyby ktoś nad nami czuwał, czy bylibyśmy w tak rozpaczliwym położeniu?</ParanoidRambling30>
+  <ParanoidRambling31>Świadomość to ropiejąca rana!</ParanoidRambling31>
+  <ParanoidRambling32>Doprowadzają nas do szaleństwa! Zmuszają, byśmy się nawzajem zjadali!</ParanoidRambling32>
+  <ParanoidRambling33>Chcą nas tu trzymać zamkniętych jak zwierzęta!</ParanoidRambling33>
+  <FellMurmuring1>To {0_gender ? jego : jej} wina...</FellMurmuring1>
+  <FellMurmuring2>To wszystko {0_gender ? jego : jej} wina...</FellMurmuring2>
+  <FellMurmuring3>Nie mogę {0_gender ? mu : jej} pozwolić, by uszło {0_gender ? mu : jej} to na sucho...</FellMurmuring3>
+  <FellMurmuring4>{0_gender ? Myśli, że jest taki sprytny : Myśli, że jest taka sprytna}, co?</FellMurmuring4>
+  <FellMurmuring5>Ja {0_gender ? mu : jej} jeszcze pokażę...</FellMurmuring5>
+  <FellMurmuring6>Zdrajcy... sabotażyści... spiskowcy...</FellMurmuring6>
+  <FellMurmuring7>Drwi ze mnie...</FellMurmuring7>
+  <FellMurmuring8>Jak {0_gender ? on : ona} śmie...</FellMurmuring8>
+  <FellMurmuring9>Myśli, że nie zauważę?</FellMurmuring9>
+  <FellMurmuring10>Muszę to zrobić osobiście... nikomu nie można ufać.</FellMurmuring10>
+  <FellMurmuring11>Dla dobra wszystkich...</FellMurmuring11>
+  <FellMurmuring12>Rozwiążę ten problem na własną rękę...</FellMurmuring12>
+  <FellMurmuring13>[mamrocze]</FellMurmuring13>
+  <FellMurmuring14>[mruczy]</FellMurmuring14>
+  <FellMurmuring15>[syczy]</FellMurmuring15>
+  <FellMurmuring16>[szepcze]</FellMurmuring16>
+  <FellMurmuring17>[bełkocze niezrozumiale]</FellMurmuring17>
+  <FellMurmuring18>Idiota!</FellMurmuring18>
+  <FellMurmuring19>Demon!</FellMurmuring19>
+  <FellMurmuring20>Sęp!</FellMurmuring20>
+  <FellMurmuring21>Potwór!</FellMurmuring21>
+  <FellMurmuring22>Kłamca!</FellMurmuring22>
+  <FellMurmuring23>Za moimi plecami... zawsze za moimi plecami...</FellMurmuring23>
+  <FellMurmuring24>Źródło wszystkich naszych problemów...</FellMurmuring24>
+  <FellMurmuring25>Nawet się nie zorientuje...</FellMurmuring25>
+  <FellMurmuring26>Wszystko zaplanuję...</FellMurmuring26>
+  <FellMurmuring27>Wszystko przemyślę...</FellMurmuring27>
+  <FellMurmuring28>Poczekam na właściwy moment...</FellMurmuring28>
+  <FellMurmuring29>Oczyszczę to miejsce z tej zarazy!</FellMurmuring29>
+  <FellMurmuring30>Jeśli nikt inny tego nie zrobi, zrobię to ja.</FellMurmuring30>
+  <FellMurmuring31>Nikt z nich tego nie widzi... wszyscy są tacy ślepi...</FellMurmuring31>
+  <FellMurmuring32>Dam radę... muszę...</FellMurmuring32>
+  <FellMurmuring33>Nawet teraz się ze mnie śmieje...</FellMurmuring33>
+  <FellMurmuring34>Zasłużył{0_gender ? : a} na to...</FellMurmuring34>
+  <FellMurmuring35>{0_gender ? On : Ona} mnie wykończy...</FellMurmuring35>
+  <FellMurmuring36>Trzeba było to zrobić dawno temu...</FellMurmuring36>
+</LanguageData>

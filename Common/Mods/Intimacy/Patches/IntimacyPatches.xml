@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Intimacy - Friends n' Lovers: its intimacy need only rises from interactions it marks as intimate. Psychology's
+     Conversation replaces vanilla deep talks between psyche pawns, so it gets the same marker, as do hanging out and
+     planning or asking for a date. Dates (the HangOut duty) block Intimacy's own lovin, so it can't pull a pawn off a
+     date; date-night couples still get lovin through Psychology's lie-down. -->
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/InteractionDef[defName="Conversation" or defName="HangOut" or defName="PlanDate" or defName="AskOutOnDate"]</xpath>
+		<value>
+			<li Class="LoveyDoveySexWithEuterpe.IntimacyModExtension">
+				<isIntimateInteraction>true</isIntimateInteraction>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/DutyDef[defName="HangOut"]</xpath>
+		<value>
+			<li Class="LoveyDoveySexWithEuterpe.IntimacyModExtension">
+				<temporarilyPreventsLovin>true</temporarilyPreventsLovin>
+				<temporarilyPreventsSocialActivity>false</temporarilyPreventsSocialActivity>
+			</li>
+		</value>
+	</Operation>
+</Patch>

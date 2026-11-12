@@ -1,0 +1,43 @@
+<Project>
+  <!--
+    Shared logic for the optional compatibility assemblies (one per supported third-party mod).
+
+    Each compat csproj sets, before importing this file:
+      CompatModFolder  - folder under <version>/Mods/ that LoadFolders.xml loads when the other mod is active
+      CompatReference  - ';'-separated list of the other mod's DLLs to compile against
+
+    Third-party DLLs are looked up in the local Steam Workshop folder by default (WorkshopDir, set in
+    Directory.Build.props). Override it with -p:WorkshopDir=... if your mods live elsewhere.
+
+    If any referenced DLL is missing (mod not installed, or no build for this RimWorld version yet) the project
+    is skipped with a warning instead of failing the whole solution, and whatever DLL is already in the output
+    folder is left untouched.
+  -->
+  <PropertyGroup>
+    <OutputPath>$(ModRoot)$(RimWorldVersion)\Mods\$(CompatModFolder)\Assemblies\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Private=false: never copy Psychology.dll into our compat Assemblies folder. -->
+    <ProjectReference Include="$(MSBuildThisFileDirectory)Psychology\Psychology.csproj" Private="false" />
+  </ItemGroup>
+
+  <Target Name="_PsychologyCompatReferences" BeforeTargets="ResolveAssemblyReferences">
+    <ItemGroup>
+      <_CompatRef Include="$(CompatReference)" />
+      <_CompatRefMissing Include="@(_CompatRef)" Condition="!Exists('%(_CompatRef.Identity)')" />
+      <Reference Include="%(_CompatRef.Filename)" Condition="Exists('%(_CompatRef.Identity)')">
+        <HintPath>%(_CompatRef.Identity)</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+  </Target>
+
+  <Target Name="_PsychologyCompatSkip" AfterTargets="_PsychologyCompatReferences" Condition="'@(_CompatRefMissing)' != ''">
+    <Warning Text="$(MSBuildProjectName) skipped for RimWorld $(RimWorldVersion): missing @(_CompatRefMissing, ', ')" />
+    <PropertyGroup>
+      <SkipCompilerExecution>true</SkipCompilerExecution>
+      <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+    </PropertyGroup>
+  </Target>
+</Project>

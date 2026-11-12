@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HoldingConversation.description>대화</HoldingConversation.description>
+  <HoldingConversation.label>대화</HoldingConversation.label>
+  <HoldingConversation.stages.0.label>숨김</HoldingConversation.stages.0.label>
+  <PlannedDate.description>데이트 예정</PlannedDate.description>
+  <PlannedDate.label>데이트</PlannedDate.label>
+  <PlannedDate.stages.0.label>숨김</PlannedDate.stages.0.label>
+</LanguageData>

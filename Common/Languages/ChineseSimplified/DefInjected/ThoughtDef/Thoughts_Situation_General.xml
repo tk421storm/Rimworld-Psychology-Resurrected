@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ApparelDamagedPrude.stages.0.label>穿着破旧的衣服</ApparelDamagedPrude.stages.0.label>
+  <ApparelDamagedPrude.stages.0.description>我的衣服看起来很寒酸。开始露太多了……</ApparelDamagedPrude.stages.0.description>
+  <ApparelDamagedPrude.stages.1.label>穿着破烂的衣服</ApparelDamagedPrude.stages.1.label>
+  <ApparelDamagedPrude.stages.1.description>我穿着一块破烂的布。什么都能透过去看到！</ApparelDamagedPrude.stages.1.description>
+  <Individuality.stages.0.label>相同的着装</Individuality.stages.0.label>
+  <Individuality.stages.0.description>殖民地里有人和我从头到脚穿得一模一样。这有点让人不安。</Individuality.stages.0.description>
+  <Individuality.stages.1.label>相同的着装</Individuality.stages.1.label>
+  <Individuality.stages.1.description>殖民地里有好几个人和我从头到脚穿得一模一样。这让人很别扭。</Individuality.stages.1.description>
+  <Individuality.stages.2.label>个性被压抑</Individuality.stages.2.label>
+  <Individuality.stages.2.description>殖民地里大多数人从头到脚看起来都一模一样。这太诡异了，我想表达自己的个性。</Individuality.stages.2.description>
+  <Individuality.stages.3.label>个性被压抑</Individuality.stages.3.label>
+  <Individuality.stages.3.description>这里的每个人从头到脚看起来都一模一样！这让人非常不安，我想表达自己的个性。</Individuality.stages.3.description>
+  <SurvivedTogether.stages.0.label>一起生存了一年</SurvivedTogether.stages.0.label>
+  <SurvivedTogether.stages.1.label>一起生存了两年</SurvivedTogether.stages.1.label>
+  <SurvivedTogether.stages.2.label>一起生存了三年</SurvivedTogether.stages.2.label>
+  <SurvivedTogether.stages.3.label>一起生存了四年</SurvivedTogether.stages.3.label>
+  <SurvivedTogether.stages.4.label>一起生存了五年</SurvivedTogether.stages.4.label>
+  <SurvivedTogether.stages.5.label>一起生存了五年以上</SurvivedTogether.stages.5.label>
+  <LongDistance.stages.0.label>异地恋</LongDistance.stages.0.label>
+  <LongDistance.stages.1.label>异地恋</LongDistance.stages.1.label>
+  <LongDistance.stages.2.label>异地恋</LongDistance.stages.2.label>
+  <LongDistance.stages.3.label>异地恋</LongDistance.stages.3.label>
+  <LongDistance.stages.4.label>异地恋</LongDistance.stages.4.label>
+  <LongDistance.stages.5.label>异地恋</LongDistance.stages.5.label>
+  <LongDistance.stages.6.label>异地恋</LongDistance.stages.6.label>
+  <PrudeVsNudist.stages.0.label>假正经对裸体主义者</PrudeVsNudist.stages.0.label>
+  <NudistVsPrude.stages.0.label>裸体主义者对假正经</NudistVsPrude.stages.0.label>
+</LanguageData>

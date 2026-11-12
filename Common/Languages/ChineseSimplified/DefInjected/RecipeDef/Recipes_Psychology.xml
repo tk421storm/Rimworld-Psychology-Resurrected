@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatPyromania.label>治疗纵火狂</TreatPyromania.label>
+  <TreatPyromania.description>帮助纵火狂康复。</TreatPyromania.description>
+  <TreatPyromania.jobString>正在治疗纵火狂。</TreatPyromania.jobString>
+  <TreatChemicalInterest.label>治疗化学兴趣</TreatChemicalInterest.label>
+  <TreatChemicalInterest.description>帮助有化学兴趣的人远离毒品。</TreatChemicalInterest.description>
+  <TreatChemicalInterest.jobString>正在治疗化学兴趣。</TreatChemicalInterest.jobString>
+  <TreatChemicalFascination.label>治疗化学迷恋</TreatChemicalFascination.label>
+  <TreatChemicalFascination.description>帮助有化学迷恋的人远离毒品。</TreatChemicalFascination.description>
+  <TreatChemicalFascination.jobString>正在治疗化学迷恋。</TreatChemicalFascination.jobString>
+  <TreatDepression.label>治疗抑郁</TreatDepression.label>
+  <TreatDepression.description>帮助抑郁的人控制情绪。</TreatDepression.description>
+  <TreatDepression.jobString>正在治疗抑郁。</TreatDepression.jobString>
+  <TreatInsomnia.label>治疗失眠</TreatInsomnia.label>
+  <TreatInsomnia.description>帮助失眠的人睡得更好。</TreatInsomnia.description>
+  <TreatInsomnia.jobString>正在治疗失眠。</TreatInsomnia.jobString>
+  <CureAnxiety.label>治愈焦虑</CureAnxiety.label>
+  <CureAnxiety.description>借助闪耀世界的疗法永久消除焦虑。</CureAnxiety.description>
+  <CureAnxiety.jobString>正在治愈焦虑。</CureAnxiety.jobString>
+</LanguageData>

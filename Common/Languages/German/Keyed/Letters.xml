@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterLabelPTSD>Stresstrauma</LetterLabelPTSD>
+  <LetterPTSD>{0_labelShort} hat infolge {0_possessive} mentalen Zusammenbruchs eine posttraumatische Angststörung entwickelt. Angst ist ein dauerhafter Zustand, kann aber behandelt werden, um ihren Schweregrad langsam auf ein beherrschbares Maß zu senken und {0_possessive} ein normales Leben zu ermöglichen. Jeder weitere mentale Zusammenbruch verschlimmert {0_possessive} Angst.\n\nGerüchten zufolge haben Ärzte auf Glitzerwelten psychische Erkrankungen wie Angst bei ihren Patienten geheilt. Wenn du an Ultratech-Medizin kommst, kann ein äußerst fähiger Arzt damit vielleicht {0_labelShort}s Angst heilen.</LetterPTSD>
+  <LetterLabelDatePlanned>Date-Abend</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort} hat eine Verabredung mit {1_labelShort} für den {2} um {3} Uhr.\n\nVerabredungen können aus verschiedenen Gründen abgesagt werden, vor allem, wenn sie durch Verletzungen oder durch dringende Kolonialgeschäfte unfähig sind. \n\nWenn die Verabredung abgesagt wird, sind beide Kolonisten unzufrieden. Kolonisten können auch Termine verpassen, wenn sie durchschlafen. Dies wird den anderen Kolonisten aufregen, aber keinen negativen Gedanken hinterlassen.</LetterDatePlanned>
+  <LetterRejectedProposalPsychology>Abhängig von ihrer Persönlichkeit, wird ihre Stimmung und Beziehung beeinflusst.</LetterRejectedProposalPsychology>
+  <LetterLabelCourtshipDatePlanned>Date</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort} hat {1_labelShort} um ein Date gebeten, am {2} um {3} Uhr.\n\nWenn es gut läuft, denken beide besser voneinander und werden vielleicht ein Paar. Ein schlechtes Date kann dazu führen, dass sie sich weniger mögen. Dates können abgesagt werden, wenn einer der beiden zur Arbeit eingeteilt, eingezogen oder anderweitig verhindert ist.</LetterCourtshipDatePlanned>
+</LanguageData>

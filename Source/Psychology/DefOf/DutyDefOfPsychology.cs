@@ -1,0 +1,10 @@
+﻿using RimWorld;
+using Verse.AI;
+
+namespace Psychology;
+
+[DefOf]
+public static class DutyDefOfPsychology
+{
+    public static DutyDef HangOut;
+}

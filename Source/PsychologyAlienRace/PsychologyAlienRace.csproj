@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Humanoid Alien Races (erdelf.HumanoidAlienRaces): per-race psyche/age-gap defaults and lovin age curves. -->
+  <PropertyGroup>
+    <AssemblyName>PsychologyAlienRace</AssemblyName>
+    <RootNamespace>Psychology</RootNamespace>
+    <CompatModFolder>HumanoidAlienRaces</CompatModFolder>
+    <CompatReference>$(WorkshopDir)839005762\$(RimWorldVersion)\Assemblies\AlienRace.dll</CompatReference>
+  </PropertyGroup>
+  <Import Project="..\Compat.targets" />
+</Project>

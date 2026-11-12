@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Abuse.reportString>TargetA 모욕하는 중.</Abuse.reportString>
+  <MakeAdvance.reportString>TargetA에게 추파를 던지는 중.</MakeAdvance.reportString>
+  <BreakHunt.reportString>TargetA 사냥 중.</BreakHunt.reportString>
+  <DoLovinCasual.reportString>사랑을 나누는 중.</DoLovinCasual.reportString>
+  <DateDance.reportString>TargetA와(과) 춤추는 중.</DateDance.reportString>
+  <DateWorkwatch.reportString>TargetA의 작업을 지켜보는 중.</DateWorkwatch.reportString>
+  <Hug.reportString>TargetA 포옹 중.</Hug.reportString>
+</LanguageData>

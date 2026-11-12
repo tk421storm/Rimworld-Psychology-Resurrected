@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dynamic.stages.0.label>dynamiczny</Dynamic.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.label>przypływ adrenaliny</KilledHumanlikeEnemy.stages.0.label>
+  <KilledHumanlikeEnemy.stages.0.description>Zabiłem kogoś, kto atakował naszą kolonię. Ręce wciąż mi się trzęsą... Nie wierzę, że przeżyłem.</KilledHumanlikeEnemy.stages.0.description>
+  <KnowPrisonerSoldBleedingHeart.stages.0.label>sprzedano więźnia</KnowPrisonerSoldBleedingHeart.stages.0.label>
+  <KnowPrisonerSoldBleedingHeart.stages.0.description>Ta kolonia sprzedała więźnia w niewolę. Nie mogę uwierzyć, że bierzemy udział w takim barbarzyństwie.</KnowPrisonerSoldBleedingHeart.stages.0.description>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.label>komuś pobrano organy</KnowGuestOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowGuestOrganHarvestedBleedingHeart.stages.0.description>Kolonia wycięła części ciała gościowi lub więźniowi. Rozbieranie kogoś na organy, gdy nie ma wyboru, jest niedopuszczalne.</KnowGuestOrganHarvestedBleedingHeart.stages.0.description>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.label>koloniście pobrano organy</KnowColonistOrganHarvestedBleedingHeart.stages.0.label>
+  <KnowColonistOrganHarvestedBleedingHeart.stages.0.description>Ktoś wyciął części ciała koloniście. Rozbieranie kogoś na organy, gdy nie ma wyboru, jest niedopuszczalne.</KnowColonistOrganHarvestedBleedingHeart.stages.0.description>
+  <ReplacedPartBleedingHeart.stages.0.label>wszczepiony organ lub część ciała</ReplacedPartBleedingHeart.stages.0.label>
+  <ReplacedPartBleedingHeart.stages.0.description>Dałem komuś nowy organ lub część ciała. Na pewno poprawiłem jakość jego życia! Bardzo się cieszę.</ReplacedPartBleedingHeart.stages.0.description>
+  <DoctorBleedingHeart.stages.0.label>pomoc pacjentowi</DoctorBleedingHeart.stages.0.label>
+  <DoctorBleedingHeart.stages.0.description>Uwielbiam medycynę. Daje tyle okazji, by pomagać ludziom.</DoctorBleedingHeart.stages.0.description>
+  <RescuedBleedingHeart.stages.0.label>uratowanie kogoś</RescuedBleedingHeart.stages.0.label>
+  <RescuedBleedingHeart.stages.0.description>Wyrwałem kogoś z objęć śmierci. Nie trzeba mi dziękować, dobry uczynek sam w sobie jest nagrodą.</RescuedBleedingHeart.stages.0.description>
+  <CookedMealBleedingHeart.stages.0.label>ugotowany posiłek</CookedMealBleedingHeart.stages.0.label>
+  <CookedMealBleedingHeart.stages.0.description>Uwielbiam gotować, czuję, że pomagam ludziom. To ja utrzymuję tę kolonię przy życiu!</CookedMealBleedingHeart.stages.0.description>
+  <FilledGraveBleedingHeart.stages.0.label>pochowanie kogoś</FilledGraveBleedingHeart.stages.0.label>
+  <FilledGraveBleedingHeart.stages.0.description>Mam nadzieję, że zazna spokoju.</FilledGraveBleedingHeart.stages.0.description>
+  <KilledPatientBleedingHeart.stages.0.label>śmierć pacjenta</KilledPatientBleedingHeart.stages.0.label>
+  <KilledPatientBleedingHeart.stages.0.description>Jeden z moich pacjentów zmarł podczas operacji. To wszystko moja wina... powinien wciąż żyć.</KilledPatientBleedingHeart.stages.0.description>
+  <RecentlyDesensitized.stages.0.label>znieczulica na przemoc</RecentlyDesensitized.stages.0.label>
+  <RecentlyDesensitized.stages.0.description>Byłem świadkiem śmierci i nic nie poczułem. Jakie to przygnębiające...</RecentlyDesensitized.stages.0.description>
+  <DreamGood.stages.0.label>dobry sen</DreamGood.stages.0.label>
+  <DreamGood.stages.0.description>To był piękny sen. Dał mi nadzieję.</DreamGood.stages.0.description>
+  <DreamBad.stages.0.label>zły sen</DreamBad.stages.0.label>
+  <DreamBad.stages.0.description>To był nieprzyjemny sen. Wciąż mnie niepokoi.</DreamBad.stages.0.description>
+  <DreamNightmare.stages.0.label>koszmar</DreamNightmare.stages.0.label>
+  <DreamNightmare.stages.0.description>Ugh! Co za okropny sen. Samo myślenie o nim mnie przygnębia.</DreamNightmare.stages.0.description>
+  <TreatmentFailed.stages.0.label>nieudane leczenie: {0}</TreatmentFailed.stages.0.label>
+  <TreatmentFailed.stages.0.description>Lekarzowi nie udało się wyleczyć mojego problemu ({0})... Czułem, że mnie nie rozumie.</TreatmentFailed.stages.0.description>
+  <SuccessfulPlot.stages.0.label>udany mroczny spisek</SuccessfulPlot.stages.0.label>
+  <SuccessfulPlot.stages.0.description>Zniszczyłem zarazę tego miejsca. Teraz jesteśmy bezpieczni.</SuccessfulPlot.stages.0.description>
+  <HeardParanoia.stages.0.label>paranoiczne wywody</HeardParanoia.stages.0.label>
+  <HeardParanoia.stages.0.description>To, co usłyszałem... to nie może być prawda. Prawda?</HeardParanoia.stages.0.description>
+  <ColonistAbandonedBleedingHeart.stages.0.label>porzucony kolonista</ColonistAbandonedBleedingHeart.stages.0.label>
+  <ColonistAbandonedBleedingHeart.stages.0.description>Właśnie zostawiliśmy kogoś za sobą. Ciągle myślę o tym, co może go spotkać.</ColonistAbandonedBleedingHeart.stages.0.description>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.label>kolonista porzucony na śmierć</ColonistAbandonedToDieBleedingHeart.stages.0.label>
+  <ColonistAbandonedToDieBleedingHeart.stages.0.description>Zostawiliśmy kogoś tak, że prawie nie ma szans na przeżycie. Jak mogliśmy?</ColonistAbandonedToDieBleedingHeart.stages.0.description>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.label>więzień porzucony na śmierć</PrisonerAbandonedToDieBleedingHeart.stages.0.label>
+  <PrisonerAbandonedToDieBleedingHeart.stages.0.description>Zostawiliśmy więźnia tak, że prawie nie ma szans na przeżycie. Jesteśmy odpowiedzialni za ochronę ludzi, których więzimy.</PrisonerAbandonedToDieBleedingHeart.stages.0.description>
+  <DateCancelled.stages.0.label>odwołana randka</DateCancelled.stages.0.label>
+  <DateCancelled.stages.0.description>Miałem iść na randkę z partnerem, ale w kolonii coś się wydarzyło i musieliśmy ją odwołać. Tak się cieszyłem...</DateCancelled.stages.0.description>
+  <WonFight.stages.0.label>wygrana bójka</WonFight.stages.0.label>
+  <WonFight.stages.0.description>Następnym razem dwa razy się zastanowi, zanim zadrze ze mną.</WonFight.stages.0.description>
+</LanguageData>

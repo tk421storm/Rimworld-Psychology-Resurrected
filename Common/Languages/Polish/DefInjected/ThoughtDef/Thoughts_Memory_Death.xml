@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WitnessedDeathAllyBleedingHeart.stages.0.label>śmierć sojusznika na moich oczach</WitnessedDeathAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathAllyBleedingHeart.stages.0.description>Jedno z nas zginęło na moich oczach. Nie mogę uwierzyć, że odeszło. Już nigdy z nim nie porozmawiam.</WitnessedDeathAllyBleedingHeart.stages.0.description>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.label>śmierć obcego na moich oczach</WitnessedDeathNonAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.description>Ktoś zginął na moich oczach. Widziałem, jak gaśnie światło w jego oczach, gdy upadał.</WitnessedDeathNonAllyBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.0.label>uzasadniona egzekucja</KnowGuestExecutedBleedingHeart.stages.0.label>
+  <KnowGuestExecutedBleedingHeart.stages.0.description>Stracono winnego więźnia lub gościa. To było uzasadnione, ale i tak nie znoszę odbierania życia.</KnowGuestExecutedBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.1.label>ktoś został uśpiony</KnowGuestExecutedBleedingHeart.stages.1.label>
+  <KnowGuestExecutedBleedingHeart.stages.1.description>Więzień lub gość został poddany eutanazji. To było humanitarne, ale i tak rozdzierające serce.</KnowGuestExecutedBleedingHeart.stages.1.description>
+  <KnowGuestExecutedBleedingHeart.stages.2.label>ktoś został stracony</KnowGuestExecutedBleedingHeart.stages.2.label>
+  <KnowGuestExecutedBleedingHeart.stages.2.description>Więzień lub gość został zabity z zimną krwią. Nie mogę w to uwierzyć!</KnowGuestExecutedBleedingHeart.stages.2.description>
+  <KnowGuestExecutedBleedingHeart.stages.3.label>ktoś zmarł przez pobranie organów</KnowGuestExecutedBleedingHeart.stages.3.label>
+  <KnowGuestExecutedBleedingHeart.stages.3.description>Więzień lub gość zmarł, bo kolonia wycięła mu części ciała. Jestem wściekły!</KnowGuestExecutedBleedingHeart.stages.3.description>
+  <KnowColonistExecutedBleedingHeart.stages.0.label>uzasadniona egzekucja kolonisty</KnowColonistExecutedBleedingHeart.stages.0.label>
+  <KnowColonistExecutedBleedingHeart.stages.0.description>Stracono winnego kolonistę. To było uzasadnione, ale i tak nie znoszę odbierania życia.</KnowColonistExecutedBleedingHeart.stages.0.description>
+  <KnowColonistExecutedBleedingHeart.stages.1.label>kolonista uśpiony</KnowColonistExecutedBleedingHeart.stages.1.label>
+  <KnowColonistExecutedBleedingHeart.stages.1.description>Kolonista został poddany eutanazji. To było humanitarne, ale i tak rozdzierające serce.</KnowColonistExecutedBleedingHeart.stages.1.description>
+  <KnowColonistExecutedBleedingHeart.stages.2.label>kolonista stracony</KnowColonistExecutedBleedingHeart.stages.2.label>
+  <KnowColonistExecutedBleedingHeart.stages.2.description>Kolonista został zabity z zimną krwią. Nie mogę w to uwierzyć!</KnowColonistExecutedBleedingHeart.stages.2.description>
+  <KnowColonistExecutedBleedingHeart.stages.3.label>kolonista zmarł przez pobranie organów</KnowColonistExecutedBleedingHeart.stages.3.label>
+  <KnowColonistExecutedBleedingHeart.stages.3.description>Kolonista zmarł, bo ktoś wyciął mu części ciała. Jestem wściekły!</KnowColonistExecutedBleedingHeart.stages.3.description>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>zmarł niewinny więzień</KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>Jeden z naszych więźniów zmarł, choć był nieszkodliwy. Mamy obowiązek dbać o naszych więźniów. Jeśli chcieliśmy ich śmierci, mogliśmy przynajmniej przeprowadzić porządną egzekucję, zamiast pozwalać na takie barbarzyństwo.</KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>
+  <KnowColonistDiedBleedingHeart.stages.0.label>zmarł kolonista</KnowColonistDiedBleedingHeart.stages.0.label>
+  <KnowColonistDiedBleedingHeart.stages.0.description>Jedno z nas nie żyje. Gdybyśmy tylko postąpili inaczej...</KnowColonistDiedBleedingHeart.stages.0.description>
+</LanguageData>

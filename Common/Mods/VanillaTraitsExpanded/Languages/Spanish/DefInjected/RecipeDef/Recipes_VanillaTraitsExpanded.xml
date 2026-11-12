@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>tratar al borracho</TreatLush.label>
+  <TreatLush.description>Ayuda a un borracho a mantenerse sin drogas. No le gustará estar sobrio.</TreatLush.description>
+  <TreatLush.jobString>Tratando a un borracho.</TreatLush.jobString>
+  <TreatStoner.label>tratar al porrero</TreatStoner.label>
+  <TreatStoner.description>Ayuda a un porrero a mantenerse sin drogas. No le gustará estar sobrio.</TreatStoner.description>
+  <TreatStoner.jobString>Tratando a un porrero.</TreatStoner.jobString>
+</LanguageData>

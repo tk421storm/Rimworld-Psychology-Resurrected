@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RecoveringPyromaniac.label>회복 중인 방화광</RecoveringPyromaniac.label>
+  <RecoveringPyromaniac.description>회복 중인 방화광</RecoveringPyromaniac.description>
+  <DrugFree.label>약물 없음</DrugFree.label>
+  <DrugFree.description>약물 없음</DrugFree.description>
+  <Antidepressants.label>항우울제</Antidepressants.label>
+  <Antidepressants.description>항우울제 효과</Antidepressants.description>
+  <SleepingPills.label>처방 진정제</SleepingPills.label>
+  <SleepingPills.description>수면제 효과</SleepingPills.description>
+  <Anxiety.label>불안</Anxiety.label>
+  <Anxiety.description>불안</Anxiety.description>
+  <Anxiety.stages.0.label>관리됨</Anxiety.stages.0.label>
+  <Anxiety.stages.1.label>가벼움</Anxiety.stages.1.label>
+  <Anxiety.stages.2.label>보통</Anxiety.stages.2.label>
+  <Anxiety.stages.3.label>심함</Anxiety.stages.3.label>
+  <Anxiety.stages.4.label>매우 심함</Anxiety.stages.4.label>
+  <Anxiety.stages.5.label>극심함</Anxiety.stages.5.label>
+</LanguageData>

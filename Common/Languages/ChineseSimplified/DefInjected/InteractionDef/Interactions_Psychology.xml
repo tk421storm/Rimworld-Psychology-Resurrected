@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PrudeSeen.label>看见裸体</PrudeSeen.label>
+  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]看见了[RECIPIENT_nameDef]的裸体。</PrudeSeen.logRulesInitiator.rulesStrings.0>
+  <Conversation.label>对话</Conversation.label>
+  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)-&gt;[INITIATOR_nameDef]和[RECIPIENT_nameDef][conversed]。</Conversation.logRulesInitiator.rulesStrings.0>
+  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef]找[RECIPIENT_nameDef]聊天。</Conversation.logRulesInitiator.rulesStrings.1>
+  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]提起了一个话题。</Conversation.logRulesInitiator.rulesStrings.2>
+  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)-&gt;开始了一场对话</Conversation.logRulesInitiator.rulesStrings.3>
+  <Conversation.logRulesInitiator.rulesStrings.4>conversed-&gt;开始交谈</Conversation.logRulesInitiator.rulesStrings.4>
+  <Conversation.logRulesInitiator.rulesStrings.5>conversed-&gt;聊了起来</Conversation.logRulesInitiator.rulesStrings.5>
+  <Conversation.logRulesInitiator.rulesStrings.6>conversed-&gt;谈起了一个话题</Conversation.logRulesInitiator.rulesStrings.6>
+  <Conversation.logRulesInitiator.rulesStrings.7>conversed-&gt;开始讨论某件事</Conversation.logRulesInitiator.rulesStrings.7>
+  <EndConversation.label>结束对话</EndConversation.label>
+  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]结束了与[RECIPIENT_nameDef]的对话。</EndConversation.logRulesInitiator.rulesStrings.0>
+  <HangOut.label>一起消磨时光</HangOut.label>
+  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]邀请[RECIPIENT_nameDef]一起消磨时光。</HangOut.logRulesInitiator.rulesStrings.0>
+  <PlanDate.label>计划浪漫约会</PlanDate.label>
+  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]和[RECIPIENT_nameDef]计划了一次浪漫约会。</PlanDate.logRulesInitiator.rulesStrings.0>
+  <AskOutOnDate.label>邀请约会</AskOutOnDate.label>
+  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]约[RECIPIENT_nameDef]出去约会。</AskOutOnDate.logRulesInitiator.rulesStrings.0>
+  <Indoctrinate.label>灌输</Indoctrinate.label>
+  <Indoctrinate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]灌输了思想。</Indoctrinate.logRulesInitiator.rulesStrings.0>
+  <Hug.label>拥抱</Hug.label>
+  <Hug.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]上前给了[RECIPIENT_nameDef]一个[hug]。</Hug.logRulesInitiator.rulesStrings.0>
+  <Hug.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]张开双臂。</Hug.logRulesInitiator.rulesStrings.1>
+  <Hug.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef]走近[RECIPIENT_nameDef]，想给一个[hug]。</Hug.logRulesInitiator.rulesStrings.2>
+  <Hug.logRulesInitiator.rulesStrings.3>hug(p=3)-&gt;拥抱</Hug.logRulesInitiator.rulesStrings.3>
+  <Hug.logRulesInitiator.rulesStrings.4>hug-&gt;温暖的拥抱</Hug.logRulesInitiator.rulesStrings.4>
+  <Hug.logRulesInitiator.rulesStrings.5>hug-&gt;大大的拥抱</Hug.logRulesInitiator.rulesStrings.5>
+  <Hug.logRulesInitiator.rulesStrings.6>hug-&gt;轻轻的拥抱</Hug.logRulesInitiator.rulesStrings.6>
+</LanguageData>

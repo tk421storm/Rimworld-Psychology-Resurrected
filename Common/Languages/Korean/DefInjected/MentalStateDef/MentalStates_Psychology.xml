@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FellPlotting.label>미친 듯이 음모를 꾸미는 중</FellPlotting.label>
+  <FellPlotting.beginLetterLabel>흉악한 음모</FellPlotting.beginLetterLabel>
+  <FellPlotting.beginLetter>{0}(이)가 음모를 꾸미려고 방에 틀어박혔습니다!</FellPlotting.beginLetter>
+  <FellPlotting.recoveryMessage>{0}의 흉악한 음모가 끝났습니다.</FellPlotting.recoveryMessage>
+  <FellPlotting.baseInspectLine>정신 상태: 흉악한 음모</FellPlotting.baseInspectLine>
+  <SelfHarm.label>자해 중</SelfHarm.label>
+  <SelfHarm.beginLetterLabel>자해</SelfHarm.beginLetterLabel>
+  <SelfHarm.beginLetter>{0}(이)가 손목을 긋고 방에 숨어 있습니다.</SelfHarm.beginLetter>
+  <SelfHarm.recoveryMessage>{0}(이)가 자해를 멈췄습니다.</SelfHarm.recoveryMessage>
+  <SelfHarm.baseInspectLine>정신 상태: 자해</SelfHarm.baseInspectLine>
+  <Paranoia.label>횡설수설하는 중</Paranoia.label>
+  <Paranoia.beginLetterLabel>편집증</Paranoia.beginLetterLabel>
+  <Paranoia.beginLetter>{0}(이)가 편집증적인 횡설수설에 빠졌습니다.</Paranoia.beginLetter>
+  <Paranoia.recoveryMessage>{0}(이)가 편집증에서 벗어났습니다.</Paranoia.recoveryMessage>
+  <Paranoia.baseInspectLine>정신 상태: 편집증</Paranoia.baseInspectLine>
+  <Abuse.label>고함치는 중</Abuse.label>
+  <Abuse.beginLetterLabel>언어폭력</Abuse.beginLetterLabel>
+  <Abuse.beginLetter>{0}(이)가 격분해 보이는 사람마다 모욕하고 있습니다.</Abuse.beginLetter>
+  <Abuse.recoveryMessage>{0}(이)가 사람들을 모욕하는 것을 멈췄습니다.</Abuse.recoveryMessage>
+  <Abuse.baseInspectLine>정신 상태: 폭언</Abuse.baseInspectLine>
+  <Compulsion.label>강박적으로 청소하는 중</Compulsion.label>
+  <Compulsion.beginLetterLabel>강박</Compulsion.beginLetterLabel>
+  <Compulsion.beginLetter>{0}(이)가 자기 몸은 돌보지 않고 주변을 강박적으로 청소하고 있습니다.</Compulsion.beginLetter>
+  <Compulsion.recoveryMessage>{0}(이)가 주변을 강박적으로 정리하는 것을 멈췄습니다.</Compulsion.recoveryMessage>
+  <Compulsion.baseInspectLine>정신 상태: 강박적 청소</Compulsion.baseInspectLine>
+  <Antisocial.label>사람들을 피하는 중</Antisocial.label>
+  <Antisocial.beginLetterLabel>반사회적</Antisocial.beginLetterLabel>
+  <Antisocial.beginLetter>{0}(이)가 다른 정착민들을 피하고 있습니다.</Antisocial.beginLetter>
+  <Antisocial.recoveryMessage>{0}(은)는 더 이상 반사회적이지 않습니다.</Antisocial.recoveryMessage>
+  <Antisocial.baseInspectLine>정신 상태: 반사회적</Antisocial.baseInspectLine>
+  <Apathy.label>빈둥거리는 중</Apathy.label>
+  <Apathy.beginLetterLabel>무기력</Apathy.beginLetterLabel>
+  <Apathy.beginLetter>{0}(이)가 무기력해져 맡은 일을 할 가능성이 낮아졌습니다.</Apathy.beginLetter>
+  <Apathy.recoveryMessage>{0}(은)는 더 이상 무기력하지 않습니다.</Apathy.recoveryMessage>
+  <Apathy.baseInspectLine>정신 상태: 무기력</Apathy.baseInspectLine>
+  <Histrionic.label>연극적으로 행동하는 중</Histrionic.label>
+  <Histrionic.beginLetterLabel>연극성</Histrionic.beginLetterLabel>
+  <Histrionic.beginLetter>{0}(이)가 연극적으로 변해 필사적으로 관심을 끌려고 합니다.</Histrionic.beginLetter>
+  <Histrionic.recoveryMessage>{0}(은)는 더 이상 연극적으로 행동하지 않습니다.</Histrionic.recoveryMessage>
+  <Histrionic.baseInspectLine>정신 상태: 연극성</Histrionic.baseInspectLine>
+  <HuntingTrip.label>야생 도피</HuntingTrip.label>
+  <HuntingTrip.beginLetterLabel>야생 도피</HuntingTrip.beginLetterLabel>
+  <HuntingTrip.beginLetter>{0}(이)가 야생으로 도망쳐 사냥으로 위안을 찾고 있습니다.</HuntingTrip.beginLetter>
+  <HuntingTrip.recoveryMessage>{0}(이)가 사냥 여행에서 돌아오기로 했습니다.</HuntingTrip.recoveryMessage>
+  <HuntingTrip.baseInspectLine>정신 상태: 야생 도피</HuntingTrip.baseInspectLine>
+  <PanicAttack.label>공황 상태</PanicAttack.label>
+  <PanicAttack.beginLetterLabel>공황 발작</PanicAttack.beginLetterLabel>
+  <PanicAttack.beginLetter>{0}(이)가 공황 발작을 겪고 있습니다.</PanicAttack.beginLetter>
+  <PanicAttack.recoveryMessage>{0}의 공황 발작이 끝났습니다.</PanicAttack.recoveryMessage>
+  <PanicAttack.baseInspectLine>정신 상태: 공황 발작</PanicAttack.baseInspectLine>
+</LanguageData>

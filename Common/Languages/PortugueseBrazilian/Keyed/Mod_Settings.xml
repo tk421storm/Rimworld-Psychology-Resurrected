@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EnableKinseyTitle>Ativar mudanças de sexualidade</EnableKinseyTitle>
+  <EnableKinseyTooltip>Desative para remover a escala Kinsey dos personagens e reativar o traço Gay. NÃO altere isso durante uma partida, e reinicie o jogo depois de alterar.</EnableKinseyTooltip>
+  <EnableEmpathyTitle>Ativar mudanças de empatia</EnableEmpathyTitle>
+  <EnableEmpathyTooltip>Desative para que as reações dos colonos às desgraças alheias voltem ao normal. Isso aumenta a dificuldade; personagens de coração mole não serão afetados. Reinicie o jogo depois de desativar.</EnableEmpathyTooltip>
+  <KinseyFormulaTitle>Fórmula da escala Kinsey</KinseyFormulaTitle>
+  <KinseyFormulaTooltip>Esta opção determina a fórmula usada para atribuir a pontuação Kinsey aos personagens gerados. Os pesos não precisam somar 100.</KinseyFormulaTooltip>
+  <KinseyMode_Realistic>Padrão</KinseyMode_Realistic>
+  <KinseyMode_Invisible>Centralizada</KinseyMode_Invisible>
+  <KinseyMode_Gaypocalypse>Invertida</KinseyMode_Gaypocalypse>
+  <KinseyMode_Uniform>Uniforme</KinseyMode_Uniform>
+  <KinseyMode_Custom>Personalizada</KinseyMode_Custom>
+  <KWTitle>Kinsey {0}</KWTitle>
+  <KWTooltip>O peso relativo com que um personagem será gerado com pontuação Kinsey {0}. Os pesos não precisam somar 100.</KWTooltip>
+  <EnableIndividualityTitle>Ativar pensamentos de individualidade</EnableIndividualityTitle>
+  <EnableIndividualityTooltip>Desative para remover o pensamento negativo que os colonos recebem ao se vestirem exatamente como outros colonos. Esse pensamento aumenta a dificuldade, então é opcional, mas recomendado. Requer reinício.</EnableIndividualityTooltip>
+  <ConversationDurationTitle>Duração da memória de conversas</ConversationDurationTitle>
+  <ConversationDurationTooltip>Por quanto tempo as pessoas lembrarão das conversas. O padrão é 60 dias, ou seja, um ano. O mínimo é 15 dias, um quadrimestre, e o máximo 180 dias, três anos. Um valor menor torna as interações entre colonos mais passageiras, e um maior as torna mais duradouras. Requer reinício.</ConversationDurationTooltip>
+  <ConvoMaxOpinionChangeTitle>Mudança máxima de opinião por conversa</ConvoMaxOpinionChangeTitle>
+  <ConvoMaxOpinionChangeTooltip>A maior mudança de opinião que uma única conversa pode causar (40 por padrão). Valores maiores fazem as conversas importarem mais.</ConvoMaxOpinionChangeTooltip>
+  <ConvoMeanHoursTitle>Duração esperada das conversas</ConvoMeanHoursTitle>
+  <ConvoMeanHoursTooltip>A duração média de uma conversa, em horas (1,3 por padrão).</ConvoMeanHoursTooltip>
+  <ConvoTimeScaleHoursTitle>Escala de tempo das conversas</ConvoTimeScaleHoursTitle>
+  <ConvoTimeScaleHoursTooltip>A escala de tempo, em horas, com que as opiniões de uma conversa mudam conforme sua duração.</ConvoTimeScaleHoursTooltip>
+  <ConvoPersonalityEffectMultiplierTitle>Efeito da personalidade nas conversas</ConvoPersonalityEffectMultiplierTitle>
+  <ConvoPersonalityEffectMultiplierTooltip>Este multiplicador controla o quanto traços de personalidade como Amigável, Educado ou Descolado afetam a mudança de opinião.</ConvoPersonalityEffectMultiplierTooltip>
+  <EnableDateLettersTitle>Enviar cartas de encontros</EnableDateLettersTitle>
+  <EnableDateLettersTooltip>Desative para não receber cartas quando seus colonos marcarem um encontro.</EnableDateLettersTooltip>
+  <PawnsChoosePregnancyApproachTitle>Personagens escolhem sua abordagem sobre gravidez</PawnsChoosePregnancyApproachTitle>
+  <PawnsChoosePregnancyApproachTooltip>Com Biotech, cada personagem tem sua própria abordagem sobre gravidez, a mesma com qualquer parceiro, de acordo com o quanto deseja ter filhos (seu desejo de família, que diminui a cada filho que ainda está criando, pela metade para uma matriarca ou um patriarca): evitar a gravidez, deixar ao acaso ou tentar ter um bebê. Cada casal adota a mais cautelosa das duas, então quem evita a gravidez a evita com todos os parceiros, e um casal só tenta ter um bebê se os dois quiserem. Isso vale para amantes, casos e casais de outros mods. Se você mudar a abordagem de um casal na aba social, sua escolha será mantida. Personagens childfree sempre evitam a gravidez, mesmo com esta opção desativada.</PawnsChoosePregnancyApproachTooltip>
+  <ImprisonedDebuffTitle>Penalidade por recrutar prisioneiros</ImprisonedDebuffTitle>
+  <ImprisonedDebuffTooltip>Penalidade de opinião que um prisioneiro recrutado recebe em relação a cada colono ("minha facção me prendeu", dura 45 dias). 0 para desativar. Requer reinício.</ImprisonedDebuffTooltip>
+  <RomanceChanceMultiplierTitle>Multiplicador de chance de romance</RomanceChanceMultiplierTitle>
+  <RomanceChanceMultiplierTooltip>A chance de romance é multiplicada por este valor. Com 0, novos romances devem desaparecer completamente.</RomanceChanceMultiplierTooltip>
+  <RomanceOpinionThresholdTitle>Opinião mínima para romance</RomanceOpinionThresholdTitle>
+  <RomanceOpinionThresholdTooltip>Opinião mínima que um colono precisa ter de alguém por quem se sente atraído antes de convidá-lo para um encontro ou tentar um romance. É baixa por padrão para que personagens que mal se conhecem possam tentar; a atração importa muito mais que a opinião.</RomanceOpinionThresholdTooltip>
+  <MentalBreakAnxietyChanceTitle>Chance de ansiedade após colapso mental</MentalBreakAnxietyChanceTitle>
+  <MentalBreakAnxietyChanceTooltip>Define a chance média de um personagem desenvolver ansiedade após sofrer um colapso mental grave. Em colapsos menores a chance cai pela metade, e em colapsos extremos dobra. A chance também depende da psique do colono. Note que ela ainda pode surgir como doença aleatória com a idade. Requer reinício para ter efeito completo.</MentalBreakAnxietyChanceTooltip>
+  <TraitOpinionMultiplierTitle>Multiplicador de opinião por traços</TraitOpinionMultiplierTitle>
+  <TraitOpinionMultiplierTooltip>Ajusta as mudanças de opinião destes traços: Bonito, Feio, Desfigurado, Voz irritante, Respiração assustadora, Apreço por modificações corporais e Purismo corporal. 0 desativa completamente. Requer reinício.</TraitOpinionMultiplierTooltip>
+  <PersonalityExtremenessTitle>Extremismo da personalidade</PersonalityExtremenessTitle>
+  <PersonalityExtremenessTooltip>O quanto as personalidades são reforçadas para se ajustar aos arquétipos dos Cinco Grandes.</PersonalityExtremenessTooltip>
+  <IdeoPsycheMultiplierTitle>Multiplicador de interação com a ideologia</IdeoPsycheMultiplierTitle>
+  <IdeoPsycheMultiplierTooltip>Controla a força com que personalidade e ideologia interagem. 0 desativa completamente.</IdeoPsycheMultiplierTooltip>
+  <DisplayOptionsTitle>Opções da aba Psique</DisplayOptionsTitle>
+  <DisplayOptionsTooltip>Muda a opção de exibição padrão da aba Psique.</DisplayOptionsTooltip>
+  <UseColorsTooltip>Colorir os traços exibidos na aba Psique.</UseColorsTooltip>
+  <ListAlphabeticalTooltip>Ordenar os traços alfabeticamente na aba Psique.</ListAlphabeticalTooltip>
+  <UseAntonymsTooltip>Usar os antônimos dos traços na aba Psique.</UseAntonymsTooltip>
+  <SpeciesSettingsTitle>Espécie</SpeciesSettingsTitle>
+  <SpeciesSettingsTooltip>Configurações para cada espécie.</SpeciesSettingsTooltip>
+  <EnablePsycheTitle>Psique</EnablePsycheTitle>
+  <EnablePsycheTooltip>Desative para remover a personalidade. Recomendado para espécies que não podem ter uma personalidade humana, como zumbis ou robôs simples. Conversas profundas e romance serão desativados para esta espécie.</EnablePsycheTooltip>
+  <EnableAgeGapTitle>Diferença de idade</EnableAgeGapTitle>
+  <EnableAgeGapTooltip>Desative para remover a preferência de diferença de idade nos romances com membros desta espécie. Recomendado para espécies tipo androide ou elfo que não envelhecem depois da idade adulta.</EnableAgeGapTooltip>
+  <MinDatingAgeTitle>Encontros</MinDatingAgeTitle>
+  <MinLovinAgeTitle>Amor</MinLovinAgeTitle>
+  <dating>encontros</dating>
+  <lovin>amor</lovin>
+  <MinRomanceAgeTooltip>A idade mínima para {0} desta espécie. Se positiva, a idade efetiva nas fórmulas de {0} é ajustada por este número em relação a {1}. 0 permite {0} em qualquer idade e na prática desativa a diferença de idade. Recomendado para espécies sem infância, como androides conscientes. Qualquer número negativo desativa {0} para esta espécie.</MinRomanceAgeTooltip>
+  <LovinFrequencyTitle>Frequência do amor</LovinFrequencyTitle>
+  <LovinFrequencyTooltip>Com que frequência os casais fazem amor: 2 = o dobro de vezes, 0,5 = metade.</LovinFrequencyTooltip>
+  <AdjustRapportByCompatibilityTitle>Ajustar afinidade pela compatibilidade</AdjustRapportByCompatibilityTitle>
+  <AdjustRapportByCompatibilityTooltip>No jogo base, cada vez que um carcereiro conversa com um prisioneiro, o prisioneiro ganha +2 de opinião sobre esse carcereiro (até +100), o que também reduz sua resistência até 1,5 vez mais rápido. Com esta opção, esse +2 é ajustado pela compatibilidade de personalidade: cerca de +2 para uma dupla típica, até cerca de +6 se combinarem muito bem, e negativo ("afinidade tensa") se as personalidades se chocarem. Também se aplica às conversas antes de uma tentativa de conversão, que no jogo base são só papo. Desativado: +2 toda vez, como no jogo base.</AdjustRapportByCompatibilityTooltip>
+  <ArrestBaseChanceTitle>Chance base de prisão pacífica (%)</ArrestBaseChanceTitle>
+  <ArrestBaseChanceTooltip>O Psychology substitui a chance de prisão do jogo base. Um personagem se entrega sem resistir com chance de: a chance de prisão pacífica de quem prende (esta base mais 5% por nível de Social, menos se não puder falar bem) x a opinião do preso sobre quem prende (0 a -100, 0,5 a 0, 1 a +100) x 1,5 se forem da mesma facção x 0,2 se o preso estiver em um estado mental. Incapacitados, não violentos e culpados continuam sempre se entregando. Padrão 2%: com opinião neutra, alguém com Social 10 consegue 26% das vezes, e com Social 20, 51%.</ArrestBaseChanceTooltip>
+  <CheatChanceTitle>Chance de traição (%)</CheatChanceTitle>
+  <CheatChanceTooltip>A probabilidade de os personagens traírem o parceiro, seja paquerando outra pessoa (se der certo, os dois deixam seus parceiros) ou por meio de um caso. A chance de um personagem é este valor x o quanto está insatisfeito com o parceiro x sua personalidade. Quem gosta do parceiro não trai; românticos ficam fiéis por mais tempo, mas se voltam mais cedo contra um parceiro de quem não gostam; lascivos traem com muito mais facilidade, principalmente se o parceiro estiver longe. Moralistas e puros traem menos, experimentais mais. Codependentes nunca traem, e para poliamorosos não é traição. Exemplo com o padrão de 50%: um personagem médio trai com 0% de chance com +50 de opinião sobre o parceiro, 25% com 0 e 50% com -50. 0 desativa a traição.</CheatChanceTooltip>
+  <CourtshipChanceTitle>Chance de paquera (x)</CourtshipChanceTitle>
+  <CourtshipChanceTooltip>Com que frequência personagens solteiros (e os dispostos a trair) convidam para um encontro alguém por quem se sentem atraídos. A chance também aumenta com atração, opinião, desejo romântico e confiança, e com bons encontros anteriores. Cada encontro deixa uma boa ou má lembrança; bons encontros tornam uma tentativa de romance mais provável. 0 desativa a paquera. Encontros românticos de casais não são afetados.</CourtshipChanceTooltip>
+  <SecondDateChanceTitle>Chance de segundo encontro (%)</SecondDateChanceTitle>
+  <SecondDateChanceTooltip>Uma vez por dia, personagens cujo último encontro de paquera foi bom para os dois podem se convidar de novo, estejam onde estiverem no mapa. É a chance diária para um par cujo encontro foi o melhor possível; é menor depois de um encontro apenas bom e maior depois de vários bons encontros. A resposta é decidida como em qualquer convite. Além dos convites pessoais; 0 desativa.</SecondDateChanceTooltip>
+  <SocialRomanceChanceTitle>Romance ao socializar (%)</SocialRomanceChanceTitle>
+  <SocialRomanceChanceTooltip>Ao relaxar socialmente (numa mesa ou ao redor de uma fogueira), numa festa ou reunião, dançando ou jogando sinuca, os personagens conversam muito mais que o normal. Esta é a chance de uma dessas conversas virar uma busca por romance. Só buscam os solteiros, os que podem ter outro parceiro ou os dispostos a trair desta vez (veja chance de traição). Escolhem alguém próximo por quem se sentem atraídos e de quem gostam, preferindo os mais atraentes, e tentam um romance: um encontro romântico se forem um casal, um convite para sair, um caso, ou uma pulada de cerca se for traição. Não durante encontros. 0 desativa.</SocialRomanceChanceTooltip>
+  <HugChanceTitle>Chance de abraços (x)</HugChanceTitle>
+  <HugChanceTooltip>Com que frequência personagens com um vínculo forte se abraçam: amantes e cônjuges, família próxima e amigos muito bons, quando cada um pensa bem do outro. Um abraço melhora um pouco o humor dos dois e a opinião de um sobre o outro. Personalidades calorosas abraçam mais. 0 desativa os abraços.</HugChanceTooltip>
+  <DateOpinionGoodTitle>Opinião por bom encontro</DateOpinionGoodTitle>
+  <DateOpinionGoodTooltip>Bônus de opinião por um encontro perfeito. O resultado de cada encontro fica entre este valor e a opinião por encontro ruim, conforme a compatibilidade de personalidades, o humor, a opinião mútua e a sorte. Acumulam-se até 5 lembranças de bons encontros (a 75% cada depois da primeira), que duram 20 dias.</DateOpinionGoodTooltip>
+  <DateOpinionBadTitle>Opinião por encontro ruim</DateOpinionBadTitle>
+  <DateOpinionBadTooltip>Penalidade de opinião por um encontro que deu o mais errado possível. Veja "Opinião por bom encontro".</DateOpinionBadTooltip>
+  <DateRomanceChanceTitle>Chance de romance após encontro (%)</DateRomanceChanceTitle>
+  <DateRomanceChanceTooltip>Chance de um encontro de paquera que foi bom para os dois terminar com um pedindo ao outro para serem amantes (uma tentativa de romance normal, que ainda pode falhar). É ajustada de x0,5 a x1,5 pelo humor deles e de x0,5 a x2 pela opinião mútua, e não há chance se alguma opinião estiver abaixo da opinião mínima para romance.</DateRomanceChanceTooltip>
+  <DateRomanceBonusTitle>Bônus de romance por bom encontro (%)</DateRomanceBonusTitle>
+  <DateRomanceBonusTooltip>Quanto cada bom encontro anterior do par soma à chance de romance após encontro, como porcentagem dela. Exemplo com os padrões: depois de 2 bons encontros anteriores, com bom humor e boas opiniões, a chance é de 15% x 2 = 30%.</DateRomanceBonusTooltip>
+  <PrintDebugInfoTitle>Mostrar informações de depuração</PrintDebugInfoTitle>
+  <PrintDebugInfoTooltip>Registra no log as decisões e chances do Psychology (encontros, paquera, romance após encontros, traição em casos), com o prefixo [Psychology]. Útil para testes ou relatórios de erros; deixe desativado em partidas normais. Com o modo de desenvolvedor, os colonos também têm um botão "DEV: Romance" para forçar encontros e casos.</PrintDebugInfoTooltip>
+</LanguageData>

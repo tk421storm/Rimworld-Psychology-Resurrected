@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FeelingRandomBipolar.stages.0.label>들뜸</FeelingRandomBipolar.stages.0.label>
+  <FeelingRandomBipolar.stages.0.description>별 이유 없이 지금 기분이 정말 끝내줘!</FeelingRandomBipolar.stages.0.description>
+  <FeelingRandomBipolar.stages.1.label>아주 좋음</FeelingRandomBipolar.stages.1.label>
+  <FeelingRandomBipolar.stages.1.description>별 이유 없이 지금 기분이 아주 좋아.</FeelingRandomBipolar.stages.1.description>
+  <FeelingRandomBipolar.stages.2.label>좋음</FeelingRandomBipolar.stages.2.label>
+  <FeelingRandomBipolar.stages.2.description>별 이유 없이 지금 기분이 좋아.</FeelingRandomBipolar.stages.2.description>
+  <FeelingRandomBipolar.stages.3.label>나쁨</FeelingRandomBipolar.stages.3.label>
+  <FeelingRandomBipolar.stages.3.description>별 이유 없이 지금 기분이 나빠.</FeelingRandomBipolar.stages.3.description>
+  <FeelingRandomBipolar.stages.4.label>아주 나쁨</FeelingRandomBipolar.stages.4.label>
+  <FeelingRandomBipolar.stages.4.description>별 이유 없이 지금 기분이 정말 최악이야.</FeelingRandomBipolar.stages.4.description>
+  <FeelingRandomBipolar.stages.5.label>우울함</FeelingRandomBipolar.stages.5.label>
+  <FeelingRandomBipolar.stages.5.description>별 이유 없이 지금 너무 비참해...</FeelingRandomBipolar.stages.5.description>
+  <Codependency.stages.0.label>외로움</Codependency.stages.0.label>
+  <Codependency.stages.0.description>너무 외로워... 연인이 필요해.</Codependency.stages.0.description>
+  <Codependency.stages.1.label>상호의존적 연애 중</Codependency.stages.1.label>
+  <Codependency.stages.1.description>내 연인을 사랑해. 그 사람 없이는 못 살아.</Codependency.stages.1.description>
+  <Codependency.stages.2.label>상호의존적 결혼 생활 중</Codependency.stages.2.label>
+  <Codependency.stages.2.description>내 배우자를 사랑해. 그 사람 없이는 죽을 거야.</Codependency.stages.2.description>
+  <Codependency.stages.3.label>절망</Codependency.stages.3.label>
+  <Codependency.stages.3.description>내 연인이 떠났어... 이제 어떡하지?</Codependency.stages.3.description>
+  <Outdoorsy.stages.0.label>야외에 있음</Outdoorsy.stages.0.label>
+  <Outdoorsy.stages.0.description>머리 위로 하늘이 느껴지는 게 좋아.</Outdoorsy.stages.0.description>
+  <Outdoorsy.stages.1.label>야외에 있음</Outdoorsy.stages.1.label>
+  <Outdoorsy.stages.1.description>아아, 바깥 공기!</Outdoorsy.stages.1.description>
+  <Pluviophile.stages.0.label>밖에 비가 옴</Pluviophile.stages.0.label>
+  <Pluviophile.stages.0.description>머리 위로 비 떨어지는 소리가 좋아.</Pluviophile.stages.0.description>
+  <Pluviophile.stages.1.label>빗속에 있음</Pluviophile.stages.1.label>
+  <Pluviophile.stages.1.description>비는 정말 마음을 편하게 해. 젖어도 상관없어.</Pluviophile.stages.1.description>
+  <PolygamousRelationship.stages.0.label>일대일 연애 중</PolygamousRelationship.stages.0.label>
+  <PolygamousRelationship.stages.0.description>내 사랑이 한 사람에게만 묶이지 않았으면 좋겠어.</PolygamousRelationship.stages.0.description>
+  <EnvironmentDarkLightSensitive.stages.0.label>어둠 속에 있음</EnvironmentDarkLightSensitive.stages.0.label>
+  <EnvironmentDarkLightSensitive.stages.0.description>아... 어둠의 위안.</EnvironmentDarkLightSensitive.stages.0.description>
+  <EnvironmentDarkLightSensitive.stages.1.label>빛 속에 있음</EnvironmentDarkLightSensitive.stages.1.label>
+  <EnvironmentDarkLightSensitive.stages.1.description>아야... 좀 따가워.</EnvironmentDarkLightSensitive.stages.1.description>
+  <EnvironmentDarkLightSensitive.stages.2.label>밝은 빛 속에 있음</EnvironmentDarkLightSensitive.stages.2.label>
+  <EnvironmentDarkLightSensitive.stages.2.description>내 눈! 너무 아파!</EnvironmentDarkLightSensitive.stages.2.description>
+  <Sedentary.stages.0.label>자리 잡음</Sedentary.stages.0.label>
+  <Sedentary.stages.0.description>이리저리 뛰어다니지 않아도 돼서 좋아.</Sedentary.stages.0.description>
+  <Sedentary.stages.1.label>편안하게 자리 잡음</Sedentary.stages.1.label>
+  <Sedentary.stages.1.description>잠시 쉬기 좋은 편안한 곳이야. 딱 내 취향이야.</Sedentary.stages.1.description>
+  <FamilySize.stages.0.label>내 아이</FamilySize.stages.0.label>
+  <FamilySize.stages.0.description>아이가 하나 생겼어. 시작일 뿐이야. 대가족을 원해.</FamilySize.stages.0.description>
+  <FamilySize.stages.1.label>늘어나는 가족</FamilySize.stages.1.label>
+  <FamilySize.stages.1.description>아이가 둘! 우리 가족이 늘어나고 있어.</FamilySize.stages.1.description>
+  <FamilySize.stages.2.label>진짜 가족</FamilySize.stages.2.label>
+  <FamilySize.stages.2.description>아이가 셋. 가족이라면 이래야지.</FamilySize.stages.2.description>
+  <FamilySize.stages.3.label>대가족</FamilySize.stages.3.label>
+  <FamilySize.stages.3.description>아이가 넷. 내 가족은 나의 전부야.</FamilySize.stages.3.description>
+  <FamilySize.stages.4.label>왕조</FamilySize.stages.4.label>
+  <FamilySize.stages.4.description>아이가 이렇게나 많다니! 내가 떠난 뒤에도 우리 가족은 오래 이어질 거야.</FamilySize.stages.4.description>
+  <ChildFreeLife.stages.0.label>자발적 무자녀</ChildFreeLife.stages.0.label>
+  <ChildFreeLife.stages.0.description>나를 묶어 둘 아이가 없어. 딱 내 취향이야.</ChildFreeLife.stages.0.description>
+  <ChildFreeLife.stages.1.label>아이를 원한 적 없음</ChildFreeLife.stages.1.label>
+  <ChildFreeLife.stages.1.description>부모가 되고 싶었던 적이 없어. 이제 아이가 생겼고, 내 삶은 더 이상 내 것이 아니야.</ChildFreeLife.stages.1.description>
+</LanguageData>

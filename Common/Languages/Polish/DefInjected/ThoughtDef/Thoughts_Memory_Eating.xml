@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>zjedzony wystawny posiłek</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>Ten wystawny posiłek był niesamowity. Właśnie to chcę jeść każdego dnia!</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>zjedzony wykwintny posiłek</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>Zjadłem pyszny, wykwintny posiłek. Dokładnie tak, jak lubię!</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>zjedzony okropny posiłek</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>Musiałem zjeść obrzydliwy, mdły posiłek. Niedopuszczalne. Oczekuję, że będę lepiej karmiony.</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>zjedzone surowe jedzenie</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>Musiałem jeść surowe jedzenie. Nie chcę tu mieszkać, jeśli nie stać nas nawet na kucharza.</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>zjedzony prosty posiłek</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>Ten posiłek był poniżej moich standardów. Zjadłem go tylko dlatego, że nie było nic lepszego.</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>zjedzone gotowane mięso owadów</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>Zjadłem posiłek z szarego, oślizgłego mięsa owadów. To była bardzo nieprzyjemna niespodzianka przy pierwszym kęsie.</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>zjedzone mięso owadów</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>Zjadłem szare, oślizgłe mięso owadów. Dobijcie mnie, proszę.</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>zjedzone zepsute jedzenie</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>Zjadłem obrzydliwe, zgniłe jedzenie. Wolałbym umrzeć, niż upaść tak nisko.</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

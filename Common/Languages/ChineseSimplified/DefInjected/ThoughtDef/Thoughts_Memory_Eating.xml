@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>吃了奢侈的饭菜</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>那顿奢侈的饭菜太棒了。我每天都想吃这个！</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>吃了精致的饭菜</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>我吃了一顿美味的精致饭菜。正合我意！</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>吃了糟糕的饭菜</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>我不得不吃了一顿恶心又没味道的饭。不可接受。我期望吃得比这好。</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>吃了生食</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>我不得不吃生的食物。如果连个厨师都没有，我不想住在这里。</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>吃了简单的饭菜</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>那顿饭配不上我的标准。我吃它只是因为没有更好的了。</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>吃了做熟的虫肉</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>我吃了一顿用灰色黏滑的虫肉做的饭。一口咬下去真是个非常不愉快的惊喜。</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>吃了虫肉</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>我吃了灰色黏滑的虫肉。求你直接杀了我吧。</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>吃了腐烂的食物</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>我吃了恶心腐烂的食物。我宁愿死也不想沦落到这种地步。</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

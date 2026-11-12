@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EnableKinseyTitle>Enable sexuality changes</EnableKinseyTitle>
+	<EnableKinseyTooltip>Turn this off to disable Kinsey scaling of pawns and re-enable the Gay trait. Do NOT change this during play, and restart the game after toggling this.</EnableKinseyTooltip>
+
+	<EnableEmpathyTitle>Enable empathy changes</EnableEmpathyTitle>
+	<EnableEmpathyTooltip>Turn this off to restore colonists' reactions to bad things happening to other people to normal. This will increase difficulty; Bleeding Heart pawns will be unaffected. Restart the game after disabling this.</EnableEmpathyTooltip>
+	
+	<KinseyFormulaTitle>Kinsey scale formula</KinseyFormulaTitle>
+	<KinseyFormulaTooltip>This setting determines what formula is used to set the Kinsey rating of generated pawns. Weights do not have to sum to 100.</KinseyFormulaTooltip>
+	<KinseyMode_Realistic>Default</KinseyMode_Realistic>
+	<KinseyMode_Invisible>Center</KinseyMode_Invisible>
+	<KinseyMode_Gaypocalypse>Inverse</KinseyMode_Gaypocalypse>
+	<KinseyMode_Uniform>Uniform</KinseyMode_Uniform>
+	<KinseyMode_Custom>Custom</KinseyMode_Custom>
+
+	<KWTitle>Kinsey {0}</KWTitle>
+	<KWTooltip>The relative weight that a pawn will generate with a Kinsey rating of {0}. Weights do not have to sum to 100.</KWTooltip>
+
+	<EnableIndividualityTitle>Enable individuality thoughts</EnableIndividualityTitle>
+	<EnableIndividualityTooltip>Turn this off to disable the negative thought your colonists will get if they are wearing perfectly matching outfits with other colonists. This thought adds extra difficulty, so it's optional, but recommended. Requires restart.</EnableIndividualityTooltip>
+	
+	
+	
+	<ConversationDurationTitle>Conversation memory duration</ConversationDurationTitle>
+	<ConversationDurationTooltip>Set how long people will remember conversations for. The default is 60 days, i.e. one year. The minimum is 15 day, one quadrum, and the maximum is 180 days, three years. Setting it lower will make colonists' interactions with each other more ephemeral, and setting it higher will make them more lasting. Requires restart.</ConversationDurationTooltip>
+
+	<ConvoMaxOpinionChangeTitle>Max opinion change from conversations</ConvoMaxOpinionChangeTitle>
+	<ConvoMaxOpinionChangeTooltip>The largest opinion change a single conversation can cause (default 40). Higher values make conversations matter more.</ConvoMaxOpinionChangeTooltip>
+
+	<!--<ConvoOpinionMultiplierTitle>Conversation opinion multiplier</ConvoOpinionMultiplierTitle>
+	<ConvoOpinionMultiplierTooltip>This multiplier controls how large the opinion changes will be from conversations.</ConvoOpinionMultiplierTooltip>-->
+
+	<ConvoMeanHoursTitle>Expected discussion time</ConvoMeanHoursTitle>
+	<ConvoMeanHoursTooltip>The average length of a conversation, in hours (default 1.3).</ConvoMeanHoursTooltip>
+
+	<ConvoTimeScaleHoursTitle>Time scale of conversations</ConvoTimeScaleHoursTitle>
+	<ConvoTimeScaleHoursTooltip>Set the time scale in hours by which conversation opinions will change as a function of time.</ConvoTimeScaleHoursTooltip>
+
+	<ConvoPersonalityEffectMultiplierTitle>Personality effects on conversations</ConvoPersonalityEffectMultiplierTitle>
+	<ConvoPersonalityEffectMultiplierTooltip>This multiplier controls how much personality traits such as Friendly, Polite or Cool will affect the change in opinion.</ConvoPersonalityEffectMultiplierTooltip>
+	
+	<EnableDateLettersTitle>Send date letters</EnableDateLettersTitle>
+	<EnableDateLettersTooltip>Turn this off to disable receiving letters when your colonists plan a date together.</EnableDateLettersTooltip>
+	<PawnsChoosePregnancyApproachTitle>Pawns choose their pregnancy approach</PawnsChoosePregnancyApproachTitle>
+	<PawnsChoosePregnancyApproachTooltip>With Biotech, each pawn has their own pregnancy approach, the same with anyone, from how much they want children (their family drive, lowered for each child they're still raising, half as much for a matriarch or patriarch): avoid pregnancy, leave it to chance, or try for a baby. Each pair gets the more careful of the two, so a pawn who avoids pregnancy avoids it with every partner, and a pair only tries for a baby if both want to. This covers lovers, hookups and other mods' pairings. If you change a pair's approach in the social tab, they keep your choice. Child-free pawns always avoid pregnancy, even with this off.</PawnsChoosePregnancyApproachTooltip>
+	
+<!--	<BenchmarkingTitle>Enable performance testing</BenchmarkingTitle>
+	<BenchmarkingTooltip>Turn this on to receive occasional performance reports in the console relating to Psychology systems. You can copy and paste these reports to assist in optimization of the mod. WARNING: Performance testing comes with its own performance impact.\n\nToggling this will restart your game.</BenchmarkingTooltip>-->
+  
+	<ImprisonedDebuffTitle>Prisoner recruitment penalty</ImprisonedDebuffTitle>
+	<ImprisonedDebuffTooltip>Opinion penalty a recruited prisoner gets towards every colonist ("faction imprisoned me", lasts 45 days). Set to 0 to disable. Requires restart.</ImprisonedDebuffTooltip>
+
+	<RomanceChanceMultiplierTitle>Romance chance multiplier</RomanceChanceMultiplierTitle>
+	<RomanceChanceMultiplierTooltip>Romance chance will be multiplied by this value. Setting to 0 should eliminate new romances entirely.</RomanceChanceMultiplierTooltip>
+
+	<RomanceOpinionThresholdTitle>Minimum romance opinion</RomanceOpinionThresholdTitle>
+	<RomanceOpinionThresholdTooltip>Minimum opinion a colonist must have of someone they're attracted to before asking them out on a date or making a romance attempt. Kept low by default so pawns who barely know each other can ask; attraction matters far more than opinion.</RomanceOpinionThresholdTooltip>
+
+
+
+
+	<MentalBreakAnxietyChanceTitle>Mental break anxiety chance</MentalBreakAnxietyChanceTitle>
+	<MentalBreakAnxietyChanceTooltip>This sets the mean chance a pawn will develop anxiety after having a major mental break. For minor breaks, the chance is halved and for extreme breaks the chance is doubled. The chance will also depend on colonist's psyche. Note that you might still see it as random disease due to aging. Requires restart for full effect.</MentalBreakAnxietyChanceTooltip>
+
+	<!--<BeatyOverrideEnabledTitle>Disable opinion changes from beauty traits</BeatyOverrideEnabledTitle>
+	<BeatyOverrideEnabledToolip>Disables opinion changes from traits such as: Pretty, Beautiful, Ugly, etc. Note that Psychology's changes to those traits would still work even if you disable this option. Its recommended to keep this option enabled.</BeatyOverrideEnabledToolip>-->
+	<TraitOpinionMultiplierTitle>Opinion from traits multiplier</TraitOpinionMultiplierTitle>
+	<TraitOpinionMultiplierTooltip>Scale the opinion changes from the following traits: Pretty, Ugly, Disfigured, Annoying voice, Creepy breathing, Body modder appreciation, and Body purist disgust. Set to zero to completely disable. Requires restart.</TraitOpinionMultiplierTooltip>
+
+	<PersonalityExtremenessTitle>Personality extremeness</PersonalityExtremenessTitle>
+	<PersonalityExtremenessTooltip>Set the degree to which personalities will be boosted to match Big Five archetypes.</PersonalityExtremenessTooltip>
+
+	<IdeoPsycheMultiplierTitle>Ideology interaction multiplier</IdeoPsycheMultiplierTitle>
+	<IdeoPsycheMultiplierTooltip>This controls how strongly personality and ideology interact with each other. Set to zero to disable entirely.</IdeoPsycheMultiplierTooltip>
+
+	<DisplayOptionsTitle>Psyche tab display options</DisplayOptionsTitle>
+	<DisplayOptionsTooltip>Change the default display option for the Psyche tab.</DisplayOptionsTooltip>
+	<UseColorsTooltip>Colorize traits displayed in the Psyche tab.</UseColorsTooltip>
+	<ListAlphabeticalTooltip>List the traits alphabetically in the Psyche tab.</ListAlphabeticalTooltip>
+	<UseAntonymsTooltip>Use trait antonyms in the Psyche tab.</UseAntonymsTooltip>
+
+	<SpeciesSettingsTitle>Species name</SpeciesSettingsTitle>
+	<SpeciesSettingsTooltip>Adjust settings for each species.</SpeciesSettingsTooltip>
+
+	<EnablePsycheTitle>Psyche</EnablePsycheTitle>
+	<EnablePsycheTooltip>Turn this off to deactivate personality. This is recommended for species not capable of having a human-like personality such as zombies or simple robots. Note that deep conversations and romance will be disabled for this species.</EnablePsycheTooltip>
+
+	<EnableAgeGapTitle>Age gap</EnableAgeGapTitle>
+	<EnableAgeGapTooltip>Turn this off to deactivate the romantic age gap preference for all pawns considering a romance with individuals of this species. This is recommended for android-like and elf-like species that do not experience aging after reaching adulthood.</EnableAgeGapTooltip>
+
+<!--	<MinDatingAgeTooltip>Set the minimum dating age for this species. When positive, the effective age for dating-related formulas scales by this number relative to 14. Setting to 0 allows dating at any age and effectively disables the age gap. This is recommended for species such as sentient androids with no childhood phase. Any negative number disables dating completely for this species.</MinDatingAgeTooltip>-->
+<!--	<MinLovinAgeTooltip>Set the minimum lovin age for this species. When positive, the effective age for lovin-related formulas scales by this number relative to 16. Setting to 0 allows lovin at any age and effectively disables the age gap. This is recommended for species such as sentient androids with no childhood phase. Any negative number disables lovin completely for this species.</MinLovinAgeTooltip>-->
+  <MinDatingAgeTitle>Dating</MinDatingAgeTitle>
+	<MinLovinAgeTitle>Lovin</MinLovinAgeTitle>
+
+	<dating>dating</dating>
+	<lovin>lovin</lovin>
+	<MinRomanceAgeTooltip>The minimum {0} age for this species. When positive, the effective age in {0}-related formulas is scaled by this number relative to {1}. Setting to 0 allows {0} at any age and effectively disables the age gap. This is recommended for species with no childhood phase such as sentient androids. Any negative number disables {0} for this species.</MinRomanceAgeTooltip>
+
+	<!--<UpdateIntroMessageTitle>Update to Psychology</UpdateIntroMessageTitle>-->
+	<!--<UpdateIntroMessage>The method to generate personalities has been updated. The player is encouraged to select "update" to reset the personalities of old pawns. This option will always be available in the mod settings.</UpdateIntroMessage>-->
+	<!--<ApplyUpdateButton>Update</ApplyUpdateButton>-->
+	<!--<UpdateIntroMessage>Check out the mod settings to set your preferences for some of the new features.</UpdateIntroMessage>-->
+
+	<!--<UpdateYesNoDescription>This will reset the personalities of all pawns using the updated Psychology formula. The outcome is deterministic and pseudo-random based on an integer ID asscoiated with each pawn. This is recommended for the mod to act as intended. Do you wish to proceed?</UpdateYesNoDescription>-->
+	
+	<LovinFrequencyTitle>Lovin frequency</LovinFrequencyTitle>
+	<LovinFrequencyTooltip>How often couples make love: 2 = twice as often, 0.5 = half as often.</LovinFrequencyTooltip>
+	<AdjustRapportByCompatibilityTitle>Adjust rapport based on compatibility</AdjustRapportByCompatibilityTitle>
+	<AdjustRapportByCompatibilityTooltip>In vanilla, each time a warden chats with a prisoner the prisoner gets +2 opinion of that warden (up to +100), which also wears down their resistance up to 1.5x faster. With this on, that +2 is scaled by how compatible their personalities are: about +2 for a typical pair, up to about +6 for a great fit, and negative ("strained rapport") when their personalities clash. This also applies to the chats before a conversion attempt, which in vanilla are plain small talk. Off: vanilla +2 each time.</AdjustRapportByCompatibilityTooltip>
+	<ArrestBaseChanceTitle>Peaceful arrest base chance (%)</ArrestBaseChanceTitle>
+	<ArrestBaseChanceTooltip>Psychology replaces vanilla's arrest chance. A pawn goes quietly with a chance of: the arrester's peaceful arrest chance (this base plus 5% per Social level, lower if they can't talk well) x the arrestee's opinion of the arrester (0 at -100, 0.5 at 0, 1 at +100) x 1.5 if they're in the same faction x 0.2 if the arrestee is in a mental state. Downed, non-violent and guilty pawns still always go quietly. Default 2%: with neutral opinion a Social 10 arrester succeeds about 26% of the time, a Social 20 one about 51%.</ArrestBaseChanceTooltip>
+	<CheatChanceTitle>Cheating chance (%)</CheatChanceTitle>
+	<CheatChanceTooltip>How likely pawns are to cheat on a partner, either by romancing someone else (a success makes both leave their partners) or through a casual hookup. A pawn's chance is this value x how unhappy they are with their partner x their personality. Pawns who like their partner don't cheat; romantic pawns stay loyal longer but turn faster on a partner they dislike; Lechers cheat far more easily, especially when their partner is away. Moralistic and Pure pawns cheat less, Experimental ones more. Codependent pawns never cheat, and it isn't cheating for Polygamous pawns. Example at the default 50%: an average pawn cheats with 0% chance at +50 opinion of their partner, 25% at 0 and 50% at -50. Set to 0 to turn cheating off.</CheatChanceTooltip>
+
+	<CourtshipChanceTitle>Courtship chance (x)</CourtshipChanceTitle>
+	<CourtshipChanceTooltip>How often single pawns (and pawns willing to cheat) ask someone they're attracted to out on a date. The chance also rises with attraction, opinion, romantic drive and confidence, and with earlier good dates. Each date leaves a good or bad date memory; good dates make a romance attempt more likely. Set to 0 to turn courtship off. Couples' date nights aren't affected.</CourtshipChanceTooltip>
+	<SecondDateChanceTitle>Second date chance (%)</SecondDateChanceTitle>
+	<SecondDateChanceTooltip>Once a day, pawns whose last courtship date went well for both of them may ask each other out again, wherever they are on the map. This is the daily chance for a pair whose date went as well as it could; it's lower after a merely good date and higher after several good dates. The answer is rolled as for any date request. In addition to asking in person; set to 0 to turn it off.</SecondDateChanceTooltip>
+	<SocialRomanceChanceTitle>Romance while socializing (%)</SocialRomanceChanceTitle>
+	<SocialRomanceChanceTooltip>While relaxing socially (at a table or campfire), at a party or hangout, dancing or playing billiards, pawns chat much more often than usual. This is the chance that one of those chats becomes a look around for romance instead. Only pawns who are single, allowed another partner, or willing to cheat on theirs this time (see the cheating chance) look. They pick someone close by they're attracted to and like enough, favouring the most attractive, and make a romance attempt: a date night for partners, asking out, a hookup, or an affair if it would be cheating. Not during dates. Set to 0 to turn it off.</SocialRomanceChanceTooltip>
+	<HugChanceTitle>Hug chance (x)</HugChanceTitle>
+	<HugChanceTooltip>How often pawns with a strong bond hug: lovers and spouses, close family, and very good friends, when each thinks well of the other. A hug lifts both pawns' mood and opinion of each other a little. Warm personalities hug more often. Set to 0 to turn hugs off.</HugChanceTooltip>
+	<DateOpinionGoodTitle>Good date opinion</DateOpinionGoodTitle>
+	<DateOpinionGoodTooltip>Opinion bonus from a date that went perfectly. Each date's result falls between this and the bad date opinion, based on the pair's personality compatibility, mood, opinion of each other and luck. Up to 5 good date memories stack (at 75% each after the first) and last 20 days.</DateOpinionGoodTooltip>
+	<DateOpinionBadTitle>Bad date opinion</DateOpinionBadTitle>
+	<DateOpinionBadTooltip>Opinion penalty from a date that went as badly as possible. See "Good date opinion".</DateOpinionBadTooltip>
+	<DateRomanceChanceTitle>Romance chance after a date (%)</DateRomanceChanceTitle>
+	<DateRomanceChanceTooltip>Chance that a courtship date that went well for both ends with one of them asking the other to be lovers (a normal romance attempt, which can still fail). It's scaled from x0.5 to x1.5 by their moods and from x0.5 to x2 by their opinions of each other, and there's no chance if either opinion is below the minimum romance opinion.</DateRomanceChanceTooltip>
+	<DateRomanceBonusTitle>Romance bonus per good date (%)</DateRomanceBonusTitle>
+	<DateRomanceBonusTooltip>How much each earlier good date between the pair adds to the romance chance after a date, as a percentage of it. Example at the defaults: after 2 earlier good dates, with good moods and opinions, the chance is about 15% x 2 = 30%.</DateRomanceBonusTooltip>
+
+	<PrintDebugInfoTitle>Print debug info</PrintDebugInfoTitle>
+	<PrintDebugInfoTooltip>Write Psychology's decisions and chances to the log (dates, courtship, romance after dates, cheating on hookups), prefixed with [Psychology]. Useful for testing or bug reports; leave off for normal play. With dev mode on, colonists also get a "DEV: Romance" button for forcing dates and hookups.</PrintDebugInfoTooltip>
+
+</LanguageData>

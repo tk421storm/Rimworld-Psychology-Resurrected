@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WitnessedDeathAllyBleedingHeart.stages.0.label>Sah Verbündeten sterben</WitnessedDeathAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathAllyBleedingHeart.stages.0.description>Ich habe einen Verbündeten sterben sehen. Im einen Moment war er noch am Leben und im nächsten tot.</WitnessedDeathAllyBleedingHeart.stages.0.description>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.label>Sah Outsider sterben</WitnessedDeathNonAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.description>Ich habe einen Outsider sterben sehen. Im einen Moment war er noch am Leben und im nächsten tot.</WitnessedDeathNonAllyBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.0.label>Gerechtfertigte Exekution</KnowGuestExecutedBleedingHeart.stages.0.label>
+  <KnowGuestExecutedBleedingHeart.stages.0.description>Ein schuldiger Gefangener oder Gast wurde exekutiert. Es war gerechtfertigt, aber ich kann den Verlust des Lebens immer noch nicht ertragen.</KnowGuestExecutedBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.1.label>Jemand wurde eingeschläfert</KnowGuestExecutedBleedingHeart.stages.1.label>
+  <KnowGuestExecutedBleedingHeart.stages.1.description>Ein Gefangener oder ein Gast wurde eingeschläfert. Es war menschlich, aber immer noch herzzerreißend.</KnowGuestExecutedBleedingHeart.stages.1.description>
+  <KnowGuestExecutedBleedingHeart.stages.2.label>Jemand wurde exekutiert</KnowGuestExecutedBleedingHeart.stages.2.label>
+  <KnowGuestExecutedBleedingHeart.stages.2.description>Ein Gefangener oder ein Gast wurde kaltblütig umgebracht. Diese Kolonie scheint jeden Tag schlimmer zu werden.</KnowGuestExecutedBleedingHeart.stages.2.description>
+  <KnowGuestExecutedBleedingHeart.stages.3.label>Jemand wurde durch Organernte getötet</KnowGuestExecutedBleedingHeart.stages.3.label>
+  <KnowGuestExecutedBleedingHeart.stages.3.description>Ein Gefangener oder Gast starb, weil die Kolonie Körperteile von ihm genommen hatte. Ich bin wahnsinnig!</KnowGuestExecutedBleedingHeart.stages.3.description>
+  <KnowColonistExecutedBleedingHeart.stages.0.label>Gerechtfertigte Exekution eines Kolonisten</KnowColonistExecutedBleedingHeart.stages.0.label>
+  <KnowColonistExecutedBleedingHeart.stages.0.description>Ein schuldiger Kolonist wurde exekutiert. Es war gerechtfertigt, aber ich kann den Verlust des Lebens immer noch nicht ertragen.</KnowColonistExecutedBleedingHeart.stages.0.description>
+  <KnowColonistExecutedBleedingHeart.stages.1.label>Kolonist wurde eingeschläfert</KnowColonistExecutedBleedingHeart.stages.1.label>
+  <KnowColonistExecutedBleedingHeart.stages.1.description>Ein Kolonist wurde eingeschläfert. Es war menschlich, aber immer noch herzzerreißend.</KnowColonistExecutedBleedingHeart.stages.1.description>
+  <KnowColonistExecutedBleedingHeart.stages.2.label>Kolonist wurde exekutiert</KnowColonistExecutedBleedingHeart.stages.2.label>
+  <KnowColonistExecutedBleedingHeart.stages.2.description>Ein Kolonist wurde kaltblütig umgebracht. Diese Kolonie scheint jeden Tag schlimmer zu werden.</KnowColonistExecutedBleedingHeart.stages.2.description>
+  <KnowColonistExecutedBleedingHeart.stages.3.label>Kolonist wurde durch Organernte getötet</KnowColonistExecutedBleedingHeart.stages.3.label>
+  <KnowColonistExecutedBleedingHeart.stages.3.description>Ein Kolonist starb, weil die Kolonie Körperteile von ihm genommen hatte. Ich bin wahnsinnig!</KnowColonistExecutedBleedingHeart.stages.3.description>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>Unschuldiger Gefangener gestorben</KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>Einer unserer Gefangenen ist gestorben, obwohl er isoliert war. Wir sollten in der Lage sein besser mit unseren Gefangenen umzugehen. Wenn wir sie tot sehen wollten, sollten wir ihnen wenigstens eine ordentliche Hinrichtung gewähren, statt dieser Barberei.</KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>
+  <KnowColonistDiedBleedingHeart.stages.0.label>Kolonist gestorben</KnowColonistDiedBleedingHeart.stages.0.label>
+  <KnowColonistDiedBleedingHeart.stages.0.description>Einer unserer Leute ist gestorben. Wir sollten in der Lage sein besser auf unsere Leute aufzupassen!</KnowColonistDiedBleedingHeart.stages.0.description>
+</LanguageData>

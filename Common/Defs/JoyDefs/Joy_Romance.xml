@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Recreation from hookups (JobDriver_DoLovinCasual). Hookups start from romance attempts (RomanceAttemptRouter);
+       the old "try a hookup" recreation was removed. -->
+  <JoyKindDef>
+    <defName>Lewd</defName>
+    <label>romantic fun</label>
+    <needsThing>false</needsThing>
+  </JoyKindDef>
+  
+</Defs>

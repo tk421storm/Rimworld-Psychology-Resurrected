@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Lord job reports -->
+	<LordReportHangingOut>Hanging out with someone</LordReportHangingOut>
+	<LordReportDate>On a date</LordReportDate>
+
+	<!-- Date messages (top-left). {0} and {1} are the two pawns, {2} the kind of date, {3} a reason -->
+	<DateKindCourtship>courtship date</DateKindCourtship>
+	<DateKindDateNight>date night</DateKindDateNight>
+	<DateStarted>{0_labelShort} and {1_labelShort}'s {2} has started!</DateStarted>
+	<DateNightWentWell>{0_labelShort} and {1_labelShort} enjoyed their date night.</DateNightWentWell>
+	<DateNightWentWellForOne>{0_labelShort} enjoyed the date night with {1_labelShort}, but {1_labelShort} didn't.</DateNightWentWellForOne>
+	<DateNightWentBadly>{0_labelShort} and {1_labelShort}'s date night went badly.</DateNightWentBadly>
+	<DateWentWell>{0_labelShort} and {1_labelShort}'s courtship date went well for both of them.</DateWentWell>
+	<DateWentWellForOne>{0_labelShort} enjoyed the courtship date with {1_labelShort}, but {1_labelShort} didn't.</DateWentWellForOne>
+	<DateWentBadly>{0_labelShort} and {1_labelShort}'s courtship date went badly.</DateWentBadly>
+	<DateCutShort>{0_labelShort} and {1_labelShort}'s {2} was cut short: {3}.</DateCutShort>
+	<DateRuined>{0_labelShort}'s mental break ruined the {2} for {1_labelShort}.</DateRuined>
+	<DateCancelled>{0_labelShort} and {1_labelShort}'s {2} was cancelled: {3}.</DateCancelled>
+	<DateMissed>{0_labelShort} waited, but {1_labelShort} slept through their {2}.</DateMissed>
+	<DateBothSlept>{0_labelShort} and {1_labelShort} both slept through their {2}.</DateBothSlept>
+	<DateCalledOff>{0_labelShort}'s planned {2} with {1_labelShort} is off.</DateCalledOff>
+	<DateReasonDanger>it isn't safe right now</DateReasonDanger>
+	<DateReasonDowned>{0_labelShort} is downed</DateReasonDowned>
+	<DateReasonStarving>{0_labelShort} is starving</DateReasonStarving>
+	<DateReasonBleeding>{0_labelShort} is bleeding</DateReasonBleeding>
+	<DateReasonHurt>{0_labelShort} got hurt</DateReasonHurt>
+	<DateReasonTired>{0_labelShort} is too tired</DateReasonTired>
+	<DateReasonMentalState>{0_labelShort} is having a mental break</DateReasonMentalState>
+	<DateReasonPrisoner>{0_labelShort} is a prisoner</DateReasonPrisoner>
+	<DateReasonWork>{0_labelShort} is scheduled to work</DateReasonWork>
+	<DateReasonDrafted>{0_labelShort} was drafted</DateReasonDrafted>
+	<DateReasonAway>{0_labelShort} isn't here</DateReasonAway>
+	<DateReasonLeft>{0_labelShort} had to leave</DateReasonLeft>
+	<DateReasonBusy>{0_labelShort} is busy</DateReasonBusy>
+	<!-- Ritual dialog: a participant's planned date falls during the ritual. {PAWN} planned it with {PARTNER}, at {HOUR} o'clock, in {IN} (e.g. "2 hours"). -->
+	<RitualDateWillClash>{PAWN_labelShort} has a {KIND} with {PARTNER_labelShort} at hour {HOUR} (in {IN}), during this ritual. It will be pushed back, or cancelled if the ritual runs long.</RitualDateWillClash>
+	<RitualDateMightClash>{PAWN_labelShort}'s {KIND} with {PARTNER_labelShort} at hour {HOUR} (in {IN}) may fall during this ritual. It would be pushed back, or cancelled if the ritual runs long.</RitualDateMightClash>
+
+	<!-- Miscellaneous thought log text -->
+	<ConversationStage>conversation about</ConversationStage>
+	<ConversationEnd>[INITIATOR_nameDef] ended a conversation with [RECIPIENT_nameDef].</ConversationEnd>
+	<ConversationEnded>ended conversation</ConversationEnded>
+
+	<!-- Comp text -->
+
+	<!-- Hediff tooltips -->
+	<DrugFreeDescription>{PAWN_labelShort}'s {TRAIT} has been alleviated by {PAWN_possessive} drug-free lifestyle.</DrugFreeDescription>
+	<DrugFreeDescriptionNoTrait>{PAWN_labelShort} is keeping to a drug-free lifestyle.</DrugFreeDescriptionNoTrait>
+
+	<!-- Prepare Carefully -->
+	<EdBPrepareCarefullyPsycheTooltip>View and edit this pawn's psyche. Prepare Carefully presets and saved colonists don't keep the psyche; loading one gives the pawn a new random psyche.</EdBPrepareCarefullyPsycheTooltip>
+
+	<ChildFreePregnancyApproach>{PAWN_labelShort} is child-free and doesn't want children.</ChildFreePregnancyApproach>
+
+</LanguageData>

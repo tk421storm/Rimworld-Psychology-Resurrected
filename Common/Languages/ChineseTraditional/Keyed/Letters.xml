@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LetterLabelPTSD>应激性创伤</LetterLabelPTSD>
+  <LetterPTSD>{0_labelShort} 的创伤后应激焦虑恶化导致了{0_possessive}精神崩溃。焦虑症是一种永久性精神疾病，但是能通过积极的治疗将其严重程度降低到可控的水平，让 {0_possessive} 依然能够正常生活。 任何进一步的精神崩溃都会导致{0_possessive}的焦虑症加重。\n\n传说，闪耀世界的医生已经找到了根除焦虑症的方法。如果你拥有闪耀世界的医药，可以让一名技术高超的医生去试着治愈 {0_labelShort} 的焦虑症。</LetterPTSD>
+  <LetterLabelDatePlanned>约会之夜</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort} 已经安排好了和 {1_labelShort} 在 {2} ， {3}时的约会。\n\n约会可能因为各种原因被临时取消， 最常见的是由于殖民者被紧急征召、强制指配工作、因受伤等原因而无法移动。\n\n如果约会被迫取消， 原计划约会的两个人都会闷闷不乐。 殖民者也可能因为睡过头而错过约会。 这会让对方不太开心，不过不会存在太长时间的负面想法。</LetterDatePlanned>
+
+  <!-- Replaced vanilla letters -->
+  <LetterRejectedProposalPsychology>由于他们的性格差异， 他们的情绪和关系都会受到不同的影响。</LetterRejectedProposalPsychology>
+
+  <LetterLabelCourtshipDatePlanned>约会</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort} 约 {1_labelShort} 在 {2} ，{3}时出去约会。\n\n如果约会顺利，两人会对彼此更有好感，甚至可能决定成为恋人。糟糕的约会可能让他们不那么喜欢对方。如果任何一方被指派工作、被征召或因其他原因无法行动，约会可能会被取消。</LetterCourtshipDatePlanned>
+
+</LanguageData>

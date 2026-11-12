@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>治疗酒鬼</TreatLush.label>
+  <TreatLush.description>帮助酒鬼远离毒品。他们不会喜欢清醒的感觉。</TreatLush.description>
+  <TreatLush.jobString>正在治疗酒鬼。</TreatLush.jobString>
+  <TreatStoner.label>治疗烟鬼</TreatStoner.label>
+  <TreatStoner.description>帮助吸烟叶的人远离毒品。他们不会喜欢清醒的感觉。</TreatStoner.description>
+  <TreatStoner.jobString>正在治疗烟鬼。</TreatStoner.jobString>
+</LanguageData>

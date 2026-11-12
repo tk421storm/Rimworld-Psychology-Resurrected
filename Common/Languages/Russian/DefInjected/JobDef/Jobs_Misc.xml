@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Abuse.reportString>словесно оскорбляет TargetA.</Abuse.reportString>
+  <MakeAdvance.reportString>флиртует с TargetA.</MakeAdvance.reportString>
+  <BreakHunt.reportString>охотится на TargetA.</BreakHunt.reportString>
+  <DoLovinCasual.reportString>занимается любовью.</DoLovinCasual.reportString>
+  <DateDance.reportString>танцует с TargetA.</DateDance.reportString>
+  <DateWorkwatch.reportString>смотрит, как работает TargetA.</DateWorkwatch.reportString>
+  <Hug.reportString>обнимает TargetA.</Hug.reportString>
+</LanguageData>

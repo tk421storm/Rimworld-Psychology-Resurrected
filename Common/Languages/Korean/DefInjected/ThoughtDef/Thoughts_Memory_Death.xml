@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WitnessedDeathAllyBleedingHeart.stages.0.label>동료가 죽는 것을 봄</WitnessedDeathAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathAllyBleedingHeart.stages.0.description>우리 중 한 명이 죽는 걸 봤어. 그가 떠났다는 게 믿기지 않아. 다시는 그와 이야기할 수 없겠지.</WitnessedDeathAllyBleedingHeart.stages.0.description>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.label>낯선 사람이 죽는 것을 봄</WitnessedDeathNonAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.description>누군가 죽는 걸 봤어. 쓰러지면서 눈빛이 꺼져 가는 걸 봤어.</WitnessedDeathNonAllyBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.0.label>정당한 처형</KnowGuestExecutedBleedingHeart.stages.0.label>
+  <KnowGuestExecutedBleedingHeart.stages.0.description>죄를 지은 수감자나 손님이 처형됐어. 정당했지만, 그래도 생명을 빼앗는 건 견딜 수 없어.</KnowGuestExecutedBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.1.label>누군가 안락사됨</KnowGuestExecutedBleedingHeart.stages.1.label>
+  <KnowGuestExecutedBleedingHeart.stages.1.description>수감자나 손님이 안락사됐어. 인도적이었지만, 그래도 가슴이 찢어져.</KnowGuestExecutedBleedingHeart.stages.1.description>
+  <KnowGuestExecutedBleedingHeart.stages.2.label>누군가 처형됨</KnowGuestExecutedBleedingHeart.stages.2.label>
+  <KnowGuestExecutedBleedingHeart.stages.2.description>수감자나 손님이 냉혹하게 살해당했어. 믿을 수가 없어!</KnowGuestExecutedBleedingHeart.stages.2.description>
+  <KnowGuestExecutedBleedingHeart.stages.3.label>장기 적출로 누군가 죽음</KnowGuestExecutedBleedingHeart.stages.3.label>
+  <KnowGuestExecutedBleedingHeart.stages.3.description>정착지가 신체 부위를 떼어 가서 수감자나 손님이 죽었어. 너무 화가 나!</KnowGuestExecutedBleedingHeart.stages.3.description>
+  <KnowColonistExecutedBleedingHeart.stages.0.label>정착민의 정당한 처형</KnowColonistExecutedBleedingHeart.stages.0.label>
+  <KnowColonistExecutedBleedingHeart.stages.0.description>죄를 지은 정착민이 처형됐어. 정당했지만, 그래도 생명을 빼앗는 건 견딜 수 없어.</KnowColonistExecutedBleedingHeart.stages.0.description>
+  <KnowColonistExecutedBleedingHeart.stages.1.label>정착민 안락사</KnowColonistExecutedBleedingHeart.stages.1.label>
+  <KnowColonistExecutedBleedingHeart.stages.1.description>정착민이 안락사됐어. 인도적이었지만, 그래도 가슴이 찢어져.</KnowColonistExecutedBleedingHeart.stages.1.description>
+  <KnowColonistExecutedBleedingHeart.stages.2.label>정착민 처형</KnowColonistExecutedBleedingHeart.stages.2.label>
+  <KnowColonistExecutedBleedingHeart.stages.2.description>정착민이 냉혹하게 살해당했어. 믿을 수가 없어!</KnowColonistExecutedBleedingHeart.stages.2.description>
+  <KnowColonistExecutedBleedingHeart.stages.3.label>장기 적출로 정착민이 죽음</KnowColonistExecutedBleedingHeart.stages.3.label>
+  <KnowColonistExecutedBleedingHeart.stages.3.description>누군가 신체 부위를 떼어 가서 정착민이 죽었어. 너무 화가 나!</KnowColonistExecutedBleedingHeart.stages.3.description>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>무고한 수감자가 죽음</KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>우리 수감자 중 한 명이 해가 없는데도 죽었어. 우리에겐 수감자를 돌볼 의무가 있어. 죽이고 싶었다면 차라리 제대로 처형이라도 했어야지, 이런 야만을 허락하다니.</KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>
+  <KnowColonistDiedBleedingHeart.stages.0.label>정착민이 죽음</KnowColonistDiedBleedingHeart.stages.0.label>
+  <KnowColonistDiedBleedingHeart.stages.0.description>우리 중 한 명이 죽었어. 우리가 뭔가 다르게 했더라면...</KnowColonistDiedBleedingHeart.stages.0.description>
+</LanguageData>

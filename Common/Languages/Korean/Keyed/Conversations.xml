@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NumberOfShortTalks>10</NumberOfShortTalks>
+  <ShortTalk1>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 짧게 이야기했습니다.</ShortTalk1>
+  <ShortTalk2>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 짧은 대화를 나눴습니다.</ShortTalk2>
+  <ShortTalk3>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 잠깐 이야기했습니다.</ShortTalk3>
+  <ShortTalk4>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}에게 {0}에 대해 짧게 한마디 했습니다.</ShortTalk4>
+  <ShortTalk5>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 잠시 수다를 떨었습니다.</ShortTalk5>
+  <ShortTalk6>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}에게 지나가듯 {0} 이야기를 꺼냈습니다.</ShortTalk6>
+  <ShortTalk7>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}에게 {0}에 대해 재치 있는 말을 했습니다.</ShortTalk7>
+  <ShortTalk8>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}에게 {0}에 대해 한마디 던졌습니다.</ShortTalk8>
+  <ShortTalk9>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 몇 마디 주고받았습니다.</ShortTalk9>
+  <ShortTalk10>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 짧게 의견을 나눴습니다.</ShortTalk10>
+  <NumberOfNormalTalks>12</NumberOfNormalTalks>
+  <NormalTalk1>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 이야기했습니다.</NormalTalk1>
+  <NormalTalk2>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 대화를 나눴습니다.</NormalTalk2>
+  <NormalTalk3>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 토론했습니다.</NormalTalk3>
+  <NormalTalk4>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대한 생각을 비교했습니다.</NormalTalk4>
+  <NormalTalk5>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 담소를 나눴습니다.</NormalTalk5>
+  <NormalTalk6>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}에게 {0}에 대해 말했습니다.</NormalTalk6>
+  <NormalTalk7>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 논의했습니다.</NormalTalk7>
+  <NormalTalk8>{INITIATOR_labelShort}(이)가 {0}에 대한 {RECIPIENT_labelShort}의 의견을 들었습니다.</NormalTalk8>
+  <NormalTalk9>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대한 생각을 나눴습니다.</NormalTalk9>
+  <NormalTalk10>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}의 {0}에 대한 생각을 알게 되었습니다.</NormalTalk10>
+  <NormalTalk11>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 열띤 토론을 벌였습니다.</NormalTalk11>
+  <NormalTalk12>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 상의했습니다.</NormalTalk12>
+  <NumberOfLongTalks>8</NumberOfLongTalks>
+  <LongTalk1>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 오래 이야기했습니다.</LongTalk1>
+  <LongTalk2>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 긴 대화를 나눴습니다.</LongTalk2>
+  <LongTalk3>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) 한참 동안 {0}에 대해 이야기했습니다.</LongTalk3>
+  <LongTalk4>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 깊이 논의했습니다.</LongTalk4>
+  <LongTalk5>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 폭넓게 상의했습니다.</LongTalk5>
+  <LongTalk6>{INITIATOR_labelShort}(이)가 {0}에 대한 {RECIPIENT_labelShort}의 감정을 많이 알게 되었습니다.</LongTalk6>
+  <LongTalk7>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대한 깊은 생각을 나눴습니다.</LongTalk7>
+  <LongTalk8>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 긴 토론을 벌였습니다.</LongTalk8>
+  <NumberOfEpicTalks>6</NumberOfEpicTalks>
+  <EpicTalk1>{INITIATOR_labelShort}(이)가 {1_nameDef}와(과) {0}에 대해 몇 시간 동안 숙고했습니다.</EpicTalk1>
+  <EpicTalk2>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 끝없이 이야기했습니다.</EpicTalk2>
+  <EpicTalk3>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 아주 긴 대화를 나눴습니다.</EpicTalk3>
+  <EpicTalk4>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 끝도 없이 논쟁했습니다.</EpicTalk4>
+  <EpicTalk5>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}와(과) {0}에 대해 아주 길게 의견을 주고받았습니다.</EpicTalk5>
+  <EpicTalk6>{INITIATOR_labelShort}(이)가 {RECIPIENT_labelShort}에게 몇 시간 동안 {0}에 대해 속마음을 털어놓았습니다.</EpicTalk6>
+  <ConversationAnd> 및</ConversationAnd>
+</LanguageData>

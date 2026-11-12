@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<TreatedTrait>{0_labelShort}'s {1} has been successfully treated.</TreatedTrait>
+	<TreatmentFailedMessage>{0_labelShort}'s {1} treatment failed. It can be tried again in {2}.</TreatmentFailedMessage>
+	<MessageCuredAnxiety>{SURGEON_labelShort} has successfully cured {PATIENT_labelShort}'s anxiety.</MessageCuredAnxiety>
+</LanguageData>

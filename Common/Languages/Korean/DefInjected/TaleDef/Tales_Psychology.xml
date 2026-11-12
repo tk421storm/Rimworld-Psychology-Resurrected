@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatedPyromania.label>방화광 치료</TreatedPyromania.label>
+  <TreatedPyromania.rulePack.rulesStrings.0>tale_noun-&gt;[patient_nameShortDef]의 방화광 치료</TreatedPyromania.rulePack.rulesStrings.0>
+  <TreatedPyromania.rulePack.rulesStrings.1>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 침대 가장자리에 앉아 있습니다 [circumstance_group]</TreatedPyromania.rulePack.rulesStrings.1>
+  <TreatedPyromania.rulePack.rulesStrings.2>image-&gt;[patient_nameFull](이)가 이야기하는 동안 [psychologist_nameFull](이)가 고개를 끄덕입니다 [circumstance_group]</TreatedPyromania.rulePack.rulesStrings.2>
+  <TreatedPyromania.rulePack.rulesStrings.3>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 충동에 대해 이야기합니다 [circumstance_group]</TreatedPyromania.rulePack.rulesStrings.3>
+  <TreatedPyromania.rulePack.rulesStrings.4>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 메모를 하는 가운데</TreatedPyromania.rulePack.rulesStrings.4>
+  <TreatedPyromania.rulePack.rulesStrings.5>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 처방전을 쓰는 가운데</TreatedPyromania.rulePack.rulesStrings.5>
+  <TreatedPyromania.rulePack.rulesStrings.6>circumstance_phrase-&gt;회복으로 가는 길이 그려지는 가운데</TreatedPyromania.rulePack.rulesStrings.6>
+  <TreatedPyromania.rulePack.rulesStrings.7>circumstance_phrase-&gt;아주 이해심 있는 표정으로</TreatedPyromania.rulePack.rulesStrings.7>
+  <TreatedPyromania.rulePack.rulesStrings.8>desc_sentence-&gt;[psychologist_nameShortDef](은)는 자기가 뭘 하는지 아는 듯 보입니다.</TreatedPyromania.rulePack.rulesStrings.8>
+  <TreatedPyromania.rulePack.rulesStrings.9>desc_sentence-&gt;[psychologist_nameShortDef](은)는 일에 엄청나게 집중한 듯 보입니다.</TreatedPyromania.rulePack.rulesStrings.9>
+  <TreatedPyromania.rulePack.rulesStrings.10>desc_sentence-&gt;[psychologist_nameShortDef](은)는 진지하지만 친절한 태도입니다.</TreatedPyromania.rulePack.rulesStrings.10>
+  <TreatedPyromania.rulePack.rulesStrings.11>desc_sentence-&gt;[patient_nameShortDef](이)가 미소 짓고 있습니다.</TreatedPyromania.rulePack.rulesStrings.11>
+  <TreatedPyromania.rulePack.rulesStrings.12>desc_sentence-&gt;[patient_nameShortDef](은)는 새사람이 된 듯 보입니다.</TreatedPyromania.rulePack.rulesStrings.12>
+  <TreatedDrugDesire.label>약물 욕구 치료</TreatedDrugDesire.label>
+  <TreatedDrugDesire.rulePack.rulesStrings.0>tale_noun-&gt;[patient_nameShortDef]의 약물 중독 치료</TreatedDrugDesire.rulePack.rulesStrings.0>
+  <TreatedDrugDesire.rulePack.rulesStrings.1>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 침대 가장자리에 앉아 있습니다 [circumstance_group]</TreatedDrugDesire.rulePack.rulesStrings.1>
+  <TreatedDrugDesire.rulePack.rulesStrings.2>image-&gt;[patient_nameFull](이)가 이야기하는 동안 [psychologist_nameFull](이)가 고개를 끄덕입니다 [circumstance_group]</TreatedDrugDesire.rulePack.rulesStrings.2>
+  <TreatedDrugDesire.rulePack.rulesStrings.3>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 충동에 대해 이야기합니다 [circumstance_group]</TreatedDrugDesire.rulePack.rulesStrings.3>
+  <TreatedDrugDesire.rulePack.rulesStrings.4>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 메모를 하는 가운데</TreatedDrugDesire.rulePack.rulesStrings.4>
+  <TreatedDrugDesire.rulePack.rulesStrings.5>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 처방전을 쓰는 가운데</TreatedDrugDesire.rulePack.rulesStrings.5>
+  <TreatedDrugDesire.rulePack.rulesStrings.6>circumstance_phrase-&gt;회복으로 가는 길이 그려지는 가운데</TreatedDrugDesire.rulePack.rulesStrings.6>
+  <TreatedDrugDesire.rulePack.rulesStrings.7>circumstance_phrase-&gt;아주 이해심 있는 표정으로</TreatedDrugDesire.rulePack.rulesStrings.7>
+  <TreatedDrugDesire.rulePack.rulesStrings.8>desc_sentence-&gt;[psychologist_nameShortDef](은)는 자기가 뭘 하는지 아는 듯 보입니다.</TreatedDrugDesire.rulePack.rulesStrings.8>
+  <TreatedDrugDesire.rulePack.rulesStrings.9>desc_sentence-&gt;[psychologist_nameShortDef](은)는 일에 엄청나게 집중한 듯 보입니다.</TreatedDrugDesire.rulePack.rulesStrings.9>
+  <TreatedDrugDesire.rulePack.rulesStrings.10>desc_sentence-&gt;[psychologist_nameShortDef](은)는 진지하지만 친절한 태도입니다.</TreatedDrugDesire.rulePack.rulesStrings.10>
+  <TreatedDrugDesire.rulePack.rulesStrings.11>desc_sentence-&gt;[patient_nameShortDef](이)가 미소 짓고 있습니다.</TreatedDrugDesire.rulePack.rulesStrings.11>
+  <TreatedDrugDesire.rulePack.rulesStrings.12>desc_sentence-&gt;[patient_nameShortDef](은)는 새사람이 된 듯 보입니다.</TreatedDrugDesire.rulePack.rulesStrings.12>
+  <TreatedDepression.label>우울증 치료</TreatedDepression.label>
+  <TreatedDepression.rulePack.rulesStrings.0>tale_noun-&gt;[patient_nameShortDef]의 우울증 심리 치료</TreatedDepression.rulePack.rulesStrings.0>
+  <TreatedDepression.rulePack.rulesStrings.1>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 침대 가장자리에 앉아 있습니다 [circumstance_group]</TreatedDepression.rulePack.rulesStrings.1>
+  <TreatedDepression.rulePack.rulesStrings.2>image-&gt;[patient_nameFull](이)가 이야기하는 동안 [psychologist_nameFull](이)가 고개를 끄덕입니다 [circumstance_group]</TreatedDepression.rulePack.rulesStrings.2>
+  <TreatedDepression.rulePack.rulesStrings.3>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 충동에 대해 이야기합니다 [circumstance_group]</TreatedDepression.rulePack.rulesStrings.3>
+  <TreatedDepression.rulePack.rulesStrings.4>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 메모를 하는 가운데</TreatedDepression.rulePack.rulesStrings.4>
+  <TreatedDepression.rulePack.rulesStrings.5>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 처방전을 쓰는 가운데</TreatedDepression.rulePack.rulesStrings.5>
+  <TreatedDepression.rulePack.rulesStrings.6>circumstance_phrase-&gt;정상으로 돌아가는 길이 그려지는 가운데</TreatedDepression.rulePack.rulesStrings.6>
+  <TreatedDepression.rulePack.rulesStrings.7>circumstance_phrase-&gt;아주 이해심 있는 표정으로</TreatedDepression.rulePack.rulesStrings.7>
+  <TreatedDepression.rulePack.rulesStrings.8>desc_sentence-&gt;[psychologist_nameShortDef](은)는 자기가 뭘 하는지 아는 듯 보입니다.</TreatedDepression.rulePack.rulesStrings.8>
+  <TreatedDepression.rulePack.rulesStrings.9>desc_sentence-&gt;[psychologist_nameShortDef](은)는 일에 엄청나게 집중한 듯 보입니다.</TreatedDepression.rulePack.rulesStrings.9>
+  <TreatedDepression.rulePack.rulesStrings.10>desc_sentence-&gt;[psychologist_nameShortDef](은)는 진지하지만 친절한 태도입니다.</TreatedDepression.rulePack.rulesStrings.10>
+  <TreatedDepression.rulePack.rulesStrings.11>desc_sentence-&gt;[patient_nameShortDef](이)가 희미하게 미소 짓고 있습니다.</TreatedDepression.rulePack.rulesStrings.11>
+  <TreatedDepression.rulePack.rulesStrings.12>desc_sentence-&gt;[patient_nameShortDef](은)는 조금 더 행복해 보입니다.</TreatedDepression.rulePack.rulesStrings.12>
+  <TreatedInsomnia.label>불면증 치료</TreatedInsomnia.label>
+  <TreatedInsomnia.rulePack.rulesStrings.0>tale_noun-&gt;[patient_nameShortDef]의 불면증 심리 치료</TreatedInsomnia.rulePack.rulesStrings.0>
+  <TreatedInsomnia.rulePack.rulesStrings.1>image-&gt;[patient_nameFull](이)가 멍한 눈의 좀비처럼 보입니다 [circumstance_group]</TreatedInsomnia.rulePack.rulesStrings.1>
+  <TreatedInsomnia.rulePack.rulesStrings.2>image-&gt;[patient_nameFull](이)가 [psychologist_nameFull]와(과)의 상담 중에 꾸벅꾸벅 졸고 있습니다</TreatedInsomnia.rulePack.rulesStrings.2>
+  <TreatedInsomnia.rulePack.rulesStrings.3>image-&gt;[psychologist_nameFull](이)가 [patient_nameFull]의 수면 문제에 대해 이야기합니다 [circumstance_group]</TreatedInsomnia.rulePack.rulesStrings.3>
+  <TreatedInsomnia.rulePack.rulesStrings.4>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 메모를 하는 가운데</TreatedInsomnia.rulePack.rulesStrings.4>
+  <TreatedInsomnia.rulePack.rulesStrings.5>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 처방전을 쓰는 가운데</TreatedInsomnia.rulePack.rulesStrings.5>
+  <TreatedInsomnia.rulePack.rulesStrings.6>circumstance_phrase-&gt;[psychologist_nameShortDef](이)가 [patient_nameShortDef]에게 약병을 건네는 가운데</TreatedInsomnia.rulePack.rulesStrings.6>
+  <TreatedInsomnia.rulePack.rulesStrings.7>circumstance_phrase-&gt;[patient_nameShortDef]의 머리 위로 Z가 둥둥 떠다니는 가운데</TreatedInsomnia.rulePack.rulesStrings.7>
+  <TreatedInsomnia.rulePack.rulesStrings.8>desc_sentence-&gt;[psychologist_nameShortDef](은)는 자기가 뭘 하는지 아는 듯 보입니다.</TreatedInsomnia.rulePack.rulesStrings.8>
+  <TreatedInsomnia.rulePack.rulesStrings.9>desc_sentence-&gt;[psychologist_nameShortDef](이)가 [patient_nameShortDef]의 어깨를 토닥이고 있습니다.</TreatedInsomnia.rulePack.rulesStrings.9>
+  <TreatedInsomnia.rulePack.rulesStrings.10>desc_sentence-&gt;[psychologist_nameShortDef](은)는 진지하지만 친절한 태도입니다.</TreatedInsomnia.rulePack.rulesStrings.10>
+  <TreatedInsomnia.rulePack.rulesStrings.11>desc_sentence-&gt;[patient_nameShortDef](이)가 마침내 푹 자고 있습니다.</TreatedInsomnia.rulePack.rulesStrings.11>
+  <TreatedInsomnia.rulePack.rulesStrings.12>desc_sentence-&gt;[patient_nameShortDef](은)는 어서 잠자리에 들고 싶어 보입니다.</TreatedInsomnia.rulePack.rulesStrings.12>
+  <CuredAnxiety.label>불안 완치</CuredAnxiety.label>
+  <CuredAnxiety.rulePack.rulesStrings.0>tale_noun-&gt;[patient_nameShortDef]의 불안 치료</CuredAnxiety.rulePack.rulesStrings.0>
+  <CuredAnxiety.rulePack.rulesStrings.1>image-&gt;[doctor_nameFull](이)가 빛나는 세계의 의료 키트를 열고 있습니다 [circumstance_group]</CuredAnxiety.rulePack.rulesStrings.1>
+  <CuredAnxiety.rulePack.rulesStrings.2>image-&gt;[doctor_nameFull](이)가 [patient_nameFull]의 머릿속을 손보고 있습니다 [circumstance_group]</CuredAnxiety.rulePack.rulesStrings.2>
+  <CuredAnxiety.rulePack.rulesStrings.3>image-&gt;[patient_nameFull](이)가 미래적인 의료 도구 더미를 불안하게 바라봅니다 [circumstance_group]</CuredAnxiety.rulePack.rulesStrings.3>
+  <CuredAnxiety.rulePack.rulesStrings.4>circumstance_phrase-&gt;[patient_nameShortDef](이)가 그 어느 때보다 불안해하는 가운데</CuredAnxiety.rulePack.rulesStrings.4>
+  <CuredAnxiety.rulePack.rulesStrings.5>circumstance_phrase-&gt;[doctor_nameShortDef](이)가 치료가 얼마나 어려운지 말하는 가운데</CuredAnxiety.rulePack.rulesStrings.5>
+  <CuredAnxiety.rulePack.rulesStrings.6>circumstance_phrase-&gt;[doctor_nameShortDef](이)가 빛나는 세계의 치료 발전을 칭찬하는 가운데</CuredAnxiety.rulePack.rulesStrings.6>
+  <CuredAnxiety.rulePack.rulesStrings.7>circumstance_phrase-&gt;[patient_nameShortDef]의 마음속 악마들이 상징적으로 머리 주위를 맴도는 가운데</CuredAnxiety.rulePack.rulesStrings.7>
+  <CuredAnxiety.rulePack.rulesStrings.8>circumstance_phrase-&gt;불안의 물리적 형상이 [patient_nameShortDef] 뒤에 떠 있는 가운데</CuredAnxiety.rulePack.rulesStrings.8>
+  <CuredAnxiety.rulePack.rulesStrings.9>desc_sentence-&gt;[doctor_nameShortDef](은)는 자기가 뭘 하는지 아는 듯 보입니다.</CuredAnxiety.rulePack.rulesStrings.9>
+  <CuredAnxiety.rulePack.rulesStrings.10>desc_sentence-&gt;[doctor_nameShortDef](이)가 [patient_nameShortDef](을)를 안심시키고 있습니다.</CuredAnxiety.rulePack.rulesStrings.10>
+  <CuredAnxiety.rulePack.rulesStrings.11>desc_sentence-&gt;[patient_nameShortDef](은)는 불안 없는 삶을 상상하기 어렵습니다.</CuredAnxiety.rulePack.rulesStrings.11>
+  <CuredAnxiety.rulePack.rulesStrings.12>desc_sentence-&gt;[patient_nameShortDef](은)는 눈이 휘둥그레져 있습니다.</CuredAnxiety.rulePack.rulesStrings.12>
+  <CuredAnxiety.rulePack.rulesStrings.13>desc_sentence-&gt;[patient_nameShortDef]의 가족들이 멀리서 지켜보고 있습니다.</CuredAnxiety.rulePack.rulesStrings.13>
+  <MentalStateTantrum.label>파괴적 분노</MentalStateTantrum.label>
+  <MentalStateTantrum.rulePack.rulesStrings.0>tale_noun-&gt;[PAWN_nameDef]의 분노 발작</MentalStateTantrum.rulePack.rulesStrings.0>
+  <MentalStateTantrum.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 파괴적인 분노에 빠집니다 [circumstance_group]</MentalStateTantrum.rulePack.rulesStrings.1>
+  <MentalStateTantrum.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 가구에 화풀이를 합니다 [circumstance_group]</MentalStateTantrum.rulePack.rulesStrings.2>
+  <MentalStateTantrum.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 광기 어린 눈으로 가구에 걸려 비틀거립니다 [circumstance_group]</MentalStateTantrum.rulePack.rulesStrings.3>
+  <MentalStateTantrum.rulePack.rulesStrings.4>circumstance_phrase-&gt;격렬하게 욕설을 퍼부으며</MentalStateTantrum.rulePack.rulesStrings.4>
+  <MentalStateTantrum.rulePack.rulesStrings.5>circumstance_phrase-&gt;아무 이유도 없이</MentalStateTantrum.rulePack.rulesStrings.5>
+  <MentalStateTantrum.rulePack.rulesStrings.6>circumstance_phrase-&gt;다른 사람들이 겁에 질려 움츠러든 가운데</MentalStateTantrum.rulePack.rulesStrings.6>
+  <MentalStateTantrum.rulePack.rulesStrings.7>circumstance_phrase-&gt;다른 사람들이 공포에 질려 지켜보는 가운데</MentalStateTantrum.rulePack.rulesStrings.7>
+  <MentalStateTantrum.rulePack.rulesStrings.8>circumstance_phrase-&gt;스트레스 때문에</MentalStateTantrum.rulePack.rulesStrings.8>
+  <MentalStateTantrum.rulePack.rulesStrings.9>circumstance_phrase-&gt;비명을 지르며</MentalStateTantrum.rulePack.rulesStrings.9>
+  <MentalStateTantrum.rulePack.rulesStrings.10>circumstance_phrase-&gt;분노로 몸을 떨며</MentalStateTantrum.rulePack.rulesStrings.10>
+  <MentalStateTantrum.rulePack.rulesStrings.11>desc_sentence-&gt;[PAWN_nameDef](은)는 억누를 수 없는 분노로 떨고 있습니다.</MentalStateTantrum.rulePack.rulesStrings.11>
+  <MentalStateTantrum.rulePack.rulesStrings.12>desc_sentence-&gt;이를 드러낸 채 살기 어린 표정을 짓고 있습니다.</MentalStateTantrum.rulePack.rulesStrings.12>
+  <MentalStateTantrum.rulePack.rulesStrings.13>desc_sentence-&gt;눈은 광기로 가득한 죽은 우물 같습니다.</MentalStateTantrum.rulePack.rulesStrings.13>
+  <MentalStateTantrum.rulePack.rulesStrings.14>desc_sentence-&gt;[PAWN_nameDef]의 주먹에는 멍이 들어 있습니다.</MentalStateTantrum.rulePack.rulesStrings.14>
+  <MentalStateTantrum.rulePack.rulesStrings.15>desc_sentence-&gt;[PAWN_nameDef](이)가 괴로움에 얼굴을 찡그립니다.</MentalStateTantrum.rulePack.rulesStrings.15>
+  <MentalStateTantrum.rulePack.rulesStrings.16>desc_sentence-&gt;[PAWN_nameDef](이)가 머리 위로 의자를 들고 있습니다.</MentalStateTantrum.rulePack.rulesStrings.16>
+  <MentalStateTantrum.rulePack.rulesStrings.17>desc_sentence-&gt;온몸이 증오로 떨리고 있습니다.</MentalStateTantrum.rulePack.rulesStrings.17>
+  <MentalStateTantrum.rulePack.rulesStrings.18>desc_sentence-&gt;한 줄기 눈물이 얼굴을 타고 흐릅니다.</MentalStateTantrum.rulePack.rulesStrings.18>
+  <MentalStateSelfHarm.label>깊은 우울</MentalStateSelfHarm.label>
+  <MentalStateSelfHarm.rulePack.rulesStrings.0>tale_noun-&gt;스스로를 해치는 [PAWN_nameDef]</MentalStateSelfHarm.rulePack.rulesStrings.0>
+  <MentalStateSelfHarm.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 손목을 긋고 있습니다 [circumstance_group]</MentalStateSelfHarm.rulePack.rulesStrings.1>
+  <MentalStateSelfHarm.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 자신의 피 웅덩이 속에 앉아 있습니다 [circumstance_group]</MentalStateSelfHarm.rulePack.rulesStrings.2>
+  <MentalStateSelfHarm.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 허공을 응시합니다 [circumstance_group]</MentalStateSelfHarm.rulePack.rulesStrings.3>
+  <MentalStateSelfHarm.rulePack.rulesStrings.4>circumstance_phrase-&gt;신음하며</MentalStateSelfHarm.rulePack.rulesStrings.4>
+  <MentalStateSelfHarm.rulePack.rulesStrings.5>circumstance_phrase-&gt;방에 웅크린 채</MentalStateSelfHarm.rulePack.rulesStrings.5>
+  <MentalStateSelfHarm.rulePack.rulesStrings.6>circumstance_phrase-&gt;말 한마디 없이</MentalStateSelfHarm.rulePack.rulesStrings.6>
+  <MentalStateSelfHarm.rulePack.rulesStrings.7>circumstance_phrase-&gt;흐느끼며</MentalStateSelfHarm.rulePack.rulesStrings.7>
+  <MentalStateSelfHarm.rulePack.rulesStrings.8>desc_sentence-&gt;[PAWN_nameDef](은)는 창백하고 병약해 보입니다.</MentalStateSelfHarm.rulePack.rulesStrings.8>
+  <MentalStateSelfHarm.rulePack.rulesStrings.9>desc_sentence-&gt;팔이 힘없이 축 늘어져 있습니다.</MentalStateSelfHarm.rulePack.rulesStrings.9>
+  <MentalStateSelfHarm.rulePack.rulesStrings.10>desc_sentence-&gt;옷에 피가 묻어 있습니다.</MentalStateSelfHarm.rulePack.rulesStrings.10>
+  <MentalStateSelfHarm.rulePack.rulesStrings.11>desc_sentence-&gt;[PAWN_nameDef](이)가 바닥에 앉아 앞뒤로 몸을 흔듭니다.</MentalStateSelfHarm.rulePack.rulesStrings.11>
+  <MentalStateSelfHarm.rulePack.rulesStrings.12>desc_sentence-&gt;[PAWN_nameDef](은)는 텅 빈 눈빛입니다.</MentalStateSelfHarm.rulePack.rulesStrings.12>
+  <MentalStateApathy.label>무기력</MentalStateApathy.label>
+  <MentalStateApathy.rulePack.rulesStrings.0>tale_noun-&gt;무기력하게 떠도는 [PAWN_nameDef]</MentalStateApathy.rulePack.rulesStrings.0>
+  <MentalStateApathy.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 무기력하게 정착지를 떠돕니다 [circumstance_group]</MentalStateApathy.rulePack.rulesStrings.1>
+  <MentalStateApathy.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 기운 없이 늘어져 있습니다 [circumstance_group]</MentalStateApathy.rulePack.rulesStrings.2>
+  <MentalStateApathy.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 일을 피하고 있습니다 [circumstance_group]</MentalStateApathy.rulePack.rulesStrings.3>
+  <MentalStateApathy.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 마지못해 일을 하고 있습니다 [circumstance_group]</MentalStateApathy.rulePack.rulesStrings.4>
+  <MentalStateApathy.rulePack.rulesStrings.5>image-&gt;[PAWN_nameFull](이)가 빈둥거리고 있습니다 [circumstance_group]</MentalStateApathy.rulePack.rulesStrings.5>
+  <MentalStateApathy.rulePack.rulesStrings.6>circumstance_phrase-&gt;짜증 난 표정으로</MentalStateApathy.rulePack.rulesStrings.6>
+  <MentalStateApathy.rulePack.rulesStrings.7>circumstance_phrase-&gt;뾰로통하게</MentalStateApathy.rulePack.rulesStrings.7>
+  <MentalStateApathy.rulePack.rulesStrings.8>circumstance_phrase-&gt;투덜거리며</MentalStateApathy.rulePack.rulesStrings.8>
+  <MentalStateApathy.rulePack.rulesStrings.9>circumstance_phrase-&gt;눈을 반쯤 감은 채</MentalStateApathy.rulePack.rulesStrings.9>
+  <MentalStateApathy.rulePack.rulesStrings.10>desc_sentence-&gt;[PAWN_nameDef](은)는 지쳐 보입니다.</MentalStateApathy.rulePack.rulesStrings.10>
+  <MentalStateApathy.rulePack.rulesStrings.11>desc_sentence-&gt;[PAWN_nameDef](이)가 팔짱을 끼고 있습니다.</MentalStateApathy.rulePack.rulesStrings.11>
+  <MentalStateApathy.rulePack.rulesStrings.12>desc_sentence-&gt;[PAWN_nameDef](은)는 아무래도 상관없다는 표정입니다.</MentalStateApathy.rulePack.rulesStrings.12>
+  <MentalStateSadism.label>가학성</MentalStateSadism.label>
+  <MentalStateSadism.rulePack.rulesStrings.0>tale_noun-&gt;가학적으로 웃는 [PAWN_nameDef]</MentalStateSadism.rulePack.rulesStrings.0>
+  <MentalStateSadism.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 무기를 휘두릅니다 [circumstance_group]</MentalStateSadism.rulePack.rulesStrings.1>
+  <MentalStateSadism.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 혼자 중얼거립니다 [circumstance_group]</MentalStateSadism.rulePack.rulesStrings.2>
+  <MentalStateSadism.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 괴롭힐 희생자를 찾고 있습니다 [circumstance_group]</MentalStateSadism.rulePack.rulesStrings.3>
+  <MentalStateSadism.rulePack.rulesStrings.4>circumstance_phrase-&gt;이리저리 돌아다니며</MentalStateSadism.rulePack.rulesStrings.4>
+  <MentalStateSadism.rulePack.rulesStrings.5>circumstance_phrase-&gt;잔인한 미소를 띤 채</MentalStateSadism.rulePack.rulesStrings.5>
+  <MentalStateSadism.rulePack.rulesStrings.6>circumstance_phrase-&gt;위협적인 미소를 띤 채</MentalStateSadism.rulePack.rulesStrings.6>
+  <MentalStateSadism.rulePack.rulesStrings.7>desc_sentence-&gt;[PAWN_nameDef](은)는 정신이 나간 듯 보입니다.</MentalStateSadism.rulePack.rulesStrings.7>
+  <MentalStateSadism.rulePack.rulesStrings.8>desc_sentence-&gt;왼쪽 눈이 실룩거립니다.</MentalStateSadism.rulePack.rulesStrings.8>
+  <MentalStateSadism.rulePack.rulesStrings.9>desc_sentence-&gt;손이 떨리고 있습니다.</MentalStateSadism.rulePack.rulesStrings.9>
+  <MentalStateCompulsion.label>강박</MentalStateCompulsion.label>
+  <MentalStateCompulsion.rulePack.rulesStrings.0>tale_noun-&gt;신경질적으로 청소하는 [PAWN_nameDef]</MentalStateCompulsion.rulePack.rulesStrings.0>
+  <MentalStateCompulsion.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 강박적으로 자원을 정리합니다 [circumstance_group]</MentalStateCompulsion.rulePack.rulesStrings.1>
+  <MentalStateCompulsion.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 먼지와 때로 뒤덮여 있습니다 [circumstance_group]</MentalStateCompulsion.rulePack.rulesStrings.2>
+  <MentalStateCompulsion.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 강박적으로 바닥을 문지릅니다 [circumstance_group]</MentalStateCompulsion.rulePack.rulesStrings.3>
+  <MentalStateCompulsion.rulePack.rulesStrings.4>circumstance_phrase-&gt;혼자 중얼거리며</MentalStateCompulsion.rulePack.rulesStrings.4>
+  <MentalStateCompulsion.rulePack.rulesStrings.5>circumstance_phrase-&gt;땀을 뻘뻘 흘리며</MentalStateCompulsion.rulePack.rulesStrings.5>
+  <MentalStateCompulsion.rulePack.rulesStrings.6>circumstance_phrase-&gt;졸음과 싸우며</MentalStateCompulsion.rulePack.rulesStrings.6>
+  <MentalStateCompulsion.rulePack.rulesStrings.7>desc_sentence-&gt;[PAWN_nameDef](은)는 며칠째 잠을 못 잔 것 같습니다.</MentalStateCompulsion.rulePack.rulesStrings.7>
+  <MentalStateCompulsion.rulePack.rulesStrings.8>desc_sentence-&gt;[PAWN_nameDef](은)는 영양실조에 굶주린 듯 보입니다.</MentalStateCompulsion.rulePack.rulesStrings.8>
+  <MentalStateCompulsion.rulePack.rulesStrings.9>desc_sentence-&gt;[PAWN_nameDef](은)는 결연하고 광기 어린 눈빛입니다.</MentalStateCompulsion.rulePack.rulesStrings.9>
+  <MentalStateCompulsion.rulePack.rulesStrings.10>desc_sentence-&gt;손이 떨리고 있습니다.</MentalStateCompulsion.rulePack.rulesStrings.10>
+  <MentalStateAbuse.label>언어폭력</MentalStateAbuse.label>
+  <MentalStateAbuse.rulePack.rulesStrings.0>tale_noun-&gt;분노에 차 고함치는 [PAWN_nameDef]</MentalStateAbuse.rulePack.rulesStrings.0>
+  <MentalStateAbuse.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 이리저리 서성입니다 [circumstance_group]</MentalStateAbuse.rulePack.rulesStrings.1>
+  <MentalStateAbuse.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 여기저기 쿵쾅거리며 다닙니다 [circumstance_group]</MentalStateAbuse.rulePack.rulesStrings.2>
+  <MentalStateAbuse.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 싸울 상대를 찾고 있습니다 [circumstance_group]</MentalStateAbuse.rulePack.rulesStrings.3>
+  <MentalStateAbuse.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 소리 지를 상대를 찾고 있습니다 [circumstance_group]</MentalStateAbuse.rulePack.rulesStrings.4>
+  <MentalStateAbuse.rulePack.rulesStrings.5>circumstance_phrase-&gt;다른 사람들이 못마땅하게 바라보는 가운데</MentalStateAbuse.rulePack.rulesStrings.5>
+  <MentalStateAbuse.rulePack.rulesStrings.6>circumstance_phrase-&gt;다른 사람들이 못마땅하다는 듯 고개를 젓는 가운데</MentalStateAbuse.rulePack.rulesStrings.6>
+  <MentalStateAbuse.rulePack.rulesStrings.7>circumstance_phrase-&gt;다른 사람들이 눈을 피하는 가운데</MentalStateAbuse.rulePack.rulesStrings.7>
+  <MentalStateAbuse.rulePack.rulesStrings.8>circumstance_phrase-&gt;다른 사람들이 [PAWN_nameDef]에게서 물러서는 가운데</MentalStateAbuse.rulePack.rulesStrings.8>
+  <MentalStateAbuse.rulePack.rulesStrings.9>circumstance_phrase-&gt;눈을 가늘게 뜨고 이를 악문 채</MentalStateAbuse.rulePack.rulesStrings.9>
+  <MentalStateAbuse.rulePack.rulesStrings.10>desc_sentence-&gt;입에서 침이 튀고 있습니다.</MentalStateAbuse.rulePack.rulesStrings.10>
+  <MentalStateAbuse.rulePack.rulesStrings.11>desc_sentence-&gt;얼굴이 새빨갛습니다.</MentalStateAbuse.rulePack.rulesStrings.11>
+  <MentalStateAbuse.rulePack.rulesStrings.12>desc_sentence-&gt;온몸이 분노로 떨리고 있습니다.</MentalStateAbuse.rulePack.rulesStrings.12>
+  <MentalStateAbuse.rulePack.rulesStrings.13>desc_sentence-&gt;눈에 분노가 가득합니다.</MentalStateAbuse.rulePack.rulesStrings.13>
+  <MentalStateAntisocial.label>반사회적</MentalStateAntisocial.label>
+  <MentalStateAntisocial.rulePack.rulesStrings.0>tale_noun-&gt;정착지를 떠나는 [PAWN_nameDef]</MentalStateAntisocial.rulePack.rulesStrings.0>
+  <MentalStateAntisocial.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 정착지와 거리를 둡니다 [circumstance_group]</MentalStateAntisocial.rulePack.rulesStrings.1>
+  <MentalStateAntisocial.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 다른 정착민과의 접촉을 피합니다 [circumstance_group]</MentalStateAntisocial.rulePack.rulesStrings.2>
+  <MentalStateAntisocial.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 떠나고 있습니다 [circumstance_group]</MentalStateAntisocial.rulePack.rulesStrings.3>
+  <MentalStateAntisocial.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 도망치고 있습니다 [circumstance_group]</MentalStateAntisocial.rulePack.rulesStrings.4>
+  <MentalStateAntisocial.rulePack.rulesStrings.5>image-&gt;[PAWN_nameFull](이)가 황야로 들어갑니다 [circumstance_group]</MentalStateAntisocial.rulePack.rulesStrings.5>
+  <MentalStateAntisocial.rulePack.rulesStrings.6>image-&gt;[PAWN_nameFull](이)가 황야로 달아납니다 [circumstance_group]</MentalStateAntisocial.rulePack.rulesStrings.6>
+  <MentalStateAntisocial.rulePack.rulesStrings.7>circumstance_phrase-&gt;스트레스 때문에</MentalStateAntisocial.rulePack.rulesStrings.7>
+  <MentalStateAntisocial.rulePack.rulesStrings.8>circumstance_phrase-&gt;무표정한 얼굴로</MentalStateAntisocial.rulePack.rulesStrings.8>
+  <MentalStateAntisocial.rulePack.rulesStrings.9>circumstance_phrase-&gt;편집증적인 표정으로</MentalStateAntisocial.rulePack.rulesStrings.9>
+  <MentalStateAntisocial.rulePack.rulesStrings.10>desc_sentence-&gt;[PAWN_nameDef](은)는 피곤하고 지쳐 보입니다.</MentalStateAntisocial.rulePack.rulesStrings.10>
+  <MentalStateAntisocial.rulePack.rulesStrings.11>desc_sentence-&gt;얼굴이 창백합니다.</MentalStateAntisocial.rulePack.rulesStrings.11>
+  <MentalStateAntisocial.rulePack.rulesStrings.12>desc_sentence-&gt;고개를 숙이고 있습니다.</MentalStateAntisocial.rulePack.rulesStrings.12>
+  <MentalStateHistrionic.label>연극성</MentalStateHistrionic.label>
+  <MentalStateHistrionic.rulePack.rulesStrings.0>tale_noun-&gt;필사적으로 관심을 끄는 [PAWN_nameDef]</MentalStateHistrionic.rulePack.rulesStrings.0>
+  <MentalStateHistrionic.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 누군가를 쫓아다닙니다 [circumstance_group]</MentalStateHistrionic.rulePack.rulesStrings.1>
+  <MentalStateHistrionic.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 다른 정착민에게 어설프게 들이댑니다 [circumstance_group]</MentalStateHistrionic.rulePack.rulesStrings.2>
+  <MentalStateHistrionic.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 소란을 피웁니다 [circumstance_group]</MentalStateHistrionic.rulePack.rulesStrings.3>
+  <MentalStateHistrionic.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 이야기할 상대를 찾고 있습니다 [circumstance_group]</MentalStateHistrionic.rulePack.rulesStrings.4>
+  <MentalStateHistrionic.rulePack.rulesStrings.5>circumstance_phrase-&gt;광적인 표정으로</MentalStateHistrionic.rulePack.rulesStrings.5>
+  <MentalStateHistrionic.rulePack.rulesStrings.6>circumstance_phrase-&gt;애원하는 표정으로</MentalStateHistrionic.rulePack.rulesStrings.6>
+  <MentalStateHistrionic.rulePack.rulesStrings.7>circumstance_phrase-&gt;다른 사람들이 걱정스레 지켜보는 가운데</MentalStateHistrionic.rulePack.rulesStrings.7>
+  <MentalStateHistrionic.rulePack.rulesStrings.8>circumstance_phrase-&gt;전혀 자제하지 못한 채</MentalStateHistrionic.rulePack.rulesStrings.8>
+  <MentalStateHistrionic.rulePack.rulesStrings.9>circumstance_phrase-&gt;과장된 몸짓으로</MentalStateHistrionic.rulePack.rulesStrings.9>
+  <MentalStateHistrionic.rulePack.rulesStrings.10>desc_sentence-&gt;모두가 [PAWN_nameDef](을)를 피합니다.</MentalStateHistrionic.rulePack.rulesStrings.10>
+  <MentalStateHistrionic.rulePack.rulesStrings.11>desc_sentence-&gt;[PAWN_nameDef](이)가 손을 비비 꼬고 있습니다.</MentalStateHistrionic.rulePack.rulesStrings.11>
+  <MentalStateHistrionic.rulePack.rulesStrings.12>desc_sentence-&gt;[PAWN_nameDef](은)는 조급하고 관심에 목말라 보입니다.</MentalStateHistrionic.rulePack.rulesStrings.12>
+  <MentalStateHistrionic.rulePack.rulesStrings.13>desc_sentence-&gt;[PAWN_nameDef](이)가 사람들에게 말을 걸지만 모두 피합니다.</MentalStateHistrionic.rulePack.rulesStrings.13>
+  <MentalStateHistrionic.rulePack.rulesStrings.14>desc_sentence-&gt;[PAWN_nameDef](이)가 움직이는 건 뭐든 유혹하려 듭니다.</MentalStateHistrionic.rulePack.rulesStrings.14>
+  <MentalStateFellPlotting.label>흉악한 음모</MentalStateFellPlotting.label>
+  <MentalStateFellPlotting.rulePack.rulesStrings.0>tale_noun-&gt;흉악한 음모를 꾸미는 [PAWN_nameDef]</MentalStateFellPlotting.rulePack.rulesStrings.0>
+  <MentalStateFellPlotting.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 방에서 음모를 꾸밉니다 [circumstance_group]</MentalStateFellPlotting.rulePack.rulesStrings.1>
+  <MentalStateFellPlotting.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 책상 위로 몸을 숙이고 있습니다 [circumstance_group]</MentalStateFellPlotting.rulePack.rulesStrings.2>
+  <MentalStateFellPlotting.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 이리저리 서성입니다 [circumstance_group]</MentalStateFellPlotting.rulePack.rulesStrings.3>
+  <MentalStateFellPlotting.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 종이에 무언가를 휘갈겨 씁니다 [circumstance_group]</MentalStateFellPlotting.rulePack.rulesStrings.4>
+  <MentalStateFellPlotting.rulePack.rulesStrings.5>image-&gt;[PAWN_nameFull](이)가 무기를 들고 복도를 배회합니다 [circumstance_group]</MentalStateFellPlotting.rulePack.rulesStrings.5>
+  <MentalStateFellPlotting.rulePack.rulesStrings.6>image-&gt;[PAWN_nameFull](이)가 다른 정착민 뒤 배경에 서 있습니다</MentalStateFellPlotting.rulePack.rulesStrings.6>
+  <MentalStateFellPlotting.rulePack.rulesStrings.7>circumstance_phrase-&gt;혼자 중얼거리며</MentalStateFellPlotting.rulePack.rulesStrings.7>
+  <MentalStateFellPlotting.rulePack.rulesStrings.8>circumstance_phrase-&gt;편집증적인 표정으로</MentalStateFellPlotting.rulePack.rulesStrings.8>
+  <MentalStateFellPlotting.rulePack.rulesStrings.9>circumstance_phrase-&gt;광기 어린 눈빛으로</MentalStateFellPlotting.rulePack.rulesStrings.9>
+  <MentalStateFellPlotting.rulePack.rulesStrings.10>circumstance_phrase-&gt;음울한 표정으로</MentalStateFellPlotting.rulePack.rulesStrings.10>
+  <MentalStateFellPlotting.rulePack.rulesStrings.11>circumstance_phrase-&gt;알아들을 수 없게 지껄이며</MentalStateFellPlotting.rulePack.rulesStrings.11>
+  <MentalStateFellPlotting.rulePack.rulesStrings.12>circumstance_phrase-&gt;격하게 속삭이며</MentalStateFellPlotting.rulePack.rulesStrings.12>
+  <MentalStateFellPlotting.rulePack.rulesStrings.13>circumstance_phrase-&gt;혼잣말을 하며</MentalStateFellPlotting.rulePack.rulesStrings.13>
+  <MentalStateFellPlotting.rulePack.rulesStrings.14>desc_sentence-&gt;[PAWN_nameDef](이)가 훔친 무기를 들고 있습니다.</MentalStateFellPlotting.rulePack.rulesStrings.14>
+  <MentalStateFellPlotting.rulePack.rulesStrings.15>desc_sentence-&gt;[PAWN_nameDef](이)가 무기를 더 꽉 쥡니다.</MentalStateFellPlotting.rulePack.rulesStrings.15>
+  <MentalStateFellPlotting.rulePack.rulesStrings.16>desc_sentence-&gt;[PAWN_nameDef]의 눈빛에는 악의가 가득합니다.</MentalStateFellPlotting.rulePack.rulesStrings.16>
+  <MentalStateFellPlotting.rulePack.rulesStrings.17>desc_sentence-&gt;[PAWN_nameDef](은)는 결연해 보입니다.</MentalStateFellPlotting.rulePack.rulesStrings.17>
+  <MentalStateFellPlotting.rulePack.rulesStrings.18>desc_sentence-&gt;[PAWN_nameDef](이)가 관람자를 똑바로 응시합니다.</MentalStateFellPlotting.rulePack.rulesStrings.18>
+  <MentalStateParanoia.label>편집증</MentalStateParanoia.label>
+  <MentalStateParanoia.rulePack.rulesStrings.0>tale_noun-&gt;편집증에 사로잡힌 [PAWN_nameDef]</MentalStateParanoia.rulePack.rulesStrings.0>
+  <MentalStateParanoia.rulePack.rulesStrings.1>image-&gt;[PAWN_nameFull](이)가 편집증적인 횡설수설에 빠져 있습니다 [circumstance_group]</MentalStateParanoia.rulePack.rulesStrings.1>
+  <MentalStateParanoia.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 다른 정착민을 꾸짖습니다 [circumstance_group]</MentalStateParanoia.rulePack.rulesStrings.2>
+  <MentalStateParanoia.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 정착지를 정처 없이 떠돕니다 [circumstance_group]</MentalStateParanoia.rulePack.rulesStrings.3>
+  <MentalStateParanoia.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 지나가는 사람들에게 경고를 외칩니다 [circumstance_group]</MentalStateParanoia.rulePack.rulesStrings.4>
+  <MentalStateParanoia.rulePack.rulesStrings.5>image-&gt;[PAWN_nameFull](이)가 바닥에서 앞뒤로 몸을 흔듭니다 [circumstance_group]</MentalStateParanoia.rulePack.rulesStrings.5>
+  <MentalStateParanoia.rulePack.rulesStrings.6>circumstance_phrase-&gt;미친 표정으로</MentalStateParanoia.rulePack.rulesStrings.6>
+  <MentalStateParanoia.rulePack.rulesStrings.7>circumstance_phrase-&gt;멍한 표정으로</MentalStateParanoia.rulePack.rulesStrings.7>
+  <MentalStateParanoia.rulePack.rulesStrings.8>circumstance_phrase-&gt;겁에 질린 표정으로</MentalStateParanoia.rulePack.rulesStrings.8>
+  <MentalStateParanoia.rulePack.rulesStrings.9>circumstance_phrase-&gt;팔을 마구 휘저으며</MentalStateParanoia.rulePack.rulesStrings.9>
+  <MentalStateParanoia.rulePack.rulesStrings.10>circumstance_phrase-&gt;격하게 손짓하며</MentalStateParanoia.rulePack.rulesStrings.10>
+  <MentalStateParanoia.rulePack.rulesStrings.11>circumstance_phrase-&gt;스스로와 말다툼하며</MentalStateParanoia.rulePack.rulesStrings.11>
+  <MentalStateParanoia.rulePack.rulesStrings.12>desc_sentence-&gt;[PAWN_nameDef](이)가 소리치며 흐느낍니다.</MentalStateParanoia.rulePack.rulesStrings.12>
+  <MentalStateParanoia.rulePack.rulesStrings.13>desc_sentence-&gt;[PAWN_nameDef](이)가 겁에 질려 이리저리 고개를 돌립니다.</MentalStateParanoia.rulePack.rulesStrings.13>
+  <MentalStateParanoia.rulePack.rulesStrings.14>desc_sentence-&gt;[PAWN_nameDef](은)는 텅 빈 눈빛입니다.</MentalStateParanoia.rulePack.rulesStrings.14>
+  <MentalStateHuntingTrip.label>야생 도피</MentalStateHuntingTrip.label>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.0>tale_noun-&gt;정착지의 스트레스를 피해 야생으로 물러난 [PAWN_nameDef]</MentalStateHuntingTrip.rulePack.rulesStrings.0>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.1>tale_noun-&gt;사냥하러 정착지를 떠난 [PAWN_nameDef]</MentalStateHuntingTrip.rulePack.rulesStrings.1>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.2>image-&gt;[PAWN_nameFull](이)가 야생 동물을 몰래 쫓고 있습니다 [circumstance_group]</MentalStateHuntingTrip.rulePack.rulesStrings.2>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.3>image-&gt;[PAWN_nameFull](이)가 황야를 누빕니다 [circumstance_group]</MentalStateHuntingTrip.rulePack.rulesStrings.3>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.4>image-&gt;[PAWN_nameFull](이)가 자연 속에서 쉬고 있습니다 [circumstance_group]</MentalStateHuntingTrip.rulePack.rulesStrings.4>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.5>image-&gt;[PAWN_nameFull](이)가 뒤를 돌아보며 관람자에게서 멀어집니다 [circumstance_group]</MentalStateHuntingTrip.rulePack.rulesStrings.5>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.6>image-&gt;[PAWN_nameFull](이)가 황야 속으로 사라집니다 [circumstance_group]</MentalStateHuntingTrip.rulePack.rulesStrings.6>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.7>circumstance_phrase-&gt;음울한 표정으로</MentalStateHuntingTrip.rulePack.rulesStrings.7>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.8>circumstance_phrase-&gt;담담한 표정으로</MentalStateHuntingTrip.rulePack.rulesStrings.8>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.9>circumstance_phrase-&gt;멍한 눈빛으로</MentalStateHuntingTrip.rulePack.rulesStrings.9>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.10>circumstance_phrase-&gt;총을 손에 든 채</MentalStateHuntingTrip.rulePack.rulesStrings.10>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.11>circumstance_phrase-&gt;[Animal]에게 시선을 고정한 채</MentalStateHuntingTrip.rulePack.rulesStrings.11>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.12>circumstance_phrase-&gt;주변에 아무도 없는 가운데</MentalStateHuntingTrip.rulePack.rulesStrings.12>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.13>desc_sentence-&gt;[PAWN_nameDef](이)가 무기를 꽉 쥐고 있습니다.</MentalStateHuntingTrip.rulePack.rulesStrings.13>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.14>desc_sentence-&gt;[PAWN_nameDef](이)가 주변을 주의 깊게 살핍니다.</MentalStateHuntingTrip.rulePack.rulesStrings.14>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.15>desc_sentence-&gt;[PAWN_nameDef](은)는 모든 것에서 벗어나 안도한 듯 보입니다.</MentalStateHuntingTrip.rulePack.rulesStrings.15>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.16>desc_sentence-&gt;[PAWN_nameDef](이)가 정신이 팔린 사이 [Animal] 한 마리가 슬그머니 지나갑니다.</MentalStateHuntingTrip.rulePack.rulesStrings.16>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.17>desc_sentence-&gt;[Animal]들이 상징적으로 [PAWN_nameDef]의 양옆을 지키고 있습니다.</MentalStateHuntingTrip.rulePack.rulesStrings.17>
+  <MentalStateHuntingTrip.rulePack.rulesStrings.18>desc_sentence-&gt;배경에 [TerrainFeature](이)가 있습니다.</MentalStateHuntingTrip.rulePack.rulesStrings.18>
+</LanguageData>

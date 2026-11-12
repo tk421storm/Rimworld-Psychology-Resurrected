@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Vanilla Psycasts Expanded (VanillaExpanded.VPsycastsE): Word of Love uses Kinsey ratings instead of orientation traits. -->
+  <PropertyGroup>
+    <AssemblyName>PsychologyVPE</AssemblyName>
+    <RootNamespace>Psychology</RootNamespace>
+    <CompatModFolder>VanillaPsycastsExpanded</CompatModFolder>
+    <CompatReference>$(WorkshopDir)2842502659\$(RimWorldVersion)\Assemblies\VanillaPsycastsExpanded.dll;$(WorkshopDir)2023507013\$(RimWorldVersion)\Assemblies\VEF.dll</CompatReference>
+  </PropertyGroup>
+  <Import Project="..\Compat.targets" />
+</Project>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArrestPeacefullyChance.label>평화적 체포 확률</ArrestPeacefullyChance.label>
+  <ArrestPeacefullyChance.description>이 사람이 체포 대상을 저항 없이 투항하도록 설득할 기본 확률입니다.</ArrestPeacefullyChance.description>
+</LanguageData>

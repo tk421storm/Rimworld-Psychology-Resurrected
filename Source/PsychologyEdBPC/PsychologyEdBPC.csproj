@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- EdB Prepare Carefully (EdB.PrepareCarefully): Psyche button on the pawn-setup screen. Prepare Carefully has no 1.7 build yet, so this is skipped for 1.7. -->
+  <PropertyGroup>
+    <AssemblyName>PsychologyEdBPC</AssemblyName>
+    <RootNamespace>Psychology</RootNamespace>
+    <CompatModFolder>EdBPrepareCarefully</CompatModFolder>
+    <CompatReference>$(WorkshopDir)735106432\$(RimWorldVersion)\Assemblies\EdBPrepareCarefully.dll</CompatReference>
+  </PropertyGroup>
+  <Import Project="..\Compat.targets" />
+</Project>

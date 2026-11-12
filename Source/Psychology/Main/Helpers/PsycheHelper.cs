@@ -1,0 +1,431 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Verse;
+using UnityEngine;
+using RimWorld;
+using RimWorld.Planet;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+
+namespace Psychology;
+
+/// <summary>
+/// Grab-bag of helpers used everywhere: the "does this pawn have a psyche" check, comp access, seeding, the math
+/// helpers behind the rating model (normal CDF and its inverse, relativistic addition, the conversation saddle
+/// function), lookup tables built from the PersonalityNodeDefs, and sexuality/trait synchronisation.
+/// </summary>
+public static class PsycheHelper
+{
+  public static PsychologyGameComponent GameComp => Current.Game.GetComponent<PsychologyGameComponent>();
+  // Relative weights of Kinsey ratings 0 (straight) .. 6 (gay) for each "Kinsey formula" setting. Custom uses the
+  // weights in PsychologySettings.kinseyWeightCustom.
+  public static readonly Dictionary<KinseyMode, float[]> KinseyModeWeightDict = new Dictionary<KinseyMode, float[]>()
+    {
+        { KinseyMode.Realistic    , new float[] { 62.4949f, 11.3289f,  9.2658f,  6.8466f,  4.5220f,  2.7806f,  2.7612f } },
+        { KinseyMode.Invisible    , new float[] {  7.0701f, 11.8092f, 19.5541f, 23.1332f, 19.5541f, 11.8092f,  7.0701f } },
+        { KinseyMode.Uniform      , new float[] { 14.2857f, 14.2857f, 14.2857f, 14.2857f, 14.2857f, 14.2857f, 14.2857f } },
+        { KinseyMode.Gaypocalypse , new float[] {  2.7612f,  2.7806f,  4.5220f,  6.8466f,  9.2658f, 11.3289f, 62.4949f } },
+    };
+
+  public static HashSet<string> TraitDefNamesThatAffectPsyche = new HashSet<string>();
+
+  // Lookup tables built once from the PersonalityNodeDefs (InitializeDictionariesForPersonalityNodeDefs) so that
+  // Pawn_PsycheTracker.AdjustForCircumstance can go from a gender/skill/trait/work type straight to the affected node
+  // indices (into PersonalityNodeMatrix.indexDict) and their modifiers.
+  public static Dictionary<Gender, Dictionary<int, float>> GenderModifierNodeDefDict = new Dictionary<Gender, Dictionary<int, float>>();
+  public static Dictionary<SkillDef, HashSet<int>> SkillModifierNodeDefDict = new Dictionary<SkillDef, HashSet<int>>();
+  public static Dictionary<Pair<TraitDef, int>, Dictionary<int, float>> TraitModifierNodeDefDict = new Dictionary<Pair<TraitDef, int>, Dictionary<int, float>>();
+  public static Dictionary<WorkTypeDef, Dictionary<int, float>> IncapableModifierNodeDefDict = new Dictionary<WorkTypeDef, Dictionary<int, float>>();
+
+  public static int seed;
+  // Certainty per day per unit of (2 * rating - 1) * modifier; scaled by the "ideology/psyche" setting.
+  public static float DailyCertaintyChangeScale => 0.0015f * PsychologySettings.ideoPsycheMultiplier;
+  // Scratch fields reused by PsychologyEnabled() to avoid allocations. Not thread safe, but RimWorld's game logic is single-threaded.
+  public static CompPsychology comp;
+  public static SpeciesSettings settings;
+  public static bool flag;
+  public static float[] CircumstanceTimings = new float[25];
+  public static int CircumstanceCount = 0;
+
+  /// <summary>
+  /// The master switch used before touching a pawn's psyche: true if the pawn has a CompPsychology (adding it on the fly
+  /// for species registered late), psychology is enabled for its species in the mod settings, and the species counts as
+  /// sapient. Most patches fall back to vanilla behaviour when this is false.
+  /// </summary>
+  public static bool PsychologyEnabled(Pawn pawn)
+  {
+    if (HasLatentPsyche(pawn) != true)
+    {
+      return false;
+    }
+    if (SpeciesSettingsEnablePsyche(pawn) != true)
+    {
+      return false;
+    }
+    if (IsSapient(pawn) != true)
+    {
+      return false;
+    }
+    return true;
+  }
+
+  public static bool HasLatentPsyche(Pawn pawn)
+  {
+    if (pawn == null)
+    {
+      return false;
+    }
+    comp = Comp(pawn);
+    if (comp == null)
+    {
+      if (SpeciesHelper.CheckIntelligenceAndAddEverythingToSpeciesDef(pawn.def) != true)
+      {
+        return false;
+      }
+      comp = Comp(pawn);
+      if (comp == null)
+      {
+        Log.Error("PsychologyEnabled, comp == null after CheckIntelligenceAndAddEverythingToHumanlikeDef == true");
+        return false;
+      }
+    }
+    if (comp.IsPsychologyPawn != true)
+    {
+      return false;
+    }
+    return true;
+  }
+
+  public static bool SpeciesSettingsEnablePsyche(Pawn pawn)
+  {
+    settings = SpeciesHelper.GetOrMakeSpeciesSettingsFromThingDef(pawn.def);
+    return settings.enablePsyche == true;
+    ////Log.Message("PsychologyEnabled, settings.enablePsyche == true");
+  }
+
+  public static bool IsSapient(Pawn pawn)
+  {
+    return SpeciesHelper.IsHumanlikeIntelligence(pawn.def);
+  }
+
+  public static CompPsychology Comp(Pawn pawn)
+  {
+    return pawn.GetComp<CompPsychology>();
+  }
+
+  // Saves/loads a HashSet via a temporary List (older Scribe_Collections had no HashSet overload).
+  public static void Look<T>(ref HashSet<T> valueHashSet, string label, LookMode lookMode = LookMode.Undefined, params object[] ctorArgs)
+  {
+    List<T> list = null;
+    if (Scribe.mode == LoadSaveMode.Saving && valueHashSet != null)
+    {
+      list = new List<T>();
+      foreach (T current in valueHashSet)
+      {
+        list.Add(current);
+      }
+    }
+    Scribe_Collections.Look<T>(ref list, label, false, lookMode, ctorArgs);
+    if ((lookMode == LookMode.Reference && Scribe.mode == LoadSaveMode.ResolvingCrossRefs) || (lookMode != LookMode.Reference && Scribe.mode == LoadSaveMode.LoadingVars))
+    {
+      if (list == null)
+      {
+        valueHashSet = null;
+      }
+      else
+      {
+        valueHashSet = new HashSet<T>();
+        for (int i = 0; i < list.Count; i++)
+        {
+          valueHashSet.Add(list[i]);
+        }
+      }
+    }
+  }
+
+  public static void InitializeDictionariesForPersonalityNodeDefs()
+  {
+    Dictionary<PersonalityNodeDef, int> indexDict = PersonalityNodeMatrix.indexDict;
+    int index;
+
+    foreach (Gender gender in Gender.GetValues(typeof(Gender)))
+    {
+      GenderModifierNodeDefDict[gender] = new Dictionary<int, float>();
+    }
+
+    foreach (PersonalityNodeDef pDef in PersonalityNodeMatrix.DefList)
+    {
+      if (pDef.femaleModifier != default && pDef.femaleModifier != 0f)
+      {
+        index = indexDict[pDef];
+        GenderModifierNodeDefDict[Gender.Male][index] = -pDef.femaleModifier;
+        GenderModifierNodeDefDict[Gender.Female][index] = pDef.femaleModifier;
+      }
+
+      if (pDef.skillModifiers.NullOrEmpty() != true)
+      {
+        foreach (PersonalityNodeSkillModifier skillMod in pDef.skillModifiers)
+        {
+          if (SkillModifierNodeDefDict.ContainsKey(skillMod.skill) != true)
+          {
+            SkillModifierNodeDefDict[skillMod.skill] = new HashSet<int>();
+          }
+          SkillModifierNodeDefDict[skillMod.skill].Add(indexDict[pDef]);
+        }
+      }
+
+      if (pDef.traitModifiers.NullOrEmpty() != true)
+      {
+        foreach (PersonalityNodeTraitModifier traitMod in pDef.traitModifiers)
+        {
+          TraitDefNamesThatAffectPsyche.Add(traitMod.trait.defName);
+          Pair<TraitDef, int> pair = new Pair<TraitDef, int>(traitMod.trait, traitMod.degree);
+          if (TraitModifierNodeDefDict.ContainsKey(pair) != true)
+          {
+            TraitModifierNodeDefDict[pair] = new Dictionary<int, float>();
+          }
+          TraitModifierNodeDefDict[pair][indexDict[pDef]] = traitMod.modifier;
+        }
+      }
+
+      if (pDef.incapableModifiers.NullOrEmpty() != true)
+      {
+        foreach (PersonalityNodeIncapableModifier incapableMod in pDef.incapableModifiers)
+        {
+          if (IncapableModifierNodeDefDict.ContainsKey(incapableMod.type) != true)
+          {
+            IncapableModifierNodeDefDict[incapableMod.type] = new Dictionary<int, float>();
+          }
+          IncapableModifierNodeDefDict[incapableMod.type][indexDict[pDef]] = incapableMod.modifier;
+        }
+      }
+    }
+  }
+
+  // Convert between a species' biological age and the equivalent human age, by scaling so that the species'
+  // minimum dating age (setting) maps to 14 and its minimum lovin age maps to 16, the vanilla human thresholds.
+  public static float DatingBioAgeToVanilla(float bioAge, float minDatingAge)
+  {
+    return bioAge * 14f / minDatingAge;
+  }
+
+  public static float LovinBioAgeToVanilla(float bioAge, float minLovinAge)
+  {
+    return bioAge * 16f / minLovinAge;
+  }
+
+  public static float DatingBioAgeFromVanilla(float vanillaAge, float minDatingAge)
+  {
+    return vanillaAge * minDatingAge / 14f;
+  }
+
+  public static float LovinBioAgeFromVanilla(float vanillaAge, float minLovinAge)
+  {
+    return vanillaAge * minLovinAge / 16f;
+  }
+
+  // Box-Muller transform: a seeded standard normal sample from two seeded uniforms.
+  public static float RandGaussianSeeded(int specialSeed1, int specialSeed2, float centerX = 0f, float widthFactor = 1f)
+  {
+    float value = Rand.ValueSeeded(specialSeed1);
+    float value2 = Rand.ValueSeeded(specialSeed2);
+    return Mathf.Sqrt(-2f * Mathf.Log(value)) * Mathf.Sin((float)Math.PI * 2f * value2) * widthFactor + centerX;
+  }
+
+  // This saddle shaped function is used to calculate the opinion modifier due to differences in personality rating on a given convo topic
+  // The inputs x, y are the ratings and should range between 0 and 1.
+  // The gamma parameter controls how fast agreement drops off as a function of the difference between x and y
+  // The f0 parameter controls the value of the function when x = y = 1/2
+  // This function is invariant under both x,y -> y,x and x,y -> 1-x,1-y transformations
+  // This function reaches its maximum of +1 when x and y are both 0 or 1 (complete agreement on a topic)
+  // This function reaches its minimum of -1 when x=0 and y=1 or vice versa (complete disagreement on a topic)
+  public static float SaddleShapeFunction(float x, float y, float f0 = 0.5f, float gamma = 4f)
+  {
+    return (f0 - (1f + f0 + gamma) * Mathf.Pow(x - y, 2) + (1f - f0) * Mathf.Pow(x + y - 1f, 2)) / (1f + gamma * Mathf.Pow(x - y, 2));
+  }
+
+  public static float NormalCDF(float x0)
+  {
+    // constants
+    double a1 = 0.127414796;
+    double a2 = -0.142248368;
+    double a3 = 0.710706871;
+    double a4 = -0.726576014;
+    double a5 = 0.530702716;
+    double p = 0.231641888;
+    // Save the sign of x
+    bool sign = x0 > 0;
+    double x = Math.Abs(x0);
+    // A&S formula 7.1.26
+    double t = 1f / (1f + p * x);
+    double z = (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.Exp(-0.5f * x * x);
+    return (float)(sign ? 1 - z : z);
+  }
+
+  public static float NormalCDFInv(float p)
+  {
+    p = Mathf.Clamp(p, 0.0001f, 0.9999f);
+    if (p < 0.5f)
+    {
+      return -RationalApproximation(Mathf.Sqrt(-2f * Mathf.Log(p)));
+    }
+    else
+    {
+      return RationalApproximation(Mathf.Sqrt(-2f * Mathf.Log(1f - p)));
+    }
+  }
+
+  public static float RationalApproximation(float t0)
+  {
+    double t = (double)t0;
+    // Abramowitz and Stegun formula 26.2.23.
+    // The absolute value of the error should be less than 4.5 e-4.
+    double[] c = { 2.515517, 0.802853, 0.010328 };
+    double[] d = { 1.432788, 0.189269, 0.001308 };
+    double result =  t - ((c[2] * t + c[1]) * t + c[0]) / (((d[2] * t + d[1]) * t + d[0]) * t + 1f);
+    return (float)result;
+  }
+
+  // With the Kinsey system on, orientation lives in Pawn_SexualityTracker, so the vanilla Gay/Bisexual/Asexual traits are
+  // removed and the Kinsey rating / sex drive re-rolled to match the trait that was removed. Run on every pawn at load.
+  public static void CorrectTraitsForPawnKinseyEnabled(Pawn pawn)
+  {
+    if (pawn?.story?.traits == null)
+    {
+      return;
+    }
+    if (TryRemoveTraitDef(pawn, TraitDefOf.Asexual))
+    {
+      Log.Warning("CorrectTraitsForPawnKinseyEnabled, Removed Asexual trait from pawn = " + pawn.Label);
+      if (!PsychologyEnabled(pawn))
+      {
+        return;
+      }
+      Comp(pawn).Sexuality.AsexualTraitReroll();
+    }
+    if (TryRemoveTraitDef(pawn, TraitDefOf.Bisexual))
+    {
+      Log.Warning("CorrectTraitsForPawnKinseyEnabled, Removed Bisexual trait from pawn = " + pawn.Label);
+      if (!PsychologyEnabled(pawn))
+      {
+        return;
+      }
+      Comp(pawn).Sexuality.BisexualTraitReroll();
+    }
+    if (TryRemoveTraitDef(pawn, TraitDefOf.Gay))
+    {
+      Log.Warning("CorrectTraitsForPawnKinseyEnabled, Removed Gay trait from pawn = " + pawn.Label);
+      if (!PsychologyEnabled(pawn))
+      {
+        return;
+      }
+      Comp(pawn).Sexuality.GayTraitReroll();
+    }
+  }
+
+  // With the Kinsey system off, the vanilla traits are the source of truth again; this tries to give pawns the traits
+  // that match their stored Kinsey rating. The orientation traits are mutually exclusive in vanilla, so an asexual pawn
+  // gets no other.
+  public static void CorrectTraitsForPawnKinseyDisabled(Pawn pawn)
+  {
+    if (!PsycheHelper.PsychologyEnabled(pawn) || pawn?.story?.traits == null)
+    {
+      return;
+    }
+    int kinseyRating = PsycheHelper.Comp(pawn).Sexuality.kinseyRating;
+    if (PsycheHelper.Comp(pawn).Sexuality.sexDrive < 0.1f)
+    {
+      TryRemoveTraitDef(pawn, TraitDefOf.Bisexual);
+      TryRemoveTraitDef(pawn, TraitDefOf.Gay);
+      TryGainTraitDef(pawn, TraitDefOf.Asexual);
+      return;
+    }
+    if (kinseyRating < 2)
+    {
+      // If pawn is mostly heterosexual
+      TryRemoveTraitDef(pawn, TraitDefOf.Bisexual);
+      TryRemoveTraitDef(pawn, TraitDefOf.Gay);
+    }
+    else if (kinseyRating < 5)
+    {
+      // If pawn is mostly bisexual
+      TryGainTraitDef(pawn, TraitDefOf.Bisexual);
+      TryRemoveTraitDef(pawn, TraitDefOf.Gay);
+    }
+    else
+    {
+      // If pawn is mostly homosexual
+      TryRemoveTraitDef(pawn, TraitDefOf.Bisexual);
+      TryGainTraitDef(pawn, TraitDefOf.Gay);
+    }
+  }
+
+  public static bool HasTraitDef(Pawn pawn, TraitDef traitDef)
+  {
+    foreach (Trait trait in pawn.story.traits.allTraits)
+    {
+      if (trait.def == traitDef)
+      {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // Adds the trait unless the pawn already has it.
+  public static bool TryGainTraitDef(Pawn pawn, TraitDef traitDef)
+  {
+    if (HasTraitDef(pawn, traitDef))
+    {
+      return false;
+    }
+    pawn.story.traits.GainTrait(new Trait(traitDef));
+    return true;
+  }
+
+  public static bool TryRemoveTraitDef(Pawn pawn, TraitDef traitDef)
+  {
+    foreach (Trait trait in pawn.story.traits.allTraits)
+    {
+      if (trait.def == traitDef)
+      {
+        pawn.story.traits.RemoveTrait(trait);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // Deterministic per-pawn seed: the same pawn in the same world always rolls the same personality and sexuality.
+  public static int PawnSeed(Pawn pawn)
+  {
+    int thingIDSeed = pawn.thingIDNumber;
+    int worldIDSeed = Find.World.info.Seed;
+    return Gen.HashCombineInt(thingIDSeed, worldIDSeed);
+  }
+
+  public static bool TryGetPawnSeed(Pawn pawn)
+  {
+    return true;
+    ////int childhoodSeed;
+  }
+
+  public static void TryGainMemoryReplacedPartBleedingHeart(Pawn pawn, Pawn billDoer)
+  {
+    if (billDoer?.needs?.mood != null)
+    {
+      billDoer.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOfPsychology.ReplacedPartBleedingHeart, pawn);
+    }
+  }
+
+  // Combines two modifiers in (-1, 1) like relativistic velocities: (u + v) / (1 + uv). The result stays inside (-1, 1),
+  // so any number of trait/skill modifiers can be stacked without overshooting, and stacking has diminishing returns.
+  public static float RelativisticAddition(float u, float v)
+  {
+    return (u + v) / (1f + u * v);
+  }
+
+}

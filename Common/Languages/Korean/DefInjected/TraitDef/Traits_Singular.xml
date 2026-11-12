@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Prude.degreeDatas.0.label>내숭쟁이</Prude.degreeDatas.0.label>
+  <Prude.degreeDatas.0.description>[PAWN_nameDef](은)는 인간의 몸을 보는 것을 싫어합니다. 알몸일 때 극도로 불행해하고, 해지거나 너덜너덜한 옷을 입으면 평소보다 더 불쾌해하며, 다른 사람의 알몸을 보는 것을 싫어합니다.</Prude.degreeDatas.0.description>
+  <Insomniac.degreeDatas.0.label>불면증</Insomniac.degreeDatas.0.label>
+  <Insomniac.degreeDatas.0.description>[PAWN_nameDef](은)는 질환 때문에 잠들기 어렵습니다. 수면을 덜 우선시하고, 더 일찍 깨며, 잠을 자도 덜 회복합니다.</Insomniac.degreeDatas.0.description>
+  <BleedingHeart.degreeDatas.0.label>마음 약함</BleedingHeart.degreeDatas.0.label>
+  <BleedingHeart.degreeDatas.0.description>[PAWN_nameDef](은)는 마음이 넓고 감정이 풍부합니다. 사람을 돕는 것을 아주 좋아하고 폭력과 불의를 혐오합니다. 이런 일에 다른 사람보다 더 큰 영향을 받습니다.</BleedingHeart.degreeDatas.0.description>
+  <Gourmet.degreeDatas.0.label>미식가</Gourmet.degreeDatas.0.label>
+  <Gourmet.degreeDatas.0.description>[PAWN_nameDef](은)는 음식에 늘 까다롭습니다. 잘 먹기를 기대하며, 식사가 기대에 못 미치면 불평합니다.</Gourmet.degreeDatas.0.description>
+  <Unstable.degreeDatas.0.label>불안정</Unstable.degreeDatas.0.label>
+  <Unstable.degreeDatas.0.description>[PAWN_nameDef](은)는 무작위 기분 변화를 더 자주 겪으며, 그 변화가 다른 사람보다 클 수 있습니다.</Unstable.degreeDatas.0.description>
+  <Lecher.degreeDatas.0.label>음탕함</Lecher.degreeDatas.0.label>
+  <Lecher.degreeDatas.0.description>[PAWN_nameDef](은)는 대놓고 음탕하며 무심하게 마음을 아프게 합니다. 결과는 신경 쓰지 않고 원하는 사람이면 누구에게나 추파를 던집니다.</Lecher.degreeDatas.0.description>
+  <Codependent.degreeDatas.0.label>상호의존적</Codependent.degreeDatas.0.label>
+  <Codependent.degreeDatas.0.description>[PAWN_nameDef](은)는 정서적으로 의존적이라 연애 중일 때만 행복합니다. 외도와 이별에 크게 상처받습니다.</Codependent.degreeDatas.0.description>
+  <Outdoorsy.degreeDatas.0.label>자연 애호가</Outdoorsy.degreeDatas.0.label>
+  <Outdoorsy.degreeDatas.0.description>[PAWN_nameDef](은)는 밖에 있는 것을 아주 좋아합니다. 머리 위에 지붕이 없을 때 기분 보너스를 받습니다.</Outdoorsy.degreeDatas.0.description>
+  <Pluviophile.degreeDatas.0.label>비 애호가</Pluviophile.degreeDatas.0.label>
+  <Pluviophile.degreeDatas.0.description>[PAWN_nameDef](은)는 비를 좋아합니다. 밖에 비가 쏟아질 때, 특히 빗속으로 나갈 수 있을 때 기분 보너스를 받습니다.</Pluviophile.degreeDatas.0.description>
+  <Photosensitive.degreeDatas.0.label>광과민성</Photosensitive.degreeDatas.0.label>
+  <Photosensitive.degreeDatas.0.description>[PAWN_nameDef](은)는 유전자 조작이나 무작위 돌연변이로 인해 눈이 빛에 극도로 민감합니다. 밝은 빛은 극심한 고통을, 실내조명은 불쾌감을 주며, 어둠 속에서 더 행복합니다.</Photosensitive.degreeDatas.0.description>
+  <Socialite.degreeDatas.0.label>파티광</Socialite.degreeDatas.0.label>
+  <Socialite.degreeDatas.0.description>[PAWN_nameDef](은)는 파티를 아주 좋아합니다! 모두가 함께 파티를 즐기고 싶어 하기 때문에, 존재만으로도 정착지에 파티가 더 자주 열립니다.</Socialite.degreeDatas.0.description>
+  <Desensitized.degreeDatas.0.label>무뎌짐</Desensitized.degreeDatas.0.label>
+  <Desensitized.degreeDatas.0.description>[PAWN_nameDef](은)는 폭력과 죽음을 너무 많이 봐서 더 이상 예전처럼 충격을 받지 않습니다.</Desensitized.degreeDatas.0.description>
+  <HeavySleeper.degreeDatas.0.label>깊은 잠</HeavySleeper.degreeDatas.0.label>
+  <HeavySleeper.degreeDatas.0.description>[PAWN_nameDef](은)는 세상모르고 자며 나쁜 수면 환경에도 개의치 않지만, 깨우기가 어렵습니다.</HeavySleeper.degreeDatas.0.description>
+  <Polygamous.degreeDatas.0.label>다자연애</Polygamous.degreeDatas.0.label>
+  <Polygamous.degreeDatas.0.description>[PAWN_nameDef](은)는 여러 연인을 두는 데 아무 문제를 느끼지 않습니다. 연인이 다른 사람과 로맨스를 해도 개의치 않지만, 제약이 많은 일대일 연애에서는 덜 행복합니다.</Polygamous.degreeDatas.0.description>
+  <OpenMinded.degreeDatas.0.label>열린 마음</OpenMinded.degreeDatas.0.label>
+  <OpenMinded.degreeDatas.0.description>[PAWN_nameDef](은)는 사람을 겉모습이 아니라 내면으로 봅니다. 외모로 다른 사람을 판단하지 않습니다.</OpenMinded.degreeDatas.0.description>
+  <Sedentary.degreeDatas.0.label>정적임</Sedentary.degreeDatas.0.label>
+  <Sedentary.degreeDatas.0.description>[PAWN_nameDef](은)는 그리 활동적인 사람이 아닙니다. 몸 상태가 좋지는 않지만, 하루 종일 앉아서 무언가에 몰두하는 것을 좋아합니다.</Sedentary.degreeDatas.0.description>
+  <Chatty.degreeDatas.0.label>수다쟁이</Chatty.degreeDatas.0.label>
+  <Chatty.degreeDatas.0.description>[PAWN_nameDef](은)는 말하고, 말하고, 또 말하고... 계속 말합니다. 대화를 끝내지 못해서 대부분의 사람보다 대화가 길어지는 편입니다.</Chatty.degreeDatas.0.description>
+  <Matriarch.degreeDatas.0.label>가부장</Matriarch.degreeDatas.0.label>
+  <Matriarch.degreeDatas.0.labelMale>가부장</Matriarch.degreeDatas.0.labelMale>
+  <Matriarch.degreeDatas.0.labelFemale>가모장</Matriarch.degreeDatas.0.labelFemale>
+  <Matriarch.degreeDatas.0.description>[PAWN_nameDef](은)는 대가족을 꿈꾸며 아이들에게 둘러싸여 있을 때 가장 행복합니다. 아이가 하나 늘 때마다 더 행복해지며, 언제나 아이를 하나 더 원합니다.</Matriarch.degreeDatas.0.description>
+  <ChildFree.degreeDatas.0.label>자발적 무자녀</ChildFree.degreeDatas.0.label>
+  <ChildFree.degreeDatas.0.description>[PAWN_nameDef](은)는 아이를 원한 적도 없고 앞으로도 원하지 않을 것입니다. 자유를 즐기고, 항상 임신을 피하며, 부모가 되면 불행해할 것입니다.</ChildFree.degreeDatas.0.description>
+</LanguageData>

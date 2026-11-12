@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Pawnmorpher (tachyonite.pawnmorpherpublic): former humans keep their psyche while sapient. -->
+  <PropertyGroup>
+    <AssemblyName>PsychologyPawnmorph</AssemblyName>
+    <RootNamespace>Psychology</RootNamespace>
+    <CompatModFolder>Pawnmorpher</CompatModFolder>
+    <CompatReference>$(WorkshopDir)1786466855\$(RimWorldVersion)\Assemblies\Pawnmorph.dll</CompatReference>
+  </PropertyGroup>
+  <Import Project="..\Compat.targets" />
+</Project>

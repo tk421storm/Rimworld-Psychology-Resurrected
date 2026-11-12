@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArrestPeacefullyChance.label>chance d'arrestation pacifique</ArrestPeacefullyChance.label>
+  <ArrestPeacefullyChance.description>Chance de base que cette personne convainque quelqu'un de se rendre sans résister.</ArrestPeacefullyChance.description>
+</LanguageData>

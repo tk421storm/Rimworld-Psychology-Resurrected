@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RecoveringPyromaniac.label>piromaníaco em recuperação</RecoveringPyromaniac.label>
+  <RecoveringPyromaniac.description>Piromaníaco em recuperação</RecoveringPyromaniac.description>
+  <DrugFree.label>livre de drogas</DrugFree.label>
+  <DrugFree.description>Livre de drogas</DrugFree.description>
+  <Antidepressants.label>antidepressivos</Antidepressants.label>
+  <Antidepressants.description>Efeito dos antidepressivos</Antidepressants.description>
+  <SleepingPills.label>sedativos receitados</SleepingPills.label>
+  <SleepingPills.description>Efeito dos remédios para dormir</SleepingPills.description>
+  <Anxiety.label>ansiedade</Anxiety.label>
+  <Anxiety.description>Ansiedade</Anxiety.description>
+  <Anxiety.stages.0.label>controlada</Anxiety.stages.0.label>
+  <Anxiety.stages.1.label>leve</Anxiety.stages.1.label>
+  <Anxiety.stages.2.label>moderada</Anxiety.stages.2.label>
+  <Anxiety.stages.3.label>forte</Anxiety.stages.3.label>
+  <Anxiety.stages.4.label>grave</Anxiety.stages.4.label>
+  <Anxiety.stages.5.label>extrema</Anxiety.stages.5.label>
+</LanguageData>

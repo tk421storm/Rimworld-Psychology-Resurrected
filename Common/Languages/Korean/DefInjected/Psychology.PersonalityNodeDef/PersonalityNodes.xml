@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Experimental.label>실험적</Experimental.label>
+  <Experimental.antonymLabel>보수적</Experimental.antonymLabel>
+  <Experimental.descriptionLabel>실험적인</Experimental.descriptionLabel>
+  <Experimental.description>{0} 사람은 무엇이든 한 번은 시도해 보고, 놀라움을 즐기며, 경험이 더 많습니다.</Experimental.description>
+  <DrugFriendly.label>약물 옹호</DrugFriendly.label>
+  <DrugFriendly.antonymLabel>스트레이트 엣지</DrugFriendly.antonymLabel>
+  <DrugFriendly.descriptionLabel>약물을 옹호하는</DrugFriendly.descriptionLabel>
+  <DrugFriendly.description>{0} 사람은 약물에 아무 문제가 없다고 보며 굳이 피하지 않습니다.</DrugFriendly.description>
+  <DrugFriendly.conversationTopics.0>약물</DrugFriendly.conversationTopics.0>
+  <DrugFriendly.conversationTopics.1>취하기</DrugFriendly.conversationTopics.1>
+  <DrugFriendly.conversationTopics.2>술 마시기</DrugFriendly.conversationTopics.2>
+  <DrugFriendly.conversationTopics.3>약 하기</DrugFriendly.conversationTopics.3>
+  <DrugFriendly.conversationTopics.4>연초</DrugFriendly.conversationTopics.4>
+  <DrugFriendly.conversationTopics.5>맥주</DrugFriendly.conversationTopics.5>
+  <DrugFriendly.conversationTopics.6>플레이크</DrugFriendly.conversationTopics.6>
+  <DrugFriendly.conversationTopics.7>야요</DrugFriendly.conversationTopics.7>
+  <DrugFriendly.conversationTopics.8>고주스</DrugFriendly.conversationTopics.8>
+  <DrugFriendly.conversationTopics.9>암브로시아</DrugFriendly.conversationTopics.9>
+  <DrugFriendly.conversationTopics.10>사이코이드 차</DrugFriendly.conversationTopics.10>
+  <Creative.label>창의적</Creative.label>
+  <Creative.antonymLabel>따분함</Creative.antonymLabel>
+  <Creative.descriptionLabel>창의적인</Creative.descriptionLabel>
+  <Creative.description>{0} 사람은 실제로 있었든 없었든 사물을 자세히 상상할 수 있습니다.</Creative.description>
+  <Creative.conversationTopics.0>글쓰기와 그림</Creative.conversationTopics.0>
+  <Creative.conversationTopics.1>예술</Creative.conversationTopics.1>
+  <Creative.conversationTopics.2>연극</Creative.conversationTopics.2>
+  <Creative.conversationTopics.3>외계인</Creative.conversationTopics.3>
+  <Creative.conversationTopics.4>외계인과의 접촉</Creative.conversationTopics.4>
+  <Creative.conversationTopics.5>미확인 생물</Creative.conversationTopics.5>
+  <Creative.conversationTopics.6>유령 이야기</Creative.conversationTopics.6>
+  <Creative.conversationTopics.7>판타지</Creative.conversationTopics.7>
+  <Creative.conversationTopics.8>좋아하는 책</Creative.conversationTopics.8>
+  <Creative.conversationTopics.9>좋아하는 영화</Creative.conversationTopics.9>
+  <Creative.conversationTopics.10>제노휴먼</Creative.conversationTopics.10>
+  <Pure.label>순수함</Pure.label>
+  <Pure.antonymLabel>타락함</Pure.antonymLabel>
+  <Pure.descriptionLabel>순수한</Pure.descriptionLabel>
+  <Pure.description>{0} 사람은 정숙하고 전통적이며 품위 있게 살려고 합니다.</Pure.description>
+  <Pure.conversationTopics.0>종교</Pure.conversationTopics.0>
+  <Pure.conversationTopics.1>영성</Pure.conversationTopics.1>
+  <Pure.conversationTopics.2>전통적 가치</Pure.conversationTopics.2>
+  <Pure.conversationTopics.3>성 윤리</Pure.conversationTopics.3>
+  <Pure.conversationTopics.4>여성성</Pure.conversationTopics.4>
+  <Pure.conversationTopics.5>남성성</Pure.conversationTopics.5>
+  <Pure.conversationTopics.6>성 역할</Pure.conversationTopics.6>
+  <Pure.conversationTopics.7>신들</Pure.conversationTopics.7>
+  <Pure.conversationTopics.8>가족</Pure.conversationTopics.8>
+  <Pure.conversationTopics.9>친족 관계</Pure.conversationTopics.9>
+  <Pure.conversationTopics.10>동성애</Pure.conversationTopics.10>
+  <Intelligent.label>지적임</Intelligent.label>
+  <Intelligent.antonymLabel>단순함</Intelligent.antonymLabel>
+  <Intelligent.descriptionLabel>지적인</Intelligent.descriptionLabel>
+  <Intelligent.description>{0} 사람은 뛰어난 지적 능력을 지니고 있습니다.</Intelligent.description>
+  <Rational.label>이성적</Rational.label>
+  <Rational.antonymLabel>비이성적</Rational.antonymLabel>
+  <Rational.descriptionLabel>이성적인</Rational.descriptionLabel>
+  <Rational.description>더 {0} 사람일수록 객관적이고 사실에 근거한 관점에서 생각할 수 있습니다.</Rational.description>
+  <Rational.conversationTopics.0>철학</Rational.conversationTopics.0>
+  <Rational.conversationTopics.1>성숙함</Rational.conversationTopics.1>
+  <Rational.conversationTopics.2>현실</Rational.conversationTopics.2>
+  <Rational.conversationTopics.3>인식론</Rational.conversationTopics.3>
+  <Rational.conversationTopics.4>인과 관계</Rational.conversationTopics.4>
+  <Rational.conversationTopics.5>확증 편향</Rational.conversationTopics.5>
+  <Rational.conversationTopics.6>신념 고수</Rational.conversationTopics.6>
+  <Logical.label>논리적</Logical.label>
+  <Logical.antonymLabel>비논리적</Logical.antonymLabel>
+  <Logical.descriptionLabel>논리적인</Logical.descriptionLabel>
+  <Logical.description>{0} 사람은 원인과 결과를 연결하고 행동의 결과를 예측하는 데 능숙합니다.</Logical.description>
+  <Logical.conversationTopics.0>지어낸 이야기</Logical.conversationTopics.0>
+  <Logical.conversationTopics.1>음모론</Logical.conversationTopics.1>
+  <Logical.conversationTopics.2>논리적 오류</Logical.conversationTopics.2>
+  <Logical.conversationTopics.3>인간의 한계</Logical.conversationTopics.3>
+  <Logical.conversationTopics.4>연구</Logical.conversationTopics.4>
+  <Logical.conversationTopics.5>과학</Logical.conversationTopics.5>
+  <Logical.conversationTopics.6>천문학</Logical.conversationTopics.6>
+  <Logical.conversationTopics.7>화학</Logical.conversationTopics.7>
+  <Logical.conversationTopics.8>공학</Logical.conversationTopics.8>
+  <Logical.conversationTopics.9>생물학</Logical.conversationTopics.9>
+  <Logical.conversationTopics.10>기술</Logical.conversationTopics.10>
+  <Cultured.label>교양 있음</Cultured.label>
+  <Cultured.antonymLabel>무지함</Cultured.antonymLabel>
+  <Cultured.descriptionLabel>교양 있는</Cultured.descriptionLabel>
+  <Cultured.description>{0} 사람은 박식하고 교육을 잘 받았으며 세련되었습니다.</Cultured.description>
+  <Cultured.conversationTopics.0>미학</Cultured.conversationTopics.0>
+  <Cultured.conversationTopics.1>텔레비전</Cultured.conversationTopics.1>
+  <Cultured.conversationTopics.2>읽은 책</Cultured.conversationTopics.2>
+  <Cultured.conversationTopics.3>본 영화</Cultured.conversationTopics.3>
+  <Cultured.conversationTopics.4>조각상</Cultured.conversationTopics.4>
+  <Cultured.conversationTopics.5>예술과 문학</Cultured.conversationTopics.5>
+  <Cultured.conversationTopics.6>미술사</Cultured.conversationTopics.6>
+  <Cultured.conversationTopics.7>예술의 정당성</Cultured.conversationTopics.7>
+  <Cultured.conversationTopics.8>교육</Cultured.conversationTopics.8>
+  <Cultured.conversationTopics.9>선생님</Cultured.conversationTopics.9>
+  <Cultured.conversationTopics.10>고대사</Cultured.conversationTopics.10>
+  <Cultured.conversationTopics.11>고급 요리</Cultured.conversationTopics.11>
+  <Geeky.label>너드</Geeky.label>
+  <Geeky.antonymLabel>평범함</Geeky.antonymLabel>
+  <Geeky.descriptionLabel>너드 기질의</Geeky.descriptionLabel>
+  <Geeky.description>{0} 사람은 지적이고 별나며 종종 사회적으로 서툽니다.</Geeky.description>
+  <Geeky.conversationTopics.0>취미</Geeky.conversationTopics.0>
+  <Geeky.conversationTopics.1>자기 복제 기계</Geeky.conversationTopics.1>
+  <Geeky.conversationTopics.2>세대 우주선</Geeky.conversationTopics.2>
+  <Geeky.conversationTopics.3>폰 노이만 탐사선</Geeky.conversationTopics.3>
+  <Geeky.conversationTopics.4>초월 기술</Geeky.conversationTopics.4>
+  <Geeky.conversationTopics.5>메카노이드</Geeky.conversationTopics.5>
+  <Geeky.conversationTopics.6>냉동 수면</Geeky.conversationTopics.6>
+  <Geeky.conversationTopics.7>냉동 수면관</Geeky.conversationTopics.7>
+  <Geeky.conversationTopics.8>인공지능</Geeky.conversationTopics.8>
+  <Geeky.conversationTopics.9>존슨-타나카 드라이브</Geeky.conversationTopics.9>
+  <Geeky.conversationTopics.10>오르도 히스토리아</Geeky.conversationTopics.10>
+  <Geeky.conversationTopics.11>컴퓨터</Geeky.conversationTopics.11>
+  <Geeky.conversationTopics.12>무기 기술</Geeky.conversationTopics.12>
+  <Geeky.conversationTopics.13>AI 인격체</Geeky.conversationTopics.13>
+  <Geeky.conversationTopics.14>바이오닉</Geeky.conversationTopics.14>
+  <Geeky.conversationTopics.15>트랜스휴머니즘</Geeky.conversationTopics.15>
+  <Naive.label>순진함</Naive.label>
+  <Naive.antonymLabel>회의적</Naive.antonymLabel>
+  <Naive.descriptionLabel>순진한</Naive.descriptionLabel>
+  <Naive.description>{0} 사람은 악의가 없고 미신을 잘 믿는 편입니다.</Naive.description>
+  <Naive.conversationTopics.0>이상주의</Naive.conversationTopics.0>
+  <Naive.conversationTopics.1>사후 세계</Naive.conversationTopics.1>
+  <Naive.conversationTopics.2>명예</Naive.conversationTopics.2>
+  <Naive.conversationTopics.3>숙명</Naive.conversationTopics.3>
+  <Naive.conversationTopics.4>운명</Naive.conversationTopics.4>
+  <Naive.conversationTopics.5>진실</Naive.conversationTopics.5>
+  <Naive.conversationTopics.6>예언</Naive.conversationTopics.6>
+  <Naive.conversationTopics.7>업보</Naive.conversationTopics.7>
+  <Naive.conversationTopics.8>점성술</Naive.conversationTopics.8>
+  <Naive.conversationTopics.9>점술</Naive.conversationTopics.9>
+  <Naive.conversationTopics.10>행운</Naive.conversationTopics.10>
+  <Ambitious.label>야심만만함</Ambitious.label>
+  <Ambitious.antonymLabel>안주함</Ambitious.antonymLabel>
+  <Ambitious.descriptionLabel>야심만만한</Ambitious.descriptionLabel>
+  <Ambitious.description>{0} 사람은 크고 어려운 목표를 세우고 성공하기를 원합니다.</Ambitious.description>
+  <Ambitious.conversationTopics.0>희망과 꿈</Ambitious.conversationTopics.0>
+  <Ambitious.conversationTopics.1>두려움</Ambitious.conversationTopics.1>
+  <Ambitious.conversationTopics.2>삶의 도전</Ambitious.conversationTopics.2>
+  <Ambitious.conversationTopics.3>끈기</Ambitious.conversationTopics.3>
+  <Ambitious.conversationTopics.4>자기 믿음</Ambitious.conversationTopics.4>
+  <Ambitious.conversationTopics.5>부자 되기</Ambitious.conversationTopics.5>
+  <Ambitious.conversationTopics.6>높은 목표</Ambitious.conversationTopics.6>
+  <Ambitious.conversationTopics.7>사치</Ambitious.conversationTopics.7>
+  <Independent.label>독립적</Independent.label>
+  <Independent.antonymLabel>의존적</Independent.antonymLabel>
+  <Independent.descriptionLabel>독립적인</Independent.descriptionLabel>
+  <Independent.description>{0} 사람은 혼자서도 완벽히 행복하며 다른 사람에게 기대지 않습니다.</Independent.description>
+  <Independent.conversationTopics.0>고독</Independent.conversationTopics.0>
+  <Independent.conversationTopics.1>내향성</Independent.conversationTopics.1>
+  <Independent.conversationTopics.2>외향성</Independent.conversationTopics.2>
+  <Independent.conversationTopics.3>고된 노동</Independent.conversationTopics.3>
+  <Independent.conversationTopics.4>자유</Independent.conversationTopics.4>
+  <Independent.conversationTopics.5>자급자족</Independent.conversationTopics.5>
+  <Independent.conversationTopics.6>자율성</Independent.conversationTopics.6>
+  <Independent.conversationTopics.7>생존</Independent.conversationTopics.7>
+  <Independent.conversationTopics.8>사회</Independent.conversationTopics.8>
+  <Independent.conversationTopics.9>의존</Independent.conversationTopics.9>
+  <Independent.conversationTopics.10>중독</Independent.conversationTopics.10>
+  <Organized.label>정돈됨</Organized.label>
+  <Organized.antonymLabel>어수선함</Organized.antonymLabel>
+  <Organized.descriptionLabel>정돈된</Organized.descriptionLabel>
+  <Organized.description>{0} 사람은 모든 것을 깔끔하고 청결하며 간소하게 유지합니다.</Organized.description>
+  <Organized.conversationTopics.0>청소</Organized.conversationTopics.0>
+  <Organized.conversationTopics.1>반려동물</Organized.conversationTopics.1>
+  <Organized.conversationTopics.2>빨래</Organized.conversationTopics.2>
+  <Organized.conversationTopics.3>물건 운반</Organized.conversationTopics.3>
+  <Organized.conversationTopics.4>정리 정돈</Organized.conversationTopics.4>
+  <Organized.conversationTopics.5>식탁에서 식사하기</Organized.conversationTopics.5>
+  <Organized.conversationTopics.6>더러움</Organized.conversationTopics.6>
+  <Organized.conversationTopics.7>이국적인 동물</Organized.conversationTopics.7>
+  <Spontaneous.label>즉흥적</Spontaneous.label>
+  <Spontaneous.antonymLabel>신중함</Spontaneous.antonymLabel>
+  <Spontaneous.descriptionLabel>즉흥적인</Spontaneous.descriptionLabel>
+  <Spontaneous.description>{0} 사람은 충동적인 편이며 남을 놀라게 하는 것을 즐깁니다.</Spontaneous.description>
+  <Spontaneous.conversationTopics.0>장난</Spontaneous.conversationTopics.0>
+  <Spontaneous.conversationTopics.1>유머</Spontaneous.conversationTopics.1>
+  <Spontaneous.conversationTopics.2>말장난</Spontaneous.conversationTopics.2>
+  <Spontaneous.conversationTopics.3>미리 계획하기</Spontaneous.conversationTopics.3>
+  <Spontaneous.conversationTopics.4>자기 성찰</Spontaneous.conversationTopics.4>
+  <Spontaneous.conversationTopics.5>깜짝 파티</Spontaneous.conversationTopics.5>
+  <Spontaneous.conversationTopics.6>선물</Spontaneous.conversationTopics.6>
+  <Thoughtful.label>사려 깊음</Thoughtful.label>
+  <Thoughtful.antonymLabel>경솔함</Thoughtful.antonymLabel>
+  <Thoughtful.descriptionLabel>사려 깊은</Thoughtful.descriptionLabel>
+  <Thoughtful.description>{0} 사람은 성찰적이고 비판적이며 계획을 세우는 편입니다.</Thoughtful.description>
+  <Thoughtful.conversationTopics.0>미래</Thoughtful.conversationTopics.0>
+  <Thoughtful.conversationTopics.1>인생 목표</Thoughtful.conversationTopics.1>
+  <Thoughtful.conversationTopics.2>우선순위</Thoughtful.conversationTopics.2>
+  <Thoughtful.conversationTopics.3>해결책</Thoughtful.conversationTopics.3>
+  <Thoughtful.conversationTopics.4>기억</Thoughtful.conversationTopics.4>
+  <Thoughtful.conversationTopics.5>브레인스토밍</Thoughtful.conversationTopics.5>
+  <Thoughtful.conversationTopics.6>꿈</Thoughtful.conversationTopics.6>
+  <Thoughtful.conversationTopics.7>미루기</Thoughtful.conversationTopics.7>
+  <Thoughtful.conversationTopics.8>시간 엄수</Thoughtful.conversationTopics.8>
+  <Thoughtful.conversationTopics.9>책임감</Thoughtful.conversationTopics.9>
+  <Extroverted.label>외향적</Extroverted.label>
+  <Extroverted.antonymLabel>내향적</Extroverted.antonymLabel>
+  <Extroverted.descriptionLabel>외향적인</Extroverted.descriptionLabel>
+  <Extroverted.description>{0} 사람은 밖에 나가 경험하고 활동적으로 지내는 것을 즐깁니다.</Extroverted.description>
+  <Passionate.label>열정적</Passionate.label>
+  <Passionate.antonymLabel>무관심</Passionate.antonymLabel>
+  <Passionate.descriptionLabel>열정적인</Passionate.descriptionLabel>
+  <Passionate.description>{0} 사람은 감정을 매우 강하게 느끼며 강하게 표현하는 편입니다.</Passionate.description>
+  <Passionate.conversationTopics.0>좋아하는 것과 싫어하는 것</Passionate.conversationTopics.0>
+  <Passionate.conversationTopics.1>열정</Passionate.conversationTopics.1>
+  <Passionate.conversationTopics.2>욕망</Passionate.conversationTopics.2>
+  <Passionate.conversationTopics.3>배움</Passionate.conversationTopics.3>
+  <Passionate.conversationTopics.4>강압적인 태도</Passionate.conversationTopics.4>
+  <Passionate.conversationTopics.5>무관심</Passionate.conversationTopics.5>
+  <Upbeat.label>쾌활함</Upbeat.label>
+  <Upbeat.antonymLabel>침울함</Upbeat.antonymLabel>
+  <Upbeat.descriptionLabel>쾌활한</Upbeat.descriptionLabel>
+  <Upbeat.description>{0} 사람은 행복하고 따뜻하며 상냥합니다.</Upbeat.description>
+  <Upbeat.conversationTopics.0>인생</Upbeat.conversationTopics.0>
+  <Upbeat.conversationTopics.1>어른이 되는 것</Upbeat.conversationTopics.1>
+  <Upbeat.conversationTopics.2>악몽</Upbeat.conversationTopics.2>
+  <Upbeat.conversationTopics.3>거슬리는 것들</Upbeat.conversationTopics.3>
+  <Upbeat.conversationTopics.4>삶의 짜증 나는 일</Upbeat.conversationTopics.4>
+  <Upbeat.conversationTopics.5>최선을 다하기</Upbeat.conversationTopics.5>
+  <Upbeat.conversationTopics.6>긍정</Upbeat.conversationTopics.6>
+  <Upbeat.conversationTopics.7>삶의 밝은 면 보기</Upbeat.conversationTopics.7>
+  <Upbeat.conversationTopics.8>회의주의</Upbeat.conversationTopics.8>
+  <Adventurous.label>모험적</Adventurous.label>
+  <Adventurous.antonymLabel>조심스러움</Adventurous.antonymLabel>
+  <Adventurous.descriptionLabel>모험적인</Adventurous.descriptionLabel>
+  <Adventurous.description>{0} 사람은 새로운 것을 시도하고, 시야를 넓히고, 새로운 곳에 갈 때 가장 큰 보람을 느낍니다.</Adventurous.description>
+  <Adventurous.conversationTopics.0>버킷 리스트</Adventurous.conversationTopics.0>
+  <Adventurous.conversationTopics.1>삶의 보상</Adventurous.conversationTopics.1>
+  <Adventurous.conversationTopics.2>밖에 나가 돌아다니기</Adventurous.conversationTopics.2>
+  <Adventurous.conversationTopics.3>모험</Adventurous.conversationTopics.3>
+  <Adventurous.conversationTopics.4>캐러밴</Adventurous.conversationTopics.4>
+  <Adventurous.conversationTopics.5>여행</Adventurous.conversationTopics.5>
+  <Adventurous.conversationTopics.6>낯선 사람</Adventurous.conversationTopics.6>
+  <Adventurous.conversationTopics.7>새로운 연구</Adventurous.conversationTopics.7>
+  <Adventurous.conversationTopics.8>이국적인 음식</Adventurous.conversationTopics.8>
+  <Adventurous.conversationTopics.9>빈둥거리기</Adventurous.conversationTopics.9>
+  <Adventurous.conversationTopics.10>별로 돌아가기</Adventurous.conversationTopics.10>
+  <Confident.label>자신감 있음</Confident.label>
+  <Confident.antonymLabel>불안정함</Confident.antonymLabel>
+  <Confident.descriptionLabel>자신감 있는</Confident.descriptionLabel>
+  <Confident.description>{0} 사람은 자신감과 자존감이 높습니다.</Confident.description>
+  <Outspoken.label>솔직함</Outspoken.label>
+  <Outspoken.antonymLabel>과묵함</Outspoken.antonymLabel>
+  <Outspoken.descriptionLabel>솔직한</Outspoken.descriptionLabel>
+  <Outspoken.description>{0} 사람은 확고한 의견이 많고 그것을 말하는 데 주저하지 않습니다.</Outspoken.description>
+  <Outspoken.conversationTopics.0>정치</Outspoken.conversationTopics.0>
+  <Outspoken.conversationTopics.1>법치</Outspoken.conversationTopics.1>
+  <Outspoken.conversationTopics.2>정부</Outspoken.conversationTopics.2>
+  <Outspoken.conversationTopics.3>시민권</Outspoken.conversationTopics.3>
+  <Outspoken.conversationTopics.4>극단주의</Outspoken.conversationTopics.4>
+  <Outspoken.conversationTopics.5>급진주의</Outspoken.conversationTopics.5>
+  <Outspoken.conversationTopics.6>정치 토론</Outspoken.conversationTopics.6>
+  <Outspoken.conversationTopics.7>정치적 견해</Outspoken.conversationTopics.7>
+  <Outspoken.conversationTopics.8>범죄와 처벌</Outspoken.conversationTopics.8>
+  <Outspoken.conversationTopics.9>행동주의</Outspoken.conversationTopics.9>
+  <Outspoken.conversationTopics.10>리더십</Outspoken.conversationTopics.10>
+  <Outspoken.conversationTopics.11>이것저것 따지기</Outspoken.conversationTopics.11>
+  <Outspoken.conversationTopics.12>친구</Outspoken.conversationTopics.12>
+  <Cool.label>멋짐</Cool.label>
+  <Cool.antonymLabel>고리타분함</Cool.antonymLabel>
+  <Cool.descriptionLabel>멋진</Cool.descriptionLabel>
+  <Cool.description>{0} 사람은 대담하고 독특하며 흥미로워서 사람들이 더 좋아하는 편입니다.</Cool.description>
+  <Cool.conversationTopics.0>빛나는 세계의 유행</Cool.conversationTopics.0>
+  <Cool.conversationTopics.1>패션</Cool.conversationTopics.1>
+  <Cool.conversationTopics.2>헤어스타일</Cool.conversationTopics.2>
+  <Cool.conversationTopics.3>화장</Cool.conversationTopics.3>
+  <Cool.conversationTopics.4>수염</Cool.conversationTopics.4>
+  <Cool.conversationTopics.5>파티</Cool.conversationTopics.5>
+  <Cool.conversationTopics.6>최신 유행어</Cool.conversationTopics.6>
+  <Compassionate.label>자비로움</Compassionate.label>
+  <Compassionate.antonymLabel>무자비함</Compassionate.antonymLabel>
+  <Compassionate.descriptionLabel>자비로운</Compassionate.descriptionLabel>
+  <Compassionate.description>{0} 사람은 다른 사람의 어려움에 마음을 쓰고 도우려 합니다.</Compassionate.description>
+  <Compassionate.conversationTopics.0>불우한 사람들</Compassionate.conversationTopics.0>
+  <Compassionate.conversationTopics.1>억압받는 사람 돕기</Compassionate.conversationTopics.1>
+  <Compassionate.conversationTopics.2>아픈 사람 돕기</Compassionate.conversationTopics.2>
+  <Compassionate.conversationTopics.3>가난한 사람 돕기</Compassionate.conversationTopics.3>
+  <Compassionate.conversationTopics.4>인권</Compassionate.conversationTopics.4>
+  <Compassionate.conversationTopics.5>사람 구하기</Compassionate.conversationTopics.5>
+  <Compassionate.conversationTopics.6>다른 사람의 문제</Compassionate.conversationTopics.6>
+  <Compassionate.conversationTopics.7>개입주의</Compassionate.conversationTopics.7>
+  <Compassionate.conversationTopics.8>타인에 대한 걱정</Compassionate.conversationTopics.8>
+  <Empathetic.label>공감적</Empathetic.label>
+  <Empathetic.antonymLabel>냉담함</Empathetic.antonymLabel>
+  <Empathetic.descriptionLabel>공감 능력 있는</Empathetic.descriptionLabel>
+  <Empathetic.description>{0} 사람은 다른 사람의 입장이 되어 그 감정을 이해할 수 있습니다.</Empathetic.description>
+  <Empathetic.conversationTopics.0>사이코패스</Empathetic.conversationTopics.0>
+  <Empathetic.conversationTopics.1>고립주의</Empathetic.conversationTopics.1>
+  <Empathetic.conversationTopics.2>서로 이해하기</Empathetic.conversationTopics.2>
+  <Empathetic.conversationTopics.3>사람을 이용하기</Empathetic.conversationTopics.3>
+  <Empathetic.conversationTopics.4>공동체</Empathetic.conversationTopics.4>
+  <Empathetic.conversationTopics.5>서로 돌보기</Empathetic.conversationTopics.5>
+  <Empathetic.conversationTopics.6>자비</Empathetic.conversationTopics.6>
+  <Empathetic.conversationTopics.7>목숨 살려 주기</Empathetic.conversationTopics.7>
+  <Empathetic.conversationTopics.8>이기심</Empathetic.conversationTopics.8>
+  <Trusting.label>잘 믿음</Trusting.label>
+  <Trusting.antonymLabel>냉소적</Trusting.antonymLabel>
+  <Trusting.descriptionLabel>잘 믿는</Trusting.descriptionLabel>
+  <Trusting.description>{0} 사람은 대개 사람들을 믿고 그들의 좋은 면을 봅니다.</Trusting.description>
+  <Trusting.conversationTopics.0>인간 본성</Trusting.conversationTopics.0>
+  <Trusting.conversationTopics.1>정직</Trusting.conversationTopics.1>
+  <Trusting.conversationTopics.2>성실함</Trusting.conversationTopics.2>
+  <Trusting.conversationTopics.3>사기</Trusting.conversationTopics.3>
+  <Trusting.conversationTopics.4>선의의 거짓말</Trusting.conversationTopics.4>
+  <Trusting.conversationTopics.5>충성</Trusting.conversationTopics.5>
+  <Trusting.conversationTopics.6>정의</Trusting.conversationTopics.6>
+  <Trusting.conversationTopics.7>부패</Trusting.conversationTopics.7>
+  <Trusting.conversationTopics.8>새 정착민</Trusting.conversationTopics.8>
+  <Friendly.label>친절함</Friendly.label>
+  <Friendly.antonymLabel>불친절함</Friendly.antonymLabel>
+  <Friendly.descriptionLabel>친절한</Friendly.descriptionLabel>
+  <Friendly.description>{0} 사람은 다정하고 너그러우며 대화하기 즐겁습니다.</Friendly.description>
+  <Friendly.conversationTopics.0>서로</Friendly.conversationTopics.0>
+  <Friendly.conversationTopics.1>친구 사귀기</Friendly.conversationTopics.1>
+  <Friendly.conversationTopics.2>용서</Friendly.conversationTopics.2>
+  <Friendly.conversationTopics.3>관용</Friendly.conversationTopics.3>
+  <Friendly.conversationTopics.4>서로에 대한 생각</Friendly.conversationTopics.4>
+  <Friendly.conversationTopics.5>존경</Friendly.conversationTopics.5>
+  <Friendly.conversationTopics.6>머릿속에 떠오르는 것</Friendly.conversationTopics.6>
+  <Moralistic.label>도덕적</Moralistic.label>
+  <Moralistic.antonymLabel>무도덕</Moralistic.antonymLabel>
+  <Moralistic.descriptionLabel>도덕적인</Moralistic.descriptionLabel>
+  <Moralistic.description>{0} 사람은 전통적인 도덕관을 따릅니다.</Moralistic.description>
+  <Moralistic.conversationTopics.0>윤리</Moralistic.conversationTopics.0>
+  <Moralistic.conversationTopics.1>도덕</Moralistic.conversationTopics.1>
+  <Moralistic.conversationTopics.2>식인</Moralistic.conversationTopics.2>
+  <Moralistic.conversationTopics.3>인간 가죽</Moralistic.conversationTopics.3>
+  <Moralistic.conversationTopics.4>사람 도축</Moralistic.conversationTopics.4>
+  <Moralistic.conversationTopics.5>노예제</Moralistic.conversationTopics.5>
+  <Moralistic.conversationTopics.6>노예화</Moralistic.conversationTopics.6>
+  <Moralistic.conversationTopics.7>장기 적출</Moralistic.conversationTopics.7>
+  <Moralistic.conversationTopics.8>전쟁 포로</Moralistic.conversationTopics.8>
+  <Moralistic.conversationTopics.9>전쟁 범죄</Moralistic.conversationTopics.9>
+  <Moralistic.conversationTopics.10>살인</Moralistic.conversationTopics.10>
+  <Moralistic.conversationTopics.11>인신 공양</Moralistic.conversationTopics.11>
+  <Romantic.label>로맨틱</Romantic.label>
+  <Romantic.antonymLabel>무심함</Romantic.antonymLabel>
+  <Romantic.descriptionLabel>로맨틱한</Romantic.descriptionLabel>
+  <Romantic.description>{0} 사람은 길고 의미 있는 관계, 헌신, 친밀한 행동을 즐깁니다.</Romantic.description>
+  <Romantic.conversationTopics.0>연애 관계</Romantic.conversationTopics.0>
+  <Romantic.conversationTopics.1>옛사랑</Romantic.conversationTopics.1>
+  <Romantic.conversationTopics.2>아이들</Romantic.conversationTopics.2>
+  <Romantic.conversationTopics.3>아이 갖기</Romantic.conversationTopics.3>
+  <Romantic.conversationTopics.4>사랑</Romantic.conversationTopics.4>
+  <Romantic.conversationTopics.5>로맨스</Romantic.conversationTopics.5>
+  <Romantic.conversationTopics.6>성적 지향</Romantic.conversationTopics.6>
+  <Romantic.conversationTopics.7>연인</Romantic.conversationTopics.7>
+  <Romantic.conversationTopics.8>사랑 나누기</Romantic.conversationTopics.8>
+  <Romantic.conversationTopics.9>헌신</Romantic.conversationTopics.9>
+  <Romantic.conversationTopics.10>간통</Romantic.conversationTopics.10>
+  <Generous.label>관대함</Generous.label>
+  <Generous.antonymLabel>인색함</Generous.antonymLabel>
+  <Generous.descriptionLabel>관대한</Generous.descriptionLabel>
+  <Generous.description>{0} 사람은 물건을 갖는 데 덜 연연하며 남에게 나눠 주는 편입니다.</Generous.description>
+  <Generous.conversationTopics.0>자선</Generous.conversationTopics.0>
+  <Generous.conversationTopics.1>박애</Generous.conversationTopics.1>
+  <Generous.conversationTopics.2>물질적 소유</Generous.conversationTopics.2>
+  <Generous.conversationTopics.3>사회적 평등</Generous.conversationTopics.3>
+  <Generous.conversationTopics.4>나눔</Generous.conversationTopics.4>
+  <Generous.conversationTopics.5>인도주의</Generous.conversationTopics.5>
+  <Generous.conversationTopics.6>이타주의</Generous.conversationTopics.6>
+  <Polite.label>예의 바름</Polite.label>
+  <Polite.antonymLabel>무례함</Polite.antonymLabel>
+  <Polite.descriptionLabel>예의 바른</Polite.descriptionLabel>
+  <Polite.description>{0} 사람은 예의가 바르고 남의 기분을 상하게 하지 않으려 애씁니다.</Polite.description>
+  <Polite.conversationTopics.0>예절</Polite.conversationTopics.0>
+  <Polite.conversationTopics.1>요령</Polite.conversationTopics.1>
+  <Polite.conversationTopics.2>공손함</Polite.conversationTopics.2>
+  <Polite.conversationTopics.3>감정</Polite.conversationTopics.3>
+  <Polite.conversationTopics.4>존중</Polite.conversationTopics.4>
+  <Polite.conversationTopics.5>황금률</Polite.conversationTopics.5>
+  <Polite.conversationTopics.6>미묘함</Polite.conversationTopics.6>
+  <Polite.conversationTopics.7>무례함</Polite.conversationTopics.7>
+  <Polite.conversationTopics.8>욕설</Polite.conversationTopics.8>
+  <Polite.conversationTopics.9>모욕</Polite.conversationTopics.9>
+  <Aggressive.label>공격적</Aggressive.label>
+  <Aggressive.antonymLabel>온순함</Aggressive.antonymLabel>
+  <Aggressive.descriptionLabel>공격적인</Aggressive.descriptionLabel>
+  <Aggressive.description>{0} 사람은 직설적이고 퉁명스러우며 원하는 것을 얻지 못하면 호전적으로 변하곤 합니다.</Aggressive.description>
+  <Aggressive.conversationTopics.0>둘 사이의 의견 충돌</Aggressive.conversationTopics.0>
+  <Aggressive.conversationTopics.1>둘 사이의 갈등</Aggressive.conversationTopics.1>
+  <Aggressive.conversationTopics.2>개인적 경계</Aggressive.conversationTopics.2>
+  <Aggressive.conversationTopics.3>갈등 해결</Aggressive.conversationTopics.3>
+  <Aggressive.conversationTopics.4>친절</Aggressive.conversationTopics.4>
+  <Aggressive.conversationTopics.5>싸움</Aggressive.conversationTopics.5>
+  <Aggressive.conversationTopics.6>고집</Aggressive.conversationTopics.6>
+  <Aggressive.conversationTopics.7>예의</Aggressive.conversationTopics.7>
+  <Aggressive.conversationTopics.8>남의 감정</Aggressive.conversationTopics.8>
+  <Competitive.label>경쟁적</Competitive.label>
+  <Competitive.antonymLabel>협력적</Competitive.antonymLabel>
+  <Competitive.descriptionLabel>경쟁적인</Competitive.descriptionLabel>
+  <Competitive.description>{0} 사람에게는 자신의 성공만으로는 부족하고, 다른 사람이 실패해야 합니다.</Competitive.description>
+  <Competitive.conversationTopics.0>성공</Competitive.conversationTopics.0>
+  <Competitive.conversationTopics.1>자존심</Competitive.conversationTopics.1>
+  <Competitive.conversationTopics.2>사회적 지위</Competitive.conversationTopics.2>
+  <Competitive.conversationTopics.3>업적</Competitive.conversationTopics.3>
+  <Competitive.conversationTopics.4>재능</Competitive.conversationTopics.4>
+  <Competitive.conversationTopics.5>다른 정착지</Competitive.conversationTopics.5>
+  <Competitive.conversationTopics.6>기술</Competitive.conversationTopics.6>
+  <Emotional.label>감정적</Emotional.label>
+  <Emotional.antonymLabel>금욕적</Emotional.antonymLabel>
+  <Emotional.descriptionLabel>감정적인</Emotional.descriptionLabel>
+  <Emotional.description>{0} 사람은 감정을 느끼는 능력이 큽니다.</Emotional.description>
+  <LaidBack.label>침착함</LaidBack.label>
+  <LaidBack.antonymLabel>불안함</LaidBack.antonymLabel>
+  <LaidBack.descriptionLabel>침착한</LaidBack.descriptionLabel>
+  <LaidBack.description>{0} 사람은 쉽게 스트레스를 받지 않고 걱정하지 않는 편입니다.</LaidBack.description>
+  <LaidBack.conversationTopics.0>고난</LaidBack.conversationTopics.0>
+  <LaidBack.conversationTopics.1>스트레스</LaidBack.conversationTopics.1>
+  <LaidBack.conversationTopics.2>기분</LaidBack.conversationTopics.2>
+  <LaidBack.conversationTopics.3>불안</LaidBack.conversationTopics.3>
+  <LaidBack.conversationTopics.4>압박감</LaidBack.conversationTopics.4>
+  <LaidBack.conversationTopics.5>겉모습</LaidBack.conversationTopics.5>
+  <LaidBack.conversationTopics.6>휴가</LaidBack.conversationTopics.6>
+  <LaidBack.conversationTopics.7>완벽한 일요일</LaidBack.conversationTopics.7>
+  <Judgmental.label>비판적</Judgmental.label>
+  <Judgmental.antonymLabel>너그러움</Judgmental.antonymLabel>
+  <Judgmental.descriptionLabel>비판적인</Judgmental.descriptionLabel>
+  <Judgmental.description>{0} 사람은 사람에 대한 의견을 빠르고 피상적으로 정하며, 남의 행동에 더 크게 영향을 받습니다.</Judgmental.description>
+  <Judgmental.conversationTopics.0>최신 소문</Judgmental.conversationTopics.0>
+  <Judgmental.conversationTopics.1>최근의 사건</Judgmental.conversationTopics.1>
+  <Judgmental.conversationTopics.2>문화</Judgmental.conversationTopics.2>
+  <Judgmental.conversationTopics.3>옹졸함</Judgmental.conversationTopics.3>
+  <Judgmental.conversationTopics.4>멜로드라마</Judgmental.conversationTopics.4>
+  <Judgmental.conversationTopics.5>피상성</Judgmental.conversationTopics.5>
+  <Judgmental.conversationTopics.6>가식적인 친구</Judgmental.conversationTopics.6>
+  <Judgmental.conversationTopics.7>성급한 결론</Judgmental.conversationTopics.7>
+  <Judgmental.conversationTopics.8>성급한 판단</Judgmental.conversationTopics.8>
+  <Judgmental.conversationTopics.9>두 번째 기회</Judgmental.conversationTopics.9>
+  <Judgmental.conversationTopics.10>사람이 변할 수 있는지</Judgmental.conversationTopics.10>
+  <Optimistic.label>낙관적</Optimistic.label>
+  <Optimistic.antonymLabel>비관적</Optimistic.antonymLabel>
+  <Optimistic.descriptionLabel>낙관적인</Optimistic.descriptionLabel>
+  <Optimistic.description>{0} 사람은 삶의 밝은 면을 봅니다.</Optimistic.description>
+  <Optimistic.conversationTopics.0>감정</Optimistic.conversationTopics.0>
+  <Optimistic.conversationTopics.1>삶의 의미</Optimistic.conversationTopics.1>
+  <Optimistic.conversationTopics.2>희망</Optimistic.conversationTopics.2>
+  <Optimistic.conversationTopics.3>죽음의 필연성</Optimistic.conversationTopics.3>
+  <Optimistic.conversationTopics.4>목적</Optimistic.conversationTopics.4>
+  <Optimistic.conversationTopics.5>방향</Optimistic.conversationTopics.5>
+  <Optimistic.conversationTopics.6>하루를 버티기</Optimistic.conversationTopics.6>
+  <Optimistic.conversationTopics.7>미래에 일어날 일</Optimistic.conversationTopics.7>
+  <Optimistic.conversationTopics.8>행성 떠나기</Optimistic.conversationTopics.8>
+  <Nostalgic.label>향수적</Nostalgic.label>
+  <Nostalgic.antonymLabel>감상적이지 않음</Nostalgic.antonymLabel>
+  <Nostalgic.descriptionLabel>향수에 젖는</Nostalgic.descriptionLabel>
+  <Nostalgic.description>{0} 사람은 과거와, 그 기억을 떠올리게 하는 모든 것에 매우 강한 애착을 가집니다.</Nostalgic.description>
+  <Nostalgic.conversationTopics.0>옛날</Nostalgic.conversationTopics.0>
+  <Nostalgic.conversationTopics.1>어린 시절</Nostalgic.conversationTopics.1>
+  <Nostalgic.conversationTopics.2>후회</Nostalgic.conversationTopics.2>
+  <Nostalgic.conversationTopics.3>옛 지구</Nostalgic.conversationTopics.3>
+  <Nostalgic.conversationTopics.4>뿌리</Nostalgic.conversationTopics.4>
+  <Nostalgic.conversationTopics.5>예전 모습</Nostalgic.conversationTopics.5>
+  <Nostalgic.conversationTopics.6>역사</Nostalgic.conversationTopics.6>
+  <Nostalgic.conversationTopics.7>추억</Nostalgic.conversationTopics.7>
+</LanguageData>

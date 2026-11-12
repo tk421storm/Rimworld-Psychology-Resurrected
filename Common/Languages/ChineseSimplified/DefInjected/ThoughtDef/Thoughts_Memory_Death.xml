@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WitnessedDeathAllyBleedingHeart.stages.0.label>目睹同伴死亡</WitnessedDeathAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathAllyBleedingHeart.stages.0.description>我眼看着我们中的一员死去。我不敢相信他走了。我再也不能和他说话了。</WitnessedDeathAllyBleedingHeart.stages.0.description>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.label>目睹陌生人死亡</WitnessedDeathNonAllyBleedingHeart.stages.0.label>
+  <WitnessedDeathNonAllyBleedingHeart.stages.0.description>我眼看着有人死去。我看着他倒下时眼中的光熄灭了。</WitnessedDeathNonAllyBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.0.label>正当的处决</KnowGuestExecutedBleedingHeart.stages.0.label>
+  <KnowGuestExecutedBleedingHeart.stages.0.description>一名有罪的囚犯或客人被处决了。这是正当的，但我还是受不了夺走生命。</KnowGuestExecutedBleedingHeart.stages.0.description>
+  <KnowGuestExecutedBleedingHeart.stages.1.label>有人被安乐死</KnowGuestExecutedBleedingHeart.stages.1.label>
+  <KnowGuestExecutedBleedingHeart.stages.1.description>一名囚犯或客人被安乐死了。这很人道，但还是令人心碎。</KnowGuestExecutedBleedingHeart.stages.1.description>
+  <KnowGuestExecutedBleedingHeart.stages.2.label>有人被处决</KnowGuestExecutedBleedingHeart.stages.2.label>
+  <KnowGuestExecutedBleedingHeart.stages.2.description>一名囚犯或客人被冷血杀害了。我简直不敢相信！</KnowGuestExecutedBleedingHeart.stages.2.description>
+  <KnowGuestExecutedBleedingHeart.stages.3.label>有人因摘取器官而死</KnowGuestExecutedBleedingHeart.stages.3.label>
+  <KnowGuestExecutedBleedingHeart.stages.3.description>一名囚犯或客人因殖民地摘走了他的身体部位而死。我太愤怒了！</KnowGuestExecutedBleedingHeart.stages.3.description>
+  <KnowColonistExecutedBleedingHeart.stages.0.label>殖民者的正当处决</KnowColonistExecutedBleedingHeart.stages.0.label>
+  <KnowColonistExecutedBleedingHeart.stages.0.description>一名有罪的殖民者被处决了。这是正当的，但我还是受不了夺走生命。</KnowColonistExecutedBleedingHeart.stages.0.description>
+  <KnowColonistExecutedBleedingHeart.stages.1.label>殖民者被安乐死</KnowColonistExecutedBleedingHeart.stages.1.label>
+  <KnowColonistExecutedBleedingHeart.stages.1.description>一名殖民者被安乐死了。这很人道，但还是令人心碎。</KnowColonistExecutedBleedingHeart.stages.1.description>
+  <KnowColonistExecutedBleedingHeart.stages.2.label>殖民者被处决</KnowColonistExecutedBleedingHeart.stages.2.label>
+  <KnowColonistExecutedBleedingHeart.stages.2.description>一名殖民者被冷血杀害了。我简直不敢相信！</KnowColonistExecutedBleedingHeart.stages.2.description>
+  <KnowColonistExecutedBleedingHeart.stages.3.label>殖民者因摘取器官而死</KnowColonistExecutedBleedingHeart.stages.3.label>
+  <KnowColonistExecutedBleedingHeart.stages.3.description>一名殖民者因有人摘走了他的身体部位而死。我太愤怒了！</KnowColonistExecutedBleedingHeart.stages.3.description>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>无辜的囚犯死了</KnowPrisonerDiedInnocentBleedingHeart.stages.0.label>
+  <KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>我们的一名囚犯明明无害却死了。我们有责任照顾好我们的囚犯。如果我们想让他们死，至少也该好好处决，而不是放任这种野蛮行为。</KnowPrisonerDiedInnocentBleedingHeart.stages.0.description>
+  <KnowColonistDiedBleedingHeart.stages.0.label>一名殖民者死了</KnowColonistDiedBleedingHeart.stages.0.label>
+  <KnowColonistDiedBleedingHeart.stages.0.description>我们中的一员死了。要是我们当初做法不同就好了……</KnowColonistDiedBleedingHeart.stages.0.description>
+</LanguageData>

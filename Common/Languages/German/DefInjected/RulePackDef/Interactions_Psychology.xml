@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HookupSucceeded.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] war mit dem Abenteuer einverstanden.</HookupSucceeded.rulePack.rulesStrings.0>
+  <HookupFailed.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] war mit dem Abenteuer nicht einverstanden.</HookupFailed.rulePack.rulesStrings.0>
+  <HookupNoBed.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] war nicht abgeneigt, aber es gab kein Bett für zwei.</HookupNoBed.rulePack.rulesStrings.0>
+  <RomanceAttemptDirect.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] fragte [RECIPIENT_objective], ob sie ein Paar werden wollen.</RomanceAttemptDirect.rulePack.rulesStrings.0>
+  <RomanceAttemptDateNight.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] plante einen Date-Abend mit [RECIPIENT_objective].</RomanceAttemptDateNight.rulePack.rulesStrings.0>
+  <RomanceAttemptDateLovin.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] schlug vor, gemeinsam ins Bett zu gehen.</RomanceAttemptDateLovin.rulePack.rulesStrings.0>
+  <DateLovinAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] stimmte freudig zu.</DateLovinAccepted.rulePack.rulesStrings.0>
+  <DateLovinDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] war nicht in Stimmung.</DateLovinDeclined.rulePack.rulesStrings.0>
+  <RomanceAttemptCourtship.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] bat [RECIPIENT_objective] um ein Date.</RomanceAttemptCourtship.rulePack.rulesStrings.0>
+  <RomanceAttemptHookup.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] schlug ein unverbindliches Abenteuer vor.</RomanceAttemptHookup.rulePack.rulesStrings.0>
+  <RomanceAttemptCheating.rulePack.rulesStrings.0>sent-&gt; [INITIATOR_nameDef] schlug eine Affäre hinter dem Rücken von [INITIATOR_possessive] Partner vor.</RomanceAttemptCheating.rulePack.rulesStrings.0>
+  <Sentence_SocialFightConvoInitiatorStarted.rulePack.rulesStrings.0>sent-&gt;Ihre Differenzen eskalierten, bis [INITIATOR_nameDef] einen Kampf begann!</Sentence_SocialFightConvoInitiatorStarted.rulePack.rulesStrings.0>
+  <Sentence_SocialFightConvoRecipientStarted.rulePack.rulesStrings.0>sent-&gt;Ihre Differenzen eskalierten, bis [RECIPIENT_nameDef] einen Kampf begann!</Sentence_SocialFightConvoRecipientStarted.rulePack.rulesStrings.0>
+  <DateAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] sagte ja.</DateAccepted.rulePack.rulesStrings.0>
+  <DateDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] gab [INITIATOR_objective] einen Korb.</DateDeclined.rulePack.rulesStrings.0>
+  <HugAccepted.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] erwiderte die Umarmung von [INITIATOR_objective].</HugAccepted.rulePack.rulesStrings.0>
+  <HugAccepted.rulePack.rulesStrings.1>sent-&gt; Sie hielten einander einen Moment lang fest.</HugAccepted.rulePack.rulesStrings.1>
+  <HugAccepted.rulePack.rulesStrings.2>sent-&gt; [RECIPIENT_nameDef] schmiegte sich gerne an.</HugAccepted.rulePack.rulesStrings.2>
+  <HugDeclined.rulePack.rulesStrings.0>sent-&gt; [RECIPIENT_nameDef] war nicht in Stimmung.</HugDeclined.rulePack.rulesStrings.0>
+  <HugDeclined.rulePack.rulesStrings.1>sent-&gt; [RECIPIENT_nameDef] wich mit einem verlegenen Lächeln zurück.</HugDeclined.rulePack.rulesStrings.1>
+</LanguageData>

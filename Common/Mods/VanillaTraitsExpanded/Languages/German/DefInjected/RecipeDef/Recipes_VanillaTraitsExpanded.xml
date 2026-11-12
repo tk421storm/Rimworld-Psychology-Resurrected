@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>Säufer behandeln</TreatLush.label>
+  <TreatLush.description>Hilft einem Säufer, drogenfrei zu bleiben. Nüchternheit wird ihm nicht gefallen.</TreatLush.description>
+  <TreatLush.jobString>Behandle Säufer.</TreatLush.jobString>
+  <TreatStoner.label>Kiffer behandeln</TreatStoner.label>
+  <TreatStoner.description>Hilft einem Kiffer, drogenfrei zu bleiben. Nüchternheit wird ihm nicht gefallen.</TreatStoner.description>
+  <TreatStoner.jobString>Behandle Kiffer.</TreatStoner.jobString>
+</LanguageData>

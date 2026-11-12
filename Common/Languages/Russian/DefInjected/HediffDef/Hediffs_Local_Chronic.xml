@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RecoveringPyromaniac.label>пироманьяк в ремиссии</RecoveringPyromaniac.label>
+  <RecoveringPyromaniac.description>Выздоравливающий пироман</RecoveringPyromaniac.description>
+  <DrugFree.label>в завязке</DrugFree.label>
+  <DrugFree.description>Без наркотиков</DrugFree.description>
+  <Antidepressants.label>Антидепрессанты</Antidepressants.label>
+  <Antidepressants.description>Действие антидепрессантов</Antidepressants.description>
+  <SleepingPills.label>Транквилизаторы</SleepingPills.label>
+  <SleepingPills.description>Действие снотворного</SleepingPills.description>
+  <Anxiety.label>тревожность</Anxiety.label>
+  <Anxiety.description>Тревожность</Anxiety.description>
+  <Anxiety.stages.0.label>преодолимая</Anxiety.stages.0.label>
+  <Anxiety.stages.1.label>слабая</Anxiety.stages.1.label>
+  <Anxiety.stages.2.label>умеренная</Anxiety.stages.2.label>
+  <Anxiety.stages.3.label>сильная</Anxiety.stages.3.label>
+  <Anxiety.stages.4.label>тяжёлая</Anxiety.stages.4.label>
+  <Anxiety.stages.5.label>невыносимая</Anxiety.stages.5.label>
+</LanguageData>

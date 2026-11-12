@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteLavishMealPickyEater.stages.0.label>съедено шикарное блюдо</AteLavishMealPickyEater.stages.0.label>
+  <AteLavishMealPickyEater.stages.0.description>Это блюдо было восхитительно Это именно то, что я хочу есть каждый день.</AteLavishMealPickyEater.stages.0.description>
+  <AteFineMealPickyEater.stages.0.label>съедено вкусное блюдо</AteFineMealPickyEater.stages.0.label>
+  <AteFineMealPickyEater.stages.0.description>Это было вкусное блюдо. Прямо как мне нравится</AteFineMealPickyEater.stages.0.description>
+  <AteAwfulMealPickyEater.stages.0.label>съедено отвратительное блюдо</AteAwfulMealPickyEater.stages.0.label>
+  <AteAwfulMealPickyEater.stages.0.description>Это было отвратительное, безвкусное блюдо. Омерзительно. Я хочу пищу сильно лучше этого.</AteAwfulMealPickyEater.stages.0.description>
+  <AteRawFoodPickyEater.stages.0.label>съедена сырая пища</AteRawFoodPickyEater.stages.0.label>
+  <AteRawFoodPickyEater.stages.0.description>Мне пришлось съесть сырую пищу. Я не хочу здесь жить, если мы не можем хотя бы кого-нибудь назначить поваром.</AteRawFoodPickyEater.stages.0.description>
+  <AteNormalMealPickyEater.stages.0.label>съедено простое блюдо</AteNormalMealPickyEater.stages.0.label>
+  <AteNormalMealPickyEater.stages.0.description>Это блюдо не отвечает моим стандартам. Мне пришлось его съесть только потому, что не было ничего другого.</AteNormalMealPickyEater.stages.0.description>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.label>съедено блюдо с мясом насекомого</AteInsectMeatAsIngredientPickyEater.stages.0.label>
+  <AteInsectMeatAsIngredientPickyEater.stages.0.description>Мне пришлось съесть блюдо из серого склизкого мяса насекомого. Это был очень неприятный сюрприз на моей тарелке.</AteInsectMeatAsIngredientPickyEater.stages.0.description>
+  <AteInsectMeatDirectPickyEater.stages.0.label>съедено мясо насекомого</AteInsectMeatDirectPickyEater.stages.0.label>
+  <AteInsectMeatDirectPickyEater.stages.0.description>Мне пришлось съесть серое и склизкое мясо насекомого. Убейте меня кто-нибудь.</AteInsectMeatDirectPickyEater.stages.0.description>
+  <AteRottenFoodPickyEater.stages.0.label>съедена гнилая пища</AteRottenFoodPickyEater.stages.0.label>
+  <AteRottenFoodPickyEater.stages.0.description>Мне пришлось съесть отвратительную, гнилую пищу. Лучше смерть, чем такие унижения.</AteRottenFoodPickyEater.stages.0.description>
+</LanguageData>

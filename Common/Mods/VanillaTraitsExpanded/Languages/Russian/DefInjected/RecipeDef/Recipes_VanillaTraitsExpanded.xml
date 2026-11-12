@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatLush.label>лечить пьяницу</TreatLush.label>
+  <TreatLush.description>Помогает пьянице не употреблять. Трезвость ему не понравится.</TreatLush.description>
+  <TreatLush.jobString>Лечение пьяницы.</TreatLush.jobString>
+  <TreatStoner.label>лечить укурка</TreatStoner.label>
+  <TreatStoner.description>Помогает укурку не употреблять. Трезвость ему не понравится.</TreatStoner.description>
+  <TreatStoner.jobString>Лечение укурка.</TreatStoner.jobString>
+</LanguageData>

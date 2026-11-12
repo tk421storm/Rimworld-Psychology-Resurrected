@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EnableKinseyTitle>Włącz zmiany seksualności</EnableKinseyTitle>
+  <EnableKinseyTooltip>Wyłącz, aby usunąć skalę Kinseya z postaci i przywrócić cechę Gej. NIE zmieniaj tego w trakcie gry i uruchom grę ponownie po zmianie.</EnableKinseyTooltip>
+  <EnableEmpathyTitle>Włącz zmiany empatii</EnableEmpathyTitle>
+  <EnableEmpathyTooltip>Wyłącz, aby reakcje kolonistów na cudze nieszczęścia wróciły do normy. Zwiększa to trudność; nie dotyczy postaci o miękkim sercu. Po wyłączeniu uruchom grę ponownie.</EnableEmpathyTooltip>
+  <KinseyFormulaTitle>Wzór skali Kinseya</KinseyFormulaTitle>
+  <KinseyFormulaTooltip>To ustawienie określa wzór, według którego generowanym postaciom przydzielany jest wynik w skali Kinseya. Wagi nie muszą sumować się do 100.</KinseyFormulaTooltip>
+  <KinseyMode_Realistic>Domyślny</KinseyMode_Realistic>
+  <KinseyMode_Invisible>Wyśrodkowany</KinseyMode_Invisible>
+  <KinseyMode_Gaypocalypse>Odwrócony</KinseyMode_Gaypocalypse>
+  <KinseyMode_Uniform>Równomierny</KinseyMode_Uniform>
+  <KinseyMode_Custom>Własny</KinseyMode_Custom>
+  <KWTitle>Kinsey {0}</KWTitle>
+  <KWTooltip>Względna waga, z jaką postać zostanie wygenerowana z wynikiem Kinseya {0}. Wagi nie muszą sumować się do 100.</KWTooltip>
+  <EnableIndividualityTitle>Włącz myśli o indywidualności</EnableIndividualityTitle>
+  <EnableIndividualityTooltip>Wyłącz, aby usunąć negatywną myśl, którą dostają koloniści ubrani dokładnie tak samo jak inni. Ta myśl zwiększa trudność, więc jest opcjonalna, ale zalecana. Wymaga ponownego uruchomienia.</EnableIndividualityTooltip>
+  <ConversationDurationTitle>Czas pamiętania rozmów</ConversationDurationTitle>
+  <ConversationDurationTooltip>Jak długo ludzie pamiętają rozmowy. Domyślnie 60 dni, czyli rok. Minimum to 15 dni, jeden kwartał, a maksimum 180 dni, trzy lata. Mniejsza wartość sprawia, że relacje między kolonistami są bardziej ulotne, a większa, że trwalsze. Wymaga ponownego uruchomienia.</ConversationDurationTooltip>
+  <ConvoMaxOpinionChangeTitle>Maks. zmiana opinii na rozmowę</ConvoMaxOpinionChangeTitle>
+  <ConvoMaxOpinionChangeTooltip>Największa zmiana opinii, jaką może wywołać jedna rozmowa (domyślnie 40). Wyższe wartości sprawiają, że rozmowy znaczą więcej.</ConvoMaxOpinionChangeTooltip>
+  <ConvoMeanHoursTitle>Oczekiwana długość rozmów</ConvoMeanHoursTitle>
+  <ConvoMeanHoursTooltip>Średnia długość rozmowy w godzinach (domyślnie 1,3).</ConvoMeanHoursTooltip>
+  <ConvoTimeScaleHoursTitle>Skala czasowa rozmów</ConvoTimeScaleHoursTitle>
+  <ConvoTimeScaleHoursTooltip>Skala czasu w godzinach, według której opinie z rozmowy zmieniają się w zależności od jej długości.</ConvoTimeScaleHoursTooltip>
+  <ConvoPersonalityEffectMultiplierTitle>Wpływ osobowości na rozmowy</ConvoPersonalityEffectMultiplierTitle>
+  <ConvoPersonalityEffectMultiplierTooltip>Ten mnożnik określa, jak bardzo cechy osobowości takie jak Przyjazny, Uprzejmy czy Wyluzowany wpływają na zmianę opinii.</ConvoPersonalityEffectMultiplierTooltip>
+  <EnableDateLettersTitle>Wysyłaj listy o randkach</EnableDateLettersTitle>
+  <EnableDateLettersTooltip>Wyłącz, aby nie dostawać listów, gdy koloniści planują randkę.</EnableDateLettersTooltip>
+  <PawnsChoosePregnancyApproachTitle>Postacie wybierają podejście do ciąży</PawnsChoosePregnancyApproachTitle>
+  <PawnsChoosePregnancyApproachTooltip>Z Biotech każda postać ma własne podejście do ciąży, takie samo z każdym partnerem, zależne od tego, jak bardzo chce mieć dzieci (jej chęć założenia rodziny, malejąca z każdym dzieckiem, które jeszcze wychowuje, o połowę mniej u matriarchy lub patriarchy): unikanie ciąży, zdanie się na los lub staranie się o dziecko. Każda para przyjmuje ostrożniejsze z dwóch podejść, więc kto unika ciąży, unika jej z każdym partnerem, a para stara się o dziecko tylko wtedy, gdy oboje tego chcą. Dotyczy to kochanków, romansów i par z innych modów. Jeśli zmienisz podejście pary w zakładce społecznej, twój wybór zostanie zachowany. Postacie childfree zawsze unikają ciąży, nawet gdy ta opcja jest wyłączona.</PawnsChoosePregnancyApproachTooltip>
+  <ImprisonedDebuffTitle>Kara za rekrutację więźniów</ImprisonedDebuffTitle>
+  <ImprisonedDebuffTooltip>Kara do opinii, jaką zrekrutowany więzień ma wobec każdego kolonisty („moja frakcja mnie uwięziła”, trwa 45 dni). 0, aby wyłączyć. Wymaga ponownego uruchomienia.</ImprisonedDebuffTooltip>
+  <RomanceChanceMultiplierTitle>Mnożnik szansy na romans</RomanceChanceMultiplierTitle>
+  <RomanceChanceMultiplierTooltip>Szansa na romans jest mnożona przez tę wartość. Przy 0 nowe romanse powinny całkowicie zniknąć.</RomanceChanceMultiplierTooltip>
+  <RomanceOpinionThresholdTitle>Minimalna opinia do romansu</RomanceOpinionThresholdTitle>
+  <RomanceOpinionThresholdTooltip>Minimalna opinia, jaką kolonista musi mieć o kimś, kto go pociąga, zanim zaprosi tę osobę na randkę lub spróbuje romansu. Domyślnie jest niska, by postacie, które ledwo się znają, mogły spróbować; pociąg liczy się znacznie bardziej niż opinia.</RomanceOpinionThresholdTooltip>
+  <MentalBreakAnxietyChanceTitle>Szansa na lęk po załamaniu</MentalBreakAnxietyChanceTitle>
+  <MentalBreakAnxietyChanceTooltip>Ustala średnią szansę, że postać rozwinie lęk po poważnym załamaniu psychicznym. Przy łagodnych załamaniach szansa spada o połowę, przy skrajnych się podwaja. Zależy też od psychiki kolonisty. Lęk może nadal pojawić się jako losowa choroba związana z wiekiem. Pełne działanie wymaga ponownego uruchomienia.</MentalBreakAnxietyChanceTooltip>
+  <TraitOpinionMultiplierTitle>Mnożnik opinii z cech</TraitOpinionMultiplierTitle>
+  <TraitOpinionMultiplierTooltip>Skaluje zmiany opinii z tych cech: Piękny, Brzydki, Oszpecony, Irytujący głos, Przerażający oddech, Fan modyfikacji ciała i Purysta ciała. 0 całkowicie to wyłącza. Wymaga ponownego uruchomienia.</TraitOpinionMultiplierTooltip>
+  <PersonalityExtremenessTitle>Skrajność osobowości</PersonalityExtremenessTitle>
+  <PersonalityExtremenessTooltip>Stopień, w jakim osobowości są wzmacniane, by pasowały do archetypów Wielkiej Piątki.</PersonalityExtremenessTooltip>
+  <IdeoPsycheMultiplierTitle>Mnożnik interakcji z ideologią</IdeoPsycheMultiplierTitle>
+  <IdeoPsycheMultiplierTooltip>Określa, jak silnie osobowość i ideologia na siebie wpływają. 0 całkowicie to wyłącza.</IdeoPsycheMultiplierTooltip>
+  <DisplayOptionsTitle>Opcje zakładki Psychika</DisplayOptionsTitle>
+  <DisplayOptionsTooltip>Zmienia domyślny tryb wyświetlania zakładki Psychika.</DisplayOptionsTooltip>
+  <UseColorsTooltip>Koloruj cechy wyświetlane w zakładce Psychika.</UseColorsTooltip>
+  <ListAlphabeticalTooltip>Sortuj cechy alfabetycznie w zakładce Psychika.</ListAlphabeticalTooltip>
+  <UseAntonymsTooltip>Używaj antonimów cech w zakładce Psychika.</UseAntonymsTooltip>
+  <SpeciesSettingsTitle>Gatunek</SpeciesSettingsTitle>
+  <SpeciesSettingsTooltip>Ustawienia dla każdego gatunku.</SpeciesSettingsTooltip>
+  <EnablePsycheTitle>Psychika</EnablePsycheTitle>
+  <EnablePsycheTooltip>Wyłącz, aby usunąć osobowość. Zalecane dla gatunków, które nie mogą mieć ludzkiej osobowości, jak zombie czy proste roboty. Głębokie rozmowy i romanse zostaną wyłączone dla tego gatunku.</EnablePsycheTooltip>
+  <EnableAgeGapTitle>Różnica wieku</EnableAgeGapTitle>
+  <EnableAgeGapTooltip>Wyłącz, aby usunąć preferencję różnicy wieku w romansach z przedstawicielami tego gatunku. Zalecane dla gatunków podobnych do androidów lub elfów, które nie starzeją się po osiągnięciu dorosłości.</EnableAgeGapTooltip>
+  <MinDatingAgeTitle>Randki</MinDatingAgeTitle>
+  <MinLovinAgeTitle>Miłość</MinLovinAgeTitle>
+  <dating>randek</dating>
+  <lovin>miłości</lovin>
+  <MinRomanceAgeTooltip>Minimalny wiek {0} dla tego gatunku. Jeśli jest dodatni, efektywny wiek we wzorach {0} jest skalowany tą liczbą względem {1}. 0 pozwala na {0} w każdym wieku i w praktyce wyłącza różnicę wieku. Zalecane dla gatunków bez dzieciństwa, jak świadome androidy. Każda liczba ujemna wyłącza {0} dla tego gatunku.</MinRomanceAgeTooltip>
+  <LovinFrequencyTitle>Częstotliwość kochania się</LovinFrequencyTitle>
+  <LovinFrequencyTooltip>Jak często pary się kochają: 2 = dwa razy częściej, 0,5 = o połowę rzadziej.</LovinFrequencyTooltip>
+  <AdjustRapportByCompatibilityTitle>Dopasuj więź do zgodności</AdjustRapportByCompatibilityTitle>
+  <AdjustRapportByCompatibilityTooltip>W podstawowej grze za każdym razem, gdy strażnik rozmawia z więźniem, więzień zyskuje +2 opinii o tym strażniku (do +100), co też zmniejsza jego opór nawet 1,5 raza szybciej. Z tą opcją te +2 są skalowane przez zgodność osobowości: około +2 dla typowej pary, do około +6, jeśli bardzo do siebie pasują, i ujemnie („napięta więź”), jeśli ich osobowości się ścierają. Dotyczy też rozmów przed próbą nawrócenia, które w podstawowej grze są zwykłą pogawędką. Wyłączone: +2 za każdym razem, jak w podstawowej grze.</AdjustRapportByCompatibilityTooltip>
+  <ArrestBaseChanceTitle>Bazowa szansa na pokojowe aresztowanie (%)</ArrestBaseChanceTitle>
+  <ArrestBaseChanceTooltip>Psychology zastępuje szansę na aresztowanie z podstawowej gry. Postać poddaje się bez oporu z szansą: szansa na pokojowe aresztowanie aresztującego (ta wartość bazowa plus 5% za każdy poziom umiejętności Społeczne, mniej, jeśli nie mówi sprawnie) x opinia aresztowanego o aresztującym (0 przy -100, 0,5 przy 0, 1 przy +100) x 1,5, jeśli są z tej samej frakcji x 0,2, jeśli aresztowany jest w stanie psychicznym. Unieruchomieni, niestosujący przemocy i winni nadal zawsze się poddają. Domyślnie 2%: przy neutralnej opinii osoba ze Społecznymi 10 osiąga to w 26% przypadków, a ze Społecznymi 20 w 51%.</ArrestBaseChanceTooltip>
+  <CheatChanceTitle>Szansa na zdradę (%)</CheatChanceTitle>
+  <CheatChanceTooltip>Jak bardzo prawdopodobne jest, że postacie zdradzą partnera, czy to zalecając się do kogoś innego (jeśli się uda, oboje odchodzą od swoich partnerów), czy przez romans. Szansa postaci to ta wartość x jej niezadowolenie z partnera x jej osobowość. Kto lubi partnera, nie zdradza; romantycy dłużej pozostają wierni, ale szybciej odwracają się od partnera, którego nie lubią; lubieżni zdradzają znacznie łatwiej, zwłaszcza gdy partner jest daleko. Moraliści i czyści zdradzają rzadziej, eksperymentujący częściej. Współuzależnieni nigdy nie zdradzają, a dla poliamorycznych to nie zdrada. Przykład przy domyślnych 50%: przeciętna postać zdradza z szansą 0% przy opinii o partnerze +50, 25% przy 0 i 50% przy -50. 0 wyłącza zdrady.</CheatChanceTooltip>
+  <CourtshipChanceTitle>Szansa na zaloty (x)</CourtshipChanceTitle>
+  <CourtshipChanceTooltip>Jak często samotne postacie (oraz gotowe zdradzić) zapraszają na randkę kogoś, kto je pociąga. Szansa rośnie też z pociągiem, opinią, pragnieniem romantycznym i pewnością siebie oraz z wcześniejszymi udanymi randkami. Każda randka zostawia dobre lub złe wspomnienie; udane randki zwiększają szansę na próbę romansu. 0 wyłącza zaloty. Nie dotyczy romantycznych randek par.</CourtshipChanceTooltip>
+  <SecondDateChanceTitle>Szansa na drugą randkę (%)</SecondDateChanceTitle>
+  <SecondDateChanceTooltip>Raz dziennie postacie, których ostatnia randka zapoznawcza udała się obojgu, mogą znów się umówić, niezależnie od tego, gdzie są na mapie. To dzienna szansa dla pary, której randka wypadła najlepiej, jak się dało; jest mniejsza po randce po prostu dobrej i większa po kilku udanych randkach. Odpowiedź ustalana jest jak przy każdym zaproszeniu. Działa obok zaproszeń osobistych; 0 wyłącza.</SecondDateChanceTooltip>
+  <SocialRomanceChanceTitle>Romans podczas spotkań towarzyskich (%)</SocialRomanceChanceTitle>
+  <SocialRomanceChanceTooltip>Podczas towarzyskiego relaksu (przy stole lub ognisku), na imprezie lub spotkaniu, w tańcu lub przy bilardzie postacie rozmawiają znacznie częściej niż zwykle. To szansa, że taka rozmowa zmieni się w szukanie romansu. Szukają tylko samotni, ci, którzy mogą mieć kolejnego partnera, lub gotowi tym razem zdradzić (patrz szansa na zdradę). Wybierają kogoś w pobliżu, kto ich pociąga i kogo lubią, preferując atrakcyjniejszych, i próbują romansu: romantycznej randki, jeśli są parą, zaproszenia na randkę, przygody lub skoku w bok, jeśli byłaby to zdrada. Nie podczas randek. 0 wyłącza.</SocialRomanceChanceTooltip>
+  <HugChanceTitle>Szansa na przytulanie (x)</HugChanceTitle>
+  <HugChanceTooltip>Jak często przytulają się postacie o silnej więzi: kochankowie i małżonkowie, bliska rodzina i bardzo dobrzy przyjaciele, gdy każde z nich dobrze myśli o drugim. Przytulenie nieco poprawia nastrój obojga i ich wzajemną opinię. Ciepłe osobowości przytulają częściej. 0 wyłącza przytulanie.</HugChanceTooltip>
+  <DateOpinionGoodTitle>Opinia za udaną randkę</DateOpinionGoodTitle>
+  <DateOpinionGoodTooltip>Premia do opinii za idealną randkę. Wynik każdej randki mieści się między tą wartością a opinią za nieudaną randkę, zależnie od zgodności osobowości, nastroju, wzajemnej opinii i szczęścia. Kumuluje się do 5 wspomnień udanych randek (każde po pierwszym po 75%), trwają 20 dni.</DateOpinionGoodTooltip>
+  <DateOpinionBadTitle>Opinia za nieudaną randkę</DateOpinionBadTitle>
+  <DateOpinionBadTooltip>Kara do opinii za randkę, która poszła najgorzej, jak się dało. Patrz „Opinia za udaną randkę”.</DateOpinionBadTooltip>
+  <DateRomanceChanceTitle>Szansa na romans po randce (%)</DateRomanceChanceTitle>
+  <DateRomanceChanceTooltip>Szansa, że randka zapoznawcza udana dla obojga zakończy się tym, że jedno poprosi drugie o bycie kochankami (zwykła próba romansu, która nadal może się nie udać). Skalowana od x0,5 do x1,5 przez ich nastrój i od x0,5 do x2 przez wzajemną opinię; brak szansy, jeśli któraś opinia jest poniżej minimalnej opinii do romansu.</DateRomanceChanceTooltip>
+  <DateRomanceBonusTitle>Premia do romansu za udaną randkę (%)</DateRomanceBonusTitle>
+  <DateRomanceBonusTooltip>Ile każda wcześniejsza udana randka pary dodaje do szansy na romans po randce, jako procent tej szansy. Przykład z wartościami domyślnymi: po 2 wcześniejszych udanych randkach, przy dobrym nastroju i dobrych opiniach, szansa wynosi 15% x 2 = 30%.</DateRomanceBonusTooltip>
+  <PrintDebugInfoTitle>Pokaż informacje debugowania</PrintDebugInfoTitle>
+  <PrintDebugInfoTooltip>Zapisuje w logu decyzje i szanse Psychology (randki, zaloty, romans po randkach, zdrady w przygodach) z prefiksem [Psychology]. Przydatne do testów i zgłaszania błędów; w zwykłej grze zostaw wyłączone. W trybie deweloperskim koloniści mają też przycisk „DEV: Romance” do wymuszania randek i przygód.</PrintDebugInfoTooltip>
+</LanguageData>

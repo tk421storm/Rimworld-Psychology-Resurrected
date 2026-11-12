@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LordReportHangingOut>Hängt mit jemanden ab</LordReportHangingOut>
+  <LordReportDate>Auf einem Date</LordReportDate>
+  <DateKindCourtship>Kennenlern-Date</DateKindCourtship>
+  <DateKindDateNight>Pärchen-Date</DateKindDateNight>
+  <DateStarted>Das {2} von {0_labelShort} und {1_labelShort} hat begonnen!</DateStarted>
+  <DateNightWentWell>{0_labelShort} und {1_labelShort} haben ihren Date-Abend genossen.</DateNightWentWell>
+  <DateNightWentWellForOne>{0_labelShort} hat den Date-Abend mit {1_labelShort} genossen, {1_labelShort} aber nicht.</DateNightWentWellForOne>
+  <DateNightWentBadly>Der Date-Abend von {0_labelShort} und {1_labelShort} lief schlecht.</DateNightWentBadly>
+  <DateWentWell>Das Kennenlern-Date von {0_labelShort} und {1_labelShort} lief für beide gut.</DateWentWell>
+  <DateWentWellForOne>{0_labelShort} hat das Kennenlern-Date mit {1_labelShort} genossen, {1_labelShort} aber nicht.</DateWentWellForOne>
+  <DateWentBadly>Das Kennenlern-Date von {0_labelShort} und {1_labelShort} lief schlecht.</DateWentBadly>
+  <DateCutShort>Das {2} von {0_labelShort} und {1_labelShort} wurde abgebrochen: {3}.</DateCutShort>
+  <DateRuined>{0_labelShort}s mentaler Zusammenbruch hat {1_labelShort} das {2} verdorben.</DateRuined>
+  <DateCancelled>Das {2} von {0_labelShort} und {1_labelShort} wurde abgesagt: {3}.</DateCancelled>
+  <DateMissed>{0_labelShort} hat gewartet, aber {1_labelShort} hat das {2} verschlafen.</DateMissed>
+  <DateBothSlept>{0_labelShort} und {1_labelShort} haben beide ihr {2} verschlafen.</DateBothSlept>
+  <DateCalledOff>{0_labelShort}s geplantes {2} mit {1_labelShort} fällt aus.</DateCalledOff>
+  <DateReasonDanger>es ist gerade nicht sicher</DateReasonDanger>
+  <DateReasonDowned>{0_labelShort} ist kampfunfähig</DateReasonDowned>
+  <DateReasonStarving>{0_labelShort} verhungert</DateReasonStarving>
+  <DateReasonBleeding>{0_labelShort} blutet</DateReasonBleeding>
+  <DateReasonHurt>{0_labelShort} wurde verletzt</DateReasonHurt>
+  <DateReasonTired>{0_labelShort} ist zu müde</DateReasonTired>
+  <DateReasonMentalState>{0_labelShort} hat einen mentalen Zusammenbruch</DateReasonMentalState>
+  <DateReasonPrisoner>{0_labelShort} ist ein Gefangener</DateReasonPrisoner>
+  <DateReasonWork>{0_labelShort} ist zur Arbeit eingeteilt</DateReasonWork>
+  <DateReasonDrafted>{0_labelShort} wurde eingezogen</DateReasonDrafted>
+  <DateReasonAway>{0_labelShort} ist nicht hier</DateReasonAway>
+  <DateReasonLeft>{0_labelShort} musste gehen</DateReasonLeft>
+  <DateReasonBusy>{0_labelShort} ist beschäftigt</DateReasonBusy>
+  <RitualDateWillClash>{PAWN_labelShort} hat ein {KIND} mit {PARTNER_labelShort} um {HOUR} Uhr (in {IN}), während dieses Rituals. Es wird verschoben oder abgesagt, wenn das Ritual zu lange dauert.</RitualDateWillClash>
+  <RitualDateMightClash>{PAWN_labelShort}s {KIND} mit {PARTNER_labelShort} um {HOUR} Uhr (in {IN}) könnte in dieses Ritual fallen. Es würde verschoben oder abgesagt, wenn das Ritual zu lange dauert.</RitualDateMightClash>
+  <ConversationStage>Gespräch über</ConversationStage>
+  <ConversationEnd>[INITIATOR_nameDef] hat ein Gespräch mit [RECIPIENT_nameDef] beendet.</ConversationEnd>
+  <ConversationEnded>Gespräch beendet</ConversationEnded>
+  <DrugFreeDescription>{PAWN_labelShort}s {TRAIT} wurde durch {PAWN_possessive} drogenfreien Lebensstil gelindert.</DrugFreeDescription>
+  <DrugFreeDescriptionNoTrait>{PAWN_labelShort} lebt drogenfrei.</DrugFreeDescriptionNoTrait>
+  <EdBPrepareCarefullyPsycheTooltip>Die Psyche dieses Pawns ansehen und bearbeiten. Prepare-Carefully-Vorlagen und gespeicherte Kolonisten behalten die Psyche nicht; beim Laden bekommt der Pawn eine neue zufällige Psyche.</EdBPrepareCarefullyPsycheTooltip>
+  <ChildFreePregnancyApproach>{PAWN_labelShort} ist kinderfrei und will keine Kinder.</ChildFreePregnancyApproach>
+</LanguageData>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Character Editor (void.charactereditor): keeps the psyche/sexuality when pawns are edited, adds a Psyche button. -->
+  <PropertyGroup>
+    <AssemblyName>PsychologyCEditor</AssemblyName>
+    <RootNamespace>Psychology</RootNamespace>
+    <CompatModFolder>CharacterEditor</CompatModFolder>
+    <CompatReference>$(WorkshopDir)1874644848\v$(RimWorldVersion)\Assemblies\CharacterEditor.dll</CompatReference>
+  </PropertyGroup>
+  <Import Project="..\Compat.targets" />
+</Project>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Vanilla Traits Expanded: lushes and stoners can be treated to stay drug-free, like chemical interest/fascination.
+     VTE keeps their addiction permanently, so the DrugFree hediff only stops binges, and they resent it
+     (PsychologySobrietyUnnatural). SpeciesHelper adds every TreatmentRecipeDef to each race with a psyche. -->
+<Defs>
+	<Psychology.TreatmentRecipeDef ParentName="Treatment">
+		<defName>TreatLush</defName>
+		<label>treat lush</label>
+		<description>Helps a lush stay drug-free. They won't like being sober.</description>
+		<jobString>Treating lush.</jobString>
+		<illnessName>drinking</illnessName>
+		<hediff>DrugFree</hediff>
+		<tale>TreatedDrugDesire</tale>
+		<treatments>
+			<li>
+				<trait>VTE_Lush</trait>
+				<easeOfTreatment>0.75</easeOfTreatment>
+			</li>
+		</treatments>
+	</Psychology.TreatmentRecipeDef>
+
+	<Psychology.TreatmentRecipeDef ParentName="Treatment">
+		<defName>TreatStoner</defName>
+		<label>treat stoner</label>
+		<description>Helps a stoner stay drug-free. They won't like being sober.</description>
+		<jobString>Treating stoner.</jobString>
+		<illnessName>smokeleaf habit</illnessName>
+		<hediff>DrugFree</hediff>
+		<tale>TreatedDrugDesire</tale>
+		<treatments>
+			<li>
+				<trait>VTE_Stoner</trait>
+				<easeOfTreatment>0.75</easeOfTreatment>
+			</li>
+		</treatments>
+	</Psychology.TreatmentRecipeDef>
+</Defs>

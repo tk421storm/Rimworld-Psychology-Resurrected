@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MethadoneHigh.label>metadona</MethadoneHigh.label>
+  <MethadoneHigh.description>Bajo los efectos de la metadona</MethadoneHigh.description>
+  <MethadoneTolerance.label>tolerancia a la metadona</MethadoneTolerance.label>
+  <MethadoneTolerance.description>Ha desarrollado tolerancia a la metadona</MethadoneTolerance.description>
+  <MethadoneAddiction.label>adicción a la metadona</MethadoneAddiction.label>
+  <MethadoneAddiction.description>Ha desarrollado adicción a la metadona</MethadoneAddiction.description>
+  <MethadoneAddiction.stages.1.label>abstinencia</MethadoneAddiction.stages.1.label>
+</LanguageData>

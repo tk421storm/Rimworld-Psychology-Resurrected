@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Main Psychology assembly. Shared settings (target version, references) live in ../Directory.Build.props. -->
+  <PropertyGroup>
+    <AssemblyName>Psychology</AssemblyName>
+    <RootNamespace>Psychology</RootNamespace>
+    <OutputPath>$(ModRoot)$(RimWorldVersion)\Assemblies\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Mod XML shown in the IDE for convenience; not compiled. -->
+    <None Include="$(ModRoot)About\**\*.xml" Link="Mod\About\%(RecursiveDir)%(Filename)%(Extension)" />
+    <None Include="$(ModRoot)Common\**\*.xml" Link="Mod\Common\%(RecursiveDir)%(Filename)%(Extension)" />
+    <None Include="$(ModRoot)LoadFolders.xml" Link="Mod\LoadFolders.xml" />
+  </ItemGroup>
+</Project>

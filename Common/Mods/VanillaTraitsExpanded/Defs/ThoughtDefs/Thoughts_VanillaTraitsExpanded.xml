@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- A lush or stoner kept drug-free by treatment (DrugFree hediff) -->
+	<ThoughtDef>
+		<defName>PsychologySobrietyUnnatural</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>DrugFree</hediff>
+		<requiredTraits>
+			<li>VTE_Lush</li>
+			<li>VTE_Stoner</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>my sobriety is unnatural</label>
+				<description>I've been talked into staying sober, but it doesn't feel like me.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

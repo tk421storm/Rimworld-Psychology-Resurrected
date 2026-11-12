@@ -53,3 +53,6 @@ Temporary Items
 *.pfx
 *.DotSettings
 **/packages/*
+
+# In-game test builds (Source/build-test.ps1)
+Source/TestBuilds/

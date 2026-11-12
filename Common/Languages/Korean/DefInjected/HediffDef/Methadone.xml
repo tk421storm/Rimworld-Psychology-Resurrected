@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MethadoneHigh.label>메타돈</MethadoneHigh.label>
+  <MethadoneHigh.description>메타돈에 취함</MethadoneHigh.description>
+  <MethadoneTolerance.label>메타돈 내성</MethadoneTolerance.label>
+  <MethadoneTolerance.description>메타돈 내성이 생김</MethadoneTolerance.description>
+  <MethadoneAddiction.label>메타돈 중독</MethadoneAddiction.label>
+  <MethadoneAddiction.description>메타돈 중독이 생김</MethadoneAddiction.description>
+  <MethadoneAddiction.stages.1.label>금단</MethadoneAddiction.stages.1.label>
+</LanguageData>

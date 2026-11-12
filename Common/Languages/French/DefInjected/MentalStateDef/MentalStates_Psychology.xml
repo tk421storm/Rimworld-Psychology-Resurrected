@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FellPlotting.label>complote follement</FellPlotting.label>
+  <FellPlotting.beginLetterLabel>complot funeste</FellPlotting.beginLetterLabel>
+  <FellPlotting.beginLetter>{0} se retire dans sa chambre pour comploter !</FellPlotting.beginLetter>
+  <FellPlotting.recoveryMessage>Le complot funeste de {0} est terminé.</FellPlotting.recoveryMessage>
+  <FellPlotting.baseInspectLine>État mental : complot funeste</FellPlotting.baseInspectLine>
+  <SelfHarm.label>s'automutile</SelfHarm.label>
+  <SelfHarm.beginLetterLabel>automutilation</SelfHarm.beginLetterLabel>
+  <SelfHarm.beginLetter>{0} s'est tailladé les poignets et se cache dans sa chambre.</SelfHarm.beginLetter>
+  <SelfHarm.recoveryMessage>{0} a cessé de s'automutiler.</SelfHarm.recoveryMessage>
+  <SelfHarm.baseInspectLine>État mental : automutilation</SelfHarm.baseInspectLine>
+  <Paranoia.label>divague</Paranoia.label>
+  <Paranoia.beginLetterLabel>paranoïa</Paranoia.beginLetterLabel>
+  <Paranoia.beginLetter>{0} est absorbé(e) par des divagations paranoïaques.</Paranoia.beginLetter>
+  <Paranoia.recoveryMessage>{0} a surmonté sa paranoïa.</Paranoia.recoveryMessage>
+  <Paranoia.baseInspectLine>État mental : paranoïa</Paranoia.baseInspectLine>
+  <Abuse.label>hurle</Abuse.label>
+  <Abuse.beginLetterLabel>violence verbale</Abuse.beginLetterLabel>
+  <Abuse.beginLetter>{0} est enragé(e) et insulte tous ceux qu'il ou elle croise.</Abuse.beginLetter>
+  <Abuse.recoveryMessage>{0} a cessé d'insulter les gens.</Abuse.recoveryMessage>
+  <Abuse.baseInspectLine>État mental : violence verbale</Abuse.baseInspectLine>
+  <Compulsion.label>nettoie compulsivement</Compulsion.label>
+  <Compulsion.beginLetterLabel>compulsion</Compulsion.beginLetterLabel>
+  <Compulsion.beginLetter>{0} nettoie obsessionnellement les environs sans se soucier de son propre bien-être.</Compulsion.beginLetter>
+  <Compulsion.recoveryMessage>{0} a cessé de ranger compulsivement les environs.</Compulsion.recoveryMessage>
+  <Compulsion.baseInspectLine>État mental : nettoyage compulsif</Compulsion.baseInspectLine>
+  <Antisocial.label>évite les gens</Antisocial.label>
+  <Antisocial.beginLetterLabel>antisocial</Antisocial.beginLetterLabel>
+  <Antisocial.beginLetter>{0} évite ses compagnons de colonie.</Antisocial.beginLetter>
+  <Antisocial.recoveryMessage>{0} n'est plus antisocial(e).</Antisocial.recoveryMessage>
+  <Antisocial.baseInspectLine>État mental : antisocial</Antisocial.baseInspectLine>
+  <Apathy.label>se relâche</Apathy.label>
+  <Apathy.beginLetterLabel>apathie</Apathy.beginLetterLabel>
+  <Apathy.beginLetter>{0} est devenu(e) apathique et risque moins de faire le travail qui lui est assigné.</Apathy.beginLetter>
+  <Apathy.recoveryMessage>{0} n'est plus apathique.</Apathy.recoveryMessage>
+  <Apathy.baseInspectLine>État mental : apathie</Apathy.baseInspectLine>
+  <Histrionic.label>se comporte de façon histrionique</Histrionic.label>
+  <Histrionic.beginLetterLabel>histrionique</Histrionic.beginLetterLabel>
+  <Histrionic.beginLetter>{0} est devenu(e) histrionique et cherche désespérément l'attention.</Histrionic.beginLetter>
+  <Histrionic.recoveryMessage>{0} n'est plus histrionique.</Histrionic.recoveryMessage>
+  <Histrionic.baseInspectLine>État mental : histrionique</Histrionic.baseInspectLine>
+  <HuntingTrip.label>retraite dans la nature</HuntingTrip.label>
+  <HuntingTrip.beginLetterLabel>retraite dans la nature</HuntingTrip.beginLetterLabel>
+  <HuntingTrip.beginLetter>{0} s'est échappé(e) dans la nature et trouve du réconfort dans la chasse.</HuntingTrip.beginLetter>
+  <HuntingTrip.recoveryMessage>{0} a décidé de revenir de sa partie de chasse.</HuntingTrip.recoveryMessage>
+  <HuntingTrip.baseInspectLine>État mental : retraite dans la nature</HuntingTrip.baseInspectLine>
+  <PanicAttack.label>panique</PanicAttack.label>
+  <PanicAttack.beginLetterLabel>crise de panique</PanicAttack.beginLetterLabel>
+  <PanicAttack.beginLetter>{0} fait une crise de panique.</PanicAttack.beginLetter>
+  <PanicAttack.recoveryMessage>La crise de panique de {0} est passée.</PanicAttack.recoveryMessage>
+  <PanicAttack.baseInspectLine>État mental : crise de panique</PanicAttack.baseInspectLine>
+</LanguageData>

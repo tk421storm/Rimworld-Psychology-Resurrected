@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LetterLabelPTSD>Trauma por estrés</LetterLabelPTSD>
+  <LetterPTSD>{0_labelShort} ha desarrollado ansiedad postraumática a causa de su crisis mental. La ansiedad es una afección permanente, pero puede tratarse para reducir poco a poco su gravedad a un nivel manejable y permitirle llevar una vida normal. Cualquier nueva crisis mental empeorará su ansiedad.\n\nSe rumorea que los médicos de los mundos brillantes han curado enfermedades mentales como la ansiedad en sus pacientes. Si consigues medicina ultratecnológica, un médico extremadamente hábil podría usarla para curar la ansiedad de {0_labelShort}.</LetterPTSD>
+  <LetterLabelDatePlanned>Cita romántica</LetterLabelDatePlanned>
+  <LetterDatePlanned>{0_labelShort} ha planeado una cita con {1_labelShort} para el {2} a las {3} h.\n\nLas citas pueden cancelarse por varios motivos, sobre todo si alguno de los dos colonos tiene asignado trabajo, es reclutado o queda incapacitado por heridas o asuntos urgentes de la colonia.\n\nSi la cita se cancela, ambos colonos se sentirán infelices. Los colonos también pueden perderse citas si se quedan dormidos. Eso molestará al otro colono, pero no causará un pensamiento negativo.</LetterDatePlanned>
+  <LetterRejectedProposalPsychology>Según su personalidad, su estado de ánimo y su relación se verán afectados.</LetterRejectedProposalPsychology>
+  <LetterLabelCourtshipDatePlanned>Cita</LetterLabelCourtshipDatePlanned>
+  <LetterCourtshipDatePlanned>{0_labelShort} invitó a {1_labelShort} a una cita para el {2} a las {3} h.\n\nSi sale bien, ambos pensarán mejor el uno del otro y quizá decidan ser amantes. Una mala cita puede hacer que se aprecien menos. Las citas pueden cancelarse si alguno de los dos tiene asignado trabajo, es reclutado o queda incapacitado de otro modo.</LetterCourtshipDatePlanned>
+</LanguageData>

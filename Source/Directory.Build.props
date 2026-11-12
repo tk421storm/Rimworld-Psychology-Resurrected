@@ -1,0 +1,69 @@
+<Project>
+  <!--
+    Shared build settings for every project under Source/.
+
+    One source tree builds for several RimWorld versions. Pick the target with
+      dotnet build Source/Psychology.sln -c Release -p:RimWorldVersion=1.6
+      dotnet build Source/Psychology.sln -c Release -p:RimWorldVersion=1.7
+    or run Source/build.ps1, which builds every supported version in turn.
+
+    Each version gets:
+      - its own obj/ folder, so restores for different versions don't collide
+      - game reference assemblies from the Krafs.Rimworld.Ref NuGet package, so the
+        game doesn't have to be installed (or be the matching version) to build
+      - a compile constant (RW_1_6, RW_1_7, ...) plus RW_1_7_OR_GREATER-style
+        constants for code that differs between versions
+      - output into <mod root>/<version>/Assemblies (or <version>/Mods/<X>/Assemblies
+        for the optional compatibility assemblies, see each csproj)
+  -->
+  <PropertyGroup>
+    <RimWorldVersion Condition="'$(RimWorldVersion)' == ''">1.6</RimWorldVersion>
+    <ModRoot>$(MSBuildThisFileDirectory)..\</ModRoot>
+    <!-- Where the compatibility projects look for other mods' DLLs (default: this Steam library's Workshop folder). -->
+    <WorkshopDir Condition="'$(WorkshopDir)' == ''">$(ModRoot)..\..\..\..\workshop\content\294100\</WorkshopDir>
+
+    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\obj\$(RimWorldVersion)\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildProjectDirectory)\bin\$(RimWorldVersion)\</BaseOutputPath>
+    <!-- The SDK only excludes the current version's obj/bin; keep other versions' generated .cs files out of the build. -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj\**;bin\**</DefaultItemExcludes>
+
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <!-- Decompiled/legacy code style produces a lot of noise; keep real errors visible. -->
+    <NoWarn>$(NoWarn);CS0168;CS0219;CS0414;CS0649;CS0618;CS0162;CS1998</NoWarn>
+  </PropertyGroup>
+
+  <!-- Per-version reference package and compile constants. Add a block here for each new game version. -->
+  <!-- 1.6: Unity / Mono, .NET Framework 4.8, Harmony 2.x -->
+  <PropertyGroup Condition="'$(RimWorldVersion)' == '1.6'">
+    <RimWorldRefVersion>1.6.4871</RimWorldRefVersion>
+    <HarmonyRefVersion>2.4.1</HarmonyRefVersion>
+    <DefineConstants>$(DefineConstants);RW_1_6</DefineConstants>
+  </PropertyGroup>
+  <!--
+    1.7: new engine on .NET 10 (CoreCLR) with Unity API shims, Harmony 3.x. Needs the .NET 10 SDK to build.
+    The reference package is still an alpha; bump RimWorldRefVersion once a stable 1.7 package is published.
+  -->
+  <PropertyGroup Condition="'$(RimWorldVersion)' == '1.7'">
+    <TargetFramework>net10.0</TargetFramework>
+    <RimWorldRefVersion>1.7.4977-alpha.2</RimWorldRefVersion>
+    <HarmonyRefVersion>3.0.0-rc.2</HarmonyRefVersion>
+    <DefineConstants>$(DefineConstants);RW_1_7;RW_1_7_OR_GREATER</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="$(RimWorldRefVersion)" ExcludeAssets="runtime" PrivateAssets="all" />
+    <!-- Harmony is supplied at runtime by the Harmony mod (brrainz.harmony); never ship 0Harmony.dll. -->
+    <PackageReference Include="Lib.Harmony.Ref" Version="$(HarmonyRefVersion)" ExcludeAssets="runtime" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

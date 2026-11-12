@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EnableKinseyTitle>Erlaube Sexualität-Änderungen</EnableKinseyTitle>
+  <EnableKinseyTooltip>Schalte das aus, um die Kinsey-Skala von Kolonisten zu deaktivieren. Somit werden die Standard-Eigenschaften geladen. NICHT bei laufendem Spiel ändern! Wenn deaktiviert: Spiel neustarten!</EnableKinseyTooltip>
+  <EnableEmpathyTitle>Erlaube Empathie-Änderungen</EnableEmpathyTitle>
+  <EnableEmpathyTooltip>Schalte das aus, um die Reaktion der Kolonisten auf normal (Standard) zu setzen, wenn schlimme Sachen anderen Menschen passieren. Die Änderungen werden die Schwierigkeit erhöhen; Menschen mit der "Bleeding Heart"-Eigenschaft sind nicht betroffen. Wenn deaktiviert: Spiel neustarten!</EnableEmpathyTooltip>
+  <KinseyFormulaTitle>Kinsey-Skala Formel</KinseyFormulaTitle>
+  <KinseyFormulaTooltip>Diese Einstellung bestimmt, welche Formel benutzt wird, um die Kinsey-Skala zu gewichten, wenn Kolonisten generiert werden.</KinseyFormulaTooltip>
+  <KinseyMode_Realistic>Standard</KinseyMode_Realistic>
+  <KinseyMode_Invisible>Zentriert</KinseyMode_Invisible>
+  <KinseyMode_Gaypocalypse>Umgekehrt</KinseyMode_Gaypocalypse>
+  <KinseyMode_Uniform>Gleichmäßige</KinseyMode_Uniform>
+  <KinseyMode_Custom>Custom</KinseyMode_Custom>
+  <KWTitle>Kinsey {0}</KWTitle>
+  <KWTooltip>When custom mode is enabled, this sets the relative weight for {0} on the Kinsey scale for generated pawns.</KWTooltip>
+  <EnableIndividualityTitle>Erlaube Individuelle Gedanken</EnableIndividualityTitle>
+  <EnableIndividualityTooltip>Schalte das aus, um die negativen Gedanken deiner Kolonisten zu entfernen, wenn sie identische Kleidung mit anderen Kolonisten tragen. Diese Änderung macht das Spiel schwieriger, es ist optional, aber empfohlen.</EnableIndividualityTooltip>
+  <ConversationDurationTitle>Gesprächsdauer</ConversationDurationTitle>
+  <ConversationDurationTooltip>Lege fest, für wie lange sich die Kolonisten an Gespräche erinnern. Die Standardeinstellung beträgt 60 Tage, d.h. ein Jahr. Das Minimum beträgt 15 Tage oder ein Quadrum bis maximal 180 Tage oder drei Jahre. Eine niedrigere Einstellung macht die Interaktionen der Kolonisten miteinander flüchtiger, und eine höhere Einstellung macht sie dauerhafter.</ConversationDurationTooltip>
+  <ConvoMaxOpinionChangeTitle>Maximale Meinungsänderung durch Gespräche</ConvoMaxOpinionChangeTitle>
+  <ConvoMaxOpinionChangeTooltip>Die größte Meinungsänderung, die ein einzelnes Gespräch bewirken kann (Standard 40). Höhere Werte machen Gespräche bedeutsamer.</ConvoMaxOpinionChangeTooltip>
+  <ConvoMeanHoursTitle>Erwartete Gesprächsdauer</ConvoMeanHoursTitle>
+  <ConvoMeanHoursTooltip>Die durchschnittliche Länge eines Gesprächs in Stunden (Standard 1,3).</ConvoMeanHoursTooltip>
+  <ConvoTimeScaleHoursTitle>Zeitskala von Gesprächen</ConvoTimeScaleHoursTitle>
+  <ConvoTimeScaleHoursTooltip>Legt die Zeitskala in Stunden fest, nach der sich die Meinungen aus Gesprächen mit der Gesprächsdauer ändern.</ConvoTimeScaleHoursTooltip>
+  <ConvoPersonalityEffectMultiplierTitle>Persönlichkeitseinfluss auf Gespräche</ConvoPersonalityEffectMultiplierTitle>
+  <ConvoPersonalityEffectMultiplierTooltip>Dieser Multiplikator bestimmt, wie stark Persönlichkeitsmerkmale wie Freundlich, Höflich oder Cool die Meinungsänderung beeinflussen.</ConvoPersonalityEffectMultiplierTooltip>
+  <EnableDateLettersTitle>Sende Nachricht</EnableDateLettersTitle>
+  <EnableDateLettersTooltip>Deaktivieren Sie diese Option, um den Empfang von Nachrichten zu deaktivieren, wenn Ihre Kolonisten eine Verabredung gemeinsam planen.</EnableDateLettersTooltip>
+  <PawnsChoosePregnancyApproachTitle>Pawns wählen ihren Schwangerschaftsansatz</PawnsChoosePregnancyApproachTitle>
+  <PawnsChoosePregnancyApproachTooltip>Mit Biotech hat jeder Pawn seinen eigenen Schwangerschaftsansatz, gleich mit wem, je nachdem wie sehr er sich Kinder wünscht (sein Familienwunsch, gesenkt für jedes Kind, das er noch großzieht, für Matriarchen und Patriarchen nur halb so stark): Schwangerschaft vermeiden, dem Zufall überlassen oder es auf ein Baby anlegen. Jedes Paar nimmt den vorsichtigeren der beiden, sodass ein Pawn, der eine Schwangerschaft vermeidet, sie mit jedem Partner vermeidet, und ein Paar es nur auf ein Baby anlegt, wenn beide es wollen. Das gilt für Liebespaare, Affären und Paarungen anderer Mods. Änderst du den Ansatz eines Paares im Sozial-Tab, behält es deine Wahl. Kinderfreie Pawns vermeiden Schwangerschaften immer, auch wenn dies aus ist.</PawnsChoosePregnancyApproachTooltip>
+  <ImprisonedDebuffTitle>Rekrutierungsmalus für Gefangene</ImprisonedDebuffTitle>
+  <ImprisonedDebuffTooltip>Meinungsmalus, den ein rekrutierter Gefangener gegenüber jedem Kolonisten bekommt („Fraktion hat mich eingesperrt“, hält 45 Tage). 0 deaktiviert ihn. Erfordert Neustart.</ImprisonedDebuffTooltip>
+  <RomanceChanceMultiplierTitle>Romance chance multiplier</RomanceChanceMultiplierTitle>
+  <RomanceChanceMultiplierTooltip>Romance chance will be multiplied by this value. Setting to 0 should eliminate romance entirely.</RomanceChanceMultiplierTooltip>
+  <RomanceOpinionThresholdTitle>Minimum romance opinion</RomanceOpinionThresholdTitle>
+  <RomanceOpinionThresholdTooltip>Mindestmeinung, die ein Kolonist von jemandem haben muss, zu dem er sich hingezogen fühlt, bevor er ihn um ein Date bittet oder einen Romantikversuch unternimmt. Standardmäßig niedrig, damit auch Pawns fragen können, die sich kaum kennen; Anziehung zählt weit mehr als Meinung.</RomanceOpinionThresholdTooltip>
+  <MentalBreakAnxietyChanceTitle>Angst-Chance nach Nervenzusammenbruch</MentalBreakAnxietyChanceTitle>
+  <MentalBreakAnxietyChanceTooltip>Legt die durchschnittliche Chance fest, dass ein Kolonist nach einem schweren Nervenzusammenbruch an Angst erkrankt. Bei leichten Zusammenbrüchen wird die Chance halbiert, bei extremen verdoppelt. Die Chance hängt auch von der Psyche des Kolonisten ab. Angst kann außerdem als zufällige Alterskrankheit auftreten. Für die volle Wirkung ist ein Neustart nötig.</MentalBreakAnxietyChanceTooltip>
+  <TraitOpinionMultiplierTitle>Multiplikator für Meinung durch Eigenschaften</TraitOpinionMultiplierTitle>
+  <TraitOpinionMultiplierTooltip>Skaliert die Meinungsänderungen durch folgende Eigenschaften: Hübsch, Hässlich, Entstellt, Nervige Stimme, Gruseliges Atmen, Wertschätzung von Körpermodifikation und Abscheu von Körperpuristen. Auf 0 setzen, um sie ganz zu deaktivieren. Neustart erforderlich.</TraitOpinionMultiplierTooltip>
+  <PersonalityExtremenessTitle>Extremität der Persönlichkeit</PersonalityExtremenessTitle>
+  <PersonalityExtremenessTooltip>Legt fest, wie stark Persönlichkeiten an die Archetypen der Big Five angeglichen werden.</PersonalityExtremenessTooltip>
+  <IdeoPsycheMultiplierTitle>Multiplikator für Ideologie-Wechselwirkung</IdeoPsycheMultiplierTitle>
+  <IdeoPsycheMultiplierTooltip>Bestimmt, wie stark Persönlichkeit und Ideologie sich gegenseitig beeinflussen. Auf 0 setzen, um es ganz zu deaktivieren.</IdeoPsycheMultiplierTooltip>
+  <DisplayOptionsTitle>Anzeigeoptionen des Psyche-Tabs</DisplayOptionsTitle>
+  <DisplayOptionsTooltip>Die Standard-Anzeigeoption des Psyche-Tabs ändern.</DisplayOptionsTooltip>
+  <UseColorsTooltip>Eigenschaften im Psyche-Tab farbig darstellen.</UseColorsTooltip>
+  <ListAlphabeticalTooltip>Eigenschaften im Psyche-Tab alphabetisch auflisten.</ListAlphabeticalTooltip>
+  <UseAntonymsTooltip>Gegensätze der Eigenschaften im Psyche-Tab verwenden.</UseAntonymsTooltip>
+  <SpeciesSettingsTitle>Spezies</SpeciesSettingsTitle>
+  <SpeciesSettingsTooltip>Einstellungen für jede Spezies anpassen.</SpeciesSettingsTooltip>
+  <EnablePsycheTitle>Psyche</EnablePsycheTitle>
+  <EnablePsycheTooltip>Schalte dies aus, um die Persönlichkeit zu deaktivieren. Empfohlen für Spezies, die keine menschenähnliche Persönlichkeit haben können, etwa Zombies oder einfache Roboter. Tiefe Gespräche und Romantik werden für diese Spezies deaktiviert.</EnablePsycheTooltip>
+  <EnableAgeGapTitle>Altersunterschied</EnableAgeGapTitle>
+  <EnableAgeGapTooltip>Schalte dies aus, um die romantische Altersunterschied-Präferenz aller Pawns zu deaktivieren, die eine Romanze mit Angehörigen dieser Spezies erwägen. Empfohlen für androiden- und elfenähnliche Spezies, die nach dem Erwachsenwerden nicht altern.</EnableAgeGapTooltip>
+  <MinDatingAgeTitle>Dating</MinDatingAgeTitle>
+  <MinLovinAgeTitle>Liebe</MinLovinAgeTitle>
+  <dating>Dating</dating>
+  <lovin>Liebe</lovin>
+  <MinRomanceAgeTooltip>Das Mindestalter für {0} bei dieser Spezies. Bei positivem Wert wird das effektive Alter in Formeln zu {0} mit dieser Zahl relativ zu {1} skaliert. 0 erlaubt {0} in jedem Alter und schaltet den Altersunterschied praktisch ab. Empfohlen für Spezies ohne Kindheitsphase, etwa empfindungsfähige Androiden. Jede negative Zahl deaktiviert {0} für diese Spezies.</MinRomanceAgeTooltip>
+  <LovinFrequencyTitle>Häufigkeit von Liebe</LovinFrequencyTitle>
+  <LovinFrequencyTooltip>Wie oft Paare miteinander schlafen: 2 = doppelt so oft, 0,5 = halb so oft.</LovinFrequencyTooltip>
+  <AdjustRapportByCompatibilityTitle>Rapport an Kompatibilität anpassen</AdjustRapportByCompatibilityTitle>
+  <AdjustRapportByCompatibilityTooltip>In Vanilla erhält ein Gefangener bei jedem Gespräch mit einem Wärter +2 Meinung von diesem Wärter (bis +100), was auch seinen Widerstand bis zu 1,5-mal schneller senkt. Ist dies an, wird diese +2 danach skaliert, wie gut ihre Persönlichkeiten zusammenpassen: etwa +2 für ein typisches Paar, bis etwa +6 bei sehr gutem Zusammenpassen und negativ („angespannter Rapport“), wenn ihre Persönlichkeiten kollidieren. Das gilt auch für die Gespräche vor einem Bekehrungsversuch, die in Vanilla nur Smalltalk sind. Aus: in Vanilla jedes Mal +2.</AdjustRapportByCompatibilityTooltip>
+  <ArrestBaseChanceTitle>Grundchance für friedliche Festnahme (%)</ArrestBaseChanceTitle>
+  <ArrestBaseChanceTooltip>Psychology ersetzt die Festnahmechance von Vanilla. Ein Pawn kommt friedlich mit, mit einer Chance von: der Festnahmechance des Festnehmenden (dieser Grundwert plus 5 % pro Stufe Soziales, weniger, wenn er nicht gut sprechen kann) x der Meinung des Festgenommenen vom Festnehmenden (0 bei -100, 0,5 bei 0, 1 bei +100) x 1,5 bei gleicher Fraktion x 0,2, wenn der Festgenommene in einem mentalen Zustand ist. Kampfunfähige, gewaltlose und schuldige Pawns kommen weiterhin immer friedlich mit. Standard 2 %: Bei neutraler Meinung gelingt es einem Festnehmenden mit Soziales 10 in etwa 26 % der Fälle, mit Soziales 20 in etwa 51 %.</ArrestBaseChanceTooltip>
+  <CheatChanceTitle>Chance auf Untreue (%)</CheatChanceTitle>
+  <CheatChanceTooltip>Wie wahrscheinlich Pawns ihren Partner betrügen, entweder indem sie jemand anderen umwerben (bei Erfolg verlassen beide ihre Partner) oder durch eine Affäre. Die Chance eines Pawns ist dieser Wert x wie unzufrieden er mit seinem Partner ist x seine Persönlichkeit. Pawns, die ihren Partner mögen, betrügen nicht; romantische Pawns bleiben länger treu, wenden sich aber schneller gegen einen Partner, den sie nicht mögen; Lüstlinge betrügen viel leichter, besonders wenn ihr Partner fort ist. Moralistische und reine Pawns betrügen seltener, experimentierfreudige öfter. Partnerabhängige Pawns betrügen nie, und für polyamore Pawns ist es kein Betrug. Beispiel beim Standard von 50 %: Ein durchschnittlicher Pawn betrügt mit 0 % bei +50 Meinung von seinem Partner, 25 % bei 0 und 50 % bei -50. 0 schaltet Untreue ab.</CheatChanceTooltip>
+  <CourtshipChanceTitle>Werbechance (x)</CourtshipChanceTitle>
+  <CourtshipChanceTooltip>Wie oft alleinstehende Pawns (und Pawns, die zur Untreue bereit sind) jemanden, zu dem sie sich hingezogen fühlen, um ein Date bitten. Die Chance steigt auch mit Anziehung, Meinung, romantischem Antrieb und Selbstvertrauen sowie mit früheren guten Dates. Jedes Date hinterlässt eine gute oder schlechte Date-Erinnerung; gute Dates machen einen Romantikversuch wahrscheinlicher. 0 schaltet das Werben ab. Date-Abende von Paaren sind nicht betroffen.</CourtshipChanceTooltip>
+  <SecondDateChanceTitle>Chance auf ein zweites Date (%)</SecondDateChanceTitle>
+  <SecondDateChanceTooltip>Einmal am Tag können Pawns, deren letztes Kennenlern-Date für beide gut lief, sich erneut um ein Date bitten, egal wo sie auf der Karte sind. Dies ist die tägliche Chance für ein Paar, dessen Date bestmöglich lief; sie ist nach einem nur guten Date niedriger und nach mehreren guten Dates höher. Die Antwort wird wie bei jeder Date-Anfrage ausgewürfelt. Zusätzlich zum persönlichen Fragen; 0 schaltet es ab.</SecondDateChanceTooltip>
+  <SocialRomanceChanceTitle>Romantik beim Geselligsein (%)</SocialRomanceChanceTitle>
+  <SocialRomanceChanceTooltip>Beim geselligen Entspannen (an einem Tisch oder Lagerfeuer), auf einer Party oder beim Abhängen, beim Tanzen oder Billardspielen plaudern Pawns viel öfter als sonst. Dies ist die Chance, dass eines dieser Gespräche stattdessen zur Suche nach Romantik wird. Nur alleinstehende Pawns, Pawns, die einen weiteren Partner haben dürfen, oder solche, die diesmal bereit sind, ihren zu betrügen (siehe Chance auf Untreue), schauen sich um. Sie wählen jemanden in der Nähe, zu dem sie sich hingezogen fühlen und den sie genug mögen, bevorzugt die attraktivste Person, und unternehmen einen Romantikversuch: ein Date-Abend für Partner, eine Date-Anfrage, eine Affäre oder ein Seitensprung, wenn es Betrug wäre. Nicht während Dates. 0 schaltet es ab.</SocialRomanceChanceTooltip>
+  <HugChanceTitle>Umarmungschance (x)</HugChanceTitle>
+  <HugChanceTooltip>Wie oft Pawns mit einer starken Bindung sich umarmen: Liebespaare und Ehepartner, enge Familie und sehr gute Freunde, wenn beide gut voneinander denken. Eine Umarmung hebt die Stimmung beider Pawns und ihre Meinung voneinander ein wenig. Herzliche Persönlichkeiten umarmen sich öfter. 0 schaltet Umarmungen ab.</HugChanceTooltip>
+  <DateOpinionGoodTitle>Meinung nach gutem Date</DateOpinionGoodTitle>
+  <DateOpinionGoodTooltip>Meinungsbonus durch ein perfekt gelaufenes Date. Das Ergebnis jedes Dates liegt zwischen diesem Wert und der Meinung nach schlechtem Date, je nach Persönlichkeitskompatibilität, Stimmung, Meinung voneinander und Glück. Bis zu 5 gute Date-Erinnerungen stapeln sich (ab der zweiten zu je 75 %) und halten 20 Tage.</DateOpinionGoodTooltip>
+  <DateOpinionBadTitle>Meinung nach schlechtem Date</DateOpinionBadTitle>
+  <DateOpinionBadTooltip>Meinungsmalus durch ein denkbar schlecht gelaufenes Date. Siehe „Meinung nach gutem Date“.</DateOpinionBadTooltip>
+  <DateRomanceChanceTitle>Romantikchance nach einem Date (%)</DateRomanceChanceTitle>
+  <DateRomanceChanceTooltip>Chance, dass ein Kennenlern-Date, das für beide gut lief, damit endet, dass einer den anderen bittet, ein Paar zu werden (ein normaler Romantikversuch, der trotzdem scheitern kann). Sie wird durch ihre Stimmungen von x0,5 bis x1,5 und durch ihre Meinungen voneinander von x0,5 bis x2 skaliert, und es gibt keine Chance, wenn eine der Meinungen unter der Mindestmeinung für Romantik liegt.</DateRomanceChanceTooltip>
+  <DateRomanceBonusTitle>Romantikbonus pro gutem Date (%)</DateRomanceBonusTitle>
+  <DateRomanceBonusTooltip>Wie viel jedes frühere gute Date des Paares zur Romantikchance nach einem Date beiträgt, als Prozentsatz davon. Beispiel bei den Standardwerten: Nach 2 früheren guten Dates mit guter Stimmung und Meinung liegt die Chance bei etwa 15 % x 2 = 30 %.</DateRomanceBonusTooltip>
+  <PrintDebugInfoTitle>Debug-Infos ausgeben</PrintDebugInfoTitle>
+  <PrintDebugInfoTooltip>Schreibt die Entscheidungen und Chancen von Psychology ins Log (Dates, Werben, Romantik nach Dates, Untreue bei Affären), mit dem Präfix [Psychology]. Nützlich zum Testen oder für Fehlerberichte; im normalen Spiel ausgeschaltet lassen. Im Entwicklermodus bekommen Kolonisten außerdem einen „DEV: Romance“-Knopf, um Dates und Affären zu erzwingen.</PrintDebugInfoTooltip>
+</LanguageData>

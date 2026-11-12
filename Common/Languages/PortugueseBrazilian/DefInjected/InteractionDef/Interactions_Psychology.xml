@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PrudeSeen.label>viu nu</PrudeSeen.label>
+  <PrudeSeen.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] viu [RECIPIENT_nameDef] nu.</PrudeSeen.logRulesInitiator.rulesStrings.0>
+  <Conversation.label>conversa</Conversation.label>
+  <Conversation.logRulesInitiator.rulesStrings.0>r_logentry(p=4)-&gt;[INITIATOR_nameDef] [conversed] com [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.0>
+  <Conversation.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] chamou [RECIPIENT_nameDef] para conversar.</Conversation.logRulesInitiator.rulesStrings.1>
+  <Conversation.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] puxou um assunto com [RECIPIENT_nameDef].</Conversation.logRulesInitiator.rulesStrings.2>
+  <Conversation.logRulesInitiator.rulesStrings.3>conversed(p=4)-&gt;começou uma conversa</Conversation.logRulesInitiator.rulesStrings.3>
+  <Conversation.logRulesInitiator.rulesStrings.4>conversed-&gt;começou a falar</Conversation.logRulesInitiator.rulesStrings.4>
+  <Conversation.logRulesInitiator.rulesStrings.5>conversed-&gt;começou a bater papo</Conversation.logRulesInitiator.rulesStrings.5>
+  <Conversation.logRulesInitiator.rulesStrings.6>conversed-&gt;puxou um assunto</Conversation.logRulesInitiator.rulesStrings.6>
+  <Conversation.logRulesInitiator.rulesStrings.7>conversed-&gt;começou a debater algo</Conversation.logRulesInitiator.rulesStrings.7>
+  <EndConversation.label>encerrou a conversa</EndConversation.label>
+  <EndConversation.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] encerrou uma conversa com [RECIPIENT_nameDef].</EndConversation.logRulesInitiator.rulesStrings.0>
+  <HangOut.label>passando tempo juntos</HangOut.label>
+  <HangOut.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] convidou [RECIPIENT_nameDef] para passar um tempo juntos.</HangOut.logRulesInitiator.rulesStrings.0>
+  <PlanDate.label>planejando um encontro romântico</PlanDate.label>
+  <PlanDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] planejou um encontro romântico com [RECIPIENT_nameDef].</PlanDate.logRulesInitiator.rulesStrings.0>
+  <AskOutOnDate.label>convidando para um encontro</AskOutOnDate.label>
+  <AskOutOnDate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] convidou [RECIPIENT_nameDef] para um encontro.</AskOutOnDate.logRulesInitiator.rulesStrings.0>
+  <Indoctrinate.label>doutrinação</Indoctrinate.label>
+  <Indoctrinate.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] doutrinou [RECIPIENT_nameDef].</Indoctrinate.logRulesInitiator.rulesStrings.0>
+  <Hug.label>abraço</Hug.label>
+  <Hug.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef] foi dar um [hug] em [RECIPIENT_nameDef].</Hug.logRulesInitiator.rulesStrings.0>
+  <Hug.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] abriu os braços para [RECIPIENT_nameDef].</Hug.logRulesInitiator.rulesStrings.1>
+  <Hug.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef] se aproximou de [RECIPIENT_nameDef] para dar um [hug].</Hug.logRulesInitiator.rulesStrings.2>
+  <Hug.logRulesInitiator.rulesStrings.3>hug(p=3)-&gt;abraço</Hug.logRulesInitiator.rulesStrings.3>
+  <Hug.logRulesInitiator.rulesStrings.4>hug-&gt;abraço caloroso</Hug.logRulesInitiator.rulesStrings.4>
+  <Hug.logRulesInitiator.rulesStrings.5>hug-&gt;abraço apertado</Hug.logRulesInitiator.rulesStrings.5>
+  <Hug.logRulesInitiator.rulesStrings.6>hug-&gt;abraço rápido</Hug.logRulesInitiator.rulesStrings.6>
+</LanguageData>

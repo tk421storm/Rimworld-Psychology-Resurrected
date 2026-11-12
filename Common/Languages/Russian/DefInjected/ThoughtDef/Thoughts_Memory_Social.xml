@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RebuffedMyHookupAttempt.stages.0.label>отверг(ла) меня</RebuffedMyHookupAttempt.stages.0.label>
+  <RebuffedMyHookupAttemptMood.stages.0.label>отказ от {0}</RebuffedMyHookupAttemptMood.stages.0.label>
+  <RebuffedMyHookupAttemptMood.stages.0.description>Что, я недостаточно хорош(а), чтобы покувыркаться??</RebuffedMyHookupAttemptMood.stages.0.description>
+  <FailedHookupAttemptOnMe.stages.0.label>пришлось отказать</FailedHookupAttemptOnMe.stages.0.label>
+  <PrudeSeen.stages.0.label>голое тело</PrudeSeen.stages.0.label>
+  <PrudeSeen.stages.0.description>Этот человек был голый? У нас тут что, теперь все без одежды бегают? Отвратительно.</PrudeSeen.stages.0.description>
+  <DynamicSocial.stages.0.label>разговор</DynamicSocial.stages.0.label>
+  <IBrokeUpWithThemMood.stages.0.label>расставание с {0}</IBrokeUpWithThemMood.stages.0.label>
+  <IBrokeUpWithThemMood.stages.0.description>У меня сейчас тяжёлое расставание.</IBrokeUpWithThemMood.stages.0.description>
+  <IBrokeUpWithThemMood.stages.1.label>расставание с {0}</IBrokeUpWithThemMood.stages.1.label>
+  <IBrokeUpWithThemMood.stages.1.description>Не сложилось, но мне всё равно немного грустно.</IBrokeUpWithThemMood.stages.1.description>
+  <IBrokeUpWithThemMood.stages.2.label>расставание с {0}</IBrokeUpWithThemMood.stages.2.label>
+  <IBrokeUpWithThemMood.stages.2.description>Как хорошо освободиться от плохих отношений.</IBrokeUpWithThemMood.stages.2.description>
+  <IRejectedTheirProposalMood.stages.0.label>отклонил(а) предложение {0}</IRejectedTheirProposalMood.stages.0.label>
+  <IRejectedTheirProposalMood.stages.0.description>Было тяжело отказать любимому человеку.</IRejectedTheirProposalMood.stages.0.description>
+  <IDivorcedThemMood.stages.0.label>развод с {0}</IDivorcedThemMood.stages.0.label>
+  <IDivorcedThemMood.stages.0.description>Этот развод даётся мне очень тяжело.</IDivorcedThemMood.stages.0.description>
+  <IDivorcedThemMood.stages.1.label>развод с {0}</IDivorcedThemMood.stages.1.label>
+  <IDivorcedThemMood.stages.1.description>Мне грустно, что брак не сложился.</IDivorcedThemMood.stages.1.description>
+  <IDivorcedThemMood.stages.2.label>развод с {0}</IDivorcedThemMood.stages.2.label>
+  <IDivorcedThemMood.stages.2.description>Наконец-то я свободен(на)!</IDivorcedThemMood.stages.2.description>
+  <BrokeUpWithMeCodependent.stages.0.label>бросил(а) меня</BrokeUpWithMeCodependent.stages.0.label>
+  <BrokeUpWithMeCodependentMood.stages.0.label>созависимость от {0}</BrokeUpWithMeCodependentMood.stages.0.label>
+  <BrokeUpWithMeCodependentMood.stages.0.description>Я скучаю по тебе... пожалуйста, вернись.</BrokeUpWithMeCodependentMood.stages.0.description>
+  <CheatedOnMeCodependent.stages.0.label>{1_gender ? изменил : изменила} мне</CheatedOnMeCodependent.stages.0.label>
+  <CheatedOnMeCodependentMood.stages.0.label>измена {0}</CheatedOnMeCodependentMood.stages.0.label>
+  <CheatedOnMeCodependentMood.stages.0.description>Не понимаю... наверное, я сделал(а) что-то не так.</CheatedOnMeCodependentMood.stages.0.description>
+  <DivorcedMeCodependent.stages.0.label>развёлся(-лась) со мной</DivorcedMeCodependent.stages.0.label>
+  <DivorcedMeCodependentMood.stages.0.label>развод по инициативе {0}</DivorcedMeCodependentMood.stages.0.label>
+  <DivorcedMeCodependentMood.stages.0.description>Я скучаю по тебе... пожалуйста, вернись.</DivorcedMeCodependentMood.stages.0.description>
+  <RejectedMyProposalCodependent.stages.0.label>отклонил(а) моё предложение</RejectedMyProposalCodependent.stages.0.label>
+  <RejectedMyProposalCodependentMood.stages.0.label>{0} отклонил(а) моё предложение</RejectedMyProposalCodependentMood.stages.0.label>
+  <RejectedMyProposalCodependentMood.stages.0.description>Я думал(а), нам суждено пожениться. А мне просто отказали.</RejectedMyProposalCodependentMood.stages.0.description>
+  <RebuffedMyRomanceAttemptLecher.stages.0.label>{1_gender ? отверг : отвергла} меня</RebuffedMyRomanceAttemptLecher.stages.0.label>
+  <CapturedMe.stages.0.label>фракция взяла меня в плен</CapturedMe.stages.0.label>
+  <WentOnDate.stages.0.label>свидание</WentOnDate.stages.0.label>
+  <DateWentWell.stages.0.label>хорошее свидание</DateWentWell.stages.0.label>
+  <DateWentBadly.stages.0.label>плохое свидание</DateWentBadly.stages.0.label>
+  <HookupWentWell.stages.0.label>классная интрижка</HookupWentWell.stages.0.label>
+  <HookupWentBadly.stages.0.label>ужасная интрижка</HookupWentBadly.stages.0.label>
+  <SawSkillOnDate.stages.0.label>{OTHERPAWN_nameDef} хорошо владеет навыком «{SKILL}»</SawSkillOnDate.stages.0.label>
+  <SawSkillOnDate.stages.1.label>{OTHERPAWN_nameDef} очень хорошо владеет навыком «{SKILL}»</SawSkillOnDate.stages.1.label>
+  <SawSkillOnDate.stages.2.label>{OTHERPAWN_nameDef} отлично владеет навыком «{SKILL}»</SawSkillOnDate.stages.2.label>
+  <RebuffedMyDateRequest.stages.0.label>отказал(а) мне в свидании</RebuffedMyDateRequest.stages.0.label>
+  <HungOut.stages.0.label>провёл с кем-то время</HungOut.stages.0.label>
+  <MissedDate.stages.0.label>пропущено свидание</MissedDate.stages.0.label>
+  <Hug.stages.0.label>объятия с {0}</Hug.stages.0.label>
+  <Hug.stages.0.description>Хорошие объятия от того, кто мне дорог.</Hug.stages.0.description>
+  <HugDeclined.stages.0.label>отказал(а) мне в объятиях</HugDeclined.stages.0.label>
+  <HugDeclined.stages.0.description>Я просто хотел(а) обняться.</HugDeclined.stages.0.description>
+</LanguageData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Things two pawns do together on a date or hang-out (see Psychology.DateActivity). One is picked by commonality
+       (scaled by how tired both are of the joy kind), the pair does it, then the next is picked. A new activity is a
+       DateActivityDef here plus a DateActivityWorker subclass. -->
+
+  <!-- Any game or show on a building that takes 2+ participants: horseshoes, hoopstone, Game of Ur, chess, billiards,
+       poker, TV, and modded ones the same way. -->
+  <Psychology.DateActivityDef>
+    <defName>DatePlayTogether</defName>
+    <label>play together</label>
+    <workerClass>Psychology.DateActivityWorker_PlayTogether</workerClass>
+    <commonality>1</commonality>
+  </Psychology.DateActivityDef>
+
+  <Psychology.DateActivityDef>
+    <defName>DateSocialRelax</defName>
+    <label>relax socially together</label>
+    <workerClass>Psychology.DateActivityWorker_SocialRelax</workerClass>
+    <joyGiver>SocialRelax</joyGiver>
+    <commonality>0.8</commonality>
+  </Psychology.DateActivityDef>
+
+  <Psychology.DateActivityDef>
+    <defName>DateWalk</defName>
+    <label>go for a walk together</label>
+    <workerClass>Psychology.DateActivityWorker_Walk</workerClass>
+    <joyGiver>GoForWalk</joyGiver>
+    <commonality>0.7</commonality>
+  </Psychology.DateActivityDef>
+
+  <Psychology.DateActivityDef>
+    <defName>DateSkygaze</defName>
+    <label>skygaze side by side</label>
+    <workerClass>Psychology.DateActivityWorker_Skygaze</workerClass>
+    <joyGiver>Skygaze</joyGiver>
+    <commonality>0.5</commonality>
+  </Psychology.DateActivityDef>
+
+  <Psychology.DateActivityDef>
+    <defName>DateRead</defName>
+    <label>read side by side</label>
+    <workerClass>Psychology.DateActivityWorker_Read</workerClass>
+    <joyGiver>Reading</joyGiver>
+    <commonality>0.6</commonality>
+  </Psychology.DateActivityDef>
+
+  <!-- At the nearest instrument (Royalty's harp, harpsichord, piano; Ideology's drum; modded ones): one plays while the
+       other dances, or both dance if someone else is already playing. -->
+  <Psychology.DateActivityDef>
+    <defName>DateMusicAndDance</defName>
+    <label>play music and dance</label>
+    <workerClass>Psychology.DateActivityWorker_MusicAndDance</workerClass>
+    <commonality>0.5</commonality>
+  </Psychology.DateActivityDef>
+
+  <!-- One with a burning passion does work that uses it (in the home area, of a work type they're assigned) while the
+       other watches, picking up a little of the skill. Likelier if the watcher has a passion for it too. -->
+  <Psychology.DateActivityDef>
+    <defName>DateShareWork</defName>
+    <label>share a passion</label>
+    <workerClass>Psychology.DateActivityWorker_ShareWork</workerClass>
+    <commonality>0.6</commonality>
+  </Psychology.DateActivityDef>
+
+  <!-- Not picked by commonality: it comes first whenever either pawn is hungry. Both eat (unless nearly full), seated
+       within talking range; one who finds no food keeps the other company. -->
+  <Psychology.DateActivityDef>
+    <defName>DateShareMeal</defName>
+    <label>share a meal</label>
+    <workerClass>Psychology.DateActivityWorker_ShareMeal</workerClass>
+    <commonality>0</commonality>
+  </Psychology.DateActivityDef>
+
+</Defs>

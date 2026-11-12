@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TreatedTrait>El rasgo {1} de {0_labelShort} se ha tratado con éxito.</TreatedTrait>
+  <TreatmentFailedMessage>El tratamiento de {1} de {0_labelShort} ha fracasado. Podrá intentarse de nuevo en {2}.</TreatmentFailedMessage>
+  <MessageCuredAnxiety>{SURGEON_labelShort} ha curado con éxito la ansiedad de {PATIENT_labelShort}.</MessageCuredAnxiety>
+</LanguageData>
